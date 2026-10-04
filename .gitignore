@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pdf
+previews/
+out/
+.DS_Store

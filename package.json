@@ -1,0 +1,34 @@
+{
+  "name": "@micuintus/miniluek-sheets",
+  "version": "0.1.0",
+  "description": "Printable worksheets with working control patterns for the miniLÜK box: a JSON-driven generator, an agent skill, and a princess counting course.",
+  "keywords": [
+    "pi-package",
+    "miniluek",
+    "worksheets",
+    "early-math",
+    "counting",
+    "numeracy"
+  ],
+  "homepage": "https://github.com/micuintus/miniluek-sheets",
+  "bugs": {
+    "url": "https://github.com/micuintus/miniluek-sheets/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micuintus/miniluek-sheets.git"
+  },
+  "files": [
+    "miniluek-sheets",
+    "docs",
+    "README.md",
+    "NOTICE.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "skills": [
+      "./miniluek-sheets"
+    ]
+  }
+}
