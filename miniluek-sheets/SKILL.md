@@ -31,7 +31,8 @@ Always look at the preview PNGs before handing over a PDF.
 
 ## Writing a sheet set
 
-A set is JSON (see `presets/princess-counting.json`; every field in `references/spec.md`).
+A set is JSON (see `presets/princess-counting.json`, German: `presets/prinzessinnen-zaehlen.json`;
+every field in `references/spec.md`).
 Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `theme`,
 `rule`, and exactly **12 tasks**. Run `check` after every edit.
 

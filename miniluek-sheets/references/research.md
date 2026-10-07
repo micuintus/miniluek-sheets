@@ -23,6 +23,7 @@ studies of the underlying skill.
 | Starkey & McCandliss 2014, *J Exp Child Psychol* 126:120–137 | "Kindergarten children showed no evidence of grouping structure on enumeration"; the grouping advantage appears from first grade | dice and finger patterns (4–6) after counting |
 | Fuson 1988, *Children's Counting and Concepts of Number*, ch. 4 | Object arrangement affects counting correspondence errors | S8 scattered sets |
 | Poletti et al. 2025, *Child Development* | Finger-counting training raised addition accuracy from 37.3 % to 77.1 % in 5–6-year-olds (control 39.6 % to 47.8 %), replicated twice | S4 |
+| Lindemann, Alipour & Fischer 2011, *J Cross-Cult Psychol* | "most Western individuals started counting with the left hand and associated the number 1 with their thumb" | left hand first; thumb-first in the German preset |
 | Kullberg et al. 2020, *Educ Stud Math* | Finger patterns that show part-part-whole relations improved addition and subtraction in 5-year-olds | S4, S12 |
 | Sarnecka & Carey 2008, *Cognition* 108:662–674 | Children can count and answer "how many" before they understand that the next number word means one more | S13 last |
 
