@@ -43,7 +43,7 @@ none of its 23 studies compared teaching along a progression with teaching witho
 
 | Sheet | Practises | Design | Evidence |
 |---|---|---|---|
-| S1 Same thing, same number | 1–3 at a glance; the number stays when the objects move | four kinds; the answer shows the same objects rearranged | subitizing (Clements et al. 2019 [E]); same objects before different objects (Mix 2008 [E]); picture form of conservation, part of the MILE content [G] |
+| S1 Same thing, same number | 1–3 at a glance; the number stays when the objects move | four kinds; the answer shows the same objects rearranged | subitizing (Clements et al. 2019 [E]); same objects before different objects (Mix 2008 [E]); same number in a new arrangement; conservation itself is trained with objects; the content list is the MILE one [G] |
 | S2 Princesses → cupcakes, frogs → crowns | counting one by one, "how many" | up to six; answers in another layout | one-to-one counting content (Nelson & McMaster 2019 [M]); counting interventions (Akther et al. 2025 [M]) |
 | S3 Dice → hearts and stars | dice patterns, checked by counting | hearts and stars in rows, not dice patterns | grouping not yet used in kindergarten (Starkey & McCandliss 2014 [E]) |
 | S4 Fingers and stars → dice | finger patterns, shown on the child's own fingers | left hand first; counting from the index finger or the thumb, set per preset | finger training (Poletti et al. 2025 [R]); finger patterns for part-whole (Kullberg et al. 2020 [R]); counting habits (Lindemann et al. 2011 [C]) |
@@ -52,7 +52,7 @@ none of its 23 studies compared teaching along a progression with teaching witho
 | S7 Find the dice for each number | numeral to quantity | the reverse direction on its own sheet | both directions (Mundy & Gilmore 2009 [E]) |
 | S8 Touch each one once | counting an unordered set | scattered layout | object arrangement and counting errors (Fuson 1988 [E]) |
 | S9 Count the steps | position on a 1–6 path | the square is highlighted, counting from the left | number line (Siegler & Booth 2004 [C]); board games (Siegler & Ramani 2008, 2009 [R]) |
-| S10 Count the dots, who has more? | comparing by counting | ratios 1.5 to 2; new animal pairings, so no winner is remembered from S5 | "use number words and counting to compare quantities" (Frye et al. 2013 [G]); 4-year-olds above chance down to ratios of 1.25–1.5 (Halberda & Feigenson 2008 [E]) |
+| S10 Count the dots, who has more? | comparing by counting | ratios 1.5 to 2; new animal pairings, so no winner is remembered from S5 | "use number words and counting to compare quantities" (Frye et al. 2013 [G]); 4-year-olds near the ratio limit: above their model fit at 1.25, 1.33 and 1.5 (Halberda & Feigenson 2008 [E]) |
 | S11 Who has the bigger number? | comparing numerals 1–6 | distances 2 to 4 | symbolic comparison (Schneider et al. 2017 [M]); number comparison after prenatal alcohol exposure (Jacobson et al. 2011 [C]; Shmueli et al. 2022 [C]) |
 | S12 Treasure chest, 3–8 (later) | five and more: 6 = 5 and 1 | ten-frame filled row by row | part-whole level (Krajewski & Schneider 2009 [C]); finger patterns (Kullberg et al. 2020 [R]); unitizing in MILE [G] |
 | S13 One more (later) | the number after | the equal set is the intended lure | successor understanding (Sarnecka & Carey 2008 [E]) |
