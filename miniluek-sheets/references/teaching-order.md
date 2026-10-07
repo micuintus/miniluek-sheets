@@ -28,7 +28,8 @@ counting. Each step and each sheet mapped to its studies: [research](research.md
 Five minutes with objects before the first sheet:
 
 1. **Give me N.** From a pile of ten small things: "Can you give me three?" Ask for 2, 4, 3,
-   6, 5, then "Is that three? Count to check." The largest number given correctly is where
+   6, 5, then "Is that three? Count to check." Ask each number twice, on two days if needed: one
+   right answer can be a lucky grab. The largest number given correctly both times is where
    counting has meaning for the child.
 2. **How many?** Lay out 2, then 3, then 5 things in a row: "How many?"
 3. **Which is more?** Two piles, 2 and 6, then 4 and 6.

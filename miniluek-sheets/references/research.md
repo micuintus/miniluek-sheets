@@ -11,7 +11,8 @@ with the MILE routine (randomised trials). Reasoned from studies but not tested:
 sheet, the two-colour families, three comparison sheets. Untested: miniLÜK itself and this exact
 sequence. Evidence types in the sources: **[M]** meta-analysis or systematic review, **[R]**
 randomised or controlled trial, **[C]** correlational or cohort study, **[G]** guideline or
-practice guidance, **[E]** experiment or book.
+practice guidance, **[E]** experiment, single-case study, book or narrative review. The tags
+also appear in the tables wherever a study is used.
 
 - [The order](#the-order)
 - [Per sheet](#per-sheet)
@@ -25,15 +26,15 @@ practice guidance, **[E]** experiment or book.
 
 | Step | Sheets | Why it comes here | Sources |
 |---|---|---|---|
-| 1. Small sets | S1 | Sets of one to three are seen without counting, and the progression starts with naming them. Same objects come first: matching sets of different objects is harder and depends on knowing the number word. | Frye et al. 2013; Clements et al. 2019; Mix 2008 |
-| 2. Counting | S2 | Accurate one-to-one counting, with the last word as the answer to "how many", is the next step. Interventions with one-to-one counting content had larger effects. | Frye et al. 2013; Nelson & McMaster 2019; Akther et al. 2025 |
-| 3. Patterns | S3, S4 | Dice and finger patterns of four to six rest on counting: kindergarteners do not yet use groups to enumerate. Fingers turn the pattern into something the child can show. | Starkey & McCandliss 2014; Poletti et al. 2025; Kullberg et al. 2020 |
-| 4. Comparing by sight | S5 | Comparing follows counting in the progression. Large differences first, because young children fail close ratios. | Frye et al. 2013; Halberda & Feigenson 2008 |
-| 5. Numerals | S6, S7, S8 | Linking exact amounts to number words and numerals is the middle level of the quantity-number model and predicts later math. Each direction gets a sheet. Scattered sets come once numerals are known, because arrangement drives counting errors. | Krajewski & Schneider 2009; Mundy & Gilmore 2009; Fuson 1988 |
-| 6. Number path | S9 | A linear number representation predicts math achievement, and linear board games build it. | Siegler & Booth 2004; Siegler & Ramani 2008, 2009 |
-| 7. Comparing again | S10, S11 | Comparison returns harder: by counting closer sets, then with numerals. Comparing numerals correlates with math more than comparing dots, and it is the number skill most affected by prenatal alcohol exposure. | Frye et al. 2013; Halberda & Feigenson 2008; Schneider et al. 2017; Jacobson et al. 2011 |
-| 8. Part-whole | S12 | Seeing 6 as 5 and 1 is the top level of the quantity-number model. | Krajewski & Schneider 2009; Kullberg et al. 2020 |
-| 9. One more | S13 | Children count correctly before they understand that the next number word means one more. | Sarnecka & Carey 2008; Frye et al. 2013 |
+| 1. Small sets | S1 | Sets of one to three are seen without counting, and the progression starts with naming them. Same objects come first: matching sets of different objects is harder and depends on knowing the number word. | Frye et al. 2013 [G]; Clements et al. 2019 [E]; Mix 2008 [E] |
+| 2. Counting | S2 | Accurate one-to-one counting, with the last word as the answer to "how many", is the next step. Interventions with one-to-one counting content had larger effects. | Frye et al. 2013 [G]; Nelson & McMaster 2019 [M]; Akther et al. 2025 [M] |
+| 3. Patterns | S3, S4 | Dice and finger patterns of four to six rest on counting: kindergarteners do not yet use groups to enumerate. Fingers turn the pattern into something the child can show. | Starkey & McCandliss 2014 [E]; Poletti et al. 2025 [R]; Kullberg et al. 2020 [R] |
+| 4. Comparing by sight | S5 | Comparing follows counting in the progression. Large differences first, because young children fail close ratios. | Frye et al. 2013 [G]; Halberda & Feigenson 2008 [E] |
+| 5. Numerals | S6, S7, S8 | Linking exact amounts to number words and numerals is the middle level of the quantity-number model and predicts later math. Each direction gets a sheet. Scattered sets come once numerals are known, because arrangement drives counting errors. | Krajewski & Schneider 2009 [C]; Mundy & Gilmore 2009 [E]; Fuson 1988 [E] |
+| 6. Number path | S9 | A linear number representation predicts math achievement, and linear board games build it. | Siegler & Booth 2004 [C]; Siegler & Ramani 2008, 2009 [R] |
+| 7. Comparing again | S10, S11 | Comparison returns harder: by counting closer sets, then with numerals. Comparing numerals correlates with math more than comparing dots, and in a cohort of 262 adolescents it was the number skill most related to prenatal alcohol exposure. | Frye et al. 2013 [G]; Halberda & Feigenson 2008 [E]; Schneider et al. 2017 [M]; Jacobson et al. 2011 [C] |
+| 8. Part-whole | S12 | Seeing 6 as 5 and 1 is the top level of the quantity-number model. | Krajewski & Schneider 2009 [C]; Kullberg et al. 2020 [R] |
+| 9. One more | S13 | Children count correctly before they understand that the next number word means one more. | Sarnecka & Carey 2008 [E]; Frye et al. 2013 [G] |
 
 The practice guide behind steps 1–9 rates its progression as moderate evidence and notes that
 none of its 23 studies compared teaching along a progression with teaching without one.
@@ -42,32 +43,32 @@ none of its 23 studies compared teaching along a progression with teaching witho
 
 | Sheet | Practises | Design | Evidence |
 |---|---|---|---|
-| S1 Same thing, same number | 1–3 at a glance; the number stays when the objects move | four kinds; the answer shows the same objects rearranged | subitizing (Clements et al. 2019); same objects before different objects (Mix 2008); picture form of conservation, part of the MILE content |
-| S2 Princesses → cupcakes, frogs → crowns | counting one by one, "how many" | up to six; answers in another layout | one-to-one counting content (Nelson & McMaster 2019); counting interventions (Akther et al. 2025) |
-| S3 Dice → hearts and stars | dice patterns, checked by counting | hearts and stars in rows, not dice patterns | grouping not yet used in kindergarten (Starkey & McCandliss 2014) |
-| S4 Fingers and stars → dice | finger patterns, shown on the child's own fingers | left hand first; counting from the index finger or the thumb, set per preset | finger training (Poletti et al. 2025); finger patterns for part-whole (Kullberg et al. 2020); counting habits (Lindemann et al. 2011) |
-| S5 Who has more dots? | comparing by sight | ratios 2 : 1 and more; one dot size; each animal wins once and loses once | comparing (Frye et al. 2013); ratio limits (Halberda & Feigenson 2008); size cues (Leibovich et al. 2017) |
-| S6 How many? Find the number | quantity to numeral | pink and blue numerals | quantity-number level (Krajewski & Schneider 2009) |
-| S7 Find the dice for each number | numeral to quantity | the reverse direction on its own sheet | both directions (Mundy & Gilmore 2009) |
-| S8 Touch each one once | counting an unordered set | scattered layout | object arrangement and counting errors (Fuson 1988) |
-| S9 Count the steps | position on a 1–6 path | the square is highlighted, counting from the left | number line (Siegler & Booth 2004); board games (Siegler & Ramani 2008, 2009) |
-| S10 Count the dots, who has more? | comparing by counting | ratios 1.5 to 2; new animal pairings, so no winner is remembered from S5 | "use number words and counting to compare quantities" (Frye et al. 2013); 4-year-olds still did well at ratios 1.25–1.5 (Halberda & Feigenson 2008) |
-| S11 Who has the bigger number? | comparing numerals 1–6 | distances 2 to 4 | symbolic comparison (Schneider et al. 2017); number comparison after prenatal alcohol exposure (Jacobson et al. 2011; Shmueli et al. 2022) |
-| S12 Treasure chest, 3–8 (later) | five and more: 6 = 5 and 1 | ten-frame filled row by row | part-whole level (Krajewski & Schneider 2009); finger patterns (Kullberg et al. 2020); unitizing in MILE |
-| S13 One more (later) | the number after | the equal set is the intended lure | successor understanding (Sarnecka & Carey 2008) |
+| S1 Same thing, same number | 1–3 at a glance; the number stays when the objects move | four kinds; the answer shows the same objects rearranged | subitizing (Clements et al. 2019 [E]); same objects before different objects (Mix 2008 [E]); picture form of conservation, part of the MILE content [G] |
+| S2 Princesses → cupcakes, frogs → crowns | counting one by one, "how many" | up to six; answers in another layout | one-to-one counting content (Nelson & McMaster 2019 [M]); counting interventions (Akther et al. 2025 [M]) |
+| S3 Dice → hearts and stars | dice patterns, checked by counting | hearts and stars in rows, not dice patterns | grouping not yet used in kindergarten (Starkey & McCandliss 2014 [E]) |
+| S4 Fingers and stars → dice | finger patterns, shown on the child's own fingers | left hand first; counting from the index finger or the thumb, set per preset | finger training (Poletti et al. 2025 [R]); finger patterns for part-whole (Kullberg et al. 2020 [R]); counting habits (Lindemann et al. 2011 [C]) |
+| S5 Who has more dots? | comparing by sight | ratios 2 : 1 and more; one dot size; each animal wins once and loses once | comparing (Frye et al. 2013 [G]); ratio limits (Halberda & Feigenson 2008 [E]); size cues (Leibovich et al. 2017 [E]) |
+| S6 How many? Find the number | quantity to numeral | pink and blue numerals | quantity-number level (Krajewski & Schneider 2009 [C]) |
+| S7 Find the dice for each number | numeral to quantity | the reverse direction on its own sheet | both directions (Mundy & Gilmore 2009 [E]) |
+| S8 Touch each one once | counting an unordered set | scattered layout | object arrangement and counting errors (Fuson 1988 [E]) |
+| S9 Count the steps | position on a 1–6 path | the square is highlighted, counting from the left | number line (Siegler & Booth 2004 [C]); board games (Siegler & Ramani 2008, 2009 [R]) |
+| S10 Count the dots, who has more? | comparing by counting | ratios 1.5 to 2; new animal pairings, so no winner is remembered from S5 | "use number words and counting to compare quantities" (Frye et al. 2013 [G]); 4-year-olds above chance down to ratios of 1.25–1.5 (Halberda & Feigenson 2008 [E]) |
+| S11 Who has the bigger number? | comparing numerals 1–6 | distances 2 to 4 | symbolic comparison (Schneider et al. 2017 [M]); number comparison after prenatal alcohol exposure (Jacobson et al. 2011 [C]; Shmueli et al. 2022 [C]) |
+| S12 Treasure chest, 3–8 (later) | five and more: 6 = 5 and 1 | ten-frame filled row by row | part-whole level (Krajewski & Schneider 2009 [C]); finger patterns (Kullberg et al. 2020 [R]); unitizing in MILE [G] |
+| S13 One more (later) | the number after | the equal set is the intended lure | successor understanding (Sarnecka & Carey 2008 [E]) |
 
 ## Design rules
 
 | Rule | Why | Sources |
 |---|---|---|
-| One direction per sheet; no answer repeats a task picture | An identical copy is the easiest wrong match, and choosing it is a rule error, not a number error. Object similarity pulls children away from number matches. | Mix 2008 (design reasoning, not tested) |
-| Two colour families: pink tasks to pink answers, blue to blue | The only other answer with the right number has the other colour, and the search drops from 12 fields to 6. | visual cues and fewer options (SMILE FASD manual 2025, practice guidance); visual-spatial load (Crocker et al. 2015); untested |
-| Different layouts for task and answer | the child counts instead of matching shapes | Mix 2008; Starkey & McCandliss 2014 |
-| Two worked examples per sheet | modelling before practice | Akther et al. 2025 |
-| Pattern check, then wrong tasks redone with objects | feedback; one error at a time | Akther et al. 2025; MILE cycle |
-| One picture size per sheet, clean page | size must not give the answer away; visual-spatial load | Leibovich et al. 2017; Crocker et al. 2015 |
-| Theme, and the child chooses which mastered sheet comes back | motivation and learning | Cordova & Lepper 1996 |
-| Quantities stay visible, no memory drills | working-memory training does not transfer | Melby-Lervåg et al. 2016 |
+| One direction per sheet; no answer repeats a task picture | An identical copy is the easiest wrong match, and choosing it is a rule error, not a number error. Object similarity pulls children away from number matches. | Mix 2008 [E] (design reasoning, not tested) |
+| Two colour families: pink tasks to pink answers, blue to blue | The only other answer with the right number has the other colour, and the search drops from 12 fields to 6. | visual cues and fewer options (SMILE FASD manual 2025 [G], practice guidance); visual-spatial load (Crocker et al. 2015 [C]); untested |
+| Different layouts for task and answer | the child counts instead of matching shapes | Mix 2008 [E]; Starkey & McCandliss 2014 [E] |
+| Two worked examples per sheet | modelling before practice | Akther et al. 2025 [M] |
+| Pattern check, then wrong tasks redone with objects | feedback; one error at a time | Akther et al. 2025 [M]; MILE cycle [G] |
+| One picture size per sheet, clean page | size must not give the answer away; visual-spatial load | Leibovich et al. 2017 [E]; Crocker et al. 2015 [C] |
+| Theme, and the child chooses which mastered sheet comes back | motivation and learning | Córdova & Lepper 1996 [R] |
+| Quantities stay visible, no memory drills | working-memory training does not transfer | Melby-Lervåg et al. 2016 [M] |
 
 ## Using the sheets
 
@@ -213,7 +214,7 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
   the approximate number system in 3-, 4-, 5-, and 6-year-olds and adults. *Dev Psychol* 44(5):1457–1465. [doi:10.1037/a0012682](https://doi.org/10.1037/a0012682).
   Acuity keeps improving through childhood; "3-year-olds asymptote at 53% for comparisons of
   ratio 1.25 and lower".
-- [M] **Leibovich, Katzin, Harel & Henik 2017.** From "sense of number" to "sense of magnitude":
+- [E] **Leibovich, Katzin, Harel & Henik 2017.** From "sense of number" to "sense of magnitude":
   the role of continuous magnitudes in numerical cognition. *Behav Brain Sci* 40:e164. [doi:10.1017/S0140525X16000960](https://doi.org/10.1017/S0140525X16000960).
   "both numerosities and continuous magnitudes are processed holistically when comparing
   numerosities".
@@ -279,7 +280,7 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
   practice in elementary school children. *Front Psychol* 7:350.
   [doi:10.3389/fpsyg.2016.00350](https://doi.org/10.3389/fpsyg.2016.00350). "children showed
   robust retrieval practice effects".
-- [M] **McDermott 2021.** Practicing retrieval facilitates learning. *Annu Rev Psychol* 72:609–633.
+- [E] **McDermott 2021.** Practicing retrieval facilitates learning. *Annu Rev Psychol* 72:609–633.
   [doi:10.1146/annurev-psych-010419-051019](https://doi.org/10.1146/annurev-psych-010419-051019).
   The benefit "seems prevalent in all ages and learner abilities".
 - [E] **Foster, Mueller, Was, Rawson & Dunlosky 2019.** Why does interleaving improve math
