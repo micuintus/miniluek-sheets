@@ -5,6 +5,14 @@ choice rests on. No study has tested miniLÜK or these sheets: every choice borr
 from studies of the underlying skill. Full references with DOIs and a key sentence from each
 are at the end.
 
+**In short.** Well supported: the order of skills (practice guide, moderate evidence), objects
+before pictures, one-to-one counting and comparison content (meta-analyses), adult 1:1 teaching
+with the MILE routine (randomised trials). Reasoned from studies but not tested: one direction per
+sheet, the two-colour families, three comparison sheets. Untested: miniLÜK itself and this exact
+sequence. Evidence types in the sources: **[M]** meta-analysis or systematic review, **[R]**
+randomised or controlled trial, **[C]** correlational or cohort study, **[G]** guideline or
+practice guidance, **[E]** experiment or book.
+
 - [The order](#the-order)
 - [Per sheet](#per-sheet)
 - [Design rules](#design-rules)
@@ -99,6 +107,16 @@ conservation (S1), magnitude (S5, S10, S11), position (S9), unitizing (S12). Eve
 the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came from trained
 1:1 tutoring; the sheets are practice next to such teaching, not a replacement.
 
+## Checked, no change
+
+- **Retrieval practice** helps children (Karpicke et al. 2016, 10-year-olds; review McDermott
+  2021, all ages and abilities); each sheet is retrieval with feedback. No preschool study found.
+- **Interleaving** helps older students with math (Foster et al. 2019); no preschool evidence,
+  so revisit days keep one sheet type.
+- **Fading cues**: salient prompts are usually faded so learning generalises. The colour cannot
+  be faded here, because on numeral sheets it is the only difference between the two answers
+  with the same number. Generalisation has to come from objects and daily counting.
+
 ## Limits
 
 - No study has tested miniLÜK, these sheets, or this order against another.
@@ -108,34 +126,36 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 - With dots of one size, more dots also means more ink: S5 and S10 train comparison with a
   matching area cue.
 - The finger studies tested typically developing children.
+- The prenatal alcohol number studies tested adolescents; no study tested number comparison
+  in preschoolers after prenatal alcohol exposure.
 
 ## Sources
 
 ### Progression and models
 
-- **Frye et al. 2013.** *Teaching Math to Young Children* (NCEE 2014-4005). What Works
+- [G] **Frye et al. 2013.** *Teaching Math to Young Children* (NCEE 2014-4005). What Works
   Clearinghouse practice guide. [PDF](https://files.eric.ed.gov/fulltext/ED544376.pdf).
   "First, provide opportunities for children to practice recognizing the total number of
   objects in small collections (one to three items) and labeling them with a number word
   without needing to count them." Recommendation 1 is rated moderate evidence from 21
   randomised and 2 quasi-experimental studies.
-- **Krajewski & Schneider 2009.** Exploring the impact of phonological awareness,
+- [C] **Krajewski & Schneider 2009.** Exploring the impact of phonological awareness,
   visual–spatial working memory, and preschool quantity–number competencies on mathematics
   achievement in elementary school. *J Exp Child Psychol* 103(4):516–531.
   [doi:10.1016/j.jecp.2009.03.009](https://doi.org/10.1016/j.jecp.2009.03.009). Early
   quantity-number competence "predicted math achievement in third grade".
-- **Nelson & McMaster 2019.** The effects of early numeracy interventions for students in
+- [M] **Nelson & McMaster 2019.** The effects of early numeracy interventions for students in
   preschool and early elementary: a meta-analysis. *J Educ Psychol* 111(6):1001–1022.
   [doi:10.1037/edu0000334](https://doi.org/10.1037/edu0000334). Figures here are from the
   dissertation version (University of Minnesota, 2017): 33 studies, g = 0.63; "The
   coefficients for CRA and Correspondence were positive".
-- **Akther, Powell & Lariviere 2025.** Counting-focused intervention effects for students
+- [M] **Akther, Powell & Lariviere 2025.** Counting-focused intervention effects for students
   with mathematics difficulty: a research synthesis. *Learn Disabil Res Pract*
   40(3):162–180. [doi:10.1177/09388982251321538](https://doi.org/10.1177/09388982251321538).
   "results indicated moderate-to-strong proximal effects and positive transfer effects";
   modelling, guided practice, feedback and multiple representations were the most common
   strategies.
-- **Spooner, Root, Saunders & Browder 2019.** An updated evidence-based practice review on
+- [M] **Spooner, Root, Saunders & Browder 2019.** An updated evidence-based practice review on
   teaching mathematics to students with moderate and severe developmental disabilities.
   *Remedial Spec Educ* 40(3):150–165.
   [doi:10.1177/0741932517751055](https://doi.org/10.1177/0741932517751055). Systematic
@@ -144,38 +164,38 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 
 ### Small sets, counting, patterns, fingers
 
-- **Clements, Sarama & MacDonald 2019.** Subitizing: the neglected quantifier. In
+- [E] **Clements, Sarama & MacDonald 2019.** Subitizing: the neglected quantifier. In
   *Constructing Number*, 13–45. [doi:10.1007/978-3-030-00491-0_2](https://doi.org/10.1007/978-3-030-00491-0_2).
   "Subitizing is the direct perceptual apprehension and identification of the numerosity of
   a small group of items."
-- **Mix 2008.** Children's equivalence judgments: crossmapping effects. *Cogn Dev*
+- [E] **Mix 2008.** Children's equivalence judgments: crossmapping effects. *Cogn Dev*
   23(1):191–203. [doi:10.1016/j.cogdev.2007.03.001](https://doi.org/10.1016/j.cogdev.2007.03.001).
   "Only children who understood the number words for the target sets performed above chance
   in the crossmapping condition"; "experience with high similarity comparisons helps children
   recognize less obvious relations in subsequent, low similarity comparisons".
-- **Starkey & McCandliss 2014.** The emergence of "groupitizing" in children's numerical
+- [E] **Starkey & McCandliss 2014.** The emergence of "groupitizing" in children's numerical
   cognition. *J Exp Child Psychol* 126:120–137.
   [doi:10.1016/j.jecp.2014.03.006](https://doi.org/10.1016/j.jecp.2014.03.006).
   "Kindergarten children showed no evidence of grouping structure on enumeration."
-- **Fuson 1988.** *Children's Counting and Concepts of Number*. Springer.
+- [E] **Fuson 1988.** *Children's Counting and Concepts of Number*. Springer.
   [doi:10.1007/978-1-4612-3754-9](https://doi.org/10.1007/978-1-4612-3754-9). Chapter 4:
   "Effects of Object Arrangement on Counting Correspondence Errors and on the Indicating Act".
-- **Sarnecka & Carey 2008.** How counting represents number: what children must learn and
+- [E] **Sarnecka & Carey 2008.** How counting represents number: what children must learn and
   when they learn it. *Cognition* 108(3):662–674.
   [doi:10.1016/j.cognition.2008.05.007](https://doi.org/10.1016/j.cognition.2008.05.007).
   "only the high-numeral-knowers understand how counting implements the successor function".
-- **Poletti, Krenger, Létang, Hennequin & Thevenot 2025.** Finger counting training enhances
+- [R] **Poletti, Krenger, Létang, Hennequin & Thevenot 2025.** Finger counting training enhances
   addition performance in kindergarteners. *Child Dev* 96(1):251–268.
   [doi:10.1111/cdev.14146](https://doi.org/10.1111/cdev.14146).
   Addition accuracy rose "from 37.3% to 77.1% compared to a passive control group (39.6% to
   47.8%)", replicated twice.
-- **Kullberg, Björklund, Brković & Runesson Kempe 2020.** Effects of learning addition and
+- [R] **Kullberg, Björklund, Brković & Runesson Kempe 2020.** Effects of learning addition and
   subtraction in preschool by making the first ten numbers and their relations visible with
   finger patterns. *Educ Stud Math* 103(2):157–172.
   [doi:10.1007/s10649-019-09927-1](https://doi.org/10.1007/s10649-019-09927-1). Five-year-olds
   "taught to use their fingers to structure part-part-whole relations of numbers" improved in
   addition and subtraction.
-- **Lindemann, Alipour & Fischer 2011.** Finger counting habits in Middle Eastern and Western
+- [C] **Lindemann, Alipour & Fischer 2011.** Finger counting habits in Middle Eastern and Western
   individuals: an online survey. *J Cross-Cult Psychol* 42(4):566–578.
   [doi:10.1177/0022022111406254](https://doi.org/10.1177/0022022111406254). "most Western
   individuals started counting with the left hand and associated the number 1 with their
@@ -183,104 +203,116 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 
 ### Comparing and the number line
 
-- **Halberda & Feigenson 2008.** Developmental change in the acuity of the "number sense":
+- [E] **Halberda & Feigenson 2008.** Developmental change in the acuity of the "number sense":
   the approximate number system in 3-, 4-, 5-, and 6-year-olds and adults. *Dev Psychol* 44(5):1457–1465. [doi:10.1037/a0012682](https://doi.org/10.1037/a0012682).
   Acuity keeps improving through childhood; "3-year-olds asymptote at 53% for comparisons of
   ratio 1.25 and lower".
-- **Leibovich, Katzin, Harel & Henik 2017.** From "sense of number" to "sense of magnitude":
+- [M] **Leibovich, Katzin, Harel & Henik 2017.** From "sense of number" to "sense of magnitude":
   the role of continuous magnitudes in numerical cognition. *Behav Brain Sci* 40:e164. [doi:10.1017/S0140525X16000960](https://doi.org/10.1017/S0140525X16000960).
   "both numerosities and continuous magnitudes are processed holistically when comparing
   numerosities".
-- **Schneider et al. 2017.** Associations of non-symbolic and symbolic numerical magnitude
+- [M] **Schneider et al. 2017.** Associations of non-symbolic and symbolic numerical magnitude
   processing with mathematical competence: a meta-analysis. *Dev Sci* 20(3):e12372.
   [doi:10.1111/desc.12372](https://doi.org/10.1111/desc.12372). 45 articles, 17,201
   participants: symbolic comparison r = .30, non-symbolic r = .24.
-- **Mundy & Gilmore 2009.** Children's mapping between symbolic and nonsymbolic
+- [E] **Mundy & Gilmore 2009.** Children's mapping between symbolic and nonsymbolic
   representations of number. *J Exp Child Psychol* 103(4):490–502.
   [doi:10.1016/j.jecp.2009.02.003](https://doi.org/10.1016/j.jecp.2009.02.003). "children can
   map in both directions between symbolic and nonsymbolic numerical representations".
-- **Siegler & Booth 2004.** Development of numerical estimation in young children.
+- [C] **Siegler & Booth 2004.** Development of numerical estimation in young children.
   *Child Dev* 75(2):428–444. [doi:10.1111/j.1467-8624.2004.00684.x](https://doi.org/10.1111/j.1467-8624.2004.00684.x).
   "Individual differences in number-line estimation correlated strongly with math
   achievement test scores".
-- **Siegler & Ramani 2008.** Playing linear numerical board games promotes low-income
+- [R] **Siegler & Ramani 2008.** Playing linear numerical board games promotes low-income
   children's numerical development. *Dev Sci* 11(5):655–661.
   [doi:10.1111/j.1467-7687.2008.00714.x](https://doi.org/10.1111/j.1467-7687.2008.00714.x).
-- **Siegler & Ramani 2009.** Playing linear number board games, but not circular ones,
+- [R] **Siegler & Ramani 2009.** Playing linear number board games, but not circular ones,
   improves low-income preschoolers' numerical understanding. *J Educ Psychol*
   101(3):545–560. [doi:10.1037/a0014239](https://doi.org/10.1037/a0014239).
 
 ### Method, dose, motivation
 
-- **Seabrook, Brown & Solity 2005.** Distributed and massed practice: from laboratory to
+- [E] **Seabrook, Brown & Solity 2005.** Distributed and massed practice: from laboratory to
   classroom. *Appl Cogn Psychol* 19(1):107–122.
   [doi:10.1002/acp.1066](https://doi.org/10.1002/acp.1066). A classroom study "demonstrated
   the benefit of distributed over clustered teaching of reading".
-- **Miller, Espinas, McNeish & Barnes 2025.** Dosage response in intensive mathematics
+- [M] **Miller, Espinas, McNeish & Barnes 2025.** Dosage response in intensive mathematics
   interventions for early elementary students with or at-risk for mathematics learning
   disability. *Educ Psychol Rev* 37(4).
   [doi:10.1007/s10648-025-10070-y](https://doi.org/10.1007/s10648-025-10070-y). About .03
   effect size units per extra hour, not significant once moderators were controlled; "1:1
   interventions had higher effect sizes than small-group interventions".
-- **Córdova & Lepper 1996.** Intrinsic motivation and the process of learning: beneficial
+- [R] **Córdova & Lepper 1996.** Intrinsic motivation and the process of learning: beneficial
   effects of contextualization, personalization, and choice. *J Educ Psychol* 88(4):715–730.
   [doi:10.1037/0022-0663.88.4.715](https://doi.org/10.1037/0022-0663.88.4.715).
-- **Melby-Lervåg, Redick & Hulme 2016.** Working memory training does not improve
+- [M] **Melby-Lervåg, Redick & Hulme 2016.** Working memory training does not improve
   performance on measures of intelligence or other measures of "far transfer".
   *Perspect Psychol Sci* 11(4):512–534.
   [doi:10.1177/1745691616635612](https://doi.org/10.1177/1745691616635612).
-- **MILE cycle.** [mileprogram.ca](https://www.mileprogram.ca): "Identify the errors your
+- [G] **MILE cycle.** [mileprogram.ca](https://www.mileprogram.ca): "Identify the errors your
   students are making. Focus on one at a time before moving onto the next". MILE content per
   the [NCII tools chart](https://charts.intensiveintervention.org/intervention/toolGRP/94dcd2b9344433b7):
   "subitizing, stable order, one-to-one correspondence, cardinality, conservation, magnitude,
   ordinals/position, unitizing".
 
+### Retrieval and interleaving
+
+- [E] **Karpicke, Blunt & Smith 2016.** Retrieval-based learning: positive effects of retrieval
+  practice in elementary school children. *Front Psychol* 7:350.
+  [doi:10.3389/fpsyg.2016.00350](https://doi.org/10.3389/fpsyg.2016.00350). "children showed
+  robust retrieval practice effects".
+- [M] **McDermott 2021.** Practicing retrieval facilitates learning. *Annu Rev Psychol* 72:609–633.
+  [doi:10.1146/annurev-psych-010419-051019](https://doi.org/10.1146/annurev-psych-010419-051019).
+  The benefit "seems prevalent in all ages and learner abilities".
+- [E] **Foster, Mueller, Was, Rawson & Dunlosky 2019.** Why does interleaving improve math
+  learning? *Mem Cognit* 47(6):1088–1101. [doi:10.3758/s13421-019-00918-4](https://doi.org/10.3758/s13421-019-00918-4).
+
 ### Prenatal alcohol exposure
 
-- **Jacobson, Dodge, Burden, Klorman & Jacobson 2011.** Number processing in adolescents with
+- [C] **Jacobson, Dodge, Burden, Klorman & Jacobson 2011.** Number processing in adolescents with
   prenatal alcohol exposure and ADHD: differences in the neurobehavioral phenotype.
   *Alcohol Clin Exp Res* 35(3):431–442.
   [doi:10.1111/j.1530-0277.2010.01360.x](https://doi.org/10.1111/j.1530-0277.2010.01360.x).
   "the relation of prenatal alcohol to calculation was fully mediated by magnitude
   comparison"; in the number comparison task "two numbers were displayed on the screen, and
   the participant used the mouse to indicate which was larger".
-- **Shmueli et al. 2022.** Magnitude comparison and automaticity in number processing in
+- [C] **Shmueli et al. 2022.** Magnitude comparison and automaticity in number processing in
   adolescents with prenatal alcohol exposure: an event-related potentials study.
   *Alcohol Clin Exp Res* 46(6):961–978.
   [doi:10.1111/acer.14823](https://doi.org/10.1111/acer.14823). "accuracy was poorer and RT
   was slower on both tasks in the FAS and PFAS than the HE and TD groups".
-- **Crocker, Riley & Mattson 2015.** Visual-spatial abilities relate to mathematics
+- [C] **Crocker, Riley & Mattson 2015.** Visual-spatial abilities relate to mathematics
   achievement in children with heavy prenatal alcohol exposure. *Neuropsychology*
   29(1):108–116. [doi:10.1037/neu0000094](https://doi.org/10.1037/neu0000094). "Significant
   predictors of mathematics achievement were Spatial Span forward and backward and Spatial
   Recognition Memory."
-- **Kable, Coles & Taddeo 2007.** Socio-cognitive habilitation using the Math Interactive
+- [R] **Kable, Coles & Taddeo 2007.** Socio-cognitive habilitation using the Math Interactive
   Learning Experience program for alcohol-affected children. *Alcohol Clin Exp Res*
   31(8):1425–1434. [doi:10.1111/j.1530-0277.2007.00431.x](https://doi.org/10.1111/j.1530-0277.2007.00431.x).
   "both groups of children demonstrated gains in math knowledge but significantly higher
   gains were found in the group receiving direct math instruction".
-- **Coles, Kable & Taddeo 2009.** Math performance and behavior problems in children affected
+- [R] **Coles, Kable & Taddeo 2009.** Math performance and behavior problems in children affected
   by prenatal alcohol exposure: intervention and follow-up. *J Dev Behav Pediatr* 30(1):7–15.
   [doi:10.1097/DBP.0b013e3181966780](https://doi.org/10.1097/DBP.0b013e3181966780).
   Six-month follow-up of the 2007 trial.
-- **Kable, Taddeo, Strickland & Coles 2015.** Community translation of the Math Interactive
+- [R] **Kable, Taddeo, Strickland & Coles 2015.** Community translation of the Math Interactive
   Learning Experience program for children with FASD. *Res Dev Disabil* 39:1–11.
   [doi:10.1016/j.ridd.2014.12.031](https://doi.org/10.1016/j.ridd.2014.12.031). "Those in the
   MILE intervention groups demonstrated more positive gains in math skills than those in the
   Parent Instruction group".
-- **Kully-Martens, Pei, Kable, Coles, Andrew & Rasmussen 2018.** Mathematics intervention for
+- [R] **Kully-Martens, Pei, Kable, Coles, Andrew & Rasmussen 2018.** Mathematics intervention for
   children with fetal alcohol spectrum disorder: a replication and extension of the math
   interactive learning experience (MILE) program. *Res Dev Disabil* 78:55–65.
   [doi:10.1016/j.ridd.2018.04.018](https://doi.org/10.1016/j.ridd.2018.04.018). "Following a
   relatively brief, individualized, one-on-one intervention, children in the MILE group
   demonstrated significantly greater changes in math achievement compared to the contrast
   group."
-- **S3-Leitlinie FASD (AWMF 022-025), 2024, checked 2025.**
+- [G] **S3-Leitlinie FASD (AWMF 022-025), 2024, checked 2025.**
   [PDF](https://register.awmf.org/assets/guidelines/022-025l_S3_Fetale-Alkoholspektrumstoerungen-Kinder-Jugendliche-Diagnostik-Intervention_FASD_2025-11.pdf).
   "Bei Vorschul- und Schulkindern mit FASD sollte gemäß dem kognitiven Entwicklungsstand ein
   an FASD angepasstes Training zur Förderung rechnerischen Denkens und rechnerischer
   Fertigkeiten eingesetzt werden" (grade B, GRADE high).
-- **SMILE FASD Interventionsmanual 2025.** Deutsches FASD Kompetenzzentrum Bayern.
+- [G] **SMILE FASD Interventionsmanual 2025.** Deutsches FASD Kompetenzzentrum Bayern.
   [PDF](https://www.deutsches-fasd-kompetenzzentrum-bayern.de/wp-content/uploads/2025/11/Interventionsmanual_SMILE_FASD.pdf).
   Practice guidance: "visuelle Hinweise zu verwenden, Zeitgrenzen zu setzen und die Anzahl der
   Aufgaben zu reduzieren".
