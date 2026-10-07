@@ -78,6 +78,12 @@ none of its 23 studies compared teaching along a progression with teaching witho
 - **An adult sits with one child** and runs Focus/Plan, Act, Reflect: the MILE routine.
   1:1 interventions had larger effects than small groups (Miller et al. 2025). In the MILE
   community trial, parents who only received a manual saw no gains (Kable et al. 2015).
+- **Start where the child is.** A five-minute check with objects ("give me N" and "how many?")
+  places the child on the ladder. Subset-knowers count and answer "how many" without
+  understanding what the last word means (Sarnecka & Carey 2008); "how many" succeeds before
+  "give me" (Baroody et al. 2023). Teaching the cardinality step with objects first worked for
+  preschoolers with autism in a single-case study (Goñi-Cervera et al. 2024). Details:
+  [teaching order](teaching-order.md#where-to-start).
 - **One sheet a day.** Move on after two days with the pattern right first time, repeat a
   mastered sheet a week later. Distributed teaching beat clustered teaching (Seabrook et al.
   2005); each extra hour of intervention added little once other factors were controlled
@@ -231,6 +237,18 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
   101(3):545–560. [doi:10.1037/a0014239](https://doi.org/10.1037/a0014239).
 
 ### Method, dose, motivation
+
+- [E] **Baroody, Mix, Kartal & Lai 2023.** The development and assessment of early
+  cardinal-number concepts. *J Numer Cogn* 9(1):182–195.
+  [doi:10.5964/jnc.10035](https://doi.org/10.5964/jnc.10035). "set-to-word mapping appears to
+  develop before word-to-set mapping"; "the give-n task may underestimate a key aspect of
+  children's cardinal understanding of small numbers".
+- [E] **Goñi-Cervera, Polo-Blanco, Tregón & Bruno 2024.** The concrete-representational-abstract
+  sequence for the acquisition of the cardinal principle in preschool children with autism.
+  *Int J Dev Disabil* 72(3):473–483.
+  [doi:10.1080/20473869.2024.2341195](https://doi.org/10.1080/20473869.2024.2341195). Three
+  children; "The acquired skills were maintained up to 16 wk after the completion of the
+  intervention."
 
 - [E] **Seabrook, Brown & Solity 2005.** Distributed and massed practice: from laboratory to
   classroom. *Appl Cogn Psychol* 19(1):107–122.

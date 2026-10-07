@@ -23,6 +23,51 @@ counting and with numerals, then part-whole and "one more": the progression of t
 Clearinghouse guide *Teaching Math to Young Children*, with patterns of four to six placed after
 counting. Each step and each sheet mapped to its studies: [research](research.md).
 
+## Where to start
+
+Five minutes with objects before the first sheet:
+
+1. **Give me N.** From a pile of ten small things: "Can you give me three?" Ask for 2, 4, 3,
+   6, 5, then "Is that three? Count to check." The largest number given correctly is where
+   counting has meaning for the child.
+2. **How many?** Lay out 2, then 3, then 5 things in a row: "How many?"
+3. **Which is more?** Two piles, 2 and 6, then 4 and 6.
+4. **Numbers.** Cards 1 to 6, mixed: "Which number is this?"
+
+| Result | Start with |
+|---|---|
+| gives correctly only up to 3 or 4 | S1, and counting with objects until 5 and 6 work; then S2 |
+| gives 1 to 6 correctly | S2 |
+| also names the numbers 1 to 6 | no extra card work before S6 |
+
+Children can count and answer "how many" with the last number word before they understand
+what it means, so ask for a number of things, not only "how many" (Sarnecka & Carey 2008).
+"How many" usually succeeds before "give me" (Baroody et al. 2023): ask both.
+
+## Before each sheet
+
+Each sheet comes after the same idea with objects. Start a sheet when the previous one is
+mastered, or when the condition below holds.
+
+| Sheet | First with objects | Start the sheet when |
+|---|---|---|
+| S1 | show 1–3 toys briefly: "how many?"; spread them out: "still three?" | from the start |
+| S2 | give each doll one cupcake, touch-count, repeat the last number: "one, two, three: three cupcakes" | the child gives 5 and 6 on request |
+| S3 | roll a real die and lay out that many counters | S2 mastered |
+| S4 | "show me three" on the fingers, then from a die | S2 mastered |
+| S5 | two piles, 2 and 6: "who has more?" | S2 mastered |
+| S6 | count a pile and put the number card next to it | the child names the numbers 1 to 6, or has learned them with cards |
+| S7 | number card first, then lay out that many | S6 mastered |
+| S8 | scattered counters: touch each one and slide it aside | S6 mastered |
+| S9 | play a straight 1–10 board game: "which square are you on?" | a few rounds of the board game |
+| S10 | two close piles, 3 and 5: count both, "who has more?" | S5 and S8 mastered |
+| S11 | two number cards: "which is more?", check by counting out | S9 and S10 mastered |
+| S12 | egg carton or ten-frame: five in the top row, then one more: "five and one, six" | S2–S8 mastered |
+| S13 | three in a box, add one: "how many now?" without counting again | the child gives 6 on request and says which number comes after 4 |
+
+A sheet the child cannot do yet goes back in the box until its condition holds; each one-sheet
+day should be spent at the edge of what the child can almost do.
+
 ## Design rules
 
 - Each sheet runs one direction: no answer repeats a task picture, so the easiest wrong match
