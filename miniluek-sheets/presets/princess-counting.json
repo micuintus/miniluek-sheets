@@ -11,7 +11,7 @@
     {"id": "S3", "theme": "peach", "title": ["Pink dice get hearts,", "blue dice get stars."], "goal": "Dice patterns, checked by counting, 1–6", "rule": {"type": "pair", "pairs": [["dice", "heart"], ["dice", "star"]]}, "answer_style": "row", "size": 0.88,
      "tasks": ["dice:4@0", "dice:1@0", "dice:6@0", "dice:2@0", "dice:5@0", "dice:3@0",
                "dice:3@1", "dice:5@1", "dice:2@1", "dice:6@1", "dice:1@1", "dice:4@1"]},
-    {"id": "S4", "theme": "coral", "title": ["Fingers and stars:", "find the dice with the same number."], "prompt": "Show it with your fingers!", "goal": "Finger patterns (index finger = 1, thumb = 5, full hand = 5, then the other hand), shown on own fingers, 1–6", "rule": {"type": "pair", "pairs": [["fingers", "dice"], ["star", "dice"]]}, "task_style": "row", "size": 0.88,
+    {"id": "S4", "theme": "coral", "title": ["Fingers and stars:", "find the dice with the same number."], "prompt": "Show it with your fingers!", "goal": "Finger patterns, full hand = 5, then the other hand, shown on own fingers, 1–6", "rule": {"type": "pair", "pairs": [["fingers", "dice"], ["star", "dice"]]}, "task_style": "row", "size": 0.88,
      "tasks": ["fingers:3", "fingers:1", "fingers:5", "fingers:2", "fingers:6", "fingers:4",
                "star:2", "star:5", "star:1", "star:4", "star:3", "star:6"]},
     {"id": "S5", "theme": "violet", "title": ["Who has more dots?", "Find the winner below."], "goal": "Comparing quantities, big differences first (2 : 1 and more)", "rule": {"type": "more"},

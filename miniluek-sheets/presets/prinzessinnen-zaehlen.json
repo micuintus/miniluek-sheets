@@ -12,7 +12,7 @@
     {"id": "S3", "theme": "peach", "title": ["Rosa Würfel bekommen Herzen,", "blaue Würfel bekommen Sterne."], "goal": "Würfelbilder, mit Zählen geprüft, 1–6", "rule": {"type": "pair", "pairs": [["dice", "heart"], ["dice", "star"]]}, "answer_style": "row", "size": 0.88,
      "tasks": ["dice:4@0", "dice:1@0", "dice:6@0", "dice:2@0", "dice:5@0", "dice:3@0",
                "dice:3@1", "dice:5@1", "dice:2@1", "dice:6@1", "dice:1@1", "dice:4@1"]},
-    {"id": "S4", "theme": "coral", "title": ["Finger und Sterne: Finde den Würfel", "mit gleich vielen Punkten."], "prompt": "Zeig es mit deinen Fingern!", "goal": "Fingerbilder (Daumen = 1, volle Hand = 5, dann die zweite Hand), mit den eigenen Fingern gezeigt, 1–6", "rule": {"type": "pair", "pairs": [["fingers", "dice"], ["star", "dice"]]}, "task_style": "row", "size": 0.88,
+    {"id": "S4", "theme": "coral", "title": ["Finger und Sterne: Finde den Würfel", "mit gleich vielen Punkten."], "prompt": "Zeig es mit deinen Fingern!", "goal": "Fingerbilder, volle Hand = 5, dann die zweite Hand, mit den eigenen Fingern gezeigt, 1–6", "rule": {"type": "pair", "pairs": [["fingers", "dice"], ["star", "dice"]]}, "task_style": "row", "size": 0.88,
      "tasks": ["fingers:3", "fingers:1", "fingers:5", "fingers:2", "fingers:6", "fingers:4",
                "star:2", "star:5", "star:1", "star:4", "star:3", "star:6"]},
     {"id": "S5", "theme": "violet", "title": ["Wer hat mehr Punkte?", "Finde unten den Gewinner."], "goal": "Mengen vergleichen, zuerst große Unterschiede (2 : 1 und mehr)", "rule": {"type": "more"},
