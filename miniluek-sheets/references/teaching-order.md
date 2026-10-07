@@ -18,21 +18,10 @@
 
 ## Why this order
 
-The What Works Clearinghouse practice guide *Teaching Math to Young Children* (Frye et al.
-2013, moderate evidence) recommends this progression: small sets of one to three recognised and
-named, then accurate one-to-one counting, then comparing quantities, then numerals, then simple
-problems. Patterns of four to six (dice, fingers) come after counting because young children do
-not yet use groups to enumerate larger sets (Starkey & McCandliss 2014). Matching the same
-objects comes before matching different objects, which children find harder (Mix 2008).
-
-Comparing appears twice: by sight with large differences, then by counting with closer ones,
-and finally with numerals. Comparing numerals correlates more strongly with mathematical
-competence than comparing dot sets (Schneider et al. 2017, meta-analysis of 45 articles).
-A 2025 synthesis of counting-focused interventions for preschool and kindergarten children
-found moderate-to-strong effects; modelling, guided practice and feedback were the most common
-strategies in them (Akther, Powell & Lariviere 2025). Finger-counting training improved
-kindergarteners' addition in a randomised study with two replications (Poletti et al. 2025).
-A number path from left to right supports magnitude knowledge (Siegler & Ramani 2009).
+Small sets, counting, patterns, comparing, numerals both ways, a number path, comparing again by
+counting and with numerals, then part-whole and "one more": the progression of the What Works
+Clearinghouse guide *Teaching Math to Young Children*, with patterns of four to six placed after
+counting. Each step and each sheet mapped to its studies: [research](research.md).
 
 ## Design rules
 
