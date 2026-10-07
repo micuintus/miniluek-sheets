@@ -200,8 +200,8 @@ def princess(skin=0, hair=0, dress=0, style="long", pose="down", crown="crown", 
     return img.crop(img.getbbox())
 
 
-def hand(fingers_up, side="right", skin=1):
-    """Back of a hand as the child sees her own raised hand, fingers up, counting from the index finger.
+def hand(fingers_up, side="right", skin=1, start="index"):
+    """Back of a hand as the child sees her own raised hand, fingers up, counting from `start` (index or thumb).
 
     side='right': thumb on the viewer's left; side='left': thumb on the right.
     """
@@ -210,7 +210,9 @@ def hand(fingers_up, side="right", skin=1):
     pen = Pen(420, 560)
     # palm
     pen.poly(bezier((110, 300), (100, 470), (170, 520)) + bezier((250, 520), (330, 480), (320, 300)) + [(110, 300)], S, so, 6)
-    order = ["index", "middle", "ring", "little", "thumb"]   # American habit: index = 1, thumb = 5
+    order = ["index", "middle", "ring", "little", "thumb"]
+    if start == "thumb":
+        order = order[-1:] + order[:-1]
     up = set(order[:fingers_up])
     fingers = {"index": (145, 300, 175, 70), "middle": (200, 296, 200, 72), "ring": (255, 300, 182, 68),
                "little": (303, 312, 140, 60)}

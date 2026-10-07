@@ -7,7 +7,7 @@ Print at 100 % ("actual size").
 
 Usage:
   python3 miniluek.py check SPEC.json
-  python3 miniluek.py build SPEC.json -o sheets.pdf [--previews DIR] [--only S1,S3] [--key] [--fit]
+  python3 miniluek.py build SPEC.json -o sheets.pdf [--previews DIR] [--only S1,S3] [--key] [--fit] [--fingers index|thumb]
   python3 miniluek.py fit-test -o fit.pdf
   python3 miniluek.py kinds
 """
@@ -108,10 +108,10 @@ def princess_sprite(index, pose="down"):
     return _sprites[key]
 
 
-def hand_sprite(n, side):
-    key = ("hand", n, side)
+def hand_sprite(n, side, start="index"):
+    key = ("hand", n, side, start)
     if key not in _sprites:
-        _sprites[key] = art.hand(n, side=side)
+        _sprites[key] = art.hand(n, side=side, start=start)
     return _sprites[key]
 
 
@@ -191,12 +191,12 @@ def draw_numeral(img, d, n, cx, cy, k, fam=None):
     d.text((x, y + px(0.05 * k)), str(n), font=font(round(2.1 * k, 3)), fill=ink, anchor="mm")
 
 
-def draw_fingers(img, d, n, cx, cy, k):
-    if n <= 5:                                   # left hand first, index = 1, thumb = 5
-        paste(img, hand_sprite(n, "left"), cx, cy, box=(2.6 * k, 2.6 * k))
+def draw_fingers(img, d, n, cx, cy, k, start="index"):
+    if n <= 5:                                   # left hand first
+        paste(img, hand_sprite(n, "left", start), cx, cy, box=(2.6 * k, 2.6 * k))
     else:
-        paste(img, hand_sprite(5, "left"), cx - 0.72 * k, cy, box=(1.4 * k, 2.4 * k))
-        paste(img, hand_sprite(n - 5, "right"), cx + 0.72 * k, cy, box=(1.4 * k, 2.4 * k))
+        paste(img, hand_sprite(5, "left", start), cx - 0.72 * k, cy, box=(1.4 * k, 2.4 * k))
+        paste(img, hand_sprite(n - 5, "right", start), cx + 0.72 * k, cy, box=(1.4 * k, 2.4 * k))
 
 
 def draw_jewelbox(img, d, n, cx, cy, k, fam=None):
@@ -275,7 +275,7 @@ def draw_item(img, d, item, cx, cy, k=1.0):
     elif kind == "numeral":
         draw_numeral(img, d, item["n"], cx, cy, k, fam)
     elif kind == "fingers":
-        draw_fingers(img, d, item["n"], cx, cy, k)
+        draw_fingers(img, d, item["n"], cx, cy, k, item.get("fingers", "index"))
     elif kind == "jewelbox":
         draw_jewelbox(img, d, item["n"], cx, cy, k, fam)
     elif kind == "path":
@@ -357,7 +357,8 @@ def make_answer_fn(sheet):
 
 
 def load_sheet(sheet):
-    default = {"style": sheet.get("task_style", "row"), "size": sheet.get("size", 0.9)}
+    default = {"style": sheet.get("task_style", "row"), "size": sheet.get("size", 0.9),
+               "fingers": sheet.get("fingers", "index")}
     if sheet.get("show"):
         default["show"] = sheet["show"]
     tasks = {i + 1: parse_item(x, default) for i, x in enumerate(sheet["tasks"])}
@@ -562,10 +563,19 @@ LABELS = {
 }
 
 
+def load_spec(spec_path, fingers=None):
+    spec = json.loads(Path(spec_path).read_text())
+    for sheet in spec["sheets"]:
+        sheet["fingers"] = fingers or sheet.get("fingers", spec.get("fingers", "index"))
+        if sheet["fingers"] not in ("index", "thumb"):
+            raise SystemExit(f"{sheet.get('id')}: fingers must be 'index' or 'thumb'")
+    return spec
+
+
 def check(spec_path):
     """Validate a set without rendering: kinds, 12 tasks, unique tasks and answers, patterns."""
     validate()
-    spec = json.loads(Path(spec_path).read_text())
+    spec = load_spec(spec_path)
     lib = pattern_library()
     names = {p.stem for p in EMOJI_DIR.glob("*.png")}
     used = set()
@@ -587,9 +597,9 @@ def check(spec_path):
     print(f"{len(spec['sheets'])} sheets valid")
 
 
-def build(spec_path, out, previews=None, only=None, key=False, fit=False):
+def build(spec_path, out, previews=None, only=None, key=False, fit=False, fingers=None):
     validate()
-    spec = json.loads(Path(spec_path).read_text())
+    spec = load_spec(spec_path, fingers)
     labels = LABELS[spec.get("language", "en")]
     lib = pattern_library()
     pages, rows = [], []
@@ -625,6 +635,7 @@ def main():
     b.add_argument("--only", help="comma-separated sheet ids")
     b.add_argument("--key", action="store_true", help="append an answer-key page")
     b.add_argument("--fit", action="store_true", help="prepend a fit-test page")
+    b.add_argument("--fingers", choices=["index", "thumb"], help="finger pictures count from the index finger or the thumb")
     f = sub.add_parser("fit-test")
     f.add_argument("-o", "--out", required=True)
     f.add_argument("--language", default="en")
@@ -633,7 +644,7 @@ def main():
     if a.cmd == "check":
         check(a.spec)
     elif a.cmd == "build":
-        build(a.spec, a.out, a.previews, a.only.split(",") if a.only else None, a.key, a.fit)
+        build(a.spec, a.out, a.previews, a.only.split(",") if a.only else None, a.key, a.fit, a.fingers)
     elif a.cmd == "fit-test":
         fit_test_page(LABELS[a.language]).save(a.out, "PDF", resolution=DPI)
         print("wrote", a.out)

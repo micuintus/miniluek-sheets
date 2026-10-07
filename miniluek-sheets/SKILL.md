@@ -26,7 +26,7 @@ python3 scripts/miniluek.py kinds                                    # available
 ```
 
 `build` options: `--only S2,S5` (subset), `--key` (append an answer key), `--fit` (prepend the
-fit test). Tell the user to print at **100 % / actual size**, landscape, ideally in colour.
+fit test), `--fingers index|thumb` (finger habit). Tell the user to print at **100 % / actual size**, landscape, ideally in colour.
 Always look at the preview PNGs before handing over a PDF.
 
 ## Writing a sheet set
@@ -49,7 +49,8 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
 - All 12 answers must differ, and no answer may repeat a task picture (that copy would be the
   easiest wrong match); `check` and `build` stop otherwise.
 - Kinds: any picture from `kinds`, plus `princess` (drawn full-body figures), `dice`,
-  `numeral`, `fingers` (index finger = 1, thumb = 5, 6–10 with the second hand), `jewelbox`
+  `numeral`, `fingers` (left hand first; `"fingers": "index"` counts index = 1 to thumb = 5,
+  `"thumb"` thumb = 1; 6–10 with the second hand), `jewelbox`
   (ten-frame with gems, stars in the blue family), `path` (princess, or frog in the blue
   family, on square *n* of a 6-square path).
 - Layout: `task_style` / `answer_style` = `row`, `col`, `up`, `down`, `dice`, `scatter`. Use

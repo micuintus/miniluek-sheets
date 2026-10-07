@@ -26,6 +26,7 @@
 | Field | Meaning |
 |---|---|
 | `language` | `en` or `de` (labels at the bottom and in the fit test) |
+| `fingers` | set level or per sheet: `index` (index finger = 1, thumb = 5, the default) or `thumb` (thumb = 1); `build --fingers` overrides it |
 | `title` | one or two lines, read aloud by the adult |
 | `goal` | optional grey line for adults |
 | `prompt` | optional coloured line next to the example |

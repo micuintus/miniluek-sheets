@@ -5,7 +5,7 @@
 | S1 same thing, same number 1–3 | seeing 1–3 at a glance; the number stays when the arrangement changes |
 | S2 princesses → cupcakes, frogs → crowns 1–6 | counting one by one, "how many" |
 | S3 dice → hearts and stars 1–6 | dice patterns, checked by counting |
-| S4 fingers and stars → dice 1–6 | finger patterns (index finger = 1, thumb = 5), shown on own fingers |
+| S4 fingers and stars → dice 1–6 | finger patterns, shown on own fingers (index-first in this preset) |
 | S5 who has more dots | comparing quantities, differences of 2 : 1 and more |
 | S6 hearts and crowns → numbers | quantity to numeral |
 | S7 numbers → dice | numeral to quantity |
