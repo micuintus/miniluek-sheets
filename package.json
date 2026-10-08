@@ -1,6 +1,6 @@
 {
   "name": "@micuintus/miniluek-sheets",
-  "version": "0.1.0",
+  "version": "2.0.1",
   "description": "Printable worksheets with working control patterns for the miniLÜK box: a JSON-driven generator, an agent skill, and a princess counting course.",
   "keywords": [
     "pi-package",
