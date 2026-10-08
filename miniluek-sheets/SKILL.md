@@ -47,8 +47,9 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
   character with more. Use 12 different characters, each wins once and loses once, so every
   loser is a lure elsewhere; start with differences of at least 2 : 1. `"show": "numeral"`
   draws numbers instead of dots.
-- All 12 answers must differ, and no answer may repeat a task picture (that copy would be the
-  easiest wrong match); `check` and `build` stop otherwise.
+- All 12 answers must differ, and no answer may repeat another task's picture (that copy would
+  be the easiest wrong match); `check` and `build` stop otherwise. `plus_one` sheets are exempt:
+  there the equal set is the intended lure.
 - Kinds: any picture from `kinds`, plus `princess` (drawn full-body figures), `dice`,
   `numeral`, `fingers` (left hand first; `"fingers": "index"` counts index = 1 to thumb = 5,
   `"thumb"` thumb = 1; 6–10 with the second hand), `jewelbox`

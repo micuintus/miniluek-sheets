@@ -11,8 +11,8 @@ Ready to print: [English PDF](https://github.com/micuintus/miniluek-sheets/relea
 The preset is a thirteen-sheet princess counting course in English, ordered along the early-math
 progression of the What Works Clearinghouse practice guide: small sets 1–3, counting to 6, dice
 and finger patterns, comparing, numerals both ways, scattered sets, a number path, comparing by
-counting and comparing numbers, then ten-frame and "one more". Each sheet runs one direction
-with two colour families, so no answer is a copy of a task. The German version
+counting and comparing numbers, then ten-frame and "one more". Each sheet runs one direction,
+and matching sheets use two colour families, so no answer is a copy of a task. The German version
 (`presets/prinzessinnen-zaehlen.json`) has the same sheets; its finger pictures count from the
 thumb, the English ones from the index finger (`--fingers` switches).
 

@@ -46,7 +46,7 @@ none of its 23 studies compared teaching along a progression with teaching witho
 | S1 Same thing, same number | 1–3 at a glance; the number stays when the objects move | four kinds; the answer shows the same objects rearranged | subitizing (Clements et al. 2019 [E]); same objects before different objects (Mix 2008 [E]); same number in a new arrangement; conservation itself is trained with objects; the content list is the MILE one [G] |
 | S2 Princesses → cupcakes, frogs → crowns | counting one by one, "how many" | up to six; answers in another layout | one-to-one counting content (Nelson & McMaster 2019 [M]); counting interventions (Akther et al. 2025 [M]) |
 | S3 Dice → hearts and stars | dice patterns, checked by counting | hearts and stars in rows, not dice patterns | grouping not yet used in kindergarten (Starkey & McCandliss 2014 [E]) |
-| S4 Fingers and stars → dice | finger patterns, shown on the child's own fingers | left hand first; counting from the index finger or the thumb, set per preset | finger training (Poletti et al. 2025 [R]); finger patterns for part-whole (Kullberg et al. 2020 [R]); counting habits (Lindemann et al. 2011 [C]) |
+| S4 Fingers and stars → dice | finger patterns, shown on the child's own fingers | left hand first; counting from the index finger or the thumb, set per preset | finger training (Poletti et al. 2025 [R]); finger patterns for part-whole (Kullberg et al. 2020 [R]); thumb-first, the German default, is the common Western habit (Lindemann et al. 2011 [C]); index-first, the English default, is a convention choice |
 | S5 Who has more dots? | comparing by sight | ratios 2 : 1 and more; one dot size; each animal wins once and loses once | comparing (Frye et al. 2013 [G]); ratio limits (Halberda & Feigenson 2008 [E]); size cues (Leibovich et al. 2017 [E]) |
 | S6 How many? Find the number | quantity to numeral | pink and blue numerals | quantity-number level (Krajewski & Schneider 2009 [C]) |
 | S7 Find the dice for each number | numeral to quantity | the reverse direction on its own sheet | both directions (Mundy & Gilmore 2009 [E]) |
@@ -62,7 +62,7 @@ none of its 23 studies compared teaching along a progression with teaching witho
 | Rule | Why | Sources |
 |---|---|---|
 | One direction per sheet; no answer repeats a task picture | An identical copy is the easiest wrong match, and choosing it is a rule error, not a number error. Object similarity pulls children away from number matches. | Mix 2008 [E] (design reasoning, not tested) |
-| Two colour families: pink tasks to pink answers, blue to blue | The only other answer with the right number has the other colour, and the search drops from 12 fields to 6. | visual cues and fewer options (SMILE FASD manual 2025 [G], practice guidance); visual-spatial load (Crocker et al. 2015 [C]); untested |
+| Two colour families: pink tasks to pink answers, blue to blue | The only other answer with the right number has the other colour, and the search drops from 12 fields to 6. | visual cues and fewer tasks at once (SMILE FASD manual 2025 [G], practice guidance; applied here to answer options); visual-spatial load (Crocker et al. 2015 [C]); untested |
 | Different layouts for task and answer | the child counts instead of matching shapes | Mix 2008 [E]; Starkey & McCandliss 2014 [E] |
 | Two worked examples per sheet | modelling before practice | Akther et al. 2025 [M] |
 | Pattern check, then wrong tasks redone with objects | feedback; one error at a time | Akther et al. 2025 [M]; MILE cycle [G] |
@@ -78,7 +78,8 @@ none of its 23 studies compared teaching along a progression with teaching witho
   with developmental disabilities (Spooner et al. 2019).
 - **An adult sits with one child** and runs Focus/Plan, Act, Reflect: the MILE routine.
   1:1 interventions had larger effects than small groups (Miller et al. 2025). In the MILE
-  community trial, parents who only received a manual saw no gains (Kable et al. 2015).
+  community trial, families who had two parent workshops and a manual but no tutoring gained less
+  than the tutored groups (Kable et al. 2015).
 - **Start where the child is.** A five-minute check with objects ("give me N" and "how many?")
   places the child on the ladder. Subset-knowers count and answer "how many" without
   understanding what the last word means (Sarnecka & Carey 2008); "how many" succeeds before
@@ -190,12 +191,13 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 - [E] **Sarnecka & Carey 2008.** How counting represents number: what children must learn and
   when they learn it. *Cognition* 108(3):662–674.
   [doi:10.1016/j.cognition.2008.05.007](https://doi.org/10.1016/j.cognition.2008.05.007).
-  "only the high-numeral-knowers understand how counting implements the successor function".
+  "only the high-numeral-knowers understand how counting implements the successor function"
+  (author version of the abstract, eScholarship).
 - [R] **Poletti, Krenger, Létang, Hennequin & Thevenot 2025.** Finger counting training enhances
   addition performance in kindergarteners. *Child Dev* 96(1):251–268.
   [doi:10.1111/cdev.14146](https://doi.org/10.1111/cdev.14146).
-  Addition accuracy rose "from 37.3% to 77.1% compared to a passive control group (39.6% to
-  47.8%)", replicated twice.
+  Addition accuracy rose "(i.e., accuracy from 37.3% to 77.1%) compared to a passive control
+  group (39.6% to 47.8%)", replicated twice.
 - [R] **Kullberg, Björklund, Brković & Runesson Kempe 2020.** Effects of learning addition and
   subtraction in preschool by making the first ten numbers and their relations visible with
   finger patterns. *Educ Stud Math* 103(2):157–172.

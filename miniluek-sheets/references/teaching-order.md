@@ -5,7 +5,7 @@
 | S1 same thing, same number 1–3 | seeing 1–3 at a glance; the number stays when the arrangement changes |
 | S2 princesses → cupcakes, frogs → crowns 1–6 | counting one by one, "how many" |
 | S3 dice → hearts and stars 1–6 | dice patterns, checked by counting |
-| S4 fingers and stars → dice 1–6 | finger patterns, shown on own fingers (index-first in this preset) |
+| S4 fingers and stars → dice 1–6 | finger patterns, shown on own fingers (index-first in the English preset, thumb-first in the German; `fingers` or `build --fingers` switches) |
 | S5 who has more dots | comparing quantities, differences of 2 : 1 and more |
 | S6 hearts and crowns → numbers | quantity to numeral |
 | S7 numbers → dice | numeral to quantity |
@@ -73,7 +73,7 @@ day should be spent at the edge of what the child can almost do.
 
 - Each sheet runs one direction: no answer repeats a task picture, so the easiest wrong match
   is never an identical copy. Both directions of the quantity–numeral link get their own sheet.
-- Two colour families per sheet: pink tasks have pink answers, blue tasks blue answers. The
+- Matching sheets use two colour families: pink tasks have pink answers, blue tasks blue answers. The
   only other answer with the right number has the other colour.
 - Tasks and answers use different layouts, so the child counts instead of matching shapes.
 
