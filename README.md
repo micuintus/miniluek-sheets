@@ -5,7 +5,7 @@ An agent skill and a small Python generator: write 12 tasks per sheet as JSON, g
 
 The flagship is the counting course: 13 sheets ordered along the early-math progression of the
 What Works Clearinghouse practice guide, every order step, sheet and rule mapped to its study
-([research](miniluek-sheets/references/research.md)). A smaller, experimental reading course, `Reading readiness (ABC)` in
+([research](miniluek-sheets/presets/research.md)). A smaller, experimental reading course, `Reading readiness (ABC)` in
 `presets/reading/reading-readiness.json` (German: `Lese-Vorbereitung (ABC)` in
 `presets/reading/lese-vorbereitung.json`), ships as a clearly-marked second course below.
 
@@ -33,8 +33,8 @@ ABC sheets for letters, first sounds, syllables and short printed words, in Engl
 (`presets/reading/reading-readiness.json`) and German
 (`presets/reading/lese-vorbereitung.json`). Same generator, same design rules (one direction,
 two colour families, no copies among answers, `check` enforces them). Order is in
-[`references/reading/teaching-order.md`](miniluek-sheets/references/reading/teaching-order.md);
-evidence in the [reading part of research.md](miniluek-sheets/references/research.md#reading-course).
+[`presets/reading/teaching-order.md`](miniluek-sheets/presets/reading/teaching-order.md);
+evidence in [`presets/reading/research.md`](miniluek-sheets/presets/reading/research.md).
 
 The counting course is the one with the research behind it. The reading course borrows the
 literacy-precursor evidence without the same tight mapping, and no study has tested letter
@@ -72,7 +72,7 @@ Copy the preset, edit titles and tasks, then `python3 scripts/miniluek.py check 
 Matching (one or two colour families), "one more", same-thing and comparing sheets (dots or
 numerals) are supported; pictures include drawn
 princesses, finger patterns, dice, numerals, a ten-frame, a number path and 33 emoji.
-Format: [spec](miniluek-sheets/references/spec.md).
+Format: [spec](miniluek-sheets/references/spec.md) (shared by both courses).
 
 ## How it works
 
@@ -80,8 +80,8 @@ Format: [spec](miniluek-sheets/references/spec.md).
 - Control patterns: the twelve tile backs (three colours, a cream triangle in one of four
   corners) were mapped from published example exercises and checked on the box. Every pattern
   in the library uses each tile once and is symmetric. Details: [format](miniluek-sheets/references/format.md).
-- Teaching order and sources: [teaching order](miniluek-sheets/references/teaching-order.md).
-- Every design choice mapped to its study: [research](miniluek-sheets/references/research.md).
+- Counting order and sources: [teaching order](miniluek-sheets/presets/teaching-order.md).
+- Every counting choice mapped to its study: [research](miniluek-sheets/presets/research.md).
 
 ## Credits and licences
 

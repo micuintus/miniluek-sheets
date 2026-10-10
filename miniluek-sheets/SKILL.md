@@ -33,13 +33,12 @@ Always look at the preview PNGs before handing over a PDF.
 
 The counting course is the flagship: 13 sheets in `presets/princess-counting.json` (German:
 `presets/prinzessinnen-zaehlen.json`), ordered along the early-math progression in
-`references/teaching-order.md` (sources per design choice: `references/research.md`).
+`presets/teaching-order.md` (sources per design choice: `presets/research.md`).
 
 A smaller experimental reading course ships as `presets/reading/reading-readiness.json`
 (German: `presets/reading/lese-vorbereitung.json`); its order is in
-`references/reading/teaching-order.md`.
-Evidence for both courses is in `references/research.md` (counting first, `Reading course` at
-the end).
+`presets/reading/teaching-order.md`.
+Evidence: `presets/research.md` for counting, `presets/reading/research.md` for reading.
 
 A set is JSON (see the preset for its course; every field in `references/spec.md`).
 Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `theme`,
@@ -73,8 +72,8 @@ picks one). The tile-back model is in `references/format.md`.
 
 ## Order and use
 
-The counting preset follows the early-math progression in `references/teaching-order.md` (sources
-per design choice: `references/research.md`): small sets,
+The counting preset follows the early-math progression in `presets/teaching-order.md` (sources
+per design choice: `presets/research.md`): small sets,
 counting, dice and finger patterns, comparing, numerals both ways, scattered sets, number path,
 comparing by counting and comparing numbers, then ten-frame and one more. Each idea first with real objects, then the sheet; say what to look
 for, touch-count and place, then turn the box and fix the wrong tiles together.

@@ -1,4 +1,4 @@
-# Teaching order of the preset
+# Teaching order of the counting course
 
 | Sheet | Practises |
 |---|---|

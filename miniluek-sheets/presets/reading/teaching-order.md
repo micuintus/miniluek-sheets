@@ -1,9 +1,9 @@
-# Teaching order of the reading courses
+# Teaching order of the reading course
 
 The reading courses are the second course in this skill, after the counting courses. They teach
-reading precursors: letters, first sounds, syllables, short printed words. The evidence base is
-narrower than the counting course's, each gap is named below, and the rows in
-[research](research.md) carry evidence-type tags.
+letters, first sounds, syllables, short printed words. The evidence base is narrower than the counting course's, and the rows in
+[research](research.md) carry evidence-type tags. It sits beside this file, shared by both
+reading presets.
 
 `reading-readiness.json` is English, `lese-vorbereitung.json` is German. Same sheets,
 same tasks, translated titles and goals.
