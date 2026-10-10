@@ -1,5 +1,5 @@
 {
-  "title": "ABC erste Wörter",
+  "title": "Reading readiness (ABC)",
   "language": "de",
   "sheets": [
     {"id": "A1", "theme": "rose", "title": ["Gleiche Buchstaben."], "goal": "Buchstaben, groß, 12 Stück", "rule": {"type": "same"}, "answer_style": "col",

@@ -38,6 +38,8 @@ The counting course is the flagship: 13 sheets in `presets/princess-counting.jso
 A smaller experimental reading course ships as `presets/reading/reading-readiness.json`
 (German: `presets/reading/lese-vorbereitung.json`); its order is in
 `references/reading/teaching-order.md`.
+Evidence for both courses is in `references/research.md` (counting first, `Reading course` at
+the end).
 
 A set is JSON (see the preset for its course; every field in `references/spec.md`).
 Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `theme`,

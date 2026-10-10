@@ -1,5 +1,5 @@
 {
-  "title": "ABC first words",
+  "title": "Reading readiness (ABC)",
   "language": "en",
   "sheets": [
     {"id": "A1", "theme": "rose", "title": ["Same letter."], "goal": "Letters, uppercase, 12 of them", "rule": {"type": "same"}, "answer_style": "col",

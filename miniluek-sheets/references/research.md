@@ -125,6 +125,47 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
   be faded here, because on numeral sheets it is the only difference between the two answers
   with the same number. Generalisation has to come from objects and daily counting.
 
+## Reading course
+
+The reading course (letters, first sounds, syllables, short printed words) rests on precursor
+evidence, not on a tested sequence:
+
+| Claim | Sources |
+|---|---|
+| Letter knowledge and phonological awareness are predictors of later reading, also after IQ is controlled | [E] NELP 2008 |
+| Code-focused instruction in preschool (mostly with phonological awareness teaching inside) improves early literacy skills | [E] NELP 2008, 78 studies |
+| Letters first looks different in shallow and deep codes: most European children read accurately before the end of first grade, English children take more than twice as long | [E] Seymour et al. 2003 |
+| Sound skills correlate across a bilingual child's languages | [M] Melby-Lervåg & Lervåg 2011 |
+| Short daily sessions can carry more than one long one | [E] Seabrook et al. 2004 |
+
+The sheets' design rules (one direction per sheet, two colour families, no copies among answers,
+pattern check) mirror the counting course and are untested for letters. There is no study of
+LÜK-style sheets for letter learning, none of this course, and none of two letter systems at
+once at ID-range scores.
+
+- [E] **NELP 2008** (Lonigan, Shanahan & Cunningham, 2008; NICHD).
+  [PDF](https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/NELPReport09.pdf).
+  Six variables "had medium to large predictive relationships with later measures of literacy
+  development" and held "even when the role of other variables, such as IQ or socioeconomic
+  status (SES), were accounted for": alphabet knowledge, phonological awareness, rapid
+  automatic naming of letters/digits, rapid naming of objects/colors, writing/writing name,
+  and phonological memory. Code-focused interventions (n = 78) taught cracking the alphabetic
+  code, "Most code-focused interventions included PA instruction." Also used in the counting part of this page.
+- [E] **Seabrook, Brown & Solity 2004.** Distributed and massed practice: from laboratory to
+  classroom. *Appl Cogn Psychol* 19(1):107–122.
+  [doi:10.1002/acp.1066](https://doi.org/10.1002/acp.1066). A classroom study "demonstrated
+  the benefit of distributed over clustered teaching of reading". Also used in the counting part.
+- [M] **Duncan et al. 2007.** School readiness and later achievement. *Dev Psychol*
+  43(6):1428–1446. [doi:10.1037/0012-1649.43.6.1428](https://doi.org/10.1037/0012-1649.43.6.1428).
+  Entry math is the strongest predictor of later reading and math; this is why the counting
+  course comes first even in the reading route.
+- [E] **MZZ: Krajewski, Nieding & Schneider 2008.** Kurz- und langfristige Effekte
+  mathematischer Frühförderung im Kindergarten durch das Programm "Mengen, zählen, Zahlen".
+  *Z Entwicklungspsychol Pädagog Psychol* 40(3):135–146.
+  [doi:10.1026/0049-8637.40.3.135](https://doi.org/10.1026/0049-8637.40.3.135). The evaluated
+  programme behind the counting order; letter teaching for the at-risk preschool child runs in
+  the cited kindergarten line alongside it.
+
 ## Limits
 
 - No study has tested miniLÜK, these sheets, or this order against another.
@@ -253,7 +294,7 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
   children; "The acquired skills were maintained up to 16 wk after the completion of the
   intervention."
 
-- [E] **Seabrook, Brown & Solity 2005.** Distributed and massed practice: from laboratory to
+- [E] **Seabrook, Brown & Solity 2004.** Distributed and massed practice: from laboratory to
   classroom. *Appl Cogn Psychol* 19(1):107–122.
   [doi:10.1002/acp.1066](https://doi.org/10.1002/acp.1066). A classroom study "demonstrated
   the benefit of distributed over clustered teaching of reading".

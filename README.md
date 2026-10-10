@@ -5,8 +5,9 @@ An agent skill and a small Python generator: write 12 tasks per sheet as JSON, g
 
 The flagship is the counting course: 13 sheets ordered along the early-math progression of the
 What Works Clearinghouse practice guide, every order step, sheet and rule mapped to its study
-([research](miniluek-sheets/references/research.md)). A smaller, experimental reading course
-(letters, first sounds, syllables, short words) ships as a clearly-marked second course below.
+([research](miniluek-sheets/references/research.md)). A smaller, experimental reading course, `Reading readiness (ABC)` in
+`presets/reading/reading-readiness.json` (German: `Lese-Vorbereitung (ABC)` in
+`presets/reading/lese-vorbereitung.json`), ships as a clearly-marked second course below.
 
 ![Who has more dots?](docs/sheet-05.png)
 
@@ -31,8 +32,9 @@ thumb, the English ones from the index finger (`--fingers` switches).
 ABC sheets for letters, first sounds, syllables and short printed words, in English
 (`presets/reading/reading-readiness.json`) and German
 (`presets/reading/lese-vorbereitung.json`). Same generator, same design rules (one direction,
-two colour families, no copies among answers, `check` enforces them). Order and evidence are in
-[`references/reading/teaching-order.md`](miniluek-sheets/references/reading/teaching-order.md).
+two colour families, no copies among answers, `check` enforces them). Order is in
+[`references/reading/teaching-order.md`](miniluek-sheets/references/reading/teaching-order.md);
+evidence in the [reading part of research.md](miniluek-sheets/references/research.md#reading-course).
 
 The counting course is the one with the research behind it. The reading course borrows the
 literacy-precursor evidence without the same tight mapping, and no study has tested letter
