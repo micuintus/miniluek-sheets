@@ -19,8 +19,8 @@ it and compares the tile backs with the printed pattern.
 Requires Python 3.9+ and Pillow (`pip install pillow`). Run from this skill directory.
 
 ```bash
-python3 scripts/miniluek.py check presets/princess-counting.json     # validate a set
-python3 scripts/miniluek.py build presets/princess-counting.json -o sheets.pdf --previews previews/
+python3 scripts/miniluek.py check presets/counting_and_numbers/princess-counting.json     # validate a set
+python3 scripts/miniluek.py build presets/counting_and_numbers/princess-counting.json -o sheets.pdf --previews previews/
 python3 scripts/miniluek.py fit-test -o fit.pdf                      # does the box line up?
 python3 scripts/miniluek.py kinds                                    # available pictures
 ```
@@ -31,14 +31,15 @@ Always look at the preview PNGs before handing over a PDF.
 
 ## Writing a sheet set
 
-The counting course is the flagship: 13 sheets in `presets/princess-counting.json` (German:
-`presets/prinzessinnen-zaehlen.json`), ordered along the early-math progression in
-`presets/teaching-order.md` (sources per design choice: `presets/research.md`).
+The counting course is the flagship: 13 sheets in `presets/counting_and_numbers/princess-counting.json`
+(German: `presets/counting_and_numbers/prinzessinnen-zaehlen.json`), ordered along the early-math
+progression in `presets/counting_and_numbers/teaching-order.md` (sources per design choice:
+`presets/counting_and_numbers/research.md`).
 
 A smaller experimental reading course ships as `presets/reading/reading-readiness.json`
 (German: `presets/reading/lese-vorbereitung.json`); its order is in
 `presets/reading/teaching-order.md`.
-Evidence: `presets/research.md` for counting, `presets/reading/research.md` for reading.
+Evidence: `presets/counting_and_numbers/research.md` for counting, `presets/reading/research.md` for reading.
 
 A set is JSON (see the preset for its course; every field in `references/spec.md`).
 Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `theme`,
@@ -72,8 +73,9 @@ picks one). The tile-back model is in `references/format.md`.
 
 ## Order and use
 
-The counting preset follows the early-math progression in `presets/teaching-order.md` (sources
-per design choice: `presets/research.md`): small sets,
+The counting preset follows the early-math progression in
+`presets/counting_and_numbers/teaching-order.md` (sources per design choice:
+`presets/counting_and_numbers/research.md`): small sets,
 counting, dice and finger patterns, comparing, numerals both ways, scattered sets, number path,
 comparing by counting and comparing numbers, then ten-frame and one more. Each idea first with real objects, then the sheet; say what to look
 for, touch-count and place, then turn the box and fix the wrong tiles together.

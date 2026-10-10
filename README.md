@@ -5,21 +5,26 @@ An agent skill and a small Python generator: write 12 tasks per sheet as JSON, g
 
 The flagship is the counting course: 13 sheets ordered along the early-math progression of the
 What Works Clearinghouse practice guide, every order step, sheet and rule mapped to its study
-([research](miniluek-sheets/presets/research.md)). A smaller, experimental reading course, `Reading readiness (ABC)` in
+([research](miniluek-sheets/presets/counting_and_numbers/research.md)). A smaller, experimental reading course, `Reading readiness (ABC)` in
 `presets/reading/reading-readiness.json` (German: `Lese-Vorbereitung (ABC)` in
 `presets/reading/lese-vorbereitung.json`), ships as a clearly-marked second course below.
 
 ![Who has more dots?](docs/sheet-05.png)
 
 Ready to print: [English counting PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/princess-counting-en.pdf) ·
-[deutsches Zählen-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/prinzessinnen-zaehlen-de.pdf)
+[deutsches Zählen-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/prinzessinnen-zaehlen-de.pdf) ·
+[English reading PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/reading-readiness-en.pdf) ·
+[deutsches Lese-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/lese-vorbereitung-de.pdf) (experimentell)
 
 The preset is a thirteen-sheet princess counting course in English, ordered along the early-math
 progression of the What Works Clearinghouse practice guide: small sets 1–3, counting to 6, dice
 and finger patterns, comparing, numerals both ways, scattered sets, a number path, comparing by
 counting and comparing numbers, then ten-frame and "one more". Each sheet runs one direction,
-and matching sheets use two colour families, so no answer is a copy of a task. The German version
-(`presets/prinzessinnen-zaehlen.json`) has the same sheets; its finger pictures count from the
+and matching sheets use two colour families, so no answer is a copy of a task. All counting docs sit with the presets in `presets/counting_and_numbers/`, all reading docs
+in `presets/reading/`; `references/` keeps only the generator docs (`spec.md`, `format.md`).
+
+The German version
+(`presets/counting_and_numbers/prinzessinnen-zaehlen.json`) has the same sheets; its finger pictures count from the
 thumb, the English ones from the index finger (`--fingers` switches).
 
 | | |
@@ -55,8 +60,10 @@ needs Python 3.9+ and Pillow (`pip install pillow`).
 
 ```bash
 cd miniluek-sheets
-python3 scripts/miniluek.py build presets/princess-counting.json -o princess-counting.pdf
-python3 scripts/miniluek.py build presets/prinzessinnen-zaehlen.json -o prinzessinnen-zaehlen.pdf
+python3 scripts/miniluek.py build presets/counting_and_numbers/princess-counting.json -o princess-counting.pdf
+python3 scripts/miniluek.py build presets/counting_and_numbers/prinzessinnen-zaehlen.json -o prinzessinnen-zaehlen.pdf
+python3 scripts/miniluek.py build presets/reading/reading-readiness.json -o reading-readiness.pdf
+python3 scripts/miniluek.py build presets/reading/lese-vorbereitung.json -o lese-vorbereitung.pdf
 python3 scripts/miniluek.py fit-test -o fit.pdf
 ```
 
@@ -80,8 +87,8 @@ Format: [spec](miniluek-sheets/references/spec.md) (shared by both courses).
 - Control patterns: the twelve tile backs (three colours, a cream triangle in one of four
   corners) were mapped from published example exercises and checked on the box. Every pattern
   in the library uses each tile once and is symmetric. Details: [format](miniluek-sheets/references/format.md).
-- Counting order and sources: [teaching order](miniluek-sheets/presets/teaching-order.md).
-- Every counting choice mapped to its study: [research](miniluek-sheets/presets/research.md).
+- Counting order and sources: [teaching order](miniluek-sheets/presets/counting_and_numbers/teaching-order.md).
+- Every counting choice mapped to its study: [research](miniluek-sheets/presets/counting_and_numbers/research.md).
 
 ## Credits and licences
 
