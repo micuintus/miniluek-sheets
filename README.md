@@ -3,10 +3,15 @@
 Printable A4 worksheets for the **miniLÜK** control box, with control patterns that work.
 An agent skill and a small Python generator: write 12 tasks per sheet as JSON, get a PDF.
 
+The flagship is the counting course: 13 sheets ordered along the early-math progression of the
+What Works Clearinghouse practice guide, every order step, sheet and rule mapped to its study
+([research](miniluek-sheets/references/research.md)). A smaller, experimental reading course
+(letters, first sounds, syllables, short words) ships as a clearly-marked second course below.
+
 ![Who has more dots?](docs/sheet-05.png)
 
-Ready to print: [English PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/princess-counting-en.pdf) ·
-[deutsches PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/prinzessinnen-zaehlen-de.pdf)
+Ready to print: [English counting PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/princess-counting-en.pdf) ·
+[deutsches Zählen-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/prinzessinnen-zaehlen-de.pdf)
 
 The preset is a thirteen-sheet princess counting course in English, ordered along the early-math
 progression of the What Works Clearinghouse practice guide: small sets 1–3, counting to 6, dice
@@ -20,6 +25,19 @@ thumb, the English ones from the index finger (`--fingers` switches).
 |---|---|
 | ![Same thing, same number](docs/sheet-01.png) | ![Every princess gets a cupcake](docs/sheet-02.png) |
 | ![Fingers and stars to dice](docs/sheet-04.png) | ![Number path](docs/sheet-09.png) |
+
+## Second course: reading readiness
+
+ABC sheets for letters, first sounds, syllables and short printed words, in English
+(`presets/reading/reading-readiness.json`) and German
+(`presets/reading/lese-vorbereitung.json`). Same generator, same design rules (one direction,
+two colour families, no copies among answers, `check` enforces them). Order and evidence are in
+[`references/reading/teaching-order.md`](miniluek-sheets/references/reading/teaching-order.md).
+
+The counting course is the one with the research behind it. The reading course borrows the
+literacy-precursor evidence without the same tight mapping, and no study has tested letter
+sheets in this form or two letter systems at once. Keep counting daily and reading twice a
+week until the counting sheets are mastered.
 
 ## Install
 

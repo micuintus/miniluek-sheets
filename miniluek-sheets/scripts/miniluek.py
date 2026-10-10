@@ -54,7 +54,16 @@ FAMILY = [  # a task and its answer share the frame colour
     {"frame": (88, 150, 222), "ink": (30, 90, 180), "fill": (219, 234, 252)},
 ]
 EMOJI_DIR = ASSETS / "emoji"
-SPECIAL = {"dice", "numeral", "fingers", "jewelbox", "path", "princess", "compare"}
+# printed first words and their pictures (course vocabulary, not any word)
+WORD_PIC = {"CAT": "cat", "DOG": "dog", "FOX": "fox", "OWL": "owl", "GEM": "gem",
+            "PANDA": "panda", "MOUSE": "mouse", "DAISY": "daisy", "COOKIE": "cookie",
+            "BUNNY": "bunny", "PUPPY": "puppy", "SWAN": "swan",
+            "BÄR": "bear", "KATZE": "cat", "HUND": "dog", "FUCHS": "fox", "EULE": "owl",
+            "MAUS": "mouse", "GESCHENK": "gift", "SCHWAN": "swan", "TORTE": "cupcake",
+            "LUTSCHER": "lollipop", "WELPE": "puppy", "PILZ": "mushroom"}
+PIC_WORD = {v: k for k, v in WORD_PIC.items()}
+SPECIAL = {"dice", "numeral", "fingers", "jewelbox", "path", "princess", "compare",
+           "letter", "lower", "card", "pict", "wcard", "syll"}
 
 
 # ------------------------------------------------------------------ basics
@@ -191,6 +200,31 @@ def draw_numeral(img, d, n, cx, cy, k, fam=None):
     d.text((x, y + px(0.05 * k)), str(n), font=font(round(2.1 * k, 3)), fill=ink, anchor="mm")
 
 
+def draw_alpha(img, d, ch, cx, cy, k, fam=None):
+    rad = 1.25 * k
+    fill, ink = ((250, 222, 238), (140, 40, 130)) if fam is None else (FAMILY[fam]["fill"], FAMILY[fam]["ink"])
+    x, y = P(cx, cy)
+    d.ellipse([x - px(rad), y - px(rad), x + px(rad), y + px(rad)], fill=fill)
+    d.text((x, y + px(0.05 * k)), ch, font=font(round(2.1 * k, 3)), fill=ink, anchor="mm")
+
+
+def draw_word(img, d, word, cx, cy, k, fam=None):
+    outline, ink = ((196, 70, 140), (92, 40, 120)) if fam is None else (FAMILY[fam]["frame"], FAMILY[fam]["ink"])
+    size = 0.95 * k
+    probe = font(round(size, 3))
+    while d.textlength(word, font=probe) / CM > 3.1 * k and size > 0.4 * k:
+        size -= 0.05 * k
+        probe = font(round(size, 3))
+    f = probe
+    w = d.textlength(word, font=f) / CM + 0.9 * k
+    rrect(d, cx, cy, w, 1.5 * k, 0.25 * k, outline=outline, fill=(255, 255, 255), width=0.07 * k)
+    d.text(P(cx, cy + 0.05 * k), word, font=f, fill=ink, anchor="mm")
+
+
+def draw_pict(img, item, cx, cy, k):
+    paste(img, emoji(item["pic"]), cx, cy, box=(2.4 * k, 2.4 * k))
+
+
 def draw_fingers(img, d, n, cx, cy, k, start="index"):
     if n <= 5:                                   # left hand first
         paste(img, hand_sprite(n, "left", start), cx, cy, box=(2.6 * k, 2.6 * k))
@@ -270,7 +304,23 @@ def draw_group(img, item, cx, cy, k):
 
 def draw_item(img, d, item, cx, cy, k=1.0):
     kind, fam = item["kind"], item.get("fam")
-    if kind == "dice":
+    if kind == "letter":
+        draw_alpha(img, d, chr(65 + item["n"]), cx, cy, k, fam)
+    elif kind == "lower":
+        draw_alpha(img, d, chr(97 + item["n"]), cx, cy, k, fam)
+    elif kind == "card":
+        sub = 0.62 * k if "word" in item else 0.0
+        draw_alpha(img, d, chr(65 + item["n"]), cx, cy + sub / 2, k, fam)
+        if "word" in item and item["word"]:
+            d.text(P(cx, cy - 1.15 * k), item["word"], font=font(round(0.34 * k, 3)),
+                   fill=FAMILY[fam]["ink"] if fam is not None else (140, 40, 130), anchor="mm")
+    elif kind == "pict":
+        draw_pict(img, item, cx, cy, k)
+    elif kind == "wcard":
+        draw_word(img, d, item["word"], cx, cy, k, fam)
+    elif kind == "syll":
+        draw_word(img, d, item["text"], cx, cy, k, fam)
+    elif kind == "dice":
         draw_dice(img, d, item["n"], cx, cy, k, fam)
     elif kind == "numeral":
         draw_numeral(img, d, item["n"], cx, cy, k, fam)
@@ -288,6 +338,19 @@ def draw_item(img, d, item, cx, cy, k=1.0):
 
 # ------------------------------------------------------------------ spec handling
 
+def numbered(it):
+    if it.get("kind") == "syll" and "n" not in it and "text" in it:
+        it["n"] = ord(it["text"][0].upper()) - 65
+    return it
+
+
+def bind_word(it, sheet_id):
+    if it.get("kind") in ("card", "wcard", "syll") and "word" in it and "pic" not in it:
+        if it["word"] not in WORD_PIC:
+            raise SystemExit(f"{sheet_id}: no picture for '{it['word']}', words come from the course list")
+        it["pic"] = WORD_PIC[it["word"]]
+
+
 def parse_item(x, default):
     if isinstance(x, str) and "|" in x:
         (a, na), (b, nb) = (part.split(":") for part in x.split("|"))
@@ -295,12 +358,44 @@ def parse_item(x, default):
     elif isinstance(x, str):
         x, _, fam = x.partition("@")
         kind, n = x.split(":")
-        x = {"kind": kind, "n": int(n)}
+        if kind in ("letter", "lower"):
+            x = {"kind": kind, "n": int(n)}
+            if not 0 <= x["n"] <= 25:
+                raise SystemExit(f"letter index out of A-Z: {x['n']}")
+        elif kind == "card":
+            if len(n) == 1:
+                num = (ord(n.upper()) - 65 if n.isalpha() else int(n))
+                x = {"kind": "card", "n": num}
+            else:
+                word = n.upper()
+                if word not in WORD_PIC:
+                    raise SystemExit(f"no picture for '{word}', initial cards bind a course word")
+                x = {"kind": "card", "word": word, "pic": WORD_PIC[word], "n": ord(word[0]) - 65}
+            if not 0 <= x["n"] <= 25:
+                raise SystemExit(f"letter out of A-Z: {n}")
+        elif kind == "pict":
+            x = {"kind": "pict", "pic": n, "n": ord(n[0].upper()) - 65}
+        elif kind == "wcard":
+            x = {"kind": "wcard", "word": n.upper(), "n": ord(n[0].upper()) - 65}
+        elif kind == "syll":
+            text = n.upper()
+            cands = [w for w in WORD_PIC if w.startswith(text)]
+            if len(cands) != 1:
+                raise SystemExit(f"syllable '{text}' matches {cands or 'nothing'}, write the word out")
+            x = {"kind": "syll", "text": text, "word": cands[0], "pic": WORD_PIC[cands[0]], "n": ord(text[0]) - 65}
+        else:
+            x = {"kind": kind, "n": int(n)}
         if fam:
             x["fam"] = int(fam)
     item = dict(default)
     item.update(x)
+    bind_word(item, "?")
     return item
+
+
+def key_of(it):
+    """Order key shared by load_sheet: family, kind, letter, text, picture."""
+    return (it.get("fam", -1), it["kind"], it.get("n"), it.get("text"), it.get("pic"))
 
 
 def family_of(sheet, it):
@@ -314,7 +409,7 @@ def family_of(sheet, it):
     if not hits:
         raise SystemExit(f"{sheet.get('id')}: '{it['kind']}' starts no pair; pairs run left to right only")
     if len(hits) > 1:
-        raise SystemExit(f"{sheet.get('id')}: '{it['kind']}' starts both pairs, write '{it['kind']}:{it['n']}@0' or '@1'")
+        raise SystemExit(f"{sheet.get('id')}: '{it['kind']}' starts both pairs, write it with '@0' or '@1'")
     return hits[0]
 
 
@@ -332,7 +427,7 @@ def make_answer_fn(sheet):
         return out
 
     if rule["type"] == "same":
-        return lambda it: styled(it["kind"], it["n"], it["seed"])
+        return lambda it: dict(it)
     if rule["type"] == "more":
         size = sheet.get("answer_size", 1.9)
 
@@ -344,6 +439,8 @@ def make_answer_fn(sheet):
         return winner
     if rule["type"] == "plus_one":
         return lambda it: styled(it["kind"], it["n"] + 1, it["n"] + 11)
+
+
     if rule["type"] == "pair":
         pairs = rule["pairs"]
         if len(pairs) not in (1, 2):
@@ -351,7 +448,19 @@ def make_answer_fn(sheet):
 
         def partner(it):
             f = family_of(sheet, it)
-            return styled(pairs[f][1], it["n"], it["n"] + 3, f if len(pairs) == 2 else None)
+            out = styled(pairs[f][1], it["n"], it["n"] + 3, f if len(pairs) == 2 else None)
+            for keep in ("pic", "word", "text"):
+                if keep in it:
+                    out[keep] = it[keep]
+            if pairs[f][1] == "pict" and "pic" not in out:
+                if "word" not in it or it["word"] not in WORD_PIC:
+                    raise SystemExit(f"{sheet.get('id')}: no picture for '{it.get('word')}', words come from the course list")
+                out["pic"] = WORD_PIC[it["word"]]
+            if pairs[f][1] == "wcard" and "word" not in out:
+                if "pic" not in it or it["pic"] not in PIC_WORD:
+                    raise SystemExit(f"{sheet.get('id')}: no printed word for '{it.get('pic')}', words come from the course list")
+                out["word"] = PIC_WORD[it["pic"]]
+            return out
         return partner
     raise SystemExit(f"unknown rule {rule}")
 
@@ -361,15 +470,20 @@ def load_sheet(sheet):
                "fingers": sheet.get("fingers", "index")}
     if sheet.get("show"):
         default["show"] = sheet["show"]
-    tasks = {i + 1: parse_item(x, default) for i, x in enumerate(sheet["tasks"])}
+    tasks = {i + 1: numbered(parse_item(x, default)) for i, x in enumerate(sheet["tasks"])}
     for t, it in tasks.items():
         it.setdefault("seed", t)
     if len(tasks) != 12:
         raise SystemExit(f"{sheet.get('id')}: needs exactly 12 tasks")
     rule = sheet.get("rule", {"type": "pair"})
     if rule["type"] == "pair" and len(rule["pairs"]) == 2:
-        for it in tasks.values():
-            it["fam"] = family_of(sheet, it)
+        for t, it in tasks.items():
+            explicit = it.pop("fam", None)
+            cand = explicit if explicit is not None else None
+            if explicit is None:
+                cands = [i for i, (a, b) in enumerate(rule["pairs"]) if a == it["kind"]]
+                cand = cands[t % 2] if len(cands) == 2 else (cands[0] if cands else family_of(sheet, it))
+            it["fam"] = cand
     answer = make_answer_fn(sheet)
     answers = {t: answer(it) for t, it in tasks.items()}
     keys = [item_key(a) for a in answers.values()]
@@ -395,7 +509,7 @@ def load_sheet(sheet):
 def item_key(it):
     if it["kind"] == "compare":
         return ("compare", it["a"], it["na"], it["b"], it["nb"])
-    return (it["kind"], it["n"], it.get("fam"))
+    return (it["kind"], it["n"], it.get("pic") or it.get("word") or it.get("text"), it.get("fam"))
 
 
 # ------------------------------------------------------------------ page
@@ -582,10 +696,17 @@ def check(spec_path):
     for i, sheet in enumerate(spec["sheets"]):
         tasks, answers = load_sheet(sheet)
         for it in list(tasks.values()) + list(answers.values()):
-            pics = [it["a"], it["b"]] if it["kind"] == "compare" else [it["kind"]]
+            if it["kind"] == "compare":
+                pics = [it["a"], it["b"]]
+            elif "pic" in it:
+                pics = [it["pic"]]
+            else:
+                pics = []
             for name in pics:
                 if name not in SPECIAL and name not in names:
                     raise SystemExit(f"{sheet.get('id')}: unknown picture '{name}'")
+            if it["kind"] in ("letter", "lower", "card") and not 0 <= it["n"] <= 25:
+                raise SystemExit(f"{sheet.get('id')}: letter out of A-Z")
         if sheet.get("theme", "pink") not in THEMES:
             raise SystemExit(f"{sheet.get('id')}: unknown theme '{sheet.get('theme')}'")
         k = sheet.get("pattern", i) % len(lib)
@@ -653,6 +774,9 @@ def main():
         print("pictures:", ", ".join(names))
         print("special: dice, numeral, fingers (1-10), jewelbox (ten-frame), path (princess on a 1-6 track), princess,")
         print("         compare (written as \"dog:4|cat:1\", used with the rule \"more\")")
+        print("         letter (\"letter:2\" = C, answers \"lower\" for lowercase),")
+        print("         single pictures (\"pict:cat\"), printed words (\"wcard:CAT\", course list),")
+        print("         syllables (\"syll:MA\"), initial-letter cards (\"card:C\")")
         print("pairs run left to right; with two pairs write \"kind:n@1\" when both start with the same kind")
 
 

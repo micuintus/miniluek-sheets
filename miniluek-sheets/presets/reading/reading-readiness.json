@@ -1,0 +1,24 @@
+{
+  "title": "ABC first words",
+  "language": "en",
+  "sheets": [
+    {"id": "A1", "theme": "rose", "title": ["Same letter."], "goal": "Letters, uppercase, 12 of them", "rule": {"type": "same"}, "answer_style": "col",
+     "tasks": ["letter:2", "letter:5", "letter:0", "letter:7", "letter:3", "letter:6",
+               "letter:1", "letter:4", "letter:8", "letter:11", "letter:9", "letter:10"]},
+    {"id": "A2", "theme": "sky", "title": ["Lowercase. Find the small letter."], "goal": "Uppercase to lowercase", "rule": {"type": "pair", "pairs": [["letter", "lower"], ["letter", "lower"]]},
+     "tasks": ["letter:2@0", "letter:5@0", "letter:0@0", "letter:7@0", "letter:1@0", "letter:4@0",
+               "letter:3@1", "letter:6@1", "letter:8@1", "letter:11@1", "letter:9@1", "letter:10@1"]},
+    {"id": "A3", "theme": "gold", "title": ["Who starts with it? Find the picture."], "goal": "First sound to picture; name each picture first", "rule": {"type": "pair", "pairs": [["card", "pict"], ["card", "pict"]]},
+     "tasks": ["card:CAT@0", "card:DOG@0", "card:FOX@0", "card:OWL@0", "card:PUPPY@0", "card:GEM@0",
+               "card:PANDA@1", "card:MOUSE@1", "card:DAISY@1", "card:COOKIE@1", "card:BUNNY@1", "card:SWAN@1"]},
+    {"id": "A4", "theme": "mint", "title": ["Who starts with which letter?"], "goal": "Picture to first letter; name each picture first", "rule": {"type": "pair", "pairs": [["pict", "card"], ["pict", "card"]]},
+     "tasks": ["pict:cat@0", "pict:dog@0", "pict:fox@0", "pict:owl@0", "pict:puppy@0", "pict:gem@0",
+               "pict:panda@1", "pict:mouse@1", "pict:daisy@1", "pict:cookie@1", "pict:bunny@1", "pict:swan@1"]},
+    {"id": "A5", "theme": "teal", "title": ["Which part does it start with?"], "goal": "Onset-rime: CA goes to CAT; syllable card only for a unique onset", "rule": {"type": "pair", "pairs": [["syll", "pict"], ["syll", "pict"]]},
+     "tasks": [{"kind": "syll", "text": "CA", "word": "CAT", "fam": 0}, {"kind": "syll", "text": "DO", "word": "DOG", "fam": 0}, {"kind": "syll", "text": "FO", "word": "FOX", "fam": 0}, {"kind": "syll", "text": "OW", "word": "OWL", "fam": 0}, {"kind": "syll", "text": "PU", "word": "PUPPY", "fam": 0}, {"kind": "syll", "text": "GE", "word": "GEM", "fam": 0},
+               {"kind": "syll", "text": "PA", "word": "PANDA", "fam": 1}, {"kind": "syll", "text": "MO", "word": "MOUSE", "fam": 1}, {"kind": "syll", "text": "DA", "word": "DAISY", "fam": 1}, {"kind": "syll", "text": "CO", "word": "COOKIE", "fam": 1}, {"kind": "syll", "text": "BU", "word": "BUNNY", "fam": 1}, {"kind": "syll", "text": "SW", "word": "SWAN", "fam": 1}]},
+    {"id": "A6", "theme": "coral", "title": ["Read the word. Find the picture."], "goal": "Whole printed words, 3 to 6 letters", "rule": {"type": "pair", "pairs": [["wcard", "pict"], ["wcard", "pict"]]},
+     "tasks": [{"kind": "wcard", "word": "CAT", "n": 2, "fam": 0, "seed": 1}, {"kind": "wcard", "word": "DOG", "n": 3, "fam": 0, "seed": 2}, {"kind": "wcard", "word": "FOX", "n": 5, "fam": 0, "seed": 3}, {"kind": "wcard", "word": "OWL", "n": 14, "fam": 0, "seed": 4}, {"kind": "wcard", "word": "PUPPY", "n": 15, "fam": 0, "seed": 5}, {"kind": "wcard", "word": "GEM", "n": 6, "fam": 0, "seed": 6},
+               {"kind": "wcard", "word": "PANDA", "n": 15, "fam": 1, "seed": 7}, {"kind": "wcard", "word": "MOUSE", "n": 12, "fam": 1, "seed": 8}, {"kind": "wcard", "word": "DAISY", "n": 3, "fam": 1, "seed": 9}, {"kind": "wcard", "word": "COOKIE", "n": 2, "fam": 1, "seed": 10}, {"kind": "wcard", "word": "BUNNY", "n": 1, "fam": 1, "seed": 11}, {"kind": "wcard", "word": "SWAN", "n": 18, "fam": 1, "seed": 12}]}
+  ]
+}

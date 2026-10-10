@@ -1,0 +1,24 @@
+{
+  "title": "ABC erste Wörter",
+  "language": "de",
+  "sheets": [
+    {"id": "A1", "theme": "rose", "title": ["Gleiche Buchstaben."], "goal": "Buchstaben, groß, 12 Stück", "rule": {"type": "same"}, "answer_style": "col",
+     "tasks": ["letter:2", "letter:5", "letter:0", "letter:7", "letter:3", "letter:6",
+               "letter:1", "letter:4", "letter:8", "letter:11", "letter:9", "letter:10"]},
+    {"id": "A2", "theme": "sky", "title": ["Kleinbuchstaben. Finde den kleinen Buchstaben."], "goal": "Groß zu klein", "rule": {"type": "pair", "pairs": [["letter", "lower"], ["letter", "lower"]]},
+     "tasks": ["letter:2@0", "letter:5@0", "letter:0@0", "letter:7@0", "letter:1@0", "letter:4@0",
+               "letter:3@1", "letter:6@1", "letter:8@1", "letter:11@1", "letter:9@1", "letter:10@1"]},
+    {"id": "A3", "theme": "gold", "title": ["Womit fängt es an? Finde das Bild."], "goal": "Anlaut zum Bild; jedes Bild zuerst benennen", "rule": {"type": "pair", "pairs": [["card", "pict"], ["card", "pict"]]},
+     "tasks": ["card:BÄR@0", "card:KATZE@0", "card:HUND@0", "card:FUCHS@0", "card:EULE@0", "card:MAUS@0",
+               "card:GESCHENK@1", "card:SCHWAN@1", "card:TORTE@1", "card:LUTSCHER@1", "card:WELPE@1", "card:PILZ@1"]},
+    {"id": "A4", "theme": "mint", "title": ["Was fängt mit welchem Buchstaben an?"], "goal": "Bild zum Anlaut; jedes Bild zuerst benennen", "rule": {"type": "pair", "pairs": [["pict", "card"], ["pict", "card"]]},
+     "tasks": ["pict:bear@0", "pict:cat@0", "pict:dog@0", "pict:fox@0", "pict:owl@0", "pict:mouse@0",
+               "pict:gift@1", "pict:swan@1", "pict:cupcake@1", "pict:lollipop@1", "pict:puppy@1", "pict:mushroom@1"]},
+    {"id": "A5", "theme": "teal", "title": ["Mit welchem Teil fängt es an?"], "goal": "Anlaut-Reim: BÄ gehört zu BÄR; Silbenkarte nur bei eindeutigem Anlaut", "rule": {"type": "pair", "pairs": [["syll", "pict"], ["syll", "pict"]]},
+     "tasks": [{"kind": "syll", "text": "BÄ", "word": "BÄR", "fam": 0}, {"kind": "syll", "text": "KA", "word": "KATZE", "fam": 0}, {"kind": "syll", "text": "HU", "word": "HUND", "fam": 0}, {"kind": "syll", "text": "FU", "word": "FUCHS", "fam": 0}, {"kind": "syll", "text": "EU", "word": "EULE", "fam": 0}, {"kind": "syll", "text": "MA", "word": "MAUS", "fam": 0},
+               {"kind": "syll", "text": "GE", "word": "GESCHENK", "fam": 1}, {"kind": "syll", "text": "SC", "word": "SCHWAN", "fam": 1}, {"kind": "syll", "text": "TO", "word": "TORTE", "fam": 1}, {"kind": "syll", "text": "LU", "word": "LUTSCHER", "fam": 1}, {"kind": "syll", "text": "WE", "word": "WELPE", "fam": 1}, {"kind": "syll", "text": "PI", "word": "PILZ", "fam": 1}]},
+    {"id": "A6", "theme": "coral", "title": ["Lies das Wort. Finde das Bild."], "goal": "Gedruckte Wörter, 3 bis 8 Buchstaben", "rule": {"type": "pair", "pairs": [["wcard", "pict"], ["wcard", "pict"]]},
+     "tasks": [{"kind": "wcard", "word": "BÄR", "n": 1, "fam": 0, "seed": 1}, {"kind": "wcard", "word": "KATZE", "n": 10, "fam": 0, "seed": 2}, {"kind": "wcard", "word": "HUND", "n": 7, "fam": 0, "seed": 3}, {"kind": "wcard", "word": "FUCHS", "n": 5, "fam": 0, "seed": 4}, {"kind": "wcard", "word": "EULE", "n": 4, "fam": 0, "seed": 5}, {"kind": "wcard", "word": "MAUS", "n": 12, "fam": 0, "seed": 6},
+               {"kind": "wcard", "word": "GESCHENK", "n": 6, "fam": 1, "seed": 7}, {"kind": "wcard", "word": "SCHWAN", "n": 18, "fam": 1, "seed": 8}, {"kind": "wcard", "word": "TORTE", "n": 19, "fam": 1, "seed": 9}, {"kind": "wcard", "word": "LUTSCHER", "n": 11, "fam": 1, "seed": 10}, {"kind": "wcard", "word": "WELPE", "n": 22, "fam": 1, "seed": 11}, {"kind": "wcard", "word": "PILZ", "n": 15, "fam": 1, "seed": 12}]}
+  ]
+}
