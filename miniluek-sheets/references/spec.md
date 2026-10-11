@@ -38,6 +38,7 @@
 | `answer_size` | size of the single characters on comparing sheets (default 1.9) |
 | `pattern` | index into the pattern library (default: sheet index) |
 | `mascot` | decorative princess next to the title (default true) |
+| `scene` | `"meadow"` or `"castle"`: a calm drawn panel behind the 12 task fields (sky, sun, ground, path, pond, flowers; seeded per sheet id, so every sheet looks a little different). Task cells stay full white; answer grid, pattern and geometry are untouched. Decoration only, keep it off letters-first sheets | 
 | `tasks` | exactly 12 entries `"kind:n"` (`"kind:n@1"` for the second pair when both pairs start with the same kind) or objects `{"kind": …, "n": …, "fam": …, "style": …, "size": …, "seed": …}` |
 
 Special kinds: `princess` (n figures; `princess_size` overrides the height), `dice` (1–6),

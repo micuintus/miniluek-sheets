@@ -79,6 +79,72 @@ def P(x, y):
 _fonts = {}
 
 
+SCENES = {
+    "meadow": {"sky": (196, 225, 248), "sun": (255, 205, 90), "horizon": 0.45,
+               "ground": [(176, 221, 160), (190, 228, 172)],
+               "path": (238, 220, 180), "pond": (150, 200, 240),
+               "flowers": [(240, 120, 170), (255, 255, 255), (255, 200, 90), (170, 130, 220)]},
+    "castle": {"sky": (206, 222, 250), "sun": (255, 205, 90), "horizon": 0.40,
+               "ground": [(196, 228, 176), (206, 232, 186)],
+               "path": (236, 226, 196), "pond": (150, 200, 240),
+               "flowers": [(240, 120, 170), (255, 255, 255), (175, 200, 245)]},
+}
+
+
+def sky_seed(sheet):
+    return sum(ord(c) for c in sheet.get("id", "?")) % 997
+
+
+def draw_scene(img, d, sheet):
+    """Calm panel behind the 12 task fields. Pure pil-drawn geometry, no extra item kinds."""
+    if "scene" not in sheet:
+        return None
+    sc = SCENES.get(sheet["scene"], SCENES["meadow"])
+    x0, y1_bot = 0.35, 20.65
+    x1 = PW - 0.35
+    x0, y0_top, x1, y1_bot = scene_bounds()
+    rnd = random.Random(sky_seed(sheet) * 131 + 7)
+    d.rectangle([P(x0, y1_bot), P(x1, y0_top)], fill=sc["sky"])
+    sunx, suny = x0 + (x1 - x0) * (0.2 + 0.6 * rnd.random()), (y0_top + y1_bot) / 2
+    for ring, col in ((0.75, (255, 232, 170)), (0.5, sc["sun"])):
+        x, y = P(sunx, suny)
+        d.ellipse([x - px(ring), y - px(ring), x + px(ring), y + px(ring)], fill=col)
+    hy = y0_top + (y1_bot - y0_top) * sc["horizon"]
+    d.rectangle([P(x0, y1_bot), P(x1, hy)], fill=sc["ground"][0])
+    d.rectangle([P(x0, y1_bot), P(x1, (hy + y1_bot) / 2)], fill=sc["ground"][1])
+    gwy = (hy + y1_bot) / 2 + 0.05
+    d.rectangle([P(x0, y1_bot), P(x1, gwy)], fill=(235, 244, 252))
+    d.line([P(x0, hy), P(x1, hy)], fill=(150, 190, 140), width=px(0.05))
+    px0, px1, py = x0 + (x1 - x0) * 0.42, x0 + (x1 - x0) * 0.58, hy
+    d.polygon([P(px0, y1_bot), P(px1, y1_bot), P(x0 + (x1 - x0) * 0.54, py)], fill=sc["path"])
+    pond_seed = [7, 11, 19, 23, 31, 5]
+    npond = 1 + sky_seed(sheet) % 2
+    for i in range(npond):
+        rx = x0 + (x1 - x0) * (0.1 + 0.8 * pond_seed[(sky_seed(sheet) + i) % 6] / 32)
+        ry = hy + (y1_bot - hy) * (0.55 + 0.2 * (i % 2))
+        x, y = P(rx, ry)
+        d.ellipse([x - px(1.5), y - px(0.75), x + px(1.5), y + px(0.75)], fill=sc["pond"])
+    for fi in range(16):
+        fxn = pond_seed[(fi * 5 + 1) % 6] / 32 * (x1 - x0 - 1) + x0 + 0.5
+        for fy in (0.72, 0.88):
+            fxx, fyy = fxn % (x1 - x0 - 1) + x0 + 0.5, y0_top + (y1_bot - y0_top) * fy
+        x, y = P(fxx, fyy)
+        pet = sc["flowers"][fi % len(sc["flowers"])]
+        for a in range(0, 360, 72):
+            d.ellipse([x - px(0.10), y - px(0.10), x + px(0.10), y + px(0.10)], fill=pet)
+        d.ellipse([x - px(0.07), y - px(0.07), x + px(0.07), y + px(0.07)], fill=(255, 250, 220))
+    d.rectangle([P(x0, y1_bot), P(x1, y0_top)], outline=(225, 235, 245), width=px(0.05))
+    return (x0, y0_top, x1, y1_bot)
+
+
+def scene_bounds():
+    y1_bot = TASK_ROWS[0] + TASK_CELL / 2 + 0.52
+    y0_top = y1_bot - 2 * (TASK_CELL + 0.6)
+    return (0.35, y0_top, PW - 0.35, y1_bot)
+
+ScenePad = 0.52    # white (cm) above/below a scene pane
+
+
 def font(size_cm, bold=True):
     key = (size_cm, bold)
     if key not in _fonts:
@@ -540,9 +606,24 @@ def dotted_arrow(d, x0, x1, y, colour):
     d.polygon([(tx, ty), (tx - px(0.22), ty - px(0.13)), (tx - px(0.22), ty + px(0.13))], fill=colour)
 
 
+CELL_ALPHA = {"grid": 255, "scene": 205}
+
+
 def cell_colours(item, frame, accent):
     f = item.get("fam")
-    return (frame, accent, 0.07) if f is None else (FAMILY[f]["frame"], FAMILY[f]["ink"], 0.13)
+    if f is None:
+        return (frame, accent, 0.07)
+    return (FAMILY[f]["frame"], FAMILY[f]["ink"], 0.13)
+
+
+def scene_cell(img, d, cx, cy, size, fr, w, box):
+    """Pale task cell that keeps a drawn sky visible."""
+    r = Image.new("RGBA", (px(size), px(size)), (255, 255, 255, CELL_ALPHA[box]))
+    dcell = ImageDraw.Draw(r)
+    dcell.rounded_rectangle([px(w), px(w), px(size) - px(w), px(size) - px(w)],
+                            radius=px(0.3), outline=fr, width=px(w))
+    x, y = P(cx, cy)
+    img.alpha_composite(r, (x - r.width // 2, y - r.height // 2))
 
 
 def render(sheet, Pat, index, labels):
@@ -551,9 +632,11 @@ def render(sheet, Pat, index, labels):
     img = Image.new("RGBA", (W, H), (255, 255, 255, 255))
     d = ImageDraw.Draw(img)
 
+    draw_scene(img, d, sheet)
     for t, item in tasks.items():
         r, c = TASK_POS[t]
-        cx, cy = COLS[c], TASK_ROWS[r]
+        cx = COLS[c]
+        cy = TASK_ROWS[r]
         fr, ac, w = cell_colours(item, frame, accent)
         rrect(d, cx, cy, TASK_CELL, TASK_CELL, 0.3, outline=fr, fill=(255, 255, 255), width=w)
         if item.get("style") == "scatter":           # keep scattered items clear of the number badge

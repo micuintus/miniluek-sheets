@@ -67,6 +67,11 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
 - Layout: `task_style` / `answer_style` = `row`, `col`, `up`, `down`, `dice`, `scatter`. Use
   different styles for task and answer so the child counts instead of matching shapes.
   `size` is the picture size in cm (0.9 for up to 6, 1.25 for up to 3).
+- Scenery: `"scene": "meadow"` or `"castle"` draws a calm landscape behind the 12 task fields:
+  sky, sun, ground, path, pond and flowers, all pure drawn geometry, no new item kinds and no
+  extra counts to confuse. Task cells stay full white and the answers, pattern and geometry
+  stay exactly as measured. Scenery is decoration, used sparingly: letter-first sheets
+  (A1, A2) and all counting sheets stay plain, so the child learns the format first.
 
 Each sheet gets its own control pattern from a library of symmetric patterns (`"pattern": k`
 picks one). The tile-back model is in `references/format.md`.
