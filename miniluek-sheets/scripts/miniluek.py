@@ -55,12 +55,13 @@ FAMILY = [  # a task and its answer share the frame colour
 ]
 EMOJI_DIR = ASSETS / "emoji"
 # printed first words and their pictures (course vocabulary, not any word)
-WORD_PIC = {"CAT": "cat", "DOG": "dog", "FOX": "fox", "OWL": "owl", "GEM": "gem",
+WORD_PIC = {"CAT": "cat", "DOG": "dog", "FOX": "fox", "OTTER": "otter", "PIG": "pig",
+            "GIFT": "gift",
             "PANDA": "panda", "MOUSE": "mouse", "DAISY": "daisy", "COOKIE": "cookie",
-            "BUNNY": "bunny", "PUPPY": "puppy", "SWAN": "swan",
-            "BÄR": "bear", "KATZE": "cat", "HUND": "dog", "FUCHS": "fox", "EULE": "owl",
-            "MAUS": "mouse", "GESCHENK": "gift", "SCHWAN": "swan", "TORTE": "cupcake",
-            "LUTSCHER": "lollipop", "WELPE": "puppy", "PILZ": "mushroom"}
+            "BUNNY": "bunny", "SUN": "sun",
+            "BÄR": "bear", "KATZE": "cat", "HUND": "dog", "FUCHS": "fox", "ENTE": "duck",
+            "MAUS": "mouse", "GESCHENK": "gift", "SONNE": "sun", "TORTE": "cake",
+            "LUTSCHER": "lollipop", "WURM": "worm", "PILZ": "mushroom"}
 PIC_WORD = {v: k for k, v in WORD_PIC.items()}
 SPECIAL = {"dice", "numeral", "fingers", "jewelbox", "path", "princess", "compare",
            "letter", "lower", "card", "pict", "wcard", "syll"}

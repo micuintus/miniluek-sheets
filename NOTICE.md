@@ -1,6 +1,6 @@
 # Third-party material
 
-## Emoji (`miniluek-sheets/assets/emoji/`, 33 files)
+## Emoji (`miniluek-sheets/assets/emoji/`, 39 files)
 
 Noto Emoji by Google LLC ("Copyright 2013 Google LLC"), downloaded on 2026-10-04 from
 https://github.com/googlefonts/noto-emoji, folder `3D/png/512`, then cropped to their content
@@ -44,6 +44,12 @@ are included: `LICENSE-OFL-1.1.txt` (the repository's LICENSE file) and
 | `swan.png` | 🦢 | U+1F9A2 | `3D/png/512/emoji_u1f9a2.png` |
 | `unicorn.png` | 🦄 | U+1F984 | `3D/png/512/emoji_u1f984.png` |
 | `wand.png` | 🪄 | U+1FA84 | `3D/png/512/emoji_u1fa84.png` |
+| `cake.png` | 🍰 | U+1F382 | `3D/png/512/emoji_u1f382.png` |
+| `duck.png` | 🦆 | U+1F986 | `3D/png/512/emoji_u1f986.png` |
+| `otter.png` | 🦦 | U+1F9A6 | `3D/png/512/emoji_u1f9a6.png` |
+| `pig.png` | 🐷 | U+1F437 | `3D/png/512/emoji_u1f437.png` |
+| `sun.png` | ☀ | U+2600 | `3D/png/512/emoji_u2600.png` |
+| `worm.png` | 🪱 | U+1FAB1 | `3D/png/512/emoji_u1fab1.png` |
 
 ## Font (`miniluek-sheets/assets/fonts/`)
 

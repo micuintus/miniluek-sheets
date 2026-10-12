@@ -25,7 +25,7 @@ try to alphabetise in two codes at once, which no study has tested at ID-range s
 Three minutes with the child before the first sheet:
 
 1. **Same or different.** Write A and A, then A and B, on paper: "same or different?"
-2. **Name the pictures.** Point at the twelve course pictures one by one ("CAT", "DOG", ...):
+2. **Name the pictures.** Point at the twelve course pictures one by one ("CAT", "DOG", "FOX", "OTTER", "PIG", "GIFT", "PANDA", "MOUSE", "DAISY", "COOKIE", "BUNNY", "SUN"):
    the adult names each first, then the child repeats. A sheet only starts when the child knows
    the words well enough to repeat them.
 3. **First sound.** "CAT starts with k. DOG starts with d. Show me the CAT."
@@ -49,7 +49,7 @@ holds.
 | A3 first sound to picture | "CAT starts with k": show three pictures, the child points | A1 mastered and the picture words are known |
 | A4 picture to first letter | "which letter does DOG start with?" | A3 mastered |
 | A5 which part it starts with | clap CA-T: "CA-T, the CAT" | A4 mastered |
-| A6 read the word | sound out CAT together, then the child alone | A5 mastered; "PUPPY" and "COOK-" style longer words only from the second half |
+| A6 read the word | sound out CAT together, then the child alone | A5 mastered; "COOKIE-" style longer words only from the second half |
 
 A sheet the child cannot do yet goes back until its condition holds. Keep the daily cap:
 one sheet a day, reading work sits inside it, never on top of it.
@@ -62,3 +62,9 @@ worked examples per family, feedback by pattern check. English letter names say 
 sound, not "see-ay-tee": the adult says the sounds ("kuh-ah-tuh") and slides them together.
 German keeps its umlauts everywhere: letter cards, syllable cards, word pills and titles. On
 English initial-sound cards the full picture word is captioned under the letter.
+
+The twelve course words start with their letter's sound: CAT, DOG, FOX, OTTER, PIG, GIFT,
+PANDA, MOUSE, DAISY, COOKIE, BUNNY, SUN (German: BÄR, KATZE, HUND, FUCHS, ENTE, MAUS,
+GESCHENK, SONNE, TORTE, LUTSCHER, WURM, PILZ). German A4 tasks carry the German index
+explicitly, because a picture file name would give the English letter (cat would ask for C
+instead of K).
