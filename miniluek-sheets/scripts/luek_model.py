@@ -84,6 +84,13 @@ def pattern_library():
         block_pattern([("G", "HG"), ("B", "K"), ("R", "HG")]),
         nested_pattern([("R", "BR"), ("B", "BL"), ("G", "TR")]),
         block_pattern([("B", "GT"), ("R", "M"), ("G", "GT")]),
+        block_pattern([("R", "HG"), ("B", "GT"), ("G", "M")]),
+        nested_pattern([("B", "TL"), ("G", "BR"), ("R", "BL")]),
+        block_pattern([("G", "GT"), ("R", "K"), ("B", "HG")]),
+        block_pattern([("B", "HG"), ("G", "K"), ("R", "GT")]),
+        nested_pattern([("G", "BR"), ("B", "BL"), ("R", "TR")]),
+        block_pattern([("R", "M"), ("B", "HG"), ("G", "GT")]),
+        nested_pattern([("B", "TR"), ("R", "BR"), ("G", "TL")]),
     ]
     for P in lib:
         check_pattern(P)

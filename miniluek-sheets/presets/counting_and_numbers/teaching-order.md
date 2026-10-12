@@ -16,6 +16,17 @@
 | S12 treasure chest 3–8 (later) | five and more, 6 = 5 and 1 |
 | S13 one more (later) | the number after |
 
+Picture sheets come after their plain twin as review, never as a step of their own:
+
+| Picture sheet | After | Scene | Counted | Answer |
+|---|---|---|---|---|
+| S1b | S1 | Rapunzel's meadow: her braid winds past twelve flowers | 1–3 ladybugs, bees, snails or butterflies | the same animals, rearranged |
+| S2b | S2 | a sky train hanging from a rainbow rail | kittens and puppies at the windows, 1–6 | as many fish or bones |
+| S4b | S4 | the mermaid lagoon | pearls in shells, 1–6 | dice |
+| S6b | S6 | the ice princess's snow globes | snowflakes, 1–6 | numerals |
+| S8b | S8 | Cinderella's castle garden | wool and bones scattered on blankets, 1–6 | numerals |
+| S13b (later) | S13 | a toy room with a kitty dollhouse | towers of linking cubes, 1–6 | the tower with one cube more |
+
 ## Why this order
 
 Small sets, counting, patterns, comparing, numerals both ways, a number path, comparing again by
@@ -53,18 +64,24 @@ mastered, or when the condition below holds.
 | Sheet | First with objects | Start the sheet when |
 |---|---|---|
 | S1 | show 1–3 toys briefly: "how many?"; spread them out: "still three?" | from the start |
+| S1b | two cups with 1–3 toys each: "same number?" | S1 mastered |
 | S2 | give each doll one cupcake, touch-count, repeat the last number: "one, two, three: three cupcakes" | the child gives 5 and 6 on request |
+| S2b | line up toy animals, give each one a treat, count the treats | S2 mastered |
 | S3 | roll a real die and lay out that many counters | S2 mastered |
 | S4 | "show me three" on the fingers, then from a die | S2 mastered |
+| S4b | touch-count the pearls in a shell, match the dice pattern | S4 mastered |
 | S5 | two piles, 2 and 6: "who has more?" | S2 mastered |
 | S6 | count a pile and put the number card next to it | the child names the numbers 1 to 6, or has learned them with cards |
+| S6b | count buttons in a cup, put the number card next to it | S6 mastered |
 | S7 | number card first, then lay out that many | S6 mastered |
 | S8 | scattered counters: touch each one and slide it aside | S6 mastered |
+| S8b | scattered counters, slide each aside | S8 mastered |
 | S9 | play a straight 1–10 board game: "which square are you on?" | a few rounds of the board game |
 | S10 | two close piles, 3 and 5: count both, "who has more?" | S5 and S8 mastered |
 | S11 | two number cards: "which is more?", check by counting out | S9 and S10 mastered |
 | S12 | egg carton or ten-frame: five in the top row, then one more: "five and one, six" | S2–S8 mastered |
 | S13 | three in a box, add one: "how many now?" without counting again | the child gives 6 on request and says which number comes after 4 |
+| S13b | build a tower of 3 linking cubes, add one: "how many now?", then 4 and one more | S13 mastered |
 
 A sheet the child cannot do yet goes back in the box until its condition holds; each one-sheet
 day should be spent at the edge of what the child can almost do.
@@ -73,6 +90,12 @@ day should be spent at the edge of what the child can almost do.
 
 - Each sheet runs one direction: no answer repeats a task picture, so the easiest wrong match
   is never an identical copy. Both directions of the quantity–numeral link get their own sheet.
+- Picture sheets practise a mastered step inside one full illustration. The counted things are
+  plain and identical, each set inside its own shell, globe, blanket, window, flower or tower,
+  and the scene holds no loose copies of the counted kind. A trail (bubbles, paw prints, a
+  braid, skate tracks, toy rails) leads through the badges in number order. Pink and blue keep
+  their families; violet and every other colour only decorate. On S13b all cubes have one
+  size and every tower stands on one floor line, so one more is one cube taller.
 - Matching sheets use two colour families: pink tasks have pink answers, blue tasks blue answers. The
   only other answer with the right number has the other colour.
 - Tasks and answers use different layouts, so the child counts instead of matching shapes.
@@ -86,4 +109,11 @@ day should be spent at the edge of what the child can almost do.
   (Kable, Coles & Taddeo 2007; Coles, Kable & Taddeo 2009).
 - One sheet per session, 5–10 minutes, stop before frustration; move on after two days with
   the pattern right first time, repeat a mastered sheet a week later.
+- The week-later repeat of a mastered sheet is its picture twin where one exists, so the twins
+  add no days and never replace the daily sheet. A child who cannot yet work the plain sheet
+  goes back to it, not forward to the picture.
+- Tell each sheet as a story, best with a doll or puppet who needs help: "the mermaid lost her
+  pearls, can you find out how many are in each shell?" The story carries the motivation and
+  adds nothing to the page ([research](research.md#picture-sheets)). The doll can also miscount
+  for the child to catch; that variant is untested.
 - There is no study of miniLÜK itself; the sheets are practice with feedback, not instruction.

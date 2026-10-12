@@ -1,6 +1,6 @@
 # Research behind the reading course
 
-Why the six sheets come in this order, what each sheet practises, and which study each
+Why the six plain sheets come in this order, what each sheet practises, and which study each
 choice rests on. This course rests on precursor evidence, not on a tested sequence; the
 counting course is the one with the research behind it. Full references with DOIs and a key
 sentence from each are at the end.
@@ -14,11 +14,15 @@ experiment, single-case study, book or narrative review.
 | Sheet | Practises | Design | Evidence |
 |---|---|---|---|
 | A1 Same letter | letter shapes | uppercase, 12 letters, answer in another case position | letter knowledge predicts later reading (NELP 2008 [E]) |
+| A1b ABC blocks picture sheet | the same letter shapes inside a picture | letters on toy blocks, review after A1 | untested; plain stations as in the counting picture sheets |
 | A2 Lowercase | upper to lowercase | the reverse look on its own sheet | letter knowledge (NELP 2008 [E]) |
 | A3 Who starts with it? | first sound to picture | word-bound letter cards with the word captioned; name each picture first | phonological awareness predicts later reading (NELP 2008 [E]); code-focused teaching includes phonological teaching (NELP 2008 [E]) |
+| A3b Balloons picture sheet | first sound to picture inside a picture | letter cards on pink and blue balloons, review after A3 | untested; the colour families as on A3 |
 | A4 Who starts with which letter? | picture to first letter | the reverse direction on its own sheet | children map number both ways (Mundy & Gilmore 2009 [E]); the letter reverse is untested |
+| A4b Garden party picture sheet | first sounds inside a picture | twelve guests as the tasks, family-coloured halos, review after A4 | untested; the counting picture sheets carry the decoration reasoning (Petersen & McNeil 2013 [E]; Fisher, Godwin & Seltman 2014 [E] in the counting research) |
 | A5 Which part does it start with? | syllables to words | cards only for syllables that start one course word | phonological awareness (NELP 2008 [E]) |
 | A6 Read the word | whole printed words, 3 to 8 letters | pink and blue pills alternate | code-focused teaching (NELP 2008 [E]) |
+| A6b Market day picture sheet | picture to three-letter word inside a picture | words share first letters or rhymes, so the first letter alone never decides | code-focused teaching (NELP 2008 [E]); the shared-letter design is untested |
 
 ## Design rules
 
@@ -26,6 +30,7 @@ experiment, single-case study, book or narrative review.
 |---|---|---|
 | One direction per sheet; no answer repeats a task picture | an identical copy would be the easiest wrong match | counting sheets in the rule from Mix 2008 [E]: an identical copy pulls children away from content |
 | Two colour families on matching sheets | the only other answer with the right content has the other colour | same matching logic as the counting sheets; untested for letters |
+| Picture sheet as the review day | a full story illustration with the tasks set into it | motivation through a story world; untested, replaces a revisit day never the daily sheet |
 | Worked examples per family | modelling before practice | Akther et al. 2025 [M]: modelling was common in effective counting interventions; untested for letters |
 | Pattern check | feedback | feedback was common in effective counting interventions (Akther et al. 2025 [M]); untested for letters |
 | Theme, and the child chooses which sheet comes back | motivation and learning | Córdova & Lepper 1996 [R] |
@@ -60,13 +65,6 @@ experiment, single-case study, book or narrative review.
   43(6):1428–1446. [doi:10.1037/0012-1649.43.6.1428](https://doi.org/10.1037/0012-1649.43.6.1428).
   Entry math is the strongest predictor of later reading and math; this is why the counting
   course comes first even in the reading route.
-- [E] **MZZ: Krajewski, Nieding & Schneider 2008.** Kurz- und langfristige Effekte
-  mathematischer Frühförderung im Kindergarten durch das Programm "Mengen, zählen, Zahlen".
-  *Z Entwicklungspsychol Pädagog Psychol* 40(3):135–146.
-  [doi:10.1026/0049-8637.40.3.135](https://doi.org/10.1026/0049-8637.40.3.135). The evaluated
-  programme behind the counting order; letter teaching for the at-risk preschool child runs in
-  the cited kindergarten line alongside it.
-
 - [E] **Seymour, Aro & Erskine 2003.** Foundation literacy acquisition in European orthographies. *Br J Psychol* 94(2):143–174.
   [doi:10.1348/000712603321661859](https://doi.org/10.1348/000712603321661859). Most European children read accurately
   before the end of first grade; English children take more than twice as long.

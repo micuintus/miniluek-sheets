@@ -31,7 +31,7 @@ Always look at the preview PNGs before handing over a PDF.
 
 ## Writing a sheet set
 
-The counting course is the flagship: 13 sheets in `presets/counting_and_numbers/princess-counting.json`
+The counting course is the flagship: 19 sheets (13 plain sheets and 6 picture twins) in `presets/counting_and_numbers/princess-counting.json`
 (German: `presets/counting_and_numbers/prinzessinnen-zaehlen.json`), ordered along the early-math
 progression in `presets/counting_and_numbers/teaching-order.md` (sources per design choice:
 `presets/counting_and_numbers/research.md`).
@@ -63,15 +63,21 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
   `numeral`, `fingers` (left hand first; `"fingers": "index"` counts index = 1 to thumb = 5,
   `"thumb"` thumb = 1; 6–10 with the second hand), `jewelbox`
   (ten-frame with gems, stars in the blue family), `path` (princess, or frog in the blue
-  family, on square *n* of a 6-square path).
+  family, on square *n* of a 6-square path), and picture-sheet tokens: `pearl` (in shells),
+  `yarn` and `bone` (scattered on rugs), `snowflake` (in snow globes), `tower` (linking cubes).
 - Layout: `task_style` / `answer_style` = `row`, `col`, `up`, `down`, `dice`, `scatter`. Use
   different styles for task and answer so the child counts instead of matching shapes.
   `size` is the picture size in cm (0.9 for up to 6, 1.25 for up to 3).
-- Scenery: `"scene": "meadow"` or `"castle"` draws a calm landscape behind the 12 task fields:
-  sky, sun, ground, path, pond and flowers, all pure drawn geometry, no new item kinds and no
-  extra counts to confuse. Task cells stay full white and the answers, pattern and geometry
-  stay exactly as measured. Scenery is decoration, used sparingly: letter-first sheets
-  (A1, A2) and all counting sheets stay plain, so the child learns the format first.
+- **Picture sheets** (`"picture": "lagoon"`): one full illustration with 12 numbered badges set
+  into the story along a trail in number order, answer grid and pattern unchanged. Counting:
+  `meadow` (1–3 bugs on flowers, rule `same`), `train` (kittens `cat` and puppies `dog` at the
+  windows), `lagoon` (`pearl`), `ice` (`snowflake` in snow globes), `castle` (`yarn` and `bone`
+  on blankets), `towers` (`tower` of cubes, rule `plus_one`). Reading: `blocks` (`letter`),
+  `balloons` (`card`), `garden` (`pict` to letter), `village` (`pict` to `wcard` word). `"spots"` moves the stations (cm in the panel). Each
+  comes after the plain sheet of the same skill as review, never as the teaching.
+- Picture sheets: counted sets and letter guests are plain and uniform in their own
+  containers; decoration stays out of the way. Grid sheets stay plain, the picture is the
+  review, not the teaching.
 
 Each sheet gets its own control pattern from a library of symmetric patterns (`"pattern": k`
 picks one). The tile-back model is in `references/format.md`.

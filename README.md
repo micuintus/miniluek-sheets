@@ -3,7 +3,7 @@
 Printable A4 worksheets for the **miniLÜK** control box, with control patterns that work.
 An agent skill and a small Python generator: write 12 tasks per sheet as JSON, get a PDF.
 
-The flagship is the counting course: 13 sheets ordered along the early-math progression of the
+The flagship is the counting course: 19 sheets (13 plain, 6 picture twins) ordered along the early-math progression of the
 What Works Clearinghouse practice guide, every order step, sheet and rule mapped to its study
 ([research](miniluek-sheets/presets/counting_and_numbers/research.md)). A smaller, experimental reading course, `Reading readiness (ABC)` in
 `presets/reading/reading-readiness.json` (German: `Lese-Vorbereitung (ABC)` in
@@ -16,10 +16,10 @@ Ready to print: [English counting PDF](https://github.com/micuintus/miniluek-she
 [English reading PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/reading-readiness-en.pdf) ·
 [deutsches Lese-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/lese-vorbereitung-de.pdf) (experimentell)
 
-The preset is a thirteen-sheet princess counting course in English, ordered along the early-math
+The preset is a nineteen-sheet princess counting course in English, ordered along the early-math
 progression of the What Works Clearinghouse practice guide: small sets 1–3, counting to 6, dice
 and finger patterns, comparing, numerals both ways, scattered sets, a number path, comparing by
-counting and comparing numbers, then ten-frame and "one more". Each sheet runs one direction,
+counting and comparing numbers, then ten-frame and "one more", plus six picture twins as review days (Rapunzel's meadow, a sky train, the mermaid lagoon, the ice princess, Cinderella's castle, a toy room with cube towers). Each sheet runs one direction,
 and matching sheets use two colour families, so no answer is a copy of a task. All counting docs sit with the presets in `presets/counting_and_numbers/`, all reading docs
 in `presets/reading/`; `references/` keeps only the generator docs (`spec.md`, `format.md`).
 
@@ -34,7 +34,7 @@ thumb, the English ones from the index finger (`--fingers` switches).
 
 ## Second course: reading readiness
 
-ABC sheets for letters, first sounds, syllables and short printed words, in English
+ABC sheets for letters, first sounds, syllables and short printed words, plus four picture sheets (ABC blocks, balloons, a garden party, a village market with three-letter words), in English
 (`presets/reading/reading-readiness.json`) and German
 (`presets/reading/lese-vorbereitung.json`). Same generator, same design rules (one direction,
 two colour families, no copies among answers, `check` enforces them). Order is in
@@ -78,7 +78,7 @@ Or ask your agent: "make miniLÜK sheets: dice and numbers 1–6, with unicorns"
 Copy the preset, edit titles and tasks, then `python3 scripts/miniluek.py check your-set.json`.
 Matching (one or two colour families), "one more", same-thing and comparing sheets (dots or
 numerals) are supported; pictures include drawn
-princesses, finger patterns, dice, numerals, a ten-frame, a number path and 39 emoji.
+princesses, finger patterns, dice, numerals, a ten-frame, a number path and 95 emoji.
 Format: [spec](miniluek-sheets/references/spec.md) (shared by both courses).
 
 ## How it works

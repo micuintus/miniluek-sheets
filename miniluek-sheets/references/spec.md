@@ -37,12 +37,14 @@
 | `size` | picture size in cm |
 | `answer_size` | size of the single characters on comparing sheets (default 1.9) |
 | `pattern` | index into the pattern library (default: sheet index) |
-| `mascot` | decorative princess next to the title (default true) |
-| `scene` | `"meadow"` or `"castle"`: a calm drawn panel behind the 12 task fields (sky, sun, ground, path, pond, flowers; seeded per sheet id, so every sheet looks a little different). Task cells stay full white; answer grid, pattern and geometry are untouched. Decoration only, keep it off letters-first sheets | 
+| `mascot` | decorative princess next to the title: `true` (default, varies with the page position), `false`, or a number that picks one princess, so a sheet keeps her when sheets are inserted before it |
+| `picture` | one full illustration with 12 numbered badges on a trail in number order: `meadow` (ladybug, bee, snail or butterfly, 1–3), `train` (`cat` and `dog` faces at windows), `lagoon` (`pearl`), `ice` (`snowflake`), `castle` (`yarn`, `bone`), `towers` (`tower`, 1–6 cubes), `blocks` (`letter`), `balloons` (`card`), `garden` (`pict`), `village` (`pict` with its `word`, answered by `wcard`). `spots` moves the 12 stations (cm in the panel). Answer grid, pattern and geometry are untouched. Review after the plain sheet of the same skill |
 | `tasks` | exactly 12 entries `"kind:n"` (`"kind:n@1"` for the second pair when both pairs start with the same kind) or objects `{"kind": …, "n": …, "fam": …, "style": …, "size": …, "seed": …}` |
 
 Special kinds: `princess` (n figures; `princess_size` overrides the height), `dice` (1–6),
-`numeral`, `fingers` (1–10), `jewelbox` (0–10 in a ten-frame), `path` (1–6), and comparing
+`numeral`, `fingers` (1–10), `jewelbox` (0–10 in a ten-frame), `path` (1–6), picture-sheet
+tokens `pearl` (in shells), `yarn` and `bone` (scattered on rugs), `snowflake` (in snow globes),
+`tower` (linking cubes, one cube size on one floor line), and comparing
 tasks written `"dog:4|cat:1"` (two characters with 1–6 dots each, for the rule `more`).
 
 With two pairs, the first pair's tasks and answers get pink frames, the second pair's blue.

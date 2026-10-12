@@ -66,9 +66,12 @@ def bezier(p0, p1, p2, n=24):
     return out
 
 
-def princess(skin=0, hair=0, dress=0, style="long", pose="down", crown="crown", seed=0):
+def princess(skin=0, hair=0, dress=0, style="long", pose="down", crown="crown", seed=0, tail=None,
+             hair_col=None, dress_col=None):
     rnd = random.Random(seed)
-    S, Hc, Dc = SKIN[skin % len(SKIN)], HAIR[hair % len(HAIR)], DRESS[dress % len(DRESS)]
+    S = SKIN[skin % len(SKIN)]
+    Hc = hair_col or HAIR[hair % len(HAIR)]
+    Dc = dress_col or DRESS[dress % len(DRESS)]
     so, ho, do = darker(S, 0.75), darker(Hc, 0.65), darker(Dc, 0.68)
     pen = Pen(W0, H0)
     cx, hy, hr = 300, 228, 118            # head centre and radius
@@ -94,8 +97,48 @@ def princess(skin=0, hair=0, dress=0, style="long", pose="down", crown="crown", 
         for i in range(5):
             pen.ell(cx + 118 + i * 6, 330 + i * 46, 30 - i * 2, 30 - i * 2, Hc, ho)
 
-    # skirt
     waist_y, hem_y = 455, 790
+    if tail:
+        mermaid_tail(pen, tail, waist_y)
+    else:
+        skirt(pen, Dc, do, waist_y, hem_y, cx, rnd)
+
+    # arms (behind bodice for 'down', raised otherwise)
+    arm_w = 30
+    hand_l, hand_r = (188, 548), (412, 548)
+    if pose == "up":
+        hand_l, hand_r = (176, 300), (424, 300)
+    elif pose == "wave":
+        hand_r = (440, 290)
+    elif pose == "wand":
+        hand_r = (446, 380)
+    upper_body(pen, S, so, Dc, do, dress, pose, hand_l, hand_r, arm_w, waist_y)
+    head(pen, S, so, Hc, ho, cx, hy, hr, style, dress, crown)
+    img = pen.done(W0, H0)
+    return img.crop(img.getbbox())
+
+
+def mermaid_tail(pen, col, waist_y):
+    dark, light = darker(col, 0.66), lighter(col, 0.45)
+    left = bezier((246, waist_y - 8), (178, 580), (268, 712)) + bezier((268, 712), (284, 748), (291, 772))
+    right = bezier((309, 772), (316, 748), (332, 712)) + bezier((332, 712), (422, 580), (354, waist_y - 8))
+    fin = (bezier((291, 772), (226, 788), (190, 852)) + bezier((190, 852), (262, 840), (300, 814)) +
+           bezier((300, 814), (338, 840), (410, 852)) + bezier((410, 852), (374, 788), (309, 772)))
+    pen.poly(fin, light, dark, 5)
+    for x0, x1 in ((206, 286), (232, 292), (394, 314), (368, 308)):
+        pen.line([(x0, 846 - abs(x0 - 300) * 0.06), (x1, 800)], dark, 3)
+    pen.poly(left + right, col, dark, 6)
+    for row in range(8):
+        y = waist_y + 34 + row * 34
+        half = 92 - row * 9 if row < 4 else 64 - (row - 4) * 12
+        n = max(2, int(half / 22))
+        for k in range(n):
+            x = 300 - half + 18 + k * (2 * half - 36) / max(1, n - 1)
+            pen.arc(x, y, 18, 14, 20, 160, light, 4)
+    pen.ell(300, waist_y + 6, 66, 14, lighter(col, 0.7), dark, 3)
+
+
+def skirt(pen, Dc, do, waist_y, hem_y, cx, rnd):
     left = bezier((248, waist_y), (170, 640), (92, hem_y))
     right = bezier((508, hem_y), (430, 640), (352, waist_y))
     hem = []
@@ -118,15 +161,9 @@ def princess(skin=0, hair=0, dress=0, style="long", pose="down", crown="crown", 
     pen.ell(cx - 55, hem_y + 30, 34, 18, darker(Dc, 0.55))
     pen.ell(cx + 55, hem_y + 30, 34, 18, darker(Dc, 0.55))
 
-    # arms (behind bodice for 'down', raised otherwise)
-    arm_w = 30
-    hand_l, hand_r = (188, 548), (412, 548)
-    if pose == "up":
-        hand_l, hand_r = (176, 300), (424, 300)
-    elif pose == "wave":
-        hand_r = (440, 290)
-    elif pose == "wand":
-        hand_r = (446, 380)
+
+def upper_body(pen, S, so, Dc, do, dress, pose, hand_l, hand_r, arm_w, waist_y):
+    cx = 300
     pen.line([(255, 420), hand_l], so, arm_w + 8)
     pen.line([(255, 420), hand_l], S, arm_w)
     pen.line([(345, 420), hand_r], so, arm_w + 8)
@@ -150,8 +187,10 @@ def princess(skin=0, hair=0, dress=0, style="long", pose="down", crown="crown", 
     pen.poly([(240, waist_y - 14), (360, waist_y - 14), (362, waist_y + 12), (238, waist_y + 12)], lighter(Dc, 0.55), do, 4)
     pen.ell(cx, waist_y - 1, 16, 14, GEMS[(dress + 1) % len(GEMS)], darker(GEMS[(dress + 1) % len(GEMS)], 0.6), 3)
 
-    # neck + head
     pen.poly([(282, 330), (318, 330), (318, 378), (282, 378)], S, so, 4)
+
+
+def head(pen, S, so, Hc, ho, cx, hy, hr, style, dress, crown):
     pen.ell(cx, hy, hr, hr, S, so, 6)
     # ears hint
     pen.ell(cx - hr + 4, hy + 18, 16, 22, S, so, 4)
@@ -196,8 +235,6 @@ def princess(skin=0, hair=0, dress=0, style="long", pose="down", crown="crown", 
         pen.arc(cx, base_y + 20, 70, 40, 200, 340, GOLD_D, 14)
         pen.arc(cx, base_y + 20, 70, 40, 200, 340, GOLD, 9)
         pen.ell(cx, base_y - 22, 13, 15, GEMS[dress % len(GEMS)], darker(GEMS[dress % len(GEMS)], 0.6), 3)
-    img = pen.done(W0, H0)
-    return img.crop(img.getbbox())
 
 
 def hand(fingers_up, side="right", skin=1, start="index"):
