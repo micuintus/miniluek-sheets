@@ -494,7 +494,7 @@ def make_answer_fn(sheet):
         return out
 
     if rule["type"] == "same":
-        return lambda it: dict(it)
+        return lambda it: dict(it, style=style)
     if rule["type"] == "more":
         size = sheet.get("answer_size", 1.9)
 
