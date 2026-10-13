@@ -1,6 +1,6 @@
 # Third-party material
 
-## Emoji (`miniluek-sheets/assets/emoji/`, 95 files)
+## Emoji (`miniluek-sheets/assets/emoji/`, 99 files)
 
 Noto Emoji by Google LLC ("Copyright 2013 Google LLC"), downloaded on 2026-10-04 from
 https://github.com/googlefonts/noto-emoji, folder `3D/png/512`, then cropped to their content
@@ -44,6 +44,10 @@ are included: `LICENSE-OFL-1.1.txt` (the repository's LICENSE file) and
 | `swan.png` | 🦢 | U+1F9A2 | `3D/png/512/emoji_u1f9a2.png` |
 | `unicorn.png` | 🦄 | U+1F984 | `3D/png/512/emoji_u1f984.png` |
 | `wand.png` | 🪄 | U+1FA84 | `3D/png/512/emoji_u1fa84.png` |
+| `rooster.png` | 🐓 | U+1F413 | `3D/png/512/emoji_u1f413.png` |
+| `bat.png` | 🦇 | U+1F987 | `3D/png/512/emoji_u1f987.png` |
+| `car.png` | 🚗 | U+1F697 | `3D/png/512/emoji_u1f697.png` |
+| `wolf.png` | 🐺 | U+1F43A | `3D/png/512/emoji_u1f43a.png` |
 | `box.png` | 📦 | U+1F4E6 | `3D/png/512/emoji_u1f4e6.png` |
 | `bus.png` | 🚌 | U+1F68C | `3D/png/512/emoji_u1f68c.png` |
 | `cap.png` | 🧢 | U+1F9E2 | `3D/png/512/emoji_u1f9e2.png` |
@@ -73,7 +77,7 @@ are included: `LICENSE-OFL-1.1.txt` (the repository's LICENSE file) and
 | `balloon.png` | 🎈 | U+1F388 | `3D/png/512/emoji_u1f388.png` |
 | `blowfish.png` | 🐡 | U+1F421 | `3D/png/512/emoji_u1f421.png` |
 | `bubbles.png` | 🫧 | U+1FAE7 | `3D/png/512/emoji_u1fae7.png` |
-| `cake.png` | 🍰 | U+1F382 | `3D/png/512/emoji_u1f382.png` |
+| `cake.png` | 🎂 | U+1F382 | `3D/png/512/emoji_u1f382.png` |
 | `catfull.png` | 🐈 | U+1F408 | `3D/png/512/emoji_u1f408.png` |
 | `crab.png` | 🦀 | U+1F980 | `3D/png/512/emoji_u1f980.png` |
 | `dizzy.png` | 💫 | U+1F4AB | `3D/png/512/emoji_u1f4ab.png` |
