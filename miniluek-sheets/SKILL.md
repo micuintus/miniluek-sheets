@@ -66,7 +66,8 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
   family, on square *n* of a 6-square path), and picture-sheet tokens: `pearl` (in shells),
   `yarn` and `bone` (scattered on rugs), `snowflake` (in snow globes), `tower` (linking cubes).
 - Layout: `task_style` / `answer_style` = `row`, `col`, `up`, `down`, `dice`, `scatter`. Use
-  different styles for task and answer so the child counts instead of matching shapes.
+  different styles for task and answer when the answer repeats the task's kind, so the child
+  counts instead of matching shapes.
   `size` is the picture size in cm (0.9 for up to 6, 1.25 for up to 3).
 - **Picture sheets** (`"picture": "lagoon"`): one full illustration with 12 numbered badges set
   into the story along a trail in number order, answer grid and pattern unchanged. Counting:

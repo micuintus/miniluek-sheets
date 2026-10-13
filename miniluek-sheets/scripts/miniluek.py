@@ -718,6 +718,10 @@ def check(spec_path):
         tasks, answers = load_sheet(sheet)
         if sheet.get("picture"):
             scenes.check_tasks(sheet["picture"], tasks)
+        for t, task in tasks.items():
+            if task["kind"] == answers[t]["kind"] and task.get("style") == answers[t].get("style"):
+                print(f"warning {sheet.get('id')}: task {t} and its answer share the {task.get('style')} layout; "
+                      "give them different styles so the child counts instead of matching shapes")
         for it in list(tasks.values()) + list(answers.values()):
             if it["kind"] == "compare":
                 pics = [it["a"], it["b"]]
