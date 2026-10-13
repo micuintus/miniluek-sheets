@@ -775,8 +775,8 @@ def toy_room(c, stations, station_painter):
     lights = [(x, 0.18 + 0.28 * math.sin(x / 2.0) ** 2) for x in [W * i / 80 for i in range(81)]]
     c.line(lights, fill=(170, 150, 180), width=0.02, caps=False)
     fairy_lights(c, lights, every=0.7)
-    c.rrect(16.5, 1.7, 22.0, 1.85, 0.03, fill=(236, 196, 160), outline=(206, 160, 120), width=0.02)
-    for x, nm, h in ((17.2, "unicorn", 0.8), (18.6, "piggy", 0.62), (19.9, "teddy", 0.78), (21.2, "horse", 0.7)):
+    c.rrect(19.3, 1.7, 21.4, 1.85, 0.03, fill=(236, 196, 160), outline=(206, 160, 120), width=0.02)
+    for x, nm, h in ((19.85, "unicorn", 0.8), (20.85, "teddy", 0.78)):
         c.paste(emoji(nm), x, 1.7 - h / 2, h=h)
     dollhouse(c, W / 2, 4.9, 0.95)
     c.ellipse(W / 2, 6.9, 2.0, 0.42, fill=(250, 200, 222), outline=(236, 160, 196), width=0.03)
@@ -837,7 +837,7 @@ def ice(c, stations):
     queen = art.princess(skin=0, style="braid", pose="wand", crown="tiara", seed=8, hair_col=(246, 238, 220), dress_col=(168, 212, 250))
     c.paste(queen, W / 2 - 0.1, 5.2, h=2.5)
     glitter(c, curve((W / 2 + 0.55, 4.2), (W / 2 + 1.6, 3.4), (W / 2 + 0.9, 2.6)), 70, 15, spread=0.15, glints=7)
-    for x, y, h, fl in ((W / 2 - 1.5, 6.95, 0.5, False), (W / 2 + 1.45, 6.98, 0.46, True)):
+    for x, y, h, fl in ((W / 2 - 0.95, 7.05, 0.46, False), (W / 2 + 0.95, 7.08, 0.44, True)):
         c.paste(emoji("penguin"), x, y, h=h, flip=fl)
 
 
@@ -1066,8 +1066,8 @@ def castle_garden(c, stations):
     grass.commit()
     c.paste(emoji("rose"), 16.75, 3.2, h=0.75)
     pumpkin_coach(c, 12.05, 3.25, 0.9)
-    for x, y in ((11.45, 3.55), (12.75, 3.6)):
-        c.paste(emoji("mouse"), x, y, h=0.36)
+    for x, y in ((11.15, 3.25), (12.85, 3.25)):
+        c.paste(emoji("mouse"), x, y, h=0.34)
     trail(c, stations, "paws")
     for st in stations:
         rug(c, st["x"], st["y"], st["item"]["n"], st["fam"], st["item"]["kind"], st["t"])
@@ -1114,24 +1114,6 @@ def bunting(c, x0, x1, y, sag, cols, flag=0.42):
     return pts
 
 
-def pond(c, cx, cy, rx, ry):
-    c.ellipse(cx, cy + 0.05, rx + 0.12, ry + 0.1, fill=(150, 196, 140))
-    pts = [(cx + rx * math.cos(a), cy + ry * math.sin(a)) for a in [2 * math.pi * i / 60 for i in range(60)]]
-    c.vgrad(cx - rx, cy - ry, cx + rx, cy + ry, (160, 216, 240), (110, 190, 226), pts)
-    lay = c.layer(cx - rx, cy - ry, cx + rx, cy + ry)
-    for dx, dy, w in ((-0.9, -0.2, 0.5), (0.5, 0.25, 0.6), (1.0, -0.3, 0.35)):
-        lay.line(wave(cx + dx, cx + dx + w, cy + dy, 0.03, 0.4), fill=(255, 255, 255, 150), width=0.03, caps=False)
-    lay.commit()
-    for dx, dy, r in ((-rx * 0.72, ry * 0.25, 0.26), (rx * 0.7, -ry * 0.2, 0.22)):
-        x, y = cx + dx, cy + dy
-        c.ellipse(x, y, r, r * 0.55, fill=(120, 190, 110), outline=(90, 160, 90), width=0.02)
-        c.poly([(x, y), (x + r, y - r * 0.2), (x + r, y + r * 0.2)], fill=(120, 200, 230))
-        for a in range(6):
-            c.ellipse(x - r * 0.25 + 0.07 * math.cos(a * 1.047), y - 0.04 + 0.05 * math.sin(a * 1.047), 0.06, 0.04,
-                      fill=(255, 170, 210))
-        c.circle(x - r * 0.25, y - 0.04, 0.035, fill=(255, 226, 120))
-
-
 def garden(c, stations):
     W, H = c.W, c.H
     hz = 2.3
@@ -1141,8 +1123,7 @@ def garden(c, stations):
     hills = [(x, hz - 0.2 - 0.3 * math.sin(x / 2.7 + 1.4) - 0.15 * math.sin(x / 1.1)) for x in [W * i / 120 for i in range(121)]]
     c.poly(hills + [(W, hz + 0.5), (0, hz + 0.5)], fill=(196, 228, 176))
     c.vgrad(0, hz - 0.1, W, H, (176, 222, 156), (146, 206, 130), [(0, hz), (W, hz), (W, H), (0, H)])
-    for x, h in ((0.9, 1.6), (27.4, 1.65)):
-        c.paste(emoji("tree"), x, hz - h / 2 + 0.35, h=h)
+    c.paste(emoji("tree"), 0.9, hz - 0.8 + 0.35, h=1.6)
     grass = c.layer(0, hz, W, H)
     rnd = random.Random(8)
     for _ in range(170):
@@ -1153,7 +1134,6 @@ def garden(c, stations):
     for pts in (bunting(c, 0.3, 12.0, 0.15, 0.55, [(255, 160, 196), (196, 170, 240), (255, 222, 130)]),
                 bunting(c, 16.3, 24.4, 0.15, 0.45, [(150, 196, 245), (196, 170, 240), (255, 222, 130)])):
         fairy_lights(c, pts)
-    pond(c, 10.95, 6.5, 1.75, 0.72)
     for x, y, nm in ((0.7, 4.7, "tulip"), (27.7, 4.6, "rose")):
         c.paste(emoji(nm), x, y, h=0.7)
     # the princess hosts under her rose arch
@@ -1489,8 +1469,8 @@ SCENES = {
             "spots": [(1.95, 3.0), (3.95, 6.1), (5.95, 3.15), (7.95, 6.2), (9.95, 3.0), (11.5, 6.0),
                       (16.8, 6.0), (18.35, 3.0), (20.35, 6.2), (22.35, 3.15), (24.35, 6.1), (26.35, 3.0)]},
     "towers": {"paint": toys_towers, "size": (28.3, 7.6),
-               "spots": [(1.95, 3.9), (3.95, 6.95), (5.95, 4.0), (7.95, 7.0), (9.95, 3.95), (11.4, 6.95),
-                         (16.9, 6.95), (18.35, 3.95), (20.35, 7.0), (22.35, 4.0), (24.35, 6.95), (26.35, 3.9)]},
+               "spots": [(1.95, 3.95), (3.95, 6.95), (5.95, 3.95), (7.95, 6.95), (9.95, 3.95), (11.4, 6.95),
+                         (16.9, 6.95), (18.35, 3.95), (20.35, 6.95), (22.35, 3.95), (24.35, 6.95), (26.35, 3.95)]},
     "village": {"paint": village, "size": (28.3, 7.6),
                 "spots": [(1.9, 3.75), (3.85, 6.3), (5.85, 3.8), (7.85, 6.35), (9.75, 3.75), (11.0, 6.3),
                           (17.3, 6.3), (18.55, 3.8), (20.45, 6.35), (22.4, 3.8), (24.4, 6.3), (26.35, 1.55)]},
