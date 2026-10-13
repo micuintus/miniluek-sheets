@@ -215,11 +215,13 @@ def draw_word(img, d, word, cx, cy, k, fam=None):
     outline, ink = ((196, 70, 140), (92, 40, 120)) if fam is None else (FAMILY[fam]["frame"], FAMILY[fam]["ink"])
     size = 0.95 * k
     probe = font(round(size, 3))
-    while d.textlength(word, font=probe) / CM > 3.1 * k and size > 0.4 * k:
+    while d.textlength(word, font=probe) / CM > 2.8 * k and size > 0.4 * k:
         size -= 0.05 * k
         probe = font(round(size, 3))
     f = probe
-    w = d.textlength(word, font=f) / CM + 0.9 * k
+    tw = d.textlength(word, font=f) / CM
+    # the pill stays 0.15 cm inside the 3.5 cm cell frame
+    w = tw + min(0.9 * k, max(0.4 * k, 3.2 * k - tw))
     rrect(d, cx, cy, w, 1.5 * k, 0.25 * k, outline=outline, fill=(255, 255, 255), width=0.07 * k)
     d.text(P(cx, cy + 0.05 * k), word, font=f, fill=ink, anchor="mm")
 
