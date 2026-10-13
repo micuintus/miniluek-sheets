@@ -291,7 +291,7 @@ def draw_group(img, item, cx, cy, k):
     style = item.get("style", "row")
     seed = item.get("seed", 0)
     if kind == "princess":
-        hh = item.get("princess_size", 1.8 if n <= 3 else 1.35) * k
+        hh = item.get("princess_size", 1.4) * k
         sprites = [princess_sprite(seed * 7 + i, item.get("pose", "down")) for i in range(n)]
         aspect = max(s.width / s.height for s in sprites)
         sw = hh * aspect
