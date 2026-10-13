@@ -36,6 +36,10 @@ Three minutes with the child before the first sheet:
 | knows most letters | A2 |
 | names the letters and repeats the picture words | A3 |
 
+The letters on A1, A2 and A1b are the first letters of the course words (German: B E F G H
+K L M P S T W; English: B C D F G H M O P S, plus A and E). The rest of the alphabet is not in the set; the
+adult teaches letter names and sounds outside it, in the object step before A3.
+
 ## Before each sheet
 
 Each sheet comes after the same idea spoken first: the adult says, claps, sings or points,
