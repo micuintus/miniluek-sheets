@@ -5,7 +5,7 @@ practises, and which study each choice rests on. No study has tested miniLÜK or
 from studies of the underlying skill. Full references with DOIs and a key sentence from each
 are at the end.
 
-**In short.** Well supported: the order of skills (practice guide, moderate evidence), objects
+**In short.** Well supported: teaching number along a progression (practice guide, moderate evidence, though no particular order is tested), objects
 before pictures, one-to-one counting and comparison content (meta-analyses), adult 1:1 teaching
 with the MILE routine (randomised trials). Reasoned from studies but not tested: one direction per
 sheet, the two-colour families, three comparison sheets, plain counted sets inside the picture
@@ -37,8 +37,14 @@ also appear in the tables wherever a study is used.
 | 8. Part-whole | S12 | Seeing 6 as 5 and 1 is the top level of the quantity-number model. | Krajewski & Schneider 2009 [C]; Kullberg et al. 2020 [R] |
 | 9. One more | S13 | Children count correctly before they understand that the next number word means one more. | Sarnecka & Carey 2008 [E]; Frye et al. 2013 [G] |
 
-The practice guide behind steps 1–9 rates its progression as moderate evidence and notes that
-none of its 23 studies compared teaching along a progression with teaching without one.
+The practice guide rates teaching number and operations along a progression as moderate
+evidence (21 randomised and 2 quasi-experimental studies) and notes that none of its 23 studies
+compared teaching along a progression with teaching without one: no particular progression is
+evidence-rated. Its example progression (Table 3) runs from small sets and counting through
+comparing by counting and comparing close numbers to "number-after equals one more"; its basic
+problems add and remove items. Dice and finger patterns of four to six, numeral to quantity,
+the number path (close to the guide's number list) and the ten-frame come from the studies in
+the tables below.
 
 ## Per sheet
 
@@ -47,7 +53,7 @@ none of its 23 studies compared teaching along a progression with teaching witho
 | S1 Same thing, same number | 1–3 at a glance; the number stays when the objects move | four kinds; the answer shows the same objects rearranged | subitizing (Clements et al. 2019 [E]); same objects before different objects (Mix 2008 [E]); same number in a new arrangement; conservation itself is trained with objects; the content list is the MILE one [G] |
 | S2 Princesses → cupcakes, frogs → crowns | counting one by one, "how many" | up to six; answers in another layout | one-to-one counting content (Nelson & McMaster 2019 [M]); counting interventions (Akther et al. 2025 [M]) |
 | S3 Dice → hearts and stars | dice patterns, checked by counting | hearts and stars in rows, not dice patterns | grouping not yet used in kindergarten (Starkey & McCandliss 2014 [E]) |
-| S4 Fingers and stars → dice | finger patterns, shown on the child's own fingers | left hand first; counting from the index finger or the thumb, set per preset | finger training (Poletti et al. 2025 [R]); finger patterns for part-whole (Kullberg et al. 2020 [R]); thumb-first, the German default, is the common Western habit (Lindemann et al. 2011 [C]); index-first, the English default, is a convention choice |
+| S4 Fingers and stars → dice | finger patterns, shown on the child's own fingers | left hand first; counting from the index finger or the thumb, set per preset | finger training (Poletti et al. 2025 [R]); finger patterns for part-whole (Kullberg et al. 2020 [R]); thumb-first, the German preset's default, is the common Western habit (Lindemann et al. 2011 [C]); index-first, the English preset's default, is a convention choice |
 | S5 Who has more dots? | comparing by sight | ratios 2 : 1 and more; one dot size; each animal wins once and loses once | comparing (Frye et al. 2013 [G]); ratio limits (Halberda & Feigenson 2008 [E]); size cues (Leibovich et al. 2017 [E]) |
 | S6 How many? Find the number | quantity to numeral | pink and blue numerals | quantity-number level (Krajewski & Schneider 2009 [C]) |
 | S7 Find the dice for each number | numeral to quantity | the reverse direction on its own sheet | both directions (Mundy & Gilmore 2009 [E]) |
@@ -58,7 +64,7 @@ none of its 23 studies compared teaching along a progression with teaching witho
 | S12 Treasure chest, 3–8 (later) | five and more: 6 = 5 and 1 | ten-frame filled row by row | part-whole level (Krajewski & Schneider 2009 [C]); finger patterns (Kullberg et al. 2020 [R]); unitizing in MILE [G] |
 | S13 One more (later) | the number after | the equal set is the intended lure | successor understanding (Sarnecka & Carey 2008 [E]) |
 | S1b Rapunzel's meadow (picture) | 1–3 at a glance inside a picture | bugs on flowers; answer the same animals rearranged; no loose bugs elsewhere | review after S1; see [picture sheets](#picture-sheets) |
-| S2b Sky train (picture) | counting 1–6, matched to another kind | kittens and puppies at the windows; fish and bones below | review after S2; counting familiar characters as in S2 (Petersen & McNeil 2013 [E]) |
+| S2b Sky train (picture) | counting 1–6, matched to another kind | kittens and puppies at the windows; fish and bones below | review after S2; characters are the risky case in Petersen & McNeil 2013 [E], kept only here and on S2 where counting them is the skill |
 | S4b Mermaid lagoon (picture) | counting 1–6, then the dice pattern | pearls in shells, rows, not dice layout | review after S4 |
 | S6b Ice princess (picture) | quantity to numeral | snowflakes only inside the globes; snow in the sky falls as dots | review after S6 |
 | S8b Cinderella's castle (picture) | scattered sets to numeral | wool and bones scattered on blankets; "only count what lies on the blanket" | review after S8; arrangement and counting errors (Fuson 1988 [E]) |
@@ -68,15 +74,15 @@ none of its 23 studies compared teaching along a progression with teaching witho
 
 | Rule | Why | Sources |
 |---|---|---|
-| One direction per sheet; no answer repeats a task picture | An identical copy is the easiest wrong match, and choosing it is a rule error, not a number error. Object similarity pulls children away from number matches. | Mix 2008 [E] (design reasoning, not tested) |
-| Two colour families: pink tasks to pink answers, blue to blue | The only other answer with the right number has the other colour, and the search drops from 12 fields to 6. | visual cues and fewer tasks at once (SMILE FASD manual 2025 [G], practice guidance; applied here to answer options); visual-spatial load (Crocker et al. 2015 [C]); untested |
-| Different layouts for task and answer | the child counts instead of matching shapes | Mix 2008 [E]; Starkey & McCandliss 2014 [E] |
-| Two worked examples per sheet | modelling before practice | Akther et al. 2025 [M] |
+| One direction per sheet; no answer repeats another task's picture (a same-rule sheet repeats its own pair by design) | An identical copy is the easiest wrong match, and choosing it is a rule error, not a number error. Object similarity pulls children away from number matches. | Mix 2008 [E] (design reasoning, not tested) |
+| Two colour families on the two-pair sheets: pink tasks to pink answers, blue to blue | On those sheets the only other answer with the right number has the other colour, and the search drops from 12 fields to 6. The same-rule and comparing sheets carry one colour. | visual cues and fewer tasks at once (SMILE FASD manual 2025 [G], practice guidance; applied here to answer options); visual-spatial load (Crocker et al. 2015 [C]); untested |
+| Different layouts where the answer repeats the task's kind | the child counts instead of matching shapes | Mix 2008 [E]; Starkey & McCandliss 2014 [E] |
+| One worked example per family (two on two-family sheets) | modelling before practice | Akther et al. 2025 [M] |
 | Pattern check, then wrong tasks redone with objects | feedback; one error at a time | Akther et al. 2025 [M]; MILE cycle [G] |
 | One picture size per sheet, clean page | size must not give the answer away; visual-spatial load | Leibovich et al. 2017 [E]; Crocker et al. 2015 [C] |
-| Counted sets plain, decoration out of the way | rich familiar objects hindered counting where children knew the objects; decorated rooms held attention worse | Petersen & McNeil 2013 [E]; Kaminski & Sloutsky 2013 [E]; Fisher, Godwin & Seltman 2014 [E] |
+| Counted sets plain, decoration out of the way | rich objects hindered counting when children had high knowledge of them; decorated rooms held attention worse | Petersen & McNeil 2013 [E]; Kaminski & Sloutsky 2013 [E]; Fisher, Godwin & Seltman 2014 [E] |
 | Theme, and the child chooses which mastered sheet comes back | motivation and learning | Córdova & Lepper 1996 [R] |
-| Picture sheets as review days | motivation through a story world the child cares about | contextualisation and personalisation raised motivation and engagement in 4th–5th graders (Córdova & Lepper 1996 [R]); the sheets themselves are untested |
+| Picture sheets as the week-later revisit | motivation through a story world the child cares about | contextualisation and personalisation raised motivation and engagement in 4th–5th graders (Córdova & Lepper 1996 [R]); the sheets themselves are untested |
 | Quantities stay visible, no memory drills | working-memory training does not transfer | Melby-Lervåg et al. 2016 [M] |
 
 ## Picture sheets
@@ -89,23 +95,25 @@ that has evidence:
 | Pathway | Evidence | What the sheets do |
 |---|---|---|
 | Interest draws effort to the task (helps) | Interest grows from triggered situational interest to a lasting individual interest (Hidi & Renninger 2006 [E]); a fantasy context and personalisation raised engagement and learning in 4th and 5th graders (Córdova & Lepper 1996 [R]) | Each scene is a world children of this age already love: mermaids, kittens and puppies, princesses, an ice princess, Rapunzel, Cinderella, unicorns, toys. |
-| Variation helps once the skill is known (helps) | "less knowledgeable participants learned better from similar examples, while more knowledgeable participants learned better from varied examples" (Braithwaite & Goldstone 2015 [E]); techniques that help novices "can lose their effectiveness and even have negative consequences" with experienced learners (Kalyuga et al. 2003 [E]) | The plain sheet teaches the step; its picture twin comes only after the plain sheet is mastered, as its week-later repeat. |
+| Variation helps once the skill is known (helps) | "less knowledgeable participants learned better from similar examples, while more knowledgeable participants learned better from varied examples" (Braithwaite & Goldstone 2015 [E], undergraduates); techniques that help novices "can lose their effectiveness and even have negative consequences" with experienced learners (Kalyuga et al. 2003 [E]) | The plain sheet teaches the step; its picture twin comes only after the plain sheet is mastered, as its week-later revisit (A6b transfers to new words). |
 | Irrelevant detail costs working memory and attention (hurts) | The seductive detail effect, small to medium on retention and medium on transfer, "mainly explained by assuming an overloading of the working memory, attention distraction, schema interference or coherence disruption" (Rey 2012 [M]); "including seductive details in learning material can hinder learning" (Sundararajan & Adesope 2020 [M]); a decorated room distracted kindergartners (Fisher, Godwin & Seltman 2014 [E]) | Nothing decorative sits inside or between the stations; story characters stand at the edges, in the middle or in the sky. |
-| Knowledge about the objects competes with the number (hurts) | Rich familiar objects hindered preschool counting (Petersen & McNeil 2013 [E]); with perceptually rich money, children "made the most errors; however, their errors were least likely to be conceptual errors" (McNeil et al. 2009 [E]); extraneous detail reduced learning and transfer (Kaminski & Sloutsky 2013 [E]) | The counted things are plain tokens: pearls, snowflakes, cubes, wool, bones. Only S2b counts characters, as S2 already does, and no scene holds loose copies of its counted kind. |
+| Knowledge about the objects competes with the number (hurts) | Rich objects hindered preschool counting when children had high knowledge of them (Petersen & McNeil 2013 [E], N = 133, Mage 3;10); with perceptually rich money, children "made the most errors; however, their errors were least likely to be conceptual errors" (McNeil et al. 2009 [E], 4th and 6th graders on word problems); extraneous detail reduced learning (Kaminski & Sloutsky 2013 [E], 6- to 8-year-olds on bar graphs) | The counted things are plain tokens: pearls, snowflakes, cubes, wool, bones. Only S2b counts characters, as S2 already does, and no scene holds loose copies of its counted kind. |
 | Cues steer attention (helps) | Signaling raised retention (g = 0.53) and transfer (g = 0.33) (Schneider et al. 2018 [M]) | A trail runs through the badges in number order; pink and blue keep their families; violet only decorates. |
 | Spatial load costs more after prenatal alcohol exposure | Spatial span and spatial recognition memory predicted math after heavy prenatal alcohol exposure (Crocker et al. 2015 [C]) | Plain sheet first, one container size per sheet, and a miscount sends the child back to the plain sheet. |
-| One more must be seen as one step (S13b) | Children count sets by 4 but only at 5½ to 6 understand "that adding 1 to a set necessitates counting up one number" (Schneider et al. 2021 [E]); cardinal-principle knowledge predicted later gains in the successor principle (Spaepen et al. 2018 [C]); linear number representations relate to math achievement (Siegler & Booth 2004 [C]) | Every tower keeps one cube size and stands on one floor line, so one more is one cube taller, with the equal tower as the lure. |
+| One more must be seen as one step (S13b) | Children count sets by 4 but only at 5½ to 6 understand "that adding 1 to a set necessitates counting up one number" (Schneider et al. 2021 [E]); cardinal-principle knowledge predicted later gains in the successor principle (Spaepen et al. 2018 [C]); linear number representations relate to math achievement (Siegler & Booth 2004 [C]) | On the answer tiles every tower keeps one cube size and one floor line, so one more is one cube taller, with the equal tower as the lure. |
 
-A story told by the adult, best with a doll or puppet who needs help, carries the interest
-pathway without adding anything to the page; older students worked harder for a character they
-taught than for themselves (Chase et al. 2009 [E]).
+A story told by the adult, best with a doll who needs help, carries the interest pathway
+without adding anything to the page. Letting the child teach her doll is the extension: 5th and
+8th graders "make greater effort to learn for their TAs than they do for themselves" (Chase et al.
+2009 [E], a computer agent; the age gap to these sheets is large and the variant is untested).
 
 ## Using the sheets
 
 - **Objects first, then the sheet.** Interventions framed concrete-representational-abstract
   averaged g = 0.81 against 0.57 without; those built on pictures averaged 0.58 against 0.84
-  without (Nelson & McMaster 2019). Manipulatives are an evidence-based practice for students
-  with developmental disabilities (Spooner et al. 2019).
+  without (Nelson & McMaster 2019; these figures are from the dissertation version, the 2019
+  article reports 34 studies, g = 0.64). Manipulatives are an evidence-based practice for
+  students with moderate and severe developmental disabilities (Spooner et al. 2019).
 - **An adult sits with one child** and runs Focus/Plan, Act, Reflect: the MILE routine.
   1:1 interventions had larger effects than small groups (Miller et al. 2025). In the MILE
   community trial, families who had two parent workshops and a manual but no tutoring gained less
@@ -140,7 +148,7 @@ training matched to the child's cognitive level for preschool and school childre
 high-quality evidence), and suggests building MILE's elements into existing math support.
 
 **How the set reflects it.** Comparison appears three times (S5, S10, S11). The MILE content
-list is covered: subitizing (S1–S3), one-to-one counting and cardinality (S2, S6, S8),
+list is covered: subitizing (S1–S3), stable order, one-to-one correspondence and cardinality (S2, S6, S8),
 conservation (S1), magnitude (S5, S10, S11), position (S9), unitizing (S12). Every sheet uses
 the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came from trained
 1:1 tutoring; the sheets are practice next to such teaching, not a replacement.
@@ -164,8 +172,11 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 - With dots of one size, more dots also means more ink: S5 and S10 train comparison with a
   matching area cue.
 - The finger studies tested typically developing children.
-- The prenatal alcohol number studies tested adolescents; no study tested number comparison
-  in preschoolers after prenatal alcohol exposure.
+- The number comparison studies after prenatal alcohol exposure tested adolescents (the
+  visual-spatial study tested children around 10); no study tested number comparison in
+  preschoolers after prenatal alcohol exposure.
+- Quantity to numeral runs on six sheets against one for the reverse direction (S7); a picture
+  twin for S7 is the one planned extension.
 - No study tested the picture sheets or a story illustration as the review step; their rules
   borrow from the decoration and transfer studies above.
 
@@ -211,8 +222,9 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 - [E] **Mix 2008.** Children's equivalence judgments: crossmapping effects. *Cogn Dev*
   23(1):191–203. [doi:10.1016/j.cogdev.2007.03.001](https://doi.org/10.1016/j.cogdev.2007.03.001).
   "Only children who understood the number words for the target sets performed above chance
-  in the crossmapping condition"; "experience with high similarity comparisons helps children
-  recognize less obvious relations in subsequent, low similarity comparisons".
+  in the crossmapping condition"; experience with high-similarity comparisons helps children
+  recognise less obvious relations in later, low-similarity comparisons (Mix summarising
+  Klibanoff & Waxman 1999 and Kotovsky & Gentner 1996).
 - [E] **Starkey & McCandliss 2014.** The emergence of "groupitizing" in children's numerical
   cognition. *J Exp Child Psychol* 126:120–137.
   [doi:10.1016/j.jecp.2014.03.006](https://doi.org/10.1016/j.jecp.2014.03.006).
@@ -247,7 +259,7 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 - [E] **Chase, Chin, Oppezzo & Schwartz 2009.** Teachable agents and the protégé effect: increasing
   the effort towards learning. *J Sci Educ Technol* 18(4):334–352.
   [doi:10.1007/s10956-009-9180-4](https://doi.org/10.1007/s10956-009-9180-4). "students make
-  greater effort to learn for their TAs than they do for themselves" (8th graders, computer agent).
+  greater effort to learn for their TAs than they do for themselves" (5th and 8th graders, computer agent).
 - [E] **Schneider, Sullivan, Guo & Barner 2021.** What counts? Sources of knowledge in children's
   acquisition of the successor function. *Child Dev* 92(4):e476–e492.
   [doi:10.1111/cdev.13524](https://doi.org/10.1111/cdev.13524). "it is not until 5½–6 years
@@ -265,13 +277,13 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
   "only the high-numeral-knowers understand how counting implements the successor function"
   (author version of the abstract, eScholarship).
 - [E] **Petersen & McNeil 2013.** Effects of perceptually rich manipulatives on preschoolers' counting performance: established knowledge counts. *Child Dev* 84(3):1020–1033.
-  [doi:10.1111/cdev.12028](https://doi.org/10.1111/cdev.12028). Perceptually rich objects "hindered performance when the tasks involved familiar objects" (preschoolers, counting).
+  [doi:10.1111/cdev.12028](https://doi.org/10.1111/cdev.12028). Perceptually rich objects "hinder performance when children have high knowledge of the objects" (N = 133 preschoolers, Mage 3;10, counting).
 - [E] **Kaminski & Sloutsky 2013.** Extraneous perceptual information interferes with children's acquisition of mathematical knowledge. *J Educ Psychol* 105(2):351–363.
-  [doi:10.1037/a0031040](https://doi.org/10.1037/a0031040). Lessons with extraneous detail hurt learning; "limit the inclusion of extraneous perceptual information" in materials (ERIC summary).
-- [E] **Fisher, Godwin & Seltman 2014.** Visual environment, attention allocation, and learning in young children. *Psychol Sci* 25(7):1334–1342.
+  [doi:10.1037/a0031040](https://doi.org/10.1037/a0031040). Extraneous information "substantially attenuated learning" and children "tended to count the objects and failed to acquire the appropriate strategy" (4 experiments, 6- to 8-year-olds learning to read bar graphs).
+- [E] **Fisher, Godwin & Seltman 2014.** Visual environment, attention allocation, and learning in young children. *Psychol Sci* 25(7):1362–1370.
   [doi:10.1177/0956797614533801](https://doi.org/10.1177/0956797614533801). Children in the highly decorated classroom "were more distracted, spent more time off-task and demonstrated smaller learning gains" (Carnegie Mellon release).
 - [E] **McNeil & Fyfe 2012.** "Concreteness fading" promotes transfer of mathematical knowledge. *Learn Instr* 22(6):440–448.
-  [doi:10.1016/j.learninstruc.2012.03.004](https://doi.org/10.1016/j.learninstruc.2012.03.004). Fading from concrete to idealized representations "promotes transfer of mathematical knowledge"; cited as the idea behind revisiting a mastered step in a new surface form (direction reversed here: plain first, story second, so untested).
+  [doi:10.1016/j.learninstruc.2012.05.001](https://doi.org/10.1016/j.learninstruc.2012.05.001). Fading from concrete to idealized representations "promotes transfer of mathematical knowledge"; cited as the idea behind revisiting a mastered step in a new surface form (direction reversed here: plain first, story second, so untested).
 - [R] **Poletti, Krenger, Létang, Hennequin & Thevenot 2025.** Finger counting training enhances
   addition performance in kindergarteners. *Child Dev* 96(1):251–268.
   [doi:10.1111/cdev.14146](https://doi.org/10.1111/cdev.14146).
@@ -280,9 +292,9 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 - [R] **Kullberg, Björklund, Brković & Runesson Kempe 2020.** Effects of learning addition and
   subtraction in preschool by making the first ten numbers and their relations visible with
   finger patterns. *Educ Stud Math* 103(2):157–172.
-  [doi:10.1007/s10649-019-09927-1](https://doi.org/10.1007/s10649-019-09927-1). Five-year-olds
-  "taught to use their fingers to structure part-part-whole relations of numbers" improved in
-  addition and subtraction.
+  [doi:10.1007/s10649-019-09927-1](https://doi.org/10.1007/s10649-019-09927-1). In an 8-month
+  intervention with 103 five-year-olds, the intervention group "learned to recognize and use
+  part-part-whole relations in novel arithmetic tasks", and the difference held one year later.
 - [C] **Lindemann, Alipour & Fischer 2011.** Finger counting habits in Middle Eastern and Western
   individuals: an online survey. *J Cross-Cult Psychol* 42(4):566–578.
   [doi:10.1177/0022022111406254](https://doi.org/10.1177/0022022111406254). "most Western
@@ -332,7 +344,7 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
   children; "The acquired skills were maintained up to 16 wk after the completion of the
   intervention."
 
-- [E] **Seabrook, Brown & Solity 2004.** Distributed and massed practice: from laboratory to
+- [E] **Seabrook, Brown & Solity 2005.** Distributed and massed practice: from laboratory to
   classroom. *Appl Cogn Psychol* 19(1):107–122.
   [doi:10.1002/acp.1066](https://doi.org/10.1002/acp.1066). A classroom study "demonstrated
   the benefit of distributed over clustered teaching of reading".

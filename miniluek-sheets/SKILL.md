@@ -80,8 +80,8 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
   containers; decoration stays out of the way. Grid sheets stay plain, the picture is the
   review, not the teaching.
 
-Each sheet gets its own control pattern from a library of symmetric patterns (`"pattern": k`
-picks one). The tile-back model is in `references/format.md`.
+Each sheet gets a control pattern from a library of symmetric patterns (`"pattern": k` picks
+one; a set with more sheets than the library repeats one). The tile-back model is in `references/format.md`.
 
 ## Order and use
 

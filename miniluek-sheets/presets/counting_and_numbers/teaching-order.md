@@ -29,10 +29,10 @@ Picture sheets come after their plain twin as review, never as a step of their o
 
 ## Why this order
 
-Small sets, counting, patterns, comparing, numerals both ways, a number path, comparing again by
-counting and with numerals, then part-whole and "one more": the progression of the What Works
-Clearinghouse guide *Teaching Math to Young Children*, with patterns of four to six placed after
-counting. Each step and each sheet mapped to its studies: [research](research.md).
+Small sets, counting, comparing by sight and by counting, numerals, comparing numbers and
+"one more" follow the What Works Clearinghouse guide *Teaching Math to Young Children*
+(Recommendation 1 and its example progression); dice and finger patterns of four to six,
+numeral to quantity, the number path and the ten-frame come from the studies named below. Each step and each sheet mapped to its studies: [research](research.md).
 
 ## Where to start
 
@@ -88,17 +88,20 @@ day should be spent at the edge of what the child can almost do.
 
 ## Design rules
 
-- Each sheet runs one direction: no answer repeats a task picture, so the easiest wrong match
-  is never an identical copy. Both directions of the quantity–numeral link get their own sheet.
+- Each sheet runs one direction: no answer repeats another task's picture (a same-rule sheet
+  repeats its own pair), so the easiest wrong match is never a copy of another task. Both
+  directions of the quantity–numeral link get their own sheet.
 - Picture sheets practise a mastered step inside one full illustration. The counted things are
   plain and identical, each set inside its own shell, globe, blanket, window, flower or tower,
   and the scene holds no loose copies of the counted kind. A trail (bubbles, paw prints, a
   braid, skate tracks, toy rails) leads through the badges in number order. Pink and blue keep
-  their families; violet and every other colour only decorate. On S13b all cubes have one
-  size and every tower stands on one floor line, so one more is one cube taller.
-- Matching sheets use two colour families: pink tasks have pink answers, blue tasks blue answers. The
-  only other answer with the right number has the other colour.
-- Tasks and answers use different layouts, so the child counts instead of matching shapes.
+  their families; violet and every other colour only decorate. On S13b the answer tiles keep
+  one cube size and one floor line, so one more is one cube taller.
+- The two-family sheets (most matching sheets) use two colour families: pink tasks have pink
+  answers, blue tasks blue answers, so the only other answer with the right number has the
+  other colour. The same-rule and comparing sheets carry one colour.
+- Tasks and answers use different layouts where the answer repeats the task's kind, so the
+  child counts instead of matching shapes.
 
 ## Using the sheets
 
@@ -108,10 +111,14 @@ day should be spent at the edge of what the child can almost do.
   Act, Reflect method of MILE, a 1:1 math tutoring programme tested in randomised trials
   (Kable, Coles & Taddeo 2007; Coles, Kable & Taddeo 2009).
 - One sheet per session, 5–10 minutes, stop before frustration; move on after two days with
-  the pattern right first time, repeat a mastered sheet a week later.
-- The week-later repeat of a mastered sheet is its picture twin where one exists, so the twins
-  add no days and never replace the daily sheet. A child who cannot yet work the plain sheet
-  goes back to it, not forward to the picture.
+  the pattern right first time, repeat a mastered sheet a week later. A sheet stopped early is
+  finished at the start of the next session, or the adult checks only the tiles placed: the
+  pattern check needs all twelve tiles to mean anything. The tiles are a fine-motor task: the
+  adult may place the one the child points to.
+- The week-later revisit of a mastered sheet is its picture twin where one exists: the twin
+  takes the revisit slot, never the daily sheet. At two days right first time plus one revisit
+  per sheet the course runs to at least 39 sheet-days. A child who cannot yet work the plain
+  sheet goes back to it, not forward to the picture.
 - Tell each sheet as a story, best with a doll or puppet who needs help: "the mermaid lost her
   pearls, can you find out how many are in each shell?" The story carries the motivation and
   adds nothing to the page ([research](research.md#picture-sheets)). The doll can also miscount

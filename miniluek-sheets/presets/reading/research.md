@@ -13,23 +13,23 @@ experiment, single-case study, book or narrative review.
 
 | Sheet | Practises | Design | Evidence |
 |---|---|---|---|
-| A1 Same letter | letter shapes | uppercase, 12 letters, answer in another case position | letter knowledge predicts later reading (NELP 2008 [E]) |
+| A1 Same letter | letter shapes | uppercase, 12 letters, answer in another case position | letter knowledge predicts later reading (NELP 2008 [M]) |
 | A1b ABC blocks picture sheet | the same letter shapes inside a picture | letters on toy blocks, review after A1 | untested; plain stations as in the counting picture sheets |
-| A2 Lowercase | upper to lowercase | the reverse look on its own sheet | letter knowledge (NELP 2008 [E]) |
-| A3 Who starts with it? | first sound to picture | word-bound letter cards with the word captioned; name each picture first | phonological awareness predicts later reading (NELP 2008 [E]); code-focused teaching includes phonological teaching (NELP 2008 [E]) |
+| A2 Lowercase | upper to lowercase | the reverse look on its own sheet | letter knowledge (NELP 2008 [M]) |
+| A3 Who starts with it? | first sound to picture | word-bound letter cards with the word captioned; name each picture first | phonological awareness predicts later reading (NELP 2008 [M]); code-focused teaching includes phonological teaching (NELP 2008 [M]) |
 | A3b Balloons picture sheet | first sound to picture inside a picture | letter cards on pink and blue balloons, review after A3 | untested; the colour families as on A3 |
 | A4 Who starts with which letter? | picture to first letter | the reverse direction on its own sheet | children map number both ways (Mundy & Gilmore 2009 [E]); the letter reverse is untested |
 | A4b Garden party picture sheet | first sounds inside a picture | twelve guests as the tasks, family-coloured halos, review after A4 | untested; the counting picture sheets carry the decoration reasoning (Petersen & McNeil 2013 [E]; Fisher, Godwin & Seltman 2014 [E] in the counting research) |
-| A5 Which part does it start with? | syllables to words | cards only for syllables that start one course word | phonological awareness (NELP 2008 [E]) |
-| A6 Read the word | whole printed words, 3 to 8 letters | pink and blue pills alternate | code-focused teaching (NELP 2008 [E]) |
-| A6b Market day picture sheet | picture to three-letter word inside a picture | words share first letters or rhymes, so the first letter alone never decides | code-focused teaching (NELP 2008 [E]); the shared-letter design is untested |
+| A5 Which part does it start with? | syllables to words | cards only for syllables that start one course word | phonological awareness (NELP 2008 [M]) |
+| A6 Read the word | whole printed words, 3 to 8 letters | pink and blue pills alternate | code-focused teaching (NELP 2008 [M]) |
+| A6b Market day picture sheet | picture to short word inside a picture | every word shares its first letter with a family neighbour, so the first letter alone never decides | code-focused teaching (NELP 2008 [M]); the shared-letter design is untested |
 
 ## Design rules
 
 | Rule | Why | Sources |
 |---|---|---|
 | One direction per sheet; no answer repeats a task picture | an identical copy would be the easiest wrong match | counting sheets in the rule from Mix 2008 [E]: an identical copy pulls children away from content |
-| Two colour families on matching sheets | the only other answer with the right content has the other colour | same matching logic as the counting sheets; untested for letters |
+| Two colour families on the two-pair sheets | the only other answer with the right content has the other colour | same matching logic as the counting sheets; untested for letters |
 | Picture sheet as the review day | a full story illustration with the tasks set into it | motivation through a story world; untested, replaces a revisit day never the daily sheet |
 | Worked examples per family | modelling before practice | Akther et al. 2025 [M]: modelling was common in effective counting interventions; untested for letters |
 | Pattern check | feedback | feedback was common in effective counting interventions (Akther et al. 2025 [M]); untested for letters |
@@ -39,7 +39,7 @@ experiment, single-case study, book or narrative review.
 
 - **Letters and sounds spoken first, then the sheet.** Read each task word aloud before the child places a tile; the adult says the sound ("kuh-ah-tuh") and slides it together.
 - **German is the reading route.** School teaches reading in German; English basic decoding takes more than twice as long to establish (Seymour et al. 2003 [E]).
-- **One sheet a day.** Keep the daily cap; counting comes first (Duncan et al. 2007 [M]: entry math predicts later reading and math). Spaced practice beats massed practice (Seabrook et al. 2004 [E]).
+- **One sheet a day.** Keep the daily cap; counting comes first (Duncan et al. 2007 [M]: entry math predicts later reading and math). Spaced practice beats massed practice (Seabrook et al. 2005 [E]).
 
 ## Limits
 
@@ -49,7 +49,7 @@ experiment, single-case study, book or narrative review.
 ## Sources
 
 ### Letters and reading
-- [E] **NELP 2008** (Lonigan, Shanahan & Cunningham, 2008; NICHD).
+- [M] **NELP 2008** (Lonigan, Shanahan & Cunningham, 2008; NICHD).
   [PDF](https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/NELPReport09.pdf).
   Six variables "had medium to large predictive relationships with later measures of literacy
   development" and held "even when the role of other variables, such as IQ or socioeconomic
@@ -57,7 +57,7 @@ experiment, single-case study, book or narrative review.
   automatic naming of letters/digits, rapid naming of objects/colors, writing/writing name,
   and phonological memory. Code-focused interventions (n = 78) taught cracking the alphabetic
   code, "Most code-focused interventions included PA instruction."
-- [E] **Seabrook, Brown & Solity 2004.** Distributed and massed practice: from laboratory to
+- [E] **Seabrook, Brown & Solity 2005.** Distributed and massed practice: from laboratory to
   classroom. *Appl Cogn Psychol* 19(1):107–122.
   [doi:10.1002/acp.1066](https://doi.org/10.1002/acp.1066). A classroom study "demonstrated
   the benefit of distributed over clustered teaching of reading".
@@ -65,7 +65,7 @@ experiment, single-case study, book or narrative review.
   43(6):1428–1446. [doi:10.1037/0012-1649.43.6.1428](https://doi.org/10.1037/0012-1649.43.6.1428).
   Entry math is the strongest predictor of later reading and math; this is why the counting
   course comes first even in the reading route.
-- [E] **Seymour, Aro & Erskine 2003.** Foundation literacy acquisition in European orthographies. *Br J Psychol* 94(2):143–174.
+- [C] **Seymour, Aro & Erskine 2003.** Foundation literacy acquisition in European orthographies. *Br J Psychol* 94(2):143–174.
   [doi:10.1348/000712603321661859](https://doi.org/10.1348/000712603321661859). Most European children read accurately
   before the end of first grade; English children take more than twice as long.
 
@@ -74,7 +74,7 @@ experiment, single-case study, book or narrative review.
   [doi:10.1111/j.1467-9817.2010.01477.x](https://doi.org/10.1111/j.1467-9817.2010.01477.x). Sound skills correlate
   across a bilingual child's languages.
 
-- [E] **MZZ: Krajewski, Nieding & Schneider 2008.** Kurz- und langfristige Effekte mathematischer Frühförderung im Kindergarten.
+- [R] **MZZ: Krajewski, Nieding & Schneider 2008.** Kurz- und langfristige Effekte mathematischer Frühförderung im Kindergarten.
   *Z Entwicklungspsychol Pädagog Psychol* 40(3):135–146.
   [doi:10.1026/0049-8637.40.3.135](https://doi.org/10.1026/0049-8637.40.3.135). The evaluated programme behind the counting order,
   cited here because the letter work runs alongside it in kindergarten, not as letter evidence.

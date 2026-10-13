@@ -5,14 +5,14 @@ letters, first sounds, syllables, short printed words. The evidence base is narr
 [research](research.md) carry evidence-type tags. It sits beside this file, shared by both
 reading presets.
 
-`reading-readiness.json` is English, `lese-vorbereitung.json` is German. Same sheets,
-same tasks, translated titles and goals.
+`reading-readiness.json` is English, `lese-vorbereitung.json` is German. Same sheets
+and structure, translated titles, goals and course words.
 
 ## Number first
 
 Letters teach best once the child can work a LÜK page: 12 numbered tasks, one tile per task,
-pattern check at the end. If the counting sheets are not yet mastered, keep them daily and run
-reading twice a week, not daily, so the one sheet a day stays the cap.
+pattern check at the end. If the counting sheets are not yet mastered, keep them daily, and on two days a week the reading sheet is
+that day's sheet, so one sheet a day stays the cap.
 
 The German course is the reading route: school teaches reading in German, German is usually the
 stronger language, and English basic decoding takes more than twice as long to establish
@@ -91,8 +91,8 @@ goes back to the plain sheet.
 
 ## Design rules
 
-The same rules as the counting course: one direction per sheet, two colour families on matching
-sheets so no answer copies a task (`check` refuses it), different-looking task and answer sides,
+The same rules as the counting course: one direction per sheet, two colour families on the two-pair
+sheets, no answer copies another task (`check` refuses it), different-looking task and answer sides,
 worked examples per family, feedback by pattern check. English letter names say the letter's
 sound, not "see-ay-tee": the adult says the sounds ("kuh-ah-tuh") and slides them together.
 German keeps its umlauts everywhere: letter cards, syllable cards, word pills and titles. On
