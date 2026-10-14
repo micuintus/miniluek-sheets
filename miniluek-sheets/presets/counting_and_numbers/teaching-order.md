@@ -27,6 +27,13 @@ Picture sheets come after their plain twin as review, never as a step of their o
 | S8b | S8 | Cinderella's castle garden | wool and bones scattered on blankets, 1–6 | numerals |
 | S13b (later) | S13 | a toy room with a kitty dollhouse | towers of linking cubes, 1–6 | the tower with one cube more |
 
+### The quest
+
+The six twins tell one quest in six chapters, in course order: follow the ladybug trail
+through Rapunzel's meadow (S1b), ride the sky train (S2b), find the mermaid's pearls (S4b),
+unlock the ice gate (S6b), tidy Cinderella's blankets (S8b), build the tower stairs (S13b).
+The story lives in the titles and the adult-read goal lines, so it adds no visual load.
+
 ## Why this order
 
 Small sets, counting, comparing by sight and by counting, numerals, comparing numbers and

@@ -73,7 +73,7 @@ Four reading sheets set their 12 badges into one illustration, each after its pl
 | A4b | A4 | the princess's garden party | a guest or a present | its first letter |
 | A6b | A6 | market day in a village | a thing to name | its short word |
 
-They are review and transfer: the week-later revisit of the plain sheet, never the daily sheet.
+They are review and transfer: the week-later revisit of the plain sheet, never the daily sheet. The four picture twins are quests 1 to 4.
 A6b runs the reverse direction of A6, picture to word. Every word shares its first letter
 with another word in its family (CAT/CAP, HAT/HEN, PIG/PEN; BUS/BOX, CUP/COW, CAR/BAT; German
 BÄR/BUS, HUT/HAHN, OMA/OPA; TEE/TOR, WURM/WOLF, MAUS/MOND), so the first letter alone never finds

@@ -89,7 +89,8 @@ the tables below.
 
 Six sheets set the 12 badges into one illustration (S1b, S2b, S4b, S6b, S8b, S13b). Each
 follows its plain twin and practises the same step, so the plain page teaches and the picture
-reviews. No study tested a story picture as the review step, but each rule targets a pathway
+reviews. The twins tell one quest in six chapters, one story beat per sheet; the cross-sheet arc
+itself is untested. No study tested a story picture as the review step, but each rule targets a pathway
 that has evidence:
 
 | Pathway | Evidence | What the sheets do |

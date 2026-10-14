@@ -72,10 +72,12 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
 - **Picture sheets** (`"picture": "lagoon"`): one full illustration with 12 numbered badges set
   into the story along a trail in number order, answer grid and pattern unchanged. Counting:
   `meadow` (1–3 bugs on flowers, rule `same`), `train` (kittens `cat` and puppies `dog` at the
-  windows), `lagoon` (`pearl`), `ice_gate` (`snowflake` in snow globes), `castle` (`yarn` and `bone`
+  windows), `lagoon` (`pearl`), `ice_gate` (`snowflake` in snow globes on locked doors), `castle` (`yarn` and `bone`
   on blankets), `towers` (`tower` of cubes, rule `plus_one`). Reading: `blocks` (`letter`),
   `balloons` (`card`), `garden` (`pict` to letter), `village` (`pict` to `wcard` word). `"spots"` moves the stations (cm in the panel). Each
-  comes after the plain sheet of the same skill as review, never as the teaching.
+  comes after the plain sheet of the same skill as review, never as the teaching. Twins are
+  quest chapters: the title tells the story beat in one or two lines, the goal names the quest
+  number and the plain sheet it revisits.
 - Picture sheets: counted sets and letter guests are plain and uniform in their own
   containers; decoration stays out of the way. Grid sheets stay plain, the picture is the
   review, not the teaching.

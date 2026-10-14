@@ -18,7 +18,7 @@ Ready to print: [English counting PDF](https://github.com/micuintus/miniluek-she
 
 The preset is a nineteen-sheet princess counting course in English: small sets 1–3, counting to 6, dice
 and finger patterns, comparing, numerals both ways, scattered sets, a number path, comparing by
-counting and comparing numbers, then ten-frame and "one more", plus six picture twins as week-later revisits (Rapunzel's meadow, a sky train, the mermaid lagoon, the ice princess, Cinderella's castle, a toy room with cube towers). Each sheet runs one direction,
+counting and comparing numbers, then ten-frame and "one more", plus six picture twins as week-later revisits telling one quest in six chapters (Rapunzel's meadow, a sky train, the mermaid lagoon, the ice gate, Cinderella's castle, a toy room with cube towers). Each sheet runs one direction,
 no answer is a copy of another task, and the two-pair sheets use two colour families. All counting docs sit with the presets in `presets/counting_and_numbers/`, all reading docs
 in `presets/reading/`; `references/` keeps only the generator docs (`spec.md`, `format.md`).
 
