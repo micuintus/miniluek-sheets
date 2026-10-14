@@ -803,8 +803,21 @@ def toys_blocks(c, stations):
     toy_room(c, stations, paint)
 
 
-def ice(c, stations):
-    """The ice princess's snow globes (Andersen's Snow Queen country) under pink and violet northern lights."""
+def ice_door(c, x, y):
+    """One arched ice door framing its snow globe: the gate the numeral keys open."""
+    ice, edge = (206, 224, 252), (140, 150, 226)
+    path = [(x - 1.32, y + 1.32), (x - 1.32, y - 0.2)]
+    path += [(x - 1.32 + 2.64 * t, y - 0.2 - 1.3 * math.sin(math.pi * t)) for t in [i / 20 for i in range(21)]]
+    path += [(x + 1.32, y + 1.32)]
+    for wdt, col in ((0.36, edge), (0.26, ice)):
+        c.line(path, fill=col, width=wdt, caps=False)
+    c.rrect(x - 1.32, y + 1.3, x + 1.32, y + 1.46, 0.06, fill=ice, outline=edge, width=0.03)
+    gem = [(x, y - 1.7), (x + 0.17, y - 1.52), (x, y - 1.34), (x - 0.17, y - 1.52)]
+    c.poly(gem, fill=(188, 182, 244), outline=edge, width=0.03)
+
+
+def ice_gate(c, stations):
+    """Twelve locked ice doors (Andersen's Snow Queen country); each globe takes a numeral key."""
     W, H = c.W, c.H
     hz = 2.4
     c.vgrad(0, 0, W, hz + 0.3, (128, 118, 214), (240, 216, 246))
@@ -818,7 +831,7 @@ def ice(c, stations):
     stars.commit()
     hills = [(x, hz - 0.25 - 0.3 * math.sin(x / 2.9 + 1.1) - 0.12 * math.sin(x / 1.1)) for x in [W * i / 120 for i in range(121)]]
     c.poly(hills + [(W, hz + 0.5), (0, hz + 0.5)], fill=(236, 236, 252))
-    for x, h in ((3.0, 1.2), (4.1, 0.95), (24.2, 1.15), (25.3, 0.9)):
+    for x, h in ((3.0, 1.2), (4.1, 0.95), (24.2, 1.15), (26.9, 0.85)):
         c.paste(emoji("evergreen"), x, hz - h / 2 + 0.2, h=h)
     c.paste(emoji("unicorn"), 21.4, hz - 0.3, h=0.85)
     c.vgrad(0, hz - 0.1, W, H, (252, 252, 255), (222, 232, 252), [(0, hz), (W, hz), (W, H), (0, H)])
@@ -830,6 +843,8 @@ def ice(c, stations):
     shine.commit()
     ice_palace(c, W / 2, hz + 0.75, 0.78)
     c.paste(emoji("snowman"), 0.85, 6.85, h=1.15)
+    for st in stations:
+        ice_door(c, st["x"], st["y"])
     trail(c, stations, "skates")
     for st in stations:
         snow_globe(c, st["x"], st["y"], st["item"]["n"], st["fam"])
@@ -1465,9 +1480,9 @@ SCENES = {
     "train": {"paint": sky_train, "size": (28.3, 7.6), "spots": [(0.0, 0.0)] * 12},
     "meadow": {"paint": meadow, "size": (28.3, 7.6),
                "spots": [(3.0 + i * 2.155, 2.9 if i % 2 == 0 else 5.9) for i in range(12)]},
-    "ice": {"paint": ice, "size": (28.3, 7.6),
-            "spots": [(1.95, 3.0), (3.95, 6.1), (5.95, 3.15), (7.95, 6.2), (9.95, 3.0), (11.5, 6.0),
-                      (16.8, 6.0), (18.35, 3.0), (20.35, 6.2), (22.35, 3.15), (24.35, 6.1), (26.35, 3.0)]},
+    "ice_gate": {"paint": ice_gate, "size": (28.3, 7.6),
+            "spots": [(1.95, 3.0), (3.95, 5.9), (5.95, 3.15), (7.95, 5.9), (9.95, 3.0), (11.5, 5.9),
+                      (16.8, 5.9), (18.35, 3.0), (20.35, 5.9), (22.35, 3.15), (24.35, 5.9), (26.35, 3.0)]},
     "towers": {"paint": toys_towers, "size": (28.3, 7.6),
                "spots": [(1.95, 3.95), (3.95, 6.95), (5.95, 3.95), (7.95, 6.95), (9.95, 3.95), (11.4, 6.95),
                          (16.9, 6.95), (18.35, 3.95), (20.35, 6.95), (22.35, 3.95), (24.35, 6.95), (26.35, 3.95)]},
@@ -1493,7 +1508,7 @@ def station(name, item, dpi=300):
         flower(c, 1.8, 1.5, item["n"], item["kind"], PETALS[0])
     elif name == "balloons":
         balloon(c, 1.8, 1.4, item, fam)
-    elif name == "ice":
+    elif name == "ice_gate":
         snow_globe(c, 1.8, 1.45, item["n"], fam)
     elif name == "towers":                  # the worked example uses the answer scale, so one more looks taller
         return None
@@ -1505,7 +1520,7 @@ def station(name, item, dpi=300):
 
 
 CHECKS = {"lagoon": (("pearl",), 6), "castle": (("yarn", "bone"), 6), "train": (("cat", "dog"), 6),
-          "meadow": (("ladybug", "bee", "snail", "butterfly"), 3), "ice": (("snowflake",), 6), "towers": (("tower",), 6)}
+          "meadow": (("ladybug", "bee", "snail", "butterfly"), 3), "ice_gate": (("snowflake",), 6), "towers": (("tower",), 6)}
 
 
 def check_tasks(name, tasks):
@@ -1565,7 +1580,7 @@ if __name__ == "__main__":
         elif name == "balloons":
             words = ["DOG", "GIFT", "CAT", "PIG", "OTTER", "FOX", "SUN", "BUNNY", "PANDA", "COOKIE", "MOUSE", "DAISY"]
             it.update(kind="card", word=words[t - 1], n=ord(words[t - 1][0]) - 65)
-        elif name == "ice":
+        elif name == "ice_gate":
             it["kind"] = "snowflake"
         elif name == "towers":
             it["kind"] = "tower"

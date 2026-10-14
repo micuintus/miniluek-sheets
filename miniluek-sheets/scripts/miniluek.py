@@ -340,7 +340,7 @@ def draw_item(img, d, item, cx, cy, k=1.0):
     elif kind == "pearl":
         paste(img, scenes.station("lagoon", item), cx, cy, box=(3.0 * k, 3.0 * k))
     elif kind == "snowflake":
-        paste(img, scenes.station("ice", item), cx, cy, box=(3.0 * k, 3.0 * k))
+        paste(img, scenes.station("ice_gate", item), cx, cy, box=(3.0 * k, 3.0 * k))
     elif kind == "tower":                         # one cube size, all towers on one floor line
         h = (0.44 * item["n"] + 0.2) * 0.9 * k
         paste(img, scenes.tower_sprite(item["n"], fam or 0), cx, cy - 1.45 * k + h / 2, h_cm=h)

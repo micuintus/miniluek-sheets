@@ -29,7 +29,7 @@
     {"id": "S6", "pattern": 5, "mascot": 5, "theme": "gold", "title": ["How many? Find the number."], "goal": "Quantity to numeral, 1–6", "rule": {"type": "pair", "pairs": [["heart", "numeral"], ["crown", "numeral"]]}, "task_style": "row", "size": 0.88,
      "tasks": ["heart:5", "heart:2", "heart:4", "heart:1", "heart:6", "heart:3",
                "crown:4", "crown:1", "crown:6", "crown:3", "crown:5", "crown:2"]},
-    {"id": "S6b", "pattern": 17, "mascot": 17, "theme": "violet", "picture": "ice", "title": ["The ice princess shakes her snow globes.", "How many snowflakes? Find the number."], "goal": "Picture sheet after S6: quantity to numeral inside a picture, 1–6", "rule": {"type": "pair", "pairs": [["snowflake", "numeral"], ["snowflake", "numeral"]]},
+    {"id": "S6b", "pattern": 17, "mascot": 17, "theme": "violet", "picture": "ice_gate", "title": ["The ice gate is locked.", "How many snowflakes? Find the key."], "goal": "Quest 4 after S6: snowflakes to numerals; twelve right opens the gate", "rule": {"type": "pair", "pairs": [["snowflake", "numeral"], ["snowflake", "numeral"]]},
      "tasks": ["snowflake:3@0", "snowflake:6@0", "snowflake:1@0", "snowflake:5@0", "snowflake:2@0", "snowflake:4@0",
                "snowflake:5@1", "snowflake:2@1", "snowflake:6@1", "snowflake:1@1", "snowflake:4@1", "snowflake:3@1"]},
     {"id": "S7", "pattern": 6, "mascot": 6, "theme": "lavender", "title": ["Find the dice for each number."], "goal": "Numeral to quantity, 1–6", "rule": {"type": "pair", "pairs": [["numeral", "dice"], ["numeral", "dice"]]},

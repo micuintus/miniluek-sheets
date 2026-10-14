@@ -66,7 +66,7 @@ the tables below.
 | S1b Rapunzel's meadow (picture) | 1–3 at a glance inside a picture | bugs on flowers; answer the same animals rearranged; no loose bugs elsewhere | review after S1; see [picture sheets](#picture-sheets) |
 | S2b Sky train (picture) | counting 1–6, matched to another kind | kittens and puppies at the windows; fish and bones below | review after S2; characters are the risky case in Petersen & McNeil 2013 [E], kept only here and on S2 where counting them is the skill |
 | S4b Mermaid lagoon (picture) | counting 1–6, then the dice pattern | pearls in shells, rows, not dice layout | review after S4 |
-| S6b Ice princess (picture) | quantity to numeral | snowflakes only inside the globes; snow in the sky falls as dots | review after S6 |
+| S6b Ice gate (picture) | quantity to numeral | snowflakes only inside the globes; each globe sits in a locked door; snow in the sky falls as dots | review after S6 |
 | S8b Cinderella's castle (picture) | scattered sets to numeral | wool and bones scattered on blankets; "only count what lies on the blanket" | review after S8; arrangement and counting errors (Fuson 1988 [E]) |
 | S13b Toy room (picture, later) | one more as one cube taller | towers of 1–6 cubes; answers 2–7; one cube size, one floor line | successor (Schneider et al. 2021 [E]; Spaepen et al. 2018 [C]); linear magnitude (Siegler & Booth 2004 [C]) |
 

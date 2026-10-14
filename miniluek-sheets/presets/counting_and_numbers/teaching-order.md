@@ -23,7 +23,7 @@ Picture sheets come after their plain twin as review, never as a step of their o
 | S1b | S1 | Rapunzel's meadow: her braid winds past twelve flowers | 1–3 ladybugs, bees, snails or butterflies | the same animals, rearranged |
 | S2b | S2 | a sky train hanging from a rainbow rail | kittens and puppies at the windows, 1–6 | as many fish or bones |
 | S4b | S4 | the mermaid lagoon | pearls in shells, 1–6 | dice |
-| S6b | S6 | the ice princess's snow globes | snowflakes, 1–6 | numerals |
+| S6b | S6 | the locked ice gate: twelve doors with snow globes | snowflakes, 1–6 | numerals |
 | S8b | S8 | Cinderella's castle garden | wool and bones scattered on blankets, 1–6 | numerals |
 | S13b (later) | S13 | a toy room with a kitty dollhouse | towers of linking cubes, 1–6 | the tower with one cube more |
 
