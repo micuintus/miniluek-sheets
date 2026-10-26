@@ -49,7 +49,9 @@ experiment, single-case study, book or narrative review.
 ## Sources
 
 ### Letters and reading
-- [M] **NELP 2008** (Lonigan, Shanahan & Cunningham, 2008; NICHD).
+- [M] **National Early Literacy Panel 2008.** *Developing Early Literacy: Report of the National
+  Early Literacy Panel.* National Institute for Literacy (Executive Summary, Lonigan & Shanahan;
+  Chapter 2 and Chapter 3, Lonigan, Schatschneider & Westberg).
   [PDF](https://www.nichd.nih.gov/sites/default/files/publications/pubs/documents/NELPReport09.pdf).
   Six variables "had medium to large predictive relationships with later measures of literacy
   development" and held "even when the role of other variables, such as IQ or socioeconomic
