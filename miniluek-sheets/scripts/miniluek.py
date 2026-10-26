@@ -663,6 +663,8 @@ def render(sheet, Pat, index, labels):
         for i, line in enumerate(reversed(lines)):
             text(d, right, 9.75 + i * 0.33, line, 0.24, (165, 165, 165), bold=False, anchor="rs")
 
+    if sheet.get("id"):
+        text(d, 0.6, 1.05, str(sheet.get("id")), 0.28, (165, 165, 165), bold=False, anchor="ls")
     msg = labels["hinge"]
     text(d, PW / 2, 0.45, msg, 0.25, (175, 175, 175), bold=False, anchor="ms")
     half = d.textlength(msg, font=font(0.25, False)) / CM / 2
