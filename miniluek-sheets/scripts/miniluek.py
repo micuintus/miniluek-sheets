@@ -449,7 +449,10 @@ def make_answer_fn(sheet):
             if it["na"] == it["nb"]:
                 raise SystemExit(f"{sheet.get('id')}: equal counts in {it}")
             name = it["a"] if it["na"] > it["nb"] else it["b"]
-            return {"kind": name, "n": 1, "style": "row", "size": size, "seed": 0}
+            out = {"kind": name, "n": 1, "style": "row", "size": size, "seed": 0}
+            if "fam" in it:
+                out["fam"] = it["fam"]
+            return out
         return winner
     if rule["type"] == "plus_one":
         return lambda it: styled(it["kind"], it["n"] + 1, it["n"] + 11, it.get("fam"))
