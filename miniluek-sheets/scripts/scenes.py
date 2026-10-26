@@ -1467,6 +1467,8 @@ def balloons(c, stations):
     bush(c, W - 0.55, H + 0.05, 1.3, 0.9, [(150, 196, 245), (255, 255, 255), (200, 170, 245)], 10)
 
 
+KINDS = {}          # task or answer kinds a scene module draws itself: kind -> sprite(item), 3 cm box
+
 SCENES = {
     "lagoon": {"paint": lagoon, "size": (28.3, 7.6),
                "spots": [(1.95, 2.95), (3.95, 6.1), (5.95, 3.3), (7.95, 6.25), (9.95, 2.9), (11.55, 6.05),
@@ -1496,6 +1498,8 @@ SCENES = {
 }
 def station(name, item, dpi=300):
     """One task station without its badge, for the worked examples; None where the plain picture is the task."""
+    if "station" in SCENES.get(name, {}):
+        return SCENES[name]["station"](item)
     fam = item.get("fam") or 0
     c = Canvas(3.6, 3.0, dpi=dpi, bg=(0, 0, 0, 0))
     if name == "lagoon":
@@ -1527,7 +1531,9 @@ def check_tasks(name, tasks):
     """Validate what a picture sheet asks: known scene, known kinds, countable sets."""
     if name not in SCENES:
         raise SystemExit(f"unknown picture '{name}'")
-    if name in CHECKS:
+    if "check" in SCENES[name]:
+        SCENES[name]["check"](tasks)
+    elif name in CHECKS:
         kinds, most = CHECKS[name]
         for t, it in tasks.items():
             if it["kind"] not in kinds or not 1 <= it["n"] <= most:

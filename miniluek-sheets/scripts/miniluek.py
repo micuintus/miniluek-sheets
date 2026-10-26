@@ -341,6 +341,8 @@ def draw_item(img, d, item, cx, cy, k=1.0):
         paste(img, scenes.station("lagoon", item), cx, cy, box=(3.0 * k, 3.0 * k))
     elif kind == "snowflake":
         paste(img, scenes.station("ice_gate", item), cx, cy, box=(3.0 * k, 3.0 * k))
+    elif kind in scenes.KINDS:
+        paste(img, scenes.KINDS[kind](item), cx, cy, box=(3.0 * k, 3.0 * k))
     elif kind == "tower":                         # one cube size, all towers on one floor line
         h = (0.44 * item["n"] + 0.2) * 0.9 * k
         paste(img, scenes.tower_sprite(item["n"], fam or 0), cx, cy - 1.45 * k + h / 2, h_cm=h)
@@ -596,20 +598,26 @@ def render(sheet, Pat, index, labels):
     lines = sheet["title"] if isinstance(sheet["title"], list) else [sheet["title"]]
     for i, line in enumerate(lines):
         text(d, left, 12.25 - i * 0.62, line, 0.52, (90, 40, 100))
-    yb = 12.25 - len(lines) * 0.62 - 0.55
+    sc = scenes.SCENES.get(sheet.get("picture"), {})
+    tw, th = sc.get("example_box", (1.3, 1.3))
+    aw, ah = sc.get("example_answer", (1.3, 1.3))
+    yb = 12.25 - len(lines) * 0.62 - 0.55 - (max(th, ah) - 1.3) / 2
     second = next((t for t, it in tasks.items() if it.get("fam") == 1), None)
     for j, t in enumerate([1] + ([second] if second else [])):
-        ox = left + j * 4.75
-        for bx, it in ((ox + 0.65, tasks[t]), (ox + 3.6, answers[t])):
+        ox = left + j * (tw + aw + 2.15)
+        for bx, it, (bw, bh) in ((ox + tw / 2, tasks[t], (tw, th)), (ox + tw + 1.65 + aw / 2, answers[t], (aw, ah))):
             fr, _, _ = cell_colours(it, frame, accent)
-            rrect(d, bx, yb, 1.3, 1.3, 0.15, outline=fr, fill=(255, 255, 255),
+            rrect(d, bx, yb, bw, bh, 0.15, outline=fr, fill=(255, 255, 255),
                   width=0.04 if it.get("fam") is None else 0.07)
             sprite = scenes.station(sheet["picture"], it) if sheet.get("picture") and it is tasks[t] else None
+            if sprite is None and it is answers[t] and it["kind"] in scenes.KINDS:
+                sprite = scenes.KINDS[it["kind"]](it)
+                sprite = sprite.crop(sprite.getbbox())
             if sprite:
-                paste(img, sprite, bx, yb, box=(1.14, 1.14))
+                paste(img, sprite, bx, yb, box=(bw - 0.16, bh - 0.16))
             else:
                 draw_item(img, d, it, bx, yb, 0.38)
-        dotted_arrow(d, ox + 1.5, ox + 2.75, yb, (150, 150, 150))
+        dotted_arrow(d, ox + tw + 0.2, ox + tw + 1.45, yb, (150, 150, 150))
     if sheet.get("prompt"):
         if second:
             text(d, left, 9.25, sheet["prompt"], 0.36, accent)
