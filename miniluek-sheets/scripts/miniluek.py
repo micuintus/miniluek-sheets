@@ -509,9 +509,12 @@ def load_sheet(sheet):
     if len({item_key(t) for t in tasks.values()}) != 12:
         raise SystemExit(f"{sheet.get('id')}: tasks are not unique")
     if rule["type"] != "plus_one":             # there the equal set is the intended lure
-        where = {item_key(it)[:2]: t for t, it in tasks.items()}
+        def face(it):                           # a copy in the other family keeps its own frame colour
+            k = item_key(it)
+            return k[:2] + k[3:]
+        where = {face(it): t for t, it in tasks.items()}
         for u, a in answers.items():
-            t = where.get(item_key(a)[:2])
+            t = where.get(face(a))
             if t not in (None, u):
                 raise SystemExit(f"{sheet.get('id')}: the answer to task {u} is a copy of task {t}; "
                                  "keep each kind on one side")
