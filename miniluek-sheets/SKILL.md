@@ -78,6 +78,11 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
   comes after the plain sheet of the same skill as review, never as the teaching. Twins are
   quest chapters: the title tells the story beat in one or two lines, the goal names the quest
   number and the plain sheet it revisits.
+- **Quest lanes** (`presets/quests/`): three story lanes revisit the courses, one sheet per
+  course step: the unicorn circus (numbers, 12), the mermaid's sea post (letters, 7) and the
+  ice palace (logic: AB patterns, shapes, odd one out, places in a 3 × 3 grid). Their scenes
+  and kinds are registered by `scripts/quest_scenes.py`; operations, scenes and evidence are
+  in `presets/quests/README.md`.
 - Picture sheets: counted sets and letter guests are plain and uniform in their own
   containers; decoration stays out of the way. Grid sheets stay plain, the picture is the
   review, not the teaching.

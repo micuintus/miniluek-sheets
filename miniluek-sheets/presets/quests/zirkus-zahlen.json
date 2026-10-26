@@ -1,0 +1,652 @@
+{
+ "title": "Quests: Ein Tag im Einhorn-Zirkus",
+ "language": "de",
+ "fingers": "thumb",
+ "sheets": [
+  {
+   "id": "C1",
+   "pattern": 3,
+   "mascot": 3,
+   "theme": "pink",
+   "picture": "juggling",
+   "title": [
+    "Morgenprobe! Die Artistinnen jonglieren.",
+    "Finde die gleiche Anzahl, anders gelegt."
+   ],
+   "goal": "Zirkus 1/13 · nach S1: gleiche Anzahl, neu angeordnet, 1–3",
+   "rule": {
+    "type": "same"
+   },
+   "answer_style": "down",
+   "size": 1.15,
+   "tasks": [
+    "heart:2@0",
+    "star:1@0",
+    "heart:3@0",
+    "star:2@0",
+    "heart:1@0",
+    "star:3@0",
+    "moon:3@1",
+    "strawberry:1@1",
+    "moon:2@1",
+    "strawberry:3@1",
+    "moon:1@1",
+    "strawberry:2@1"
+   ]
+  },
+  {
+   "id": "C2",
+   "pattern": 15,
+   "mascot": 15,
+   "theme": "mint",
+   "picture": "breakfast",
+   "title": [
+    "Frühstück! Jede Robbe bekommt einen Fisch,",
+    "jeder Hund einen Knochen."
+   ],
+   "goal": "Zirkus 2/13 · nach S2: zählen und eins zu eins zuordnen, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "seal",
+      "tropicalfish"
+     ],
+     [
+      "puppy",
+      "bone"
+     ]
+    ]
+   },
+   "answer_style": "col",
+   "size": 0.88,
+   "tasks": [
+    "seal:3",
+    "seal:5",
+    "seal:1",
+    "seal:6",
+    "seal:2",
+    "seal:4",
+    "puppy:4",
+    "puppy:2",
+    "puppy:6",
+    "puppy:1",
+    "puppy:5",
+    "puppy:3"
+   ]
+  },
+  {
+   "id": "C3",
+   "pattern": 9,
+   "mascot": 9,
+   "theme": "peach",
+   "picture": "dice_meadow",
+   "title": [
+    "Riesenwürfel auf der Wiese! Rosa Würfel",
+    "bekommen Herzen, blaue Würfel Sterne."
+   ],
+   "goal": "Zirkus 3/13 · nach S3: Würfelbilder, durch Zählen geprüft, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "dice",
+      "heart"
+     ],
+     [
+      "dice",
+      "star"
+     ]
+    ]
+   },
+   "answer_style": "row",
+   "size": 0.88,
+   "tasks": [
+    "dice:4@0",
+    "dice:1@0",
+    "dice:6@0",
+    "dice:2@0",
+    "dice:5@0",
+    "dice:3@0",
+    "dice:3@1",
+    "dice:5@1",
+    "dice:2@1",
+    "dice:6@1",
+    "dice:1@1",
+    "dice:4@1"
+   ]
+  },
+  {
+   "id": "C4",
+   "pattern": 2,
+   "mascot": 2,
+   "theme": "coral",
+   "picture": "finger_theatre",
+   "title": [
+    "Das Fingertheater! Wie viele Finger?",
+    "Finde den Würfel. Zeig die Zahl mit den Fingern!"
+   ],
+   "goal": "Zirkus 4/13 · nach S4: Fingerbilder zum Würfel, volle Hand = 5, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "fingers",
+      "dice"
+     ],
+     [
+      "fingers",
+      "dice"
+     ]
+    ]
+   },
+   "tasks": [
+    "fingers:3@0",
+    "fingers:1@0",
+    "fingers:5@0",
+    "fingers:2@0",
+    "fingers:6@0",
+    "fingers:4@0",
+    "fingers:4@1",
+    "fingers:6@1",
+    "fingers:2@1",
+    "fingers:5@1",
+    "fingers:1@1",
+    "fingers:3@1"
+   ]
+  },
+  {
+   "id": "C5",
+   "pattern": 4,
+   "mascot": 4,
+   "theme": "violet",
+   "picture": "contest",
+   "title": [
+    "Ballon-Wettbewerb! Wer hält mehr Ballons?",
+    "Finde den Gewinner."
+   ],
+   "goal": "Zirkus 5/13 · nach S5 und S10: Mengen vergleichen, 1–6",
+   "rule": {
+    "type": "more"
+   },
+   "tasks": [
+    {
+     "kind": "compare",
+     "a": "dog",
+     "na": 5,
+     "b": "cat",
+     "nb": 2,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 1,
+     "b": "panda",
+     "nb": 3,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "fox",
+     "na": 3,
+     "b": "cat",
+     "nb": 6,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 6,
+     "b": "bear",
+     "nb": 2,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "fox",
+     "na": 4,
+     "b": "panda",
+     "nb": 1,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "frog",
+     "na": 3,
+     "b": "bear",
+     "nb": 5,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "frog",
+     "na": 4,
+     "b": "mouse",
+     "nb": 2,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "chick",
+     "na": 2,
+     "b": "owl",
+     "nb": 3,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "hamster",
+     "na": 4,
+     "b": "mouse",
+     "nb": 6,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "chick",
+     "na": 6,
+     "b": "unicorn",
+     "nb": 1,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "hamster",
+     "na": 5,
+     "b": "owl",
+     "nb": 1,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "dog",
+     "na": 1,
+     "b": "unicorn",
+     "nb": 4,
+     "fam": 1
+    }
+   ]
+  },
+  {
+   "id": "C6",
+   "pattern": 12,
+   "mascot": 12,
+   "theme": "sky",
+   "picture": "trains",
+   "title": [
+    "Die Zirkuszüge bringen Geschenke und Sterne!",
+    "Wie viele sind in jedem Wagen? Finde die Zahl."
+   ],
+   "goal": "Zirkus 6/13 · nach S6: zählen bis zur Zahl, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "gift",
+      "numeral"
+     ],
+     [
+      "star",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "gift:4",
+    "gift:1",
+    "gift:6",
+    "gift:3",
+    "gift:5",
+    "gift:2",
+    "star:2",
+    "star:5",
+    "star:1",
+    "star:6",
+    "star:3",
+    "star:4"
+   ]
+  },
+  {
+   "id": "C7",
+   "pattern": 6,
+   "mascot": 6,
+   "theme": "gold",
+   "picture": "ticket_booth",
+   "title": [
+    "An der Kasse! Wie viele bekommt jeder Gast?",
+    "Rosa Tickets: Kekse, blaue: Luftballons."
+   ],
+   "goal": "Zirkus 7/13 · nach S7: Zahl zur Menge, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "ticket",
+      "cookie"
+     ],
+     [
+      "ticket",
+      "balloon"
+     ]
+    ]
+   },
+   "answer_style": "row",
+   "size": 0.88,
+   "tasks": [
+    "ticket:2@0",
+    "ticket:6@0",
+    "ticket:4@0",
+    "ticket:1@0",
+    "ticket:5@0",
+    "ticket:3@0",
+    "ticket:5@1",
+    "ticket:3@1",
+    "ticket:1@1",
+    "ticket:6@1",
+    "ticket:2@1",
+    "ticket:4@1"
+   ]
+  },
+  {
+   "id": "C8",
+   "pattern": 16,
+   "mascot": 16,
+   "theme": "violet",
+   "picture": "spotlights",
+   "title": [
+    "Licht aus! Herzen und Sterne im Scheinwerfer.",
+    "Wie viele in jedem? Tippe jedes einmal an."
+   ],
+   "goal": "Zirkus 8/13 · nach S8: verstreute Menge zählen, jedes einmal, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "heart",
+      "numeral"
+     ],
+     [
+      "star",
+      "numeral"
+     ]
+    ]
+   },
+   "task_style": "scatter",
+   "tasks": [
+    "heart:5",
+    "heart:2",
+    "heart:6",
+    "heart:1",
+    "heart:4",
+    "heart:3",
+    "star:3",
+    "star:6",
+    "star:1",
+    "star:4",
+    "star:2",
+    "star:5"
+   ]
+  },
+  {
+   "id": "C9",
+   "pattern": 8,
+   "mascot": 8,
+   "theme": "rose",
+   "picture": "tightrope",
+   "title": [
+    "Die Seiltanz-Nummer! Wo steht jeder?",
+    "Zähl die Punkte ab der Fahne."
+   ],
+   "goal": "Zirkus 9/13 · nach S9: Platz auf dem Weg, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "rope",
+      "numeral"
+     ],
+     [
+      "rope",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "rope:4@0",
+    "rope:1@0",
+    "rope:6@0",
+    "rope:3@0",
+    "rope:5@0",
+    "rope:2@0",
+    "rope:3@1",
+    "rope:6@1",
+    "rope:2@1",
+    "rope:5@1",
+    "rope:1@1",
+    "rope:4@1"
+   ]
+  },
+  {
+   "id": "C10",
+   "pattern": 14,
+   "mascot": 14,
+   "theme": "teal",
+   "picture": "ring_toss",
+   "show": "numeral",
+   "title": [
+    "Ringewerfen! Auf jedem Schild steht eine Zahl.",
+    "Wer hat die größere Zahl?"
+   ],
+   "goal": "Zirkus 10/13 · nach S11: Zahlen vergleichen, Abstand 2 bis 4",
+   "rule": {
+    "type": "more"
+   },
+   "tasks": [
+    {
+     "kind": "compare",
+     "a": "penguin",
+     "na": 4,
+     "b": "owl",
+     "nb": 2,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "chick",
+     "na": 2,
+     "b": "bear",
+     "nb": 6,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "mouse",
+     "na": 3,
+     "b": "owl",
+     "nb": 6,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "chick",
+     "na": 3,
+     "b": "fox",
+     "nb": 1,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "mouse",
+     "na": 5,
+     "b": "bear",
+     "nb": 1,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "panda",
+     "na": 2,
+     "b": "fox",
+     "nb": 5,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "panda",
+     "na": 6,
+     "b": "frog",
+     "nb": 4,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "unicorn",
+     "na": 3,
+     "b": "cat",
+     "nb": 6,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 1,
+     "b": "frog",
+     "nb": 4,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "unicorn",
+     "na": 5,
+     "b": "dog",
+     "nb": 1,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 5,
+     "b": "cat",
+     "nb": 3,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "penguin",
+     "na": 2,
+     "b": "dog",
+     "nb": 4,
+     "fam": 1
+    }
+   ]
+  },
+  {
+   "id": "C11",
+   "pattern": 10,
+   "mascot": 10,
+   "theme": "lavender",
+   "picture": "magic_show",
+   "title": [
+    "Die Zaubershow! Die Truhen schweben.",
+    "Wie viele Münzen liegen in jeder?"
+   ],
+   "goal": "Zirkus 11/13 · nach S12: fünf und noch welche im Zehnerfeld, 3–8",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "chest",
+      "numeral"
+     ],
+     [
+      "chest",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "chest:6@0",
+    "chest:3@0",
+    "chest:8@0",
+    "chest:5@0",
+    "chest:7@0",
+    "chest:4@0",
+    "chest:4@1",
+    "chest:7@1",
+    "chest:3@1",
+    "chest:8@1",
+    "chest:5@1",
+    "chest:6@1"
+   ]
+  },
+  {
+   "id": "C12",
+   "pattern": 18,
+   "mascot": 18,
+   "theme": "mint",
+   "picture": "seal_show",
+   "title": [
+    "Die Robben balancieren Bälle. Einer kommt dazu!",
+    "Finde den Turm mit einem Ball mehr."
+   ],
+   "goal": "Zirkus 12/13 · nach S13: eins mehr, bis 7",
+   "rule": {
+    "type": "plus_one"
+   },
+   "tasks": [
+    "balls:3@0",
+    "balls:1@0",
+    "balls:5@0",
+    "balls:2@0",
+    "balls:6@0",
+    "balls:4@0",
+    "balls:2@1",
+    "balls:5@1",
+    "balls:1@1",
+    "balls:4@1",
+    "balls:3@1",
+    "balls:6@1"
+   ]
+  },
+  {
+   "id": "C13",
+   "pattern": 1,
+   "mascot": 1,
+   "theme": "coral",
+   "picture": "party",
+   "title": [
+    "Das Fest! Das Einhorn hat von jedem Teller",
+    "einen Keks genascht. Wie viele sind übrig?"
+   ],
+   "goal": "Zirkus 13/13 · nach S13, kein Kursblatt: Wegnehmen, zähle den Rest, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "plate",
+      "numeral"
+     ],
+     [
+      "plate",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "plate:4@0",
+    "plate:2@0",
+    "plate:6@0",
+    "plate:1@0",
+    "plate:5@0",
+    "plate:3@0",
+    "plate:3@1",
+    "plate:6@1",
+    "plate:2@1",
+    "plate:5@1",
+    "plate:1@1",
+    "plate:4@1"
+   ]
+  }
+ ]
+}

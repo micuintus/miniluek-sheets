@@ -31,6 +31,23 @@ thumb, the English ones from the index finger (`--fingers` switches).
 | ![Same thing, same number](docs/sheet-01.png) | ![Every princess gets a cupcake](docs/sheet-02.png) |
 | ![Fingers and stars to dice](docs/sheet-04.png) | ![Number path](docs/sheet-09.png) |
 
+## Quest lanes
+
+Three story lanes revisit the courses in the same box, each in English and German: a day at
+the unicorn circus (13 number sheets, from juggling to the party after the show), the
+mermaid's sea post (7 letter sheets, same letter to picture-to-word) and the ice palace
+(4 logic sheets: AB patterns, shapes, odd one out, places on a map). The circus and sea lanes
+follow their course sheets as revisits; the ice palace and the party sheets teach their own
+step and come after the same idea with objects. Files, coverage and evidence:
+[`presets/quests/`](miniluek-sheets/presets/quests/README.md).
+
+Ready to print: [English circus PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/circus-numbers-en.pdf) ·
+[deutsches Zirkus-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/zirkus-zahlen-de.pdf) ·
+[English sea post PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/sea-letters-en.pdf) ·
+[deutsches Meerpost-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/meer-buchstaben-de.pdf) ·
+[English ice palace PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/palace-logic-en.pdf) ·
+[deutsches Eispalast-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/eispalast-logik-de.pdf)
+
 ## Second course: reading readiness
 
 ABC sheets for letters, first sounds, syllables and short printed words, plus four picture sheets (ABC blocks, balloons, a garden party, a village market with short words), in English

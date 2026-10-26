@@ -12,6 +12,7 @@ Usage:
   python3 miniluek.py kinds
 """
 import argparse
+import importlib
 import json
 import random
 import sys
@@ -23,6 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import art  # noqa: E402
 import scenes  # noqa: E402
 from luek_model import check_pattern, pattern_library, pattern_of, placement_of, validate  # noqa: E402
+importlib.import_module("quest_scenes")       # registers the quest pictures and kinds
 
 HERE = Path(__file__).resolve().parent
 ASSETS = HERE.parent / "assets"

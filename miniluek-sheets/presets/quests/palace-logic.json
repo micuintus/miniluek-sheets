@@ -1,0 +1,308 @@
+{
+ "title": "Quests: the ice palace",
+ "language": "en",
+ "sheets": [
+  {
+   "id": "P1",
+   "pattern": 5,
+   "mascot": 5,
+   "theme": "lavender",
+   "picture": "necklaces",
+   "title": [
+    "The ice princess threads necklaces.",
+    "Which charm comes next?"
+   ],
+   "goal": "Ice palace 1/4 · AB pattern, the gap always last",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "necklace",
+      "pict"
+     ],
+     [
+      "necklace",
+      "pict"
+     ]
+    ]
+   },
+   "tasks": [
+    {
+     "kind": "necklace",
+     "n": 2,
+     "pic": "strawberry",
+     "other": "moon",
+     "fam": 0
+    },
+    {
+     "kind": "necklace",
+     "n": 0,
+     "pic": "heart",
+     "other": "star",
+     "fam": 0
+    },
+    {
+     "kind": "necklace",
+     "n": 4,
+     "pic": "mushroom",
+     "other": "sunflower",
+     "fam": 0
+    },
+    {
+     "kind": "necklace",
+     "n": 1,
+     "pic": "star",
+     "other": "strawberry",
+     "fam": 0
+    },
+    {
+     "kind": "necklace",
+     "n": 5,
+     "pic": "sunflower",
+     "other": "heart",
+     "fam": 0
+    },
+    {
+     "kind": "necklace",
+     "n": 3,
+     "pic": "moon",
+     "other": "mushroom",
+     "fam": 0
+    },
+    {
+     "kind": "necklace",
+     "n": 9,
+     "pic": "ladybug",
+     "other": "sun",
+     "fam": 1
+    },
+    {
+     "kind": "necklace",
+     "n": 7,
+     "pic": "rose",
+     "other": "evergreen",
+     "fam": 1
+    },
+    {
+     "kind": "necklace",
+     "n": 11,
+     "pic": "gift",
+     "other": "crown",
+     "fam": 1
+    },
+    {
+     "kind": "necklace",
+     "n": 6,
+     "pic": "crown",
+     "other": "rose",
+     "fam": 1
+    },
+    {
+     "kind": "necklace",
+     "n": 10,
+     "pic": "sun",
+     "other": "gift",
+     "fam": 1
+    },
+    {
+     "kind": "necklace",
+     "n": 8,
+     "pic": "evergreen",
+     "other": "ladybug",
+     "fam": 1
+    }
+   ]
+  },
+  {
+   "id": "P2",
+   "pattern": 14,
+   "mascot": 14,
+   "theme": "violet",
+   "picture": "palace_windows",
+   "title": [
+    "The palace windows have many shapes.",
+    "Find the same shape."
+   ],
+   "goal": "Ice palace 2/4 · the same shape in another colour and size",
+   "rule": {
+    "type": "same"
+   },
+   "tasks": [
+    "shape:2@0",
+    "shape:0@0",
+    "shape:4@0",
+    "shape:1@0",
+    "shape:5@0",
+    "shape:3@0",
+    "shape:3@1",
+    "shape:5@1",
+    "shape:1@1",
+    "shape:4@1",
+    "shape:0@1",
+    "shape:2@1"
+   ]
+  },
+  {
+   "id": "P3",
+   "pattern": 11,
+   "mascot": 11,
+   "theme": "mint",
+   "picture": "winter_party",
+   "title": [
+    "Winter party! In every group, one guest",
+    "does not belong. Who is it?"
+   ],
+   "goal": "Ice palace 3/4 · odd one out: three alike, one of another kind",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "odd",
+      "pict"
+     ],
+     [
+      "odd",
+      "pict"
+     ]
+    ]
+   },
+   "tasks": [
+    {
+     "kind": "odd",
+     "n": 0,
+     "pic": "penguin",
+     "same": "chick",
+     "at": 2,
+     "fam": 0
+    },
+    {
+     "kind": "odd",
+     "n": 3,
+     "pic": "fox",
+     "same": "frog",
+     "at": 1,
+     "fam": 0
+    },
+    {
+     "kind": "odd",
+     "n": 1,
+     "pic": "chick",
+     "same": "seal",
+     "at": 0,
+     "fam": 0
+    },
+    {
+     "kind": "odd",
+     "n": 4,
+     "pic": "frog",
+     "same": "owl",
+     "at": 2,
+     "fam": 0
+    },
+    {
+     "kind": "odd",
+     "n": 2,
+     "pic": "seal",
+     "same": "fox",
+     "at": 3,
+     "fam": 0
+    },
+    {
+     "kind": "odd",
+     "n": 5,
+     "pic": "owl",
+     "same": "panda",
+     "at": 1,
+     "fam": 0
+    },
+    {
+     "kind": "odd",
+     "n": 6,
+     "pic": "panda",
+     "same": "hamster",
+     "at": 3,
+     "fam": 1
+    },
+    {
+     "kind": "odd",
+     "n": 9,
+     "pic": "bear",
+     "same": "mouse",
+     "at": 2,
+     "fam": 1
+    },
+    {
+     "kind": "odd",
+     "n": 7,
+     "pic": "hamster",
+     "same": "swan",
+     "at": 0,
+     "fam": 1
+    },
+    {
+     "kind": "odd",
+     "n": 10,
+     "pic": "mouse",
+     "same": "duck",
+     "at": 0,
+     "fam": 1
+    },
+    {
+     "kind": "odd",
+     "n": 8,
+     "pic": "swan",
+     "same": "bear",
+     "at": 1,
+     "fam": 1
+    },
+    {
+     "kind": "odd",
+     "n": 11,
+     "pic": "duck",
+     "same": "penguin",
+     "at": 3,
+     "fam": 1
+    }
+   ]
+  },
+  {
+   "id": "P4",
+   "pattern": 7,
+   "mascot": 7,
+   "theme": "sky",
+   "picture": "castle_hills",
+   "title": [
+    "Where does the princess look out?",
+    "Find the map with the star in the same place."
+   ],
+   "goal": "Ice palace 4/4 · the same place in a 3 by 3 grid",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "castle",
+      "map"
+     ],
+     [
+      "castle",
+      "map"
+     ]
+    ]
+   },
+   "tasks": [
+    "castle:0@0",
+    "castle:5@0",
+    "castle:8@0",
+    "castle:1@0",
+    "castle:6@0",
+    "castle:4@0",
+    "castle:2@1",
+    "castle:7@1",
+    "castle:4@1",
+    "castle:3@1",
+    "castle:8@1",
+    "castle:0@1"
+   ]
+  }
+ ]
+}
