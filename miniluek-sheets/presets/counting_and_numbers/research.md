@@ -11,7 +11,7 @@ with the MILE routine (randomised trials). Reasoned from studies but not tested:
 sheet, the two-colour families, three comparison sheets, plain counted sets inside the picture
 sheets. Untested: miniLÜK itself, this exact sequence, and a story picture as the review step. Evidence types in the sources: **[M]** meta-analysis or systematic review, **[R]**
 randomised or controlled trial, **[C]** correlational or cohort study, **[G]** guideline or
-practice guidance, **[E]** experiment, single-case study, book or narrative review. The tags
+practice guidance, **[E]** experiment, descriptive or single-case study, book or narrative review. The tags
 also appear in the tables wherever a study is used.
 
 - [The order](#the-order)
@@ -68,7 +68,7 @@ the tables below.
 | S4b Mermaid lagoon (picture) | counting 1–6, then the dice pattern | pearls in shells, rows, not dice layout | review after S4 |
 | S6b Ice gate (picture) | quantity to numeral | snowflakes only inside the globes; each globe sits in a locked door; snow in the sky falls as dots | review after S6 |
 | S8b Cinderella's castle (picture) | scattered sets to numeral | wool and bones scattered on blankets; "only count what lies on the blanket" | review after S8; arrangement and counting errors (Fuson 1988 [E]) |
-| S13b Toy room (picture, later) | one more as one cube taller | towers of 1–6 cubes; answers 2–7; one cube size, one floor line | successor (Schneider et al. 2021 [E]; Spaepen et al. 2018 [C]); linear magnitude (Siegler & Booth 2004 [C]) |
+| S13b Toy room (picture, later) | one more as one cube taller | towers of 1–6 cubes; answers 2–7; one cube size, one floor line | successor (Schneider et al. 2021 [C]; Spaepen et al. 2018 [C]); linear magnitude (Siegler & Booth 2004 [C]) |
 
 ## Design rules
 
@@ -101,7 +101,7 @@ that has evidence:
 | Knowledge about the objects competes with the number (hurts) | Rich objects hindered preschool counting when children had high knowledge of them (Petersen & McNeil 2013 [E], N = 133, Mage 3;10); with perceptually rich money, children "made the most errors; however, their errors were least likely to be conceptual errors" (McNeil et al. 2009 [E], 4th and 6th graders on word problems); extraneous detail reduced learning (Kaminski & Sloutsky 2013 [E], 6- to 8-year-olds on bar graphs) | The counted things are plain tokens: pearls, snowflakes, cubes, wool, bones. Only S2b counts characters, as S2 already does, and no scene holds loose copies of its counted kind. |
 | Cues steer attention (helps) | Signaling raised retention (g = 0.53) and transfer (g = 0.33) (Schneider et al. 2018 [M]) | A trail runs through the badges in number order; pink and blue keep their families; violet only decorates. |
 | Spatial load costs more after prenatal alcohol exposure | Spatial span and spatial recognition memory predicted math after heavy prenatal alcohol exposure (Crocker et al. 2015 [C]) | Plain sheet first, one container size per sheet, and a miscount sends the child back to the plain sheet. |
-| One more must be seen as one step (S13b) | Children count sets by 4 but only at 5½ to 6 understand "that adding 1 to a set necessitates counting up one number" (Schneider et al. 2021 [E]); cardinal-principle knowledge predicted later gains in the successor principle (Spaepen et al. 2018 [C]); linear number representations relate to math achievement (Siegler & Booth 2004 [C]) | On the answer tiles every tower keeps one cube size and one floor line, so one more is one cube taller, with the equal tower as the lure. |
+| One more must be seen as one step (S13b) | Children count sets by 4 but only at 5½ to 6 understand "that adding 1 to a set necessitates counting up one number" (Schneider et al. 2021 [C]); cardinal-principle knowledge predicted later gains in the successor principle (Spaepen et al. 2018 [C]); linear number representations relate to math achievement (Siegler & Booth 2004 [C]) | On the answer tiles every tower keeps one cube size and one floor line, so one more is one cube taller, with the equal tower as the lure. |
 
 A story told by the adult, best with a doll who needs help, carries the interest pathway
 without adding anything to the page. Letting the child teach her doll is the extension: 5th and
@@ -261,7 +261,7 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
   the effort towards learning. *J Sci Educ Technol* 18(4):334–352.
   [doi:10.1007/s10956-009-9180-4](https://doi.org/10.1007/s10956-009-9180-4). "students make
   greater effort to learn for their TAs than they do for themselves" (5th and 8th graders, computer agent).
-- [E] **Schneider, Sullivan, Guo & Barner 2021.** What counts? Sources of knowledge in children's
+- [C] **Schneider, Sullivan, Guo & Barner 2021.** What counts? Sources of knowledge in children's
   acquisition of the successor function. *Child Dev* 92(4):e476–e492.
   [doi:10.1111/cdev.13524](https://doi.org/10.1111/cdev.13524). "it is not until 5½–6 years
   that they understand how counting relates to number".
