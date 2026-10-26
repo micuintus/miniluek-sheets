@@ -176,8 +176,8 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 - The number comparison studies after prenatal alcohol exposure tested adolescents (the
   visual-spatial study tested children around 10); no study tested number comparison in
   preschoolers after prenatal alcohol exposure.
-- Quantity to numeral runs on six sheets against one for the reverse direction (S7); a picture
-  twin for S7 is the one planned extension.
+- Quantity to numeral runs on six sheets against one for the reverse direction (S7); the circus
+  lane adds a picture sheet for S7 (C7) and four more quantity-to-numeral sheets (C6, C8, C11, C13).
 - No study tested the picture sheets or a story illustration as the review step; their rules
   borrow from the decoration and transfer studies above.
 

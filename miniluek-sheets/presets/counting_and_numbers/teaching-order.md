@@ -123,8 +123,10 @@ day should be spent at the edge of what the child can almost do.
   pattern check needs all twelve tiles to mean anything. The tiles are a fine-motor task: the
   adult may place the one the child points to.
 - The week-later revisit of a mastered sheet is its picture twin where one exists: the twin
-  takes the revisit slot, never the daily sheet. At two days right first time plus one revisit
-  per sheet the course runs to at least 39 sheet-days. A child who cannot yet work the plain
+  takes the first revisit slot, never the daily sheet. The circus lane's quest sheet takes the
+  next revisit slot of the same sheet (its sheet ids C1 to C12 print on the page). At two days
+  right first time plus one revisit per sheet the course runs to at least 39 sheet-days; the
+  full circus lane adds 13 more. A child who cannot yet work the plain
   sheet goes back to it, not forward to the picture.
 - Tell each sheet as a story, best with a doll or puppet who needs help: "the mermaid lost her
   pearls, can you find out how many are in each shell?" The story carries the motivation and
