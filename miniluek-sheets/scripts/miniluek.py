@@ -638,7 +638,10 @@ def render(sheet, Pat, index, labels):
     for a in range(0, 360, 12):
         d.arc([x - rr, y - rr, x + rr, y + rr], start=a, end=a + 6, fill=(200, 170, 210), width=px(0.04))
     paste(img, emoji("sparkles"), sx, sy + 0.18, box=(0.6, 0.6))
-    d.text(P(sx, sy - 0.42), labels["done"], font=font(0.26), fill=(170, 140, 180), anchor="mm")
+    done = 0.26
+    while d.textlength(labels["done"], font=font(done)) / CM > 1.2:
+        done = round(done - 0.01, 2)
+    d.text(P(sx, sy - 0.42), labels["done"], font=font(done), fill=(170, 140, 180), anchor="mm")
     mascot = sheet.get("mascot", True)
     if mascot is not False:
         variant = index if mascot is True else mascot
