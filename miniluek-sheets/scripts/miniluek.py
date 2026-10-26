@@ -673,18 +673,29 @@ def render(sheet, Pat, index, labels):
     return img.convert("RGB"), L
 
 
+def key_pages(rows, labels, per_page=13):
+    """Answer key pages: 13 rows fit on one page; longer titles are clipped to the numbers."""
+    pages = []
+    for start in range(0, len(rows), per_page):
+        img = Image.new("RGB", (W, H), "white")
+        d = ImageDraw.Draw(img)
+        text(d, 1.5, 19.9, labels["key_title"], 0.5, (60, 60, 60))
+        y = 18.6
+        for sid, title, L, Pat in rows[start:start + per_page]:
+            line = f"{sid}  {title}"
+            while len(line) > 4 and d.textlength(line, font=font(0.3)) / CM > 12.6:
+                line = line[:-2] + "\u2026"
+            text(d, 1.5, y, line, 0.3, (60, 60, 60))
+            text(d, 15.0, y, "  ".join(f"{t:>2}" for t in L[0]), 0.3, (60, 60, 60), bold=False)
+            text(d, 15.0, y - 0.5, "  ".join(f"{t:>2}" for t in L[1]), 0.3, (60, 60, 60), bold=False)
+            draw_pattern(d, Pat, 22.6, y + 0.22, tile_cm=0.42, gap_cm=0.04)
+            y -= 1.45
+        pages.append(img)
+    return pages
+
+
 def key_page(rows, labels):
-    img = Image.new("RGB", (W, H), "white")
-    d = ImageDraw.Draw(img)
-    text(d, 1.5, 19.9, labels["key_title"], 0.5, (60, 60, 60))
-    y = 18.6
-    for sid, title, L, Pat in rows:
-        text(d, 1.5, y, f"{sid}  {title}", 0.3, (60, 60, 60))
-        text(d, 15.0, y, "  ".join(f"{t:>2}" for t in L[0]), 0.3, (60, 60, 60), bold=False)
-        text(d, 15.0, y - 0.5, "  ".join(f"{t:>2}" for t in L[1]), 0.3, (60, 60, 60), bold=False)
-        draw_pattern(d, Pat, 22.6, y + 0.22, tile_cm=0.42, gap_cm=0.04)
-        y -= 1.45
-    return img
+    return key_pages(rows, labels)[0]
 
 
 def fit_test_page(labels):
@@ -783,7 +794,7 @@ def build(spec_path, out, previews=None, only=None, key=False, fit=False, finger
         title = " ".join(sheet["title"]) if isinstance(sheet["title"], list) else sheet["title"]
         rows.append((sheet.get("id", str(i + 1)), title, L, Pat))
     if key:
-        pages.append(key_page(rows, labels))
+        pages.extend(key_pages(rows, labels))
     pages[0].save(out, "PDF", resolution=DPI, save_all=True, append_images=pages[1:])
     if previews:
         Path(previews).mkdir(parents=True, exist_ok=True)
