@@ -756,6 +756,10 @@ def check(spec_path):
             if task["kind"] == answers[t]["kind"] and task.get("style") == answers[t].get("style"):
                 print(f"warning {sheet.get('id')}: task {t} and its answer share the {task.get('style')} layout; "
                       "give them different styles so the child counts instead of matching shapes")
+        drawable = set(SPECIAL) | set(scenes.KINDS) | names
+        for it in list(answers.values()) + ([] if sheet.get("picture") else list(tasks.values())):
+            if it["kind"] not in drawable:
+                raise SystemExit(f"{sheet.get('id')}: '{it['kind']}' draws nothing; see: miniluek.py kinds")
         for it in list(tasks.values()) + list(answers.values()):
             if it["kind"] == "compare":
                 pics = [it["a"], it["b"]]
