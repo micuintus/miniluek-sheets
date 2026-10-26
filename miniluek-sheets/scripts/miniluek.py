@@ -842,6 +842,9 @@ def main():
         print("         letter (\"letter:2\" = C, answers \"lower\" for lowercase),")
         print("         single pictures (\"pict:cat\"), printed words (\"wcard:CAT\", course list),")
         print("         syllables (\"syll:MA\"), initial-letter cards (\"card:C\")")
+        print("         picture-sheet tokens: pearl (shells), snowflake (snow globes), tower (linking cubes),")
+        print("         quest answers:", ", ".join(sorted(scenes.KINDS)))
+        print("pictures with twelve stations:", ", ".join(sorted(scenes.SCENES)))
         print("pairs run left to right; with two pairs write \"kind:n@1\" when both start with the same kind")
 
 
