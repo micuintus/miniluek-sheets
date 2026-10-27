@@ -1091,7 +1091,7 @@ def check_dice(tasks):
     need(tasks, ("dice",), 1, 6, "dice meadow")
 
 
-# ------------------------------------------------------------------ the balloon contest (comparing)
+# ------------------------------------------------------------------ the balloon contest and the bubble act (comparing)
 
 def balloon_bunch(c, ax, ay, n, s=1.0):
     """n balloons above an animal at (ax, ay); the strings meet at its head."""
@@ -1107,12 +1107,39 @@ def balloon_bunch(c, ax, ay, n, s=1.0):
         c.paste(emoji("balloon"), x, y, h=0.5 * s)
 
 
-def duel(c, cx, cy, it, fam, s=1.0):
+def bubble_cloud(c, ax, ay, n, s=1.0):
+    """n soap bubbles of one size floating in rows above an animal at (ax, ay)."""
+    rows = list(reversed(ROWS[n]))
+    for r, k in enumerate(rows):
+        y = ay - (0.95 + 0.46 * (len(rows) - 1 - r)) * s
+        for j in range(k):
+            x = ax + (j - (k - 1) / 2) * 0.44 * s
+            lay = c.layer(x - 0.25 * s, y - 0.25 * s, x + 0.25 * s, y + 0.25 * s)
+            lay.circle(x, y, 0.19 * s, fill=(236, 244, 255, 170), outline=(150, 170, 220, 255), width=0.03 * s)
+            lay.ellipse(x - 0.07 * s, y - 0.08 * s, 0.05 * s, 0.035 * s, fill=(255, 255, 255, 240))
+            lay.commit()
+
+
+def duel(c, cx, cy, it, fam, s=1.0, bunch=balloon_bunch, apart=0.78):
     c.rrect(cx - 1.55 * s, cy + 0.32 * s, cx + 1.55 * s, cy + 0.58 * s, 0.1 * s, fill=FILL[fam], outline=FAM[fam], width=0.045 * s)
     for side, (name, n) in zip((-1, 1), ((it["a"], it["na"]), (it["b"], it["nb"]))):
-        ax = cx + side * 0.78 * s
-        balloon_bunch(c, ax, cy, n, s)
+        ax = cx + side * apart * s
+        bunch(c, ax, cy, n, s)
         c.paste(emoji(name), ax, cy, box=(0.72 * s, 0.72 * s))
+
+
+def bubble_act(c, stations):
+    """Evening in the big top: the bubble act. Every animal blows bubbles; who blew more?"""
+    tent_inside(c, 0.16, bulbs=False)
+    for st in stations:
+        spotlight(c, st["x"] * 0.5 + W / 4, st["x"], st["y"] + 0.3, 1.2)
+    c.shadow(W / 2, 6.95, 0.75, 0.13)
+    c.rrect(W / 2 - 0.7, 5.95, W / 2 + 0.7, 6.95, 0.1, fill=CIRCUS_RED, outline=(170, 60, 70), width=0.04)
+    c.line([(W / 2 - 0.7, 6.45), (W / 2 + 0.7, 6.45)], fill=GOLD, width=0.08, caps=False)
+    ringmaster(c, W / 2, 6.0, pose="wave")
+    for st in stations:
+        duel(c, st["x"], st["y"], st["item"], st["fam"], s=1.15, bunch=bubble_cloud, apart=0.9)
+        badge(c, st["x"] - 1.62, st["y"] + 0.12, st["t"], st["fam"])
 
 
 def contest(c, stations):
@@ -1600,6 +1627,8 @@ register("dice_meadow", dice_meadow, DICE_SPOTS, check=check_dice, example=(1.4,
          station=lambda it: sprite(lambda c, x, y: big_die(c, x - 0.15, y + 0.15, it["n"], it.get("fam") or 0), w=2.4, h=2.4))
 register("contest", contest, CONTEST_SPOTS, check=check_contest, example=(1.9, 1.6),
          station=lambda it: sprite(lambda c, x, y: duel(c, x, y + 0.75, it, it.get("fam") or 0), w=3.4, h=3.2))
+register("bubble_act", bubble_act, CONTEST_SPOTS, check=check_contest, example=(1.9, 1.6),
+         station=lambda it: sprite(lambda c, x, y: duel(c, x, y + 0.7, it, it.get("fam") or 0, bunch=bubble_cloud, apart=0.9), w=3.6, h=3.0))
 register("trains", trains, train_spots(), check=check_trains, example=(1.6, 1.4),
          station=lambda it: sprite(lambda c, x, y: wagon(c, x, y + 0.7, it["kind"], it["n"], it.get("fam") or 0), w=2.4, h=2.4))
 register("magic_show", magic_show, CHEST_SPOTS, check=check_chests, example=(1.8, 1.4),
