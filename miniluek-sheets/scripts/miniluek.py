@@ -689,8 +689,9 @@ def key_pages(rows, labels, per_page=13):
             while len(line) > 4 and d.textlength(line, font=font(0.3)) / CM > 12.6:
                 line = line[:-2] + "\u2026"
             text(d, 1.5, y, line, 0.3, (60, 60, 60))
-            text(d, 15.0, y, "  ".join(f"{t:>2}" for t in L[0]), 0.3, (60, 60, 60), bold=False)
-            text(d, 15.0, y - 0.5, "  ".join(f"{t:>2}" for t in L[1]), 0.3, (60, 60, 60), bold=False)
+            for row, dy in ((L[0], 0.0), (L[1], 0.5)):
+                for c, t in enumerate(row):
+                    text(d, 15.4 + c * 0.75, y - dy, str(t), 0.3, (60, 60, 60), bold=False, anchor="rs")
             draw_pattern(d, Pat, 22.6, y + 0.22, tile_cm=0.42, gap_cm=0.04)
             y -= 1.45
         pages.append(img)
