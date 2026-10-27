@@ -910,7 +910,7 @@ ROWS = {1: [1], 2: [2], 3: [3], 4: [2, 2], 5: [3, 2], 6: [3, 3], 7: [4, 3]}
 DICE = {1: [(0, 0)], 2: [(-1, 1), (1, -1)], 3: [(-1, 1), (0, 0), (1, -1)],
         4: [(-1, 1), (1, 1), (-1, -1), (1, -1)], 5: [(-1, 1), (1, 1), (0, 0), (-1, -1), (1, -1)],
         6: [(-1, 1), (1, 1), (-1, 0), (1, 0), (-1, -1), (1, -1)]}
-BALL_COLS = [(226, 84, 84), (250, 200, 70), (110, 180, 110), (170, 140, 220), (245, 150, 60), (226, 84, 84), (250, 200, 70)]
+BALL = (226, 84, 84)
 
 
 def rotated(c, w, h, cx, cy, deg, draw):
@@ -1480,7 +1480,7 @@ def ball(c, x, y, r, col):
 
 def ball_stack(c, x, base, n, r=0.17):
     for k in range(n):
-        ball(c, x, base - r - k * 2 * r * 0.96, r, BALL_COLS[k])
+        ball(c, x, base - r - k * 2 * r * 0.96, r, BALL)
 
 
 def seal_act(c, cx, top, n, fam, s=1.0, face_right=False):
@@ -1503,16 +1503,12 @@ def ball_tower_sprite(item):
 
 
 def seal_show(c, stations):
-    """Later in the evening: the seals' act. Each balances a tower of balls, and one more is coming."""
+    """Later in the evening: the seals' act. Each balances a tower of balls."""
     tent_inside(c, 0.32, bulbs=False)
     for st in stations:
         spotlight(c, st["x"] * 0.5 + W / 4, st["x"], st["y"] + 0.5, 0.9)
     ringmaster(c, W / 2 + 0.45, 6.95, pose="up")
     c.paste(emoji("unicorn"), W / 2 - 0.85, 6.55, h=0.95)
-    lay_x, lay_y = W / 2 + 1.45, 3.6
-    ball(c, lay_x, lay_y, 0.24, (110, 180, 110))
-    for k in range(5):
-        c.circle(lay_x - 0.35 - k * 0.22, lay_y + 0.35 + k * 0.28, 0.035, fill=(255, 255, 255, 220))
     for st in stations:
         seal_act(c, st["x"], st["y"], st["item"]["n"], st["fam"], face_right=st["x"] < W / 2)
         badge(c, st["x"] - (0.62 if st["x"] < W / 2 else -0.62), st["y"] - 1.45, st["t"], st["fam"])
