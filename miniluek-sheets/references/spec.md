@@ -25,6 +25,7 @@
 
 | Field | Meaning |
 |---|---|
+| `id` | short sheet id, printed small at the lower left; goal lines and `build --only` use it |
 | `language` | `en` or `de` (labels at the bottom and in the fit test) |
 | `fingers` | set level or per sheet: `index` (index finger = 1, thumb = 5, the default) or `thumb` (thumb = 1); `build --fingers` overrides it |
 | `title` | one or two lines, read aloud by the adult |
@@ -38,15 +39,23 @@
 | `answer_size` | size of the single characters on comparing sheets (default 1.9) |
 | `pattern` | index into the pattern library (default: sheet index) |
 | `mascot` | decorative princess next to the title: `true` (default, varies with the page position), `false`, or a number that picks one princess, so a sheet keeps her when sheets are inserted before it |
-| `picture` | one full illustration with 12 numbered badges set into a story; the scene names and what each draws are listed under [picture scenes](#picture-scenes). `spots` moves the 12 stations (cm in the panel). Answer grid, pattern and geometry are untouched. Review after the plain sheet of the same skill; a picture sheet without one comes after the same idea with objects |
+| `picture` | one full illustration with 12 numbered badges set into a story; the scene names and what each draws are listed under [picture scenes](#picture-scenes). `spots` moves the 12 stations (cm in the 28.3 × 7.6 cm panel, origin top left, y down). Answer grid, pattern and geometry are untouched. Review after the plain sheet of the same skill; a picture sheet without one comes after the same idea with objects |
 | `tasks` | exactly 12 entries `"kind:n"` (`"kind:n@1"` for the second pair when both pairs start with the same kind) or objects `{"kind": …, "n": …, "fam": …, "style": …, "size": …, "seed": …}` |
 
 Special kinds: `princess` (n figures; `princess_size` overrides the height), `dice` (1–6),
 `numeral`, `fingers` (1–10), `jewelbox` (0–10 in a ten-frame), `path` (1–6), picture-sheet
-tokens `pearl` (in shells), `yarn` and `bone` (scattered on rugs), `snowflake` (in snow globes),
+tokens `pearl` (in shells), `snowflake` (in snow globes),
 `tower` (linking cubes, one cube size on one floor line), the scene answer kinds `balls`, `shape`
 and `map` (below), and comparing
-tasks written `"dog:4|cat:1"` (two characters with 1–6 dots each, for the rule `more`).
+tasks written `"dog:4|cat:1"` (two characters with 1–6 dots each, for the rule `more`). `yarn`
+and `bone` are plain pictures; the `castle` scene lays them on rugs.
+
+Letter kinds: `letter` (`n` 0–25, A to Z), `lower` (its lowercase, as an answer), `card` (a
+letter card, `card:C`, or bound to a course word, `card:CAT`, which captions the word), `pict`
+(one picture, `pict:cat`, whose first letter is `n`), `wcard` (a printed word) and `syll` (the
+start of a course word, `syll:CA`). `card:WORD`, `syll:XX` and word-to-picture pairs resolve
+through the 24-word course list (`WORD_PIC` in `scripts/miniluek.py`); a task written as an
+object can bind any picture to its `word`.
 
 With two pairs, the first pair's tasks and answers get pink frames, the second pair's blue.
 
