@@ -1330,7 +1330,7 @@ def spot_disc(c, cx, cy, kind, n, fam, seed, r=1.05):
     glow.circle(cx, cy, r + 0.12, fill=(255, 244, 196, 150))
     glow.commit(blur=0.12)
     c.circle(cx, cy, r, fill=(255, 251, 232), outline=FAM[fam], width=0.07)
-    for dx, dy in S.scatter(n, 1.3, 1.08, 0.5, seed):
+    for dx, dy in S.scatter(n, 1.2, 0.98, 0.48, seed):
         c.paste(emoji(kind), cx + dx, cy + dy, box=(0.42, 0.42))
 
 
