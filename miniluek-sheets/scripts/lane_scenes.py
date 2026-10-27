@@ -993,7 +993,7 @@ def juggler(c, cx, feet, kind, n, fam, idx, s=1.0):
 
 def juggling(c, stations):
     """Morning practice on the meadow: twelve acrobats juggle one, two or three things."""
-    camp(c, (255, 226, 206), (255, 246, 232))
+    camp(c, (255, 226, 206), (255, 246, 232), sun_at=(3.6, 0.6))
     tulips(c, ((0.6, 7.25), (12.4, 7.3), (15.9, 7.3), (27.7, 7.25)))
     ringmaster(c, W / 2 - 0.55, 6.95)
     c.paste(emoji("unicorn"), W / 2 + 1.05, 6.45, h=1.05, flip=True)
