@@ -355,7 +355,7 @@
    "title": [
     "Which part does it start with?"
    ],
-   "goal": "First sound with a syllable card: CA goes to CAT; a card only for a unique first sound",
+   "goal": "Word start to picture: CA goes to CAT; a card only where the start fits one course word",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -449,12 +449,12 @@
    "pattern": 37,
    "mascot": 37,
    "theme": "lavender",
-   "picture": "syllable_bubbles",
+   "picture": "word_start_bubbles",
    "title": [
-    "The little fish blow syllable bubbles.",
+    "The little fish blow word beginnings.",
     "Which picture starts like that?"
    ],
-   "goal": "Sea 5/7 · after A5: first syllable to picture",
+   "goal": "Sea 5/7 · after A5: the start of a word to its picture",
    "rule": {
     "type": "pair",
     "pairs": [

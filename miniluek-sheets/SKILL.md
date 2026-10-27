@@ -4,7 +4,7 @@ description: |
   Generate printable A4 worksheets for the miniLÜK control box in preschool mode (the open box
   lies on the sheet), each with a working control pattern. Use when someone wants their own
   miniLÜK exercises: counting, dice, fingers, comparing, numerals, number path, ten-frame,
-  one more, take-away, letters, first sounds, syllables, short words, AB patterns, shapes,
+  one more, take-away, letters, first sounds, word beginnings, short words, AB patterns, shapes,
   odd one out, places on a map, or any picture matching, themed with princesses, animals or
   other pictures.
 ---

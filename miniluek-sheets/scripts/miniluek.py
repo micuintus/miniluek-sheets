@@ -398,7 +398,7 @@ def parse_item(x, default):
             text = n.upper()
             cands = [w for w in WORD_PIC if w.startswith(text)]
             if len(cands) != 1:
-                raise SystemExit(f"syllable '{text}' matches {cands or 'nothing'}, write the word out")
+                raise SystemExit(f"word start '{text}' matches {cands or 'nothing'}, write the word out")
             x = {"kind": "syll", "text": text, "word": cands[0], "pic": WORD_PIC[cands[0]], "n": ord(text[0]) - 65}
         else:
             x = {"kind": kind, "n": int(n)}
@@ -843,7 +843,7 @@ def main():
         print("         compare (written as \"dog:4|cat:1\", used with the rule \"more\")")
         print("         letter (\"letter:2\" = C, answers \"lower\" for lowercase),")
         print("         single pictures (\"pict:cat\"), printed words (\"wcard:CAT\", course list),")
-        print("         syllables (\"syll:MA\"), initial-letter cards (\"card:C\")")
+        print("         word starts (\"syll:MA\"), initial-letter cards (\"card:C\")")
         print("         picture-sheet tokens: pearl (shells), snowflake (snow globes), tower (linking cubes),")
         print("         scene answers:", ", ".join(sorted(scenes.KINDS)))
         print("pictures with twelve stations:", ", ".join(sorted(scenes.SCENES)))

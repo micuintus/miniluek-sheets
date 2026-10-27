@@ -415,7 +415,7 @@
    "title": [
     "Mit welchem Teil fängt es an?"
    ],
-   "goal": "Anlaut mit Silbenkarte: BÄ gehört zu BÄR; Karte nur bei eindeutigem Anlaut",
+   "goal": "Wortanfang zum Bild: BÄ gehört zu BÄR; eine Karte nur, wenn der Anfang zu einem Kurswort passt",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -509,12 +509,12 @@
    "pattern": 37,
    "mascot": 37,
    "theme": "lavender",
-   "picture": "syllable_bubbles",
+   "picture": "word_start_bubbles",
    "title": [
-    "Die kleinen Fische blasen Silbenblasen.",
+    "Die kleinen Fische blasen Wortanfänge.",
     "Welches Bild fängt so an?"
    ],
-   "goal": "Meer 5/7 · nach A5: Anfangssilbe zum Bild",
+   "goal": "Meer 5/7 · nach A5: Wortanfang zum Bild",
    "rule": {
     "type": "pair",
     "pairs": [

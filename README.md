@@ -22,7 +22,7 @@ Each plain sheet S*n* is reviewed a week later by its circus sheet C*n*; C14, th
 the show, adds take-away. The German finger pictures count from the thumb, the English ones from
 the index finger (`--fingers` switches).
 
-The letters lane teaches letters, first sounds, syllables and short printed words; each plain sheet
+The letters lane teaches letters, first sounds, word beginnings and short printed words; each plain sheet
 A*n* is reviewed by its sea-post sheet M*n*, and M7 reads words in the reverse direction. It
 borrows the literacy-precursor evidence without the numbers lane's tight mapping
 ([research](miniluek-sheets/presets/letters/research.md)). Until the number sheets are

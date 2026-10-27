@@ -17,13 +17,13 @@ experiment, descriptive or single-case study, book or narrative review.
 | A2 Lowercase | upper to lowercase | uppercase task, lowercase answer | letter knowledge (NELP 2008 [M]) |
 | A3 Who starts with it? | first sound to picture | word-bound letter cards with the word captioned; name each picture first | phonological awareness predicts later reading (NELP 2008 [M]); code-focused teaching includes phonological teaching (NELP 2008 [M]) |
 | A4 Who starts with which letter? | picture to first letter | the reverse direction on its own sheet | children map number both ways (Mundy & Gilmore 2009 [E]); the letter reverse is untested |
-| A5 Which part does it start with? | syllables to words | cards only for syllables that start one course word | phonological awareness (NELP 2008 [M]) |
+| A5 Which part does it start with? | word starts to words | cards only for starts that fit one course word | phonological awareness (NELP 2008 [M]) |
 | A6 Read the word | whole printed words, 3 to 6 letters (German 3 to 8) | short words pink, long words blue | code-focused teaching (NELP 2008 [M]) |
 | M1 Twin shells (sea post) | the same letter inside a picture | letters on pearls in shells, review after A1 | letter knowledge (NELP 2008 [M]); untested as a picture; the numbers research carries the decoration reasoning (Petersen & McNeil 2013 [E]; Fisher, Godwin & Seltman 2014 [E]) |
 | M2 Big and little fish (sea post) | upper to lowercase inside a picture | big fish carry the uppercase letter, review after A2 | letter knowledge (NELP 2008 [M]); untested as a picture |
 | M3 Bottle post (sea post) | first sound to picture inside a picture | letter and course word on a scroll in each bottle, review after A3 | phonological awareness (NELP 2008 [M]); untested as a picture |
 | M4 Bubbles (sea post) | picture to first letter inside a picture | one course picture per bubble, review after A4 | NELP 2008 [M]; the letter reverse is untested |
-| M5 Syllable fish (sea post) | first syllable to picture inside a picture | syllables that start one course word each, review after A5 | phonological awareness (NELP 2008 [M]); untested as a picture |
+| M5 Word-start bubbles (sea post) | word start to picture inside a picture | starts that fit one course word each, review after A5 | phonological awareness (NELP 2008 [M]); untested as a picture |
 | M6 Post boats (sea post) | printed word to picture inside a picture | the course word on each hull, review after A6 | code-focused teaching (NELP 2008 [M]); untested as a picture |
 | M7 Parcels (sea post) | picture to short word | every first letter comes at least twice in a family, so the first letter alone never decides; after A6 | code-focused teaching (NELP 2008 [M]); the shared-letter design is untested |
 

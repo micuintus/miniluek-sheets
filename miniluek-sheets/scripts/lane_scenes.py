@@ -526,8 +526,8 @@ def check_finds(tasks):
     need(tasks, ("pict",), 0, 25, "sea find")
 
 
-def syllable_fish(c, cx, cy, text, fam, s=1.0, face_right=True):
-    """A small fish blowing one big bubble with a syllable in it."""
+def word_start_fish(c, cx, cy, text, fam, s=1.0, face_right=True):
+    """A small fish blowing one big bubble with the start of a word in it."""
     d = 1 if face_right else -1
     fx, fy = cx - d * 0.95 * s, cy + 0.55 * s
     c.poly([(fx - d * 0.35 * s, fy), (fx - d * 0.65 * s, fy - 0.24 * s), (fx - d * 0.65 * s, fy + 0.24 * s)], fill=FILL[fam],
@@ -543,20 +543,20 @@ def syllable_fish(c, cx, cy, text, fam, s=1.0, face_right=True):
     c.text(cx, cy - 0.12 * s, text, (0.6 if len(text) <= 2 else 0.48) * s, INK[fam])
 
 
-def syllable_bubbles(c, stations):
-    """The little fish blow syllable bubbles. Whose name starts like that?"""
+def word_start_bubbles(c, stations):
+    """The little fish blow word beginnings. Whose name starts like that?"""
     seafloor(c)
     mermaid(c, W / 2, 4.3)
     for st in stations:
-        syllable_fish(c, st["x"], st["y"], st["item"]["text"], st["fam"], s=1.25, face_right=st["x"] < W / 2)
+        word_start_fish(c, st["x"], st["y"], st["item"]["text"], st["fam"], s=1.25, face_right=st["x"] < W / 2)
         badge(c, st["x"] - 1.0, st["y"] - 1.1, st["t"], st["fam"])
 
 
-SYLL_SPOTS = zigzag((1.75, 2.05, 1.8), (4.95, 5.3, 4.9), (2.55, 6.25, 9.95), (4.4, 8.05, 11.4))
+WORD_START_SPOTS = zigzag((1.75, 2.05, 1.8), (4.95, 5.3, 4.9), (2.55, 6.25, 9.95), (4.4, 8.05, 11.4))
 
 
-def check_syllables(tasks):
-    need(tasks, ("syll",), 0, 25, "syllable bubble")
+def check_word_starts(tasks):
+    need(tasks, ("syll",), 0, 25, "word-start bubble")
 
 
 def boat(c, cx, cy, word, fam, s=1.0, face_right=True):
@@ -1650,8 +1650,8 @@ register("fish_school", fish_school, FISH_SPOTS, check=check_letters, example=(1
          station=lambda it: sprite(lambda c, x, y: big_fish(c, x + 0.2, y + 0.1, chr(65 + it["n"]), it.get("fam") or 0), w=3.4, h=2.2))
 register("sea_finds", sea_finds, FIND_SPOTS, check=check_finds, example=(1.3, 1.3),
          station=lambda it: sprite(lambda c, x, y: find_bubble(c, x, y - 0.3, it["pic"], it.get("fam") or 0), w=2.0, h=2.6))
-register("syllable_bubbles", syllable_bubbles, SYLL_SPOTS, check=check_syllables, example=(1.6, 1.4),
-         station=lambda it: sprite(lambda c, x, y: syllable_fish(c, x + 0.4, y, it["text"], it.get("fam") or 0), w=3.0, h=2.4))
+register("word_start_bubbles", word_start_bubbles, WORD_START_SPOTS, check=check_word_starts, example=(1.6, 1.4),
+         station=lambda it: sprite(lambda c, x, y: word_start_fish(c, x + 0.4, y, it["text"], it.get("fam") or 0), w=3.0, h=2.4))
 register("post_boats", post_boats, BOAT_SPOTS, check=check_boats, example=(1.8, 1.5),
          station=lambda it: sprite(lambda c, x, y: boat(c, x, y + 0.6, it["word"], it.get("fam") or 0), w=3.0, h=2.8))
 register("beach_post", beach_post, PARCEL_SPOTS, check=check_parcels, example=(1.5, 1.3),

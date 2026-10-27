@@ -1,6 +1,6 @@
 # Teaching order of the letters lane
 
-The letters lane teaches letters, first sounds, syllables and short printed words: six
+The letters lane teaches letters, first sounds, word beginnings and short printed words: six
 plain sheets that teach, six sea-post sheets that review them, and M7, the first picture-to-word
 sheet. The evidence base is narrower than the
 numbers lane's, and the rows in [research](research.md) carry evidence-type tags.
@@ -52,7 +52,7 @@ holds.
 | A2 uppercase to lowercase | magnetic letters: "big A, little a" | the child knows most uppercase letters |
 | A3 first sound to picture | "CAT starts with k": show three pictures, the child points | A1 mastered or placed here by the check, and the picture words are known |
 | A4 picture to first letter | "which letter does DOG start with?" | A3 mastered |
-| A5 which part it starts with | clap CA-T: "CA-T, the CAT" | A4 mastered (M4 is a review day, not a gate) |
+| A5 which part it starts with | say the start slowly: "CA… CAT" | A4 mastered (M4 is a review day, not a gate) |
 | A6 read the word (the blue six hold the five-letter and longer words) | sound out CAT together, then the child alone | A5 mastered |
 | M7 picture to word | name each picture, then read three words that differ in one letter: "CAT, CAP or HAT?" | A6 mastered and M6 done |
 
@@ -71,7 +71,7 @@ picture to word, with mostly new words: it is a daily sheet once A6 is mastered 
 | M2 | A2 | big fish, little fish | an uppercase letter on a big fish | its lowercase letter |
 | M3 | A3 | bottle post for the mermaid | a letter with its course word | the picture that starts with it |
 | M4 | A4 | finds rising in bubbles | a course picture | its first letter |
-| M5 | A5 | little fish blow syllable bubbles | a first syllable | the picture that starts like that |
+| M5 | A5 | little fish blow word beginnings | the start of a course word | the picture that starts like that |
 | M6 | A6 | the post boats arrive | a course word on a hull | its picture |
 | M7 | A6 | parcels on the beach | a picture | its short word |
 
@@ -93,7 +93,7 @@ The same rules as the numbers lane: one direction per sheet, two colour families
 sheets, no answer copies another task (`check` refuses it), different-looking task and answer sides,
 worked examples per family, feedback by pattern check. English letter names say the letter's
 sound, not "see-ay-tee": the adult says the sounds ("kuh-ah-tuh") and slides them together.
-German keeps its umlauts everywhere: letter cards, syllable cards, word pills and titles. On the
+German keeps its umlauts everywhere: letter cards, word-start cards, word pills and titles. On the
 initial-sound cards and on M3's bottles the picture word is captioned under the letter.
 
 The twelve course words start with their letter's sound: CAT, DOG, FOX, OTTER, PIG, GIFT,

@@ -78,7 +78,7 @@ draws its twelve stations from the tasks; `check` refuses a task the scene canno
 | `twin_shells`, `fish_school` | M1, M2 | `letter` | `n` 0–25 |
 | `bottle_post` | M3 | `card` | a course word |
 | `sea_finds` | M4 | `pict` | a picture and its first letter `n` |
-| `syllable_bubbles` | M5 | `syll` | `text` and `word` from the course list |
+| `word_start_bubbles` | M5 | `syll` | the start of a course word: `text` and `word` from the course list |
 | `post_boats` | M6 | `wcard` | `word` from the course list |
 | `beach_post` | M7 | `pict` | a picture bound to its `word` |
 | `necklaces` | P1 | `necklace` | `pic` (the next charm) and a different `other` |
