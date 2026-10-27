@@ -13,6 +13,7 @@ Usage:
 """
 import argparse
 import importlib
+import re
 import json
 import random
 import sys
@@ -652,7 +653,7 @@ def render(sheet, Pat, index, labels):
         right = COLS[5] + CELL / 2
         max_w = right - (sx - 1.1 if mascot is not False else left + 5.0)
         lines, cur = [], ""
-        for word in sheet["goal"].split():
+        for word in re.findall(r"\(?\d+ : \d+\)?|\S+", sheet["goal"]):
             trial = f"{cur} {word}".strip()
             if cur and d.textlength(trial, font=font(0.24, False)) / CM > max_w:
                 lines.append(cur)
