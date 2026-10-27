@@ -1,14 +1,14 @@
-# Research behind the preset
+# Research behind the numbers lane
 
-Why the thirteen plain sheets come in this order, what each sheet and its picture twin
-practises, and which study each choice rests on. No study has tested miniLÜK or these sheets: every choice borrows evidence
+Why the thirteen plain sheets come in this order, what each plain sheet and its circus sheet
+practise, and which study each choice rests on. No study has tested miniLÜK or these sheets: every choice borrows evidence
 from studies of the underlying skill. Full references with DOIs and a key sentence from each
 are at the end.
 
 **In short.** Well supported: teaching number along a progression (practice guide, moderate evidence, though no particular order is tested), objects
 before pictures, one-to-one counting and comparison content (meta-analyses), adult 1:1 teaching
 with the MILE routine (randomised trials). Reasoned from studies but not tested: one direction per
-sheet, the two-colour families, three comparison sheets, plain counted sets inside the picture
+sheet, the two-colour families, three comparison steps, plain counted sets inside the picture
 sheets. Untested: miniLÜK itself, this exact sequence, and a story picture as the review step. Evidence types in the sources: **[M]** meta-analysis or systematic review, **[R]**
 randomised or controlled trial, **[C]** correlational or cohort study, **[G]** guideline or
 practice guidance, **[E]** experiment, descriptive or single-case study, book or narrative review. The tags
@@ -63,45 +63,53 @@ the tables below.
 | S11 Who has the bigger number? | comparing numerals 1–6 | distances 2 to 4 | symbolic comparison (Schneider et al. 2017 [M]); number comparison after prenatal alcohol exposure (Jacobson et al. 2011 [C]; Shmueli et al. 2022 [C]) |
 | S12 Treasure chest, 3–8 (later) | five and more: 6 = 5 and 1 | ten-frame filled row by row | part-whole level (Krajewski & Schneider 2009 [C]); finger patterns (Kullberg et al. 2020 [R]); unitizing in MILE [G] |
 | S13 One more (later) | the number after | the equal set is the intended lure | successor understanding (Sarnecka & Carey 2008 [E]) |
-| S1b Rapunzel's meadow (picture) | 1–3 at a glance inside a picture | bugs on flowers; answer the same animals rearranged; no loose bugs elsewhere | review after S1; see [picture sheets](#picture-sheets) |
-| S2b Sky train (picture) | counting 1–6, matched to another kind | kittens and puppies at the windows; fish and bones below | review after S2; characters are the risky case in Petersen & McNeil 2013 [E], kept only here and on S2 where counting them is the skill |
-| S4b Mermaid lagoon (picture) | counting 1–6, then the dice pattern | pearls in shells, rows, not dice layout | review after S4 |
-| S6b Ice gate (picture) | quantity to numeral | snowflakes only inside the globes; each globe sits in a locked door; snow in the sky falls as dots | review after S6 |
-| S8b Cinderella's castle (picture) | scattered sets to numeral | wool and bones scattered on blankets; "only count what lies on the blanket" | review after S8; arrangement and counting errors (Fuson 1988 [E]) |
-| S13b Toy room (picture, later) | one more as one cube taller | towers of 1–6 cubes; answers 2–7; one cube size, one floor line | successor (Schneider et al. 2021 [C]; Spaepen et al. 2018 [C]); linear magnitude (Siegler & Booth 2004 [C]) |
+| C1 Jugglers (circus) | 1–3 at a glance inside a picture | hearts, stars, moons and strawberries juggled in an arc; answers in another layout | review after S1; the rearrangement is untested; see [picture sheets](#picture-sheets) |
+| C2 Breakfast (circus) | counting 1–6, matched to another kind | seals and puppies on podiums; fish and bones below | review after S2; characters are the risky case in Petersen & McNeil 2013 [E], counted only here and on S2 where counting them is the skill |
+| C3 Giant dice (circus) | dice patterns, checked by counting | pink dice to hearts, blue dice to stars, as on S3 | review after S3 |
+| C4 Finger theatre (circus) | finger patterns to dice | hands above twelve puppet stages, counted from the preset's habit | review after S4 |
+| C5 Balloon contest (circus) | comparing by sight | ratios 2 : 1 and more; each animal wins once and loses once; no pairing repeats another comparing sheet | review after S5 |
+| C6 Circus trains (circus) | quantity to numeral | presents and stars in rows inside the wagons | review after S6 |
+| C7 Ticket booth (circus) | numeral to quantity | pink tickets to cookies, blue tickets to balloons | review after S7 |
+| C8 Spotlights (circus) | counting an unordered set | hearts and stars scattered in each light, none touching | review after S8; arrangement and counting errors (Fuson 1988 [E]) |
+| C9 Tightrope (circus) | position on a 1–6 path | the acrobat stands on one of six pads, counted from the flag | review after S9 |
+| C10 Bubble act (circus) | comparing by counting | ratios 1.5 to 2; no pairing repeats another comparing sheet, so no winner is remembered | review after S10 |
+| C11 Ring toss (circus) | comparing numerals 1–6 | distances 2 to 4; each animal wins once and loses once; no pairing repeats another comparing sheet | review after S11 |
+| C12 Magic chests (circus, later) | five and more: 6 = 5 and 1 | ten-frame trays filled row by row, 3–8 | review after S12 |
+| C13 Seal towers (circus, later) | one more as one ball taller | towers of 1–6 balls; answers 2–7; one ball size, one floor line | review after S13; successor (Schneider et al. 2021 [C]; Spaepen et al. 2018 [C]) |
+| C14 Party (circus, later) | take-away: one is gone, count the rest | crumbs where the eaten cookie was, the rest on the plate | no plain sheet, comes after the same idea with objects; the guide's basic problems add and remove items (Frye et al. 2013 [G]); naming the number just before lags naming the number just after until about 5 1/2 (Fuson, Richards & Briars 1982 [E], spoken questions to samples of 24); the sheet shows what is left |
 
 ## Design rules
 
 | Rule | Why | Sources |
 |---|---|---|
 | One direction per sheet; no answer repeats another task's picture (a same-rule sheet repeats its own pair by design) | An identical copy is the easiest wrong match, and choosing it is a rule error, not a number error. Object similarity pulls children away from number matches. | Mix 2008 [E] (design reasoning, not tested) |
-| Two colour families on the two-pair sheets: pink tasks to pink answers, blue to blue | On those sheets the only other answer with the right number has the other colour, and the search drops from 12 fields to 6. The same-rule and comparing sheets carry one colour. | visual cues and fewer tasks at once (SMILE FASD manual 2025 [G], practice guidance; applied here to answer options); visual-spatial load (Crocker et al. 2015 [C]); untested |
+| Two colour families on the two-pair sheets: pink tasks to pink answers, blue to blue | On those sheets the only other answer with the right number has the other colour, and the search drops from 12 fields to 6. The plain same-rule and comparing sheets (S1, S5, S10, S11) carry one colour; their circus sheets split pink and blue by side. | visual cues and fewer tasks at once (SMILE FASD manual 2025 [G], practice guidance; applied here to answer options); visual-spatial load (Crocker et al. 2015 [C]); untested |
 | Different layouts where the answer repeats the task's kind | the child counts instead of matching shapes | Mix 2008 [E]; Starkey & McCandliss 2014 [E] |
 | One worked example per family (two on two-family sheets) | modelling before practice | Akther et al. 2025 [M] |
 | Pattern check, then wrong tasks redone with objects | feedback; one error at a time | Akther et al. 2025 [M]; MILE cycle [G] |
 | One picture size per sheet, clean page | size must not give the answer away; visual-spatial load | Leibovich et al. 2017 [E]; Crocker et al. 2015 [C] |
 | Counted sets plain, decoration out of the way | rich objects hindered counting when children had high knowledge of them; decorated rooms held attention worse | Petersen & McNeil 2013 [E]; Kaminski & Sloutsky 2013 [E]; Fisher, Godwin & Seltman 2014 [E] |
-| Theme, and the child chooses which mastered sheet comes back | motivation and learning | Córdova & Lepper 1996 [R] |
+| Theme | motivation and learning | Córdova & Lepper 1996 [R] |
 | Picture sheets as the week-later revisit | motivation through a story world the child cares about | contextualisation and personalisation raised motivation and engagement in 4th–5th graders (Córdova & Lepper 1996 [R]); the sheets themselves are untested |
 | Quantities stay visible, no memory drills | working-memory training does not transfer | Melby-Lervåg et al. 2016 [M] |
 
 ## Picture sheets
 
-Six sheets set the 12 badges into one illustration (S1b, S2b, S4b, S6b, S8b, S13b). Each
-follows its plain twin and practises the same step, so the plain page teaches and the picture
-reviews. The twins tell one quest in six chapters, one story beat per sheet; the cross-sheet arc
-itself is untested. No study tested a story picture as the review step, but each rule targets a pathway
-that has evidence:
+Fourteen circus sheets set the 12 badges into one illustration of a day at the unicorn
+circus, morning to night. C1 to C13 follow S1 to S13 and practise the same step, so the plain
+page teaches and the circus page reviews; C14, the take-away party, has no plain sheet and comes
+after the same idea with objects. The day's arc is untested. No study tested a story picture as
+the review step, but each rule targets a pathway that has evidence:
 
 | Pathway | Evidence | What the sheets do |
 |---|---|---|
-| Interest draws effort to the task (helps) | Interest grows from triggered situational interest to a lasting individual interest (Hidi & Renninger 2006 [E]); a fantasy context and personalisation raised engagement and learning in 4th and 5th graders (Córdova & Lepper 1996 [R]) | Each scene is a world children of this age already love: mermaids, kittens and puppies, princesses, an ice princess, Rapunzel, Cinderella, unicorns, toys. |
-| Variation helps once the skill is known (helps) | "less knowledgeable participants learned better from similar examples, while more knowledgeable participants learned better from varied examples" (Braithwaite & Goldstone 2015 [E], undergraduates); techniques that help novices "can lose their effectiveness and even have negative consequences" with experienced learners (Kalyuga et al. 2003 [E]) | The plain sheet teaches the step; its picture twin comes only after the plain sheet is mastered, as its week-later revisit (A6b transfers to new words). |
+| Interest draws effort to the task (helps) | Interest grows from triggered situational interest to a lasting individual interest (Hidi & Renninger 2006 [E]); a fantasy context and personalisation raised engagement and learning in 4th and 5th graders (Córdova & Lepper 1996 [R]) | One world: a unicorn circus with a princess ringmaster, jugglers, seals, a magic show and a party. |
+| Variation helps once the skill is known (helps) | "less knowledgeable participants learned better from similar examples, while more knowledgeable participants learned better from varied examples" (Braithwaite & Goldstone 2015 [E], undergraduates); techniques that help novices "can lose their effectiveness and even have negative consequences" with experienced learners (Kalyuga et al. 2003 [E]) | The plain sheet teaches the step; its circus sheet comes only after the plain sheet is mastered, as its week-later revisit. C14 is the exception: the take-away party is the first sheet for its step, after objects; a story picture as a first sheet is untested. |
 | Irrelevant detail costs working memory and attention (hurts) | The seductive detail effect, small to medium on retention and medium on transfer, "mainly explained by assuming an overloading of the working memory, attention distraction, schema interference or coherence disruption" (Rey 2012 [M]); "including seductive details in learning material can hinder learning" (Sundararajan & Adesope 2020 [M]); a decorated room distracted kindergartners (Fisher, Godwin & Seltman 2014 [E]) | Nothing decorative sits inside or between the stations; story characters stand at the edges, in the middle or in the sky. |
-| Knowledge about the objects competes with the number (hurts) | Rich objects hindered preschool counting when children had high knowledge of them (Petersen & McNeil 2013 [E], N = 133, Mage 3;10); with perceptually rich money, children "made the most errors; however, their errors were least likely to be conceptual errors" (McNeil et al. 2009 [E], 4th and 6th graders on word problems); extraneous detail reduced learning (Kaminski & Sloutsky 2013 [E], 6- to 8-year-olds on bar graphs) | The counted things are plain tokens: pearls, snowflakes, cubes, wool, bones. Only S2b counts characters, as S2 already does, and no scene holds loose copies of its counted kind. |
-| Cues steer attention (helps) | Signaling raised retention (g = 0.53) and transfer (g = 0.33) (Schneider et al. 2018 [M]) | A trail runs through the badges in number order; pink and blue keep their families; violet only decorates. |
-| Spatial load costs more after prenatal alcohol exposure | Spatial span and spatial recognition memory predicted math after heavy prenatal alcohol exposure (Crocker et al. 2015 [C]) | Plain sheet first, one container size per sheet, and a miscount sends the child back to the plain sheet. |
-| One more must be seen as one step (S13b) | Children count sets by 4 but only at 5½ to 6 understand "that adding 1 to a set necessitates counting up one number" (Schneider et al. 2021 [C]); cardinal-principle knowledge predicted later gains in the successor principle (Spaepen et al. 2018 [C]); linear number representations relate to math achievement (Siegler & Booth 2004 [C]) | On the answer tiles every tower keeps one cube size and one floor line, so one more is one cube taller, with the equal tower as the lure. |
+| Knowledge about the objects competes with the number (hurts) | Rich objects hindered preschool counting when children had high knowledge of them (Petersen & McNeil 2013 [E], N = 133, Mage 3;10); with perceptually rich money, children "made the most errors; however, their errors were least likely to be conceptual errors" (McNeil et al. 2009 [E], 4th and 6th graders on word problems); extraneous detail reduced learning (Kaminski & Sloutsky 2013 [E], 6- to 8-year-olds on bar graphs) | The counted things are plain tokens: hearts, stars, balloons, presents, coins, balls, cookies, pips. Only C2 counts characters, as S2 already does, and no scene holds loose copies of its counted kind. |
+| Cues steer attention (helps) | Signaling raised retention (g = 0.53) and transfer (g = 0.33) (Schneider et al. 2018 [M]) | Pink stations 1–6 sit in the left half, blue 7–12 in the right, numbered left to right; pink and blue keep their families; violet only decorates. |
+| Spatial memory relates to math (hurts when overloaded) | Spatial span and spatial recognition memory predicted math in children aged 7 to 12 with and without heavy prenatal alcohol exposure; with IQ controlled, only spatial recognition memory did (Crocker et al. 2015 [C]) | Plain sheet first, one container size per sheet, and a miscount sends the child back to the plain sheet. |
+| One more must be seen as one step (C13) | Children count sets by 4 but only at 5½ to 6 understand "that adding 1 to a set necessitates counting up one number" (Schneider et al. 2021 [C]); cardinal-principle knowledge predicted later gains in the successor principle (Spaepen et al. 2018 [C]); linear number representations relate to math achievement (Siegler & Booth 2004 [C]) | On the answer tiles every tower keeps one ball size and one floor line, so one more is one ball taller, with the equal tower as the lure. |
 
 A story told by the adult, best with a doll who needs help, carries the interest pathway
 without adding anything to the page. Letting the child teach her doll is the extension: 5th and
@@ -138,7 +146,8 @@ more to magnitude comparison (which of two numbers is larger, which is closer) t
 calculation, and its effect on calculation ran through magnitude comparison (Jacobson et al.
 2011). Adolescents with FAS or partial FAS were slower and less accurate at comparing two
 numerals (Shmueli et al. 2022). Spatial span and spatial recognition memory predicted math
-achievement after heavy prenatal alcohol exposure (Crocker et al. 2015).
+achievement in children with and without heavy prenatal alcohol exposure; with IQ controlled,
+only spatial recognition memory did (Crocker et al. 2015).
 
 **What helped.** MILE, a 1:1 math programme with manipulatives and the Focus/Plan, Act,
 Reflect routine, produced larger math gains than comparison groups in children aged 3 to 10
@@ -148,10 +157,11 @@ settings (Kable et al. 2015) and in a Canadian replication without the parent co
 training matched to the child's cognitive level for preschool and school children (grade B,
 high-quality evidence), and suggests building MILE's elements into existing math support.
 
-**How the set reflects it.** Comparison appears three times (S5, S10, S11). The MILE content
+**How the set reflects it.** Comparison appears six times (S5, S10, S11 and their circus sheets). The MILE content
 list is covered: subitizing (S1–S3), stable order, one-to-one correspondence and cardinality (S2, S6, S8),
 conservation (S1), magnitude (S5, S10, S11), position (S9), unitizing (S12). Every sheet uses
-the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came from trained
+the Focus/Plan, Act, Reflect routine; the plain sheets keep a clean page, the circus sheets keep
+decoration out of the stations. The trial gains came from trained
 1:1 tutoring; the sheets are practice next to such teaching, not a replacement.
 
 ## Checked, no change
@@ -170,16 +180,19 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 - Picture-based and game-based interventions averaged smaller effects than those without
   (subgroup comparisons, confounded with other features).
 - The colour families follow practice guidance and are untested.
-- With dots of one size, more dots also means more ink: S5 and S10 train comparison with a
-  matching area cue.
+- With dots of one size, more dots also means more ink: S5, S10, C5 and C10 train comparison
+  with a matching area cue.
 - The finger studies tested typically developing children.
 - The number comparison studies after prenatal alcohol exposure tested adolescents (the
   visual-spatial study tested children around 10); no study tested number comparison in
   preschoolers after prenatal alcohol exposure.
-- Quantity to numeral runs on six sheets against one for the reverse direction (S7); the circus
-  lane adds a picture sheet for S7 (C7) and four more quantity-to-numeral sheets (C6, C8, C11, C13).
-- No study tested the picture sheets or a story illustration as the review step; their rules
-  borrow from the decoration and transfer studies above.
+- Quantity to numeral runs on nine sheets (S6, S8, S9, S12, their circus sheets and C14) against
+  two for the reverse direction (S7, C7).
+- No study tested the circus sheets or a story illustration as the review step; their rules
+  borrow from the decoration and transfer studies above. Half a circus sheet per sitting (the
+  pink or the blue six) is a design choice, untested.
+- The take-away party shows what is left, so it practises the take-away story with counting, not
+  the number before.
 
 ## Sources
 
@@ -272,6 +285,11 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
 - [E] **Fuson 1988.** *Children's Counting and Concepts of Number*. Springer.
   [doi:10.1007/978-1-4612-3754-9](https://doi.org/10.1007/978-1-4612-3754-9). Chapter 4:
   "Effects of Object Arrangement on Counting Correspondence Errors and on the Indicating Act".
+- [E] **Fuson, Richards & Briars 1982.** The acquisition and elaboration of the number word
+  sequence. In C. J. Brainerd (Ed.), *Children's Logical and Mathematical Cognition*, 33–92. Springer.
+  [doi:10.1007/978-1-4613-9466-2_2](https://doi.org/10.1007/978-1-4613-9466-2_2). "Performance on And
+  Then Before questions [...] is considerably lower than that for And Then questions [...] until
+  about age 5½" (two samples of 24, spoken questions).
 - [E] **Sarnecka & Carey 2008.** How counting represents number: what children must learn and
   when they learn it. *Cognition* 108(3):662–674.
   [doi:10.1016/j.cognition.2008.05.007](https://doi.org/10.1016/j.cognition.2008.05.007).
@@ -283,8 +301,6 @@ the Focus/Plan, Act, Reflect routine and a clean layout. The trial gains came fr
   [doi:10.1037/a0031040](https://doi.org/10.1037/a0031040). Extraneous information "substantially attenuated learning" and children "tended to count the objects and failed to acquire the appropriate strategy" (4 experiments, 6- to 8-year-olds learning to read bar graphs).
 - [E] **Fisher, Godwin & Seltman 2014.** Visual environment, attention allocation, and learning in young children. *Psychol Sci* 25(7):1362–1370.
   [doi:10.1177/0956797614533801](https://doi.org/10.1177/0956797614533801). Children in the highly decorated classroom "were more distracted, spent more time off-task and demonstrated smaller learning gains" (Carnegie Mellon release).
-- [E] **McNeil & Fyfe 2012.** "Concreteness fading" promotes transfer of mathematical knowledge. *Learn Instr* 22(6):440–448.
-  [doi:10.1016/j.learninstruc.2012.05.001](https://doi.org/10.1016/j.learninstruc.2012.05.001). Fading from concrete to idealized representations "promotes transfer of mathematical knowledge"; cited as the idea behind revisiting a mastered step in a new surface form (direction reversed here: plain first, story second, so untested).
 - [R] **Poletti, Krenger, Létang, Hennequin & Thevenot 2025.** Finger counting training enhances
   addition performance in kindergarteners. *Child Dev* 96(1):251–268.
   [doi:10.1111/cdev.14146](https://doi.org/10.1111/cdev.14146).

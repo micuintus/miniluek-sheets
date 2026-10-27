@@ -1,11 +1,39 @@
 {
- "title": "Quests: Die Meerespost der Meerjungfrau",
+ "title": "Buchstaben",
  "language": "de",
  "sheets": [
   {
-   "id": "M1",
-   "pattern": 0,
+   "id": "A1",
+   "pattern": 27,
    "mascot": 0,
+   "theme": "rose",
+   "title": [
+    "Gleiche Buchstaben."
+   ],
+   "goal": "Buchstaben, groß, 12 Stück",
+   "rule": {
+    "type": "same"
+   },
+   "answer_style": "col",
+   "tasks": [
+    "letter:1",
+    "letter:4",
+    "letter:5",
+    "letter:6",
+    "letter:7",
+    "letter:10",
+    "letter:11",
+    "letter:12",
+    "letter:15",
+    "letter:18",
+    "letter:19",
+    "letter:22"
+   ]
+  },
+  {
+   "id": "M1",
+   "pattern": 33,
+   "mascot": 33,
    "theme": "teal",
    "picture": "twin_shells",
    "title": [
@@ -32,9 +60,46 @@
    ]
   },
   {
+   "id": "A2",
+   "pattern": 28,
+   "mascot": 1,
+   "theme": "sky",
+   "title": [
+    "Kleinbuchstaben. Finde den kleinen Buchstaben."
+   ],
+   "goal": "Groß zu klein",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "letter",
+      "lower"
+     ],
+     [
+      "letter",
+      "lower"
+     ]
+    ]
+   },
+   "tasks": [
+    "letter:1@0",
+    "letter:4@0",
+    "letter:5@0",
+    "letter:6@0",
+    "letter:7@0",
+    "letter:10@0",
+    "letter:11@1",
+    "letter:12@1",
+    "letter:15@1",
+    "letter:18@1",
+    "letter:19@1",
+    "letter:22@1"
+   ]
+  },
+  {
    "id": "M2",
-   "pattern": 7,
-   "mascot": 7,
+   "pattern": 34,
+   "mascot": 34,
    "theme": "sky",
    "picture": "fish_school",
    "title": [
@@ -71,9 +136,46 @@
    ]
   },
   {
+   "id": "A3",
+   "pattern": 29,
+   "mascot": 2,
+   "theme": "gold",
+   "title": [
+    "Womit fängt es an? Finde das Bild."
+   ],
+   "goal": "Anlaut zum Bild; jedes Bild zuerst benennen",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "card",
+      "pict"
+     ],
+     [
+      "card",
+      "pict"
+     ]
+    ]
+   },
+   "tasks": [
+    "card:BÄR@0",
+    "card:KATZE@0",
+    "card:HUND@0",
+    "card:FUCHS@0",
+    "card:ENTE@0",
+    "card:MAUS@0",
+    "card:GESCHENK@1",
+    "card:SONNE@1",
+    "card:TORTE@1",
+    "card:LUTSCHER@1",
+    "card:WURM@1",
+    "card:PILZ@1"
+   ]
+  },
+  {
    "id": "M3",
-   "pattern": 13,
-   "mascot": 13,
+   "pattern": 35,
+   "mascot": 35,
    "theme": "mint",
    "picture": "bottle_post",
    "title": [
@@ -110,9 +212,106 @@
    ]
   },
   {
+   "id": "A4",
+   "pattern": 30,
+   "mascot": 3,
+   "theme": "mint",
+   "title": [
+    "Was fängt mit welchem Buchstaben an?"
+   ],
+   "goal": "Bild zum Anlaut; jedes Bild zuerst benennen",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "pict",
+      "card"
+     ],
+     [
+      "pict",
+      "card"
+     ]
+    ]
+   },
+   "tasks": [
+    {
+     "kind": "pict",
+     "pic": "bear",
+     "n": 1,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "cat",
+     "n": 10,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "dog",
+     "n": 7,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "fox",
+     "n": 5,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "duck",
+     "n": 4,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "mouse",
+     "n": 12,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "gift",
+     "n": 6,
+     "fam": 1
+    },
+    {
+     "kind": "pict",
+     "pic": "cake",
+     "n": 19,
+     "fam": 1
+    },
+    {
+     "kind": "pict",
+     "pic": "sun",
+     "n": 18,
+     "fam": 1
+    },
+    {
+     "kind": "pict",
+     "pic": "lollipop",
+     "n": 11,
+     "fam": 1
+    },
+    {
+     "kind": "pict",
+     "pic": "worm",
+     "n": 22,
+     "fam": 1
+    },
+    {
+     "kind": "pict",
+     "pic": "mushroom",
+     "n": 15,
+     "fam": 1
+    }
+   ]
+  },
+  {
    "id": "M4",
-   "pattern": 11,
-   "mascot": 11,
+   "pattern": 36,
+   "mascot": 36,
    "theme": "gold",
    "picture": "sea_finds",
    "title": [
@@ -209,9 +408,106 @@
    ]
   },
   {
+   "id": "A5",
+   "pattern": 31,
+   "mascot": 4,
+   "theme": "teal",
+   "title": [
+    "Mit welchem Teil fängt es an?"
+   ],
+   "goal": "Anlaut mit Silbenkarte: BÄ gehört zu BÄR; Karte nur bei eindeutigem Anlaut",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "syll",
+      "pict"
+     ],
+     [
+      "syll",
+      "pict"
+     ]
+    ]
+   },
+   "tasks": [
+    {
+     "kind": "syll",
+     "text": "BÄ",
+     "word": "BÄR",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "KA",
+     "word": "KATZE",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "HU",
+     "word": "HUND",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "FU",
+     "word": "FUCHS",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "EN",
+     "word": "ENTE",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "MA",
+     "word": "MAUS",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "GE",
+     "word": "GESCHENK",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "SO",
+     "word": "SONNE",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "TO",
+     "word": "TORTE",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "LU",
+     "word": "LUTSCHER",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "WU",
+     "word": "WURM",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "PIL",
+     "word": "PILZ",
+     "fam": 1
+    }
+   ]
+  },
+  {
    "id": "M5",
-   "pattern": 16,
-   "mascot": 16,
+   "pattern": 37,
+   "mascot": 37,
    "theme": "lavender",
    "picture": "syllable_bubbles",
    "title": [
@@ -308,9 +604,118 @@
    ]
   },
   {
-   "id": "M6",
-   "pattern": 5,
+   "id": "A6",
+   "pattern": 32,
    "mascot": 5,
+   "theme": "coral",
+   "title": [
+    "Lies das Wort. Finde das Bild."
+   ],
+   "goal": "Gedruckte Wörter, 3 bis 8 Buchstaben",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "wcard",
+      "pict"
+     ],
+     [
+      "wcard",
+      "pict"
+     ]
+    ]
+   },
+   "tasks": [
+    {
+     "kind": "wcard",
+     "word": "BÄR",
+     "n": 1,
+     "fam": 0,
+     "seed": 1
+    },
+    {
+     "kind": "wcard",
+     "word": "HUND",
+     "n": 7,
+     "fam": 0,
+     "seed": 2
+    },
+    {
+     "kind": "wcard",
+     "word": "ENTE",
+     "n": 4,
+     "fam": 0,
+     "seed": 3
+    },
+    {
+     "kind": "wcard",
+     "word": "MAUS",
+     "n": 12,
+     "fam": 0,
+     "seed": 4
+    },
+    {
+     "kind": "wcard",
+     "word": "WURM",
+     "n": 22,
+     "fam": 0,
+     "seed": 5
+    },
+    {
+     "kind": "wcard",
+     "word": "PILZ",
+     "n": 15,
+     "fam": 0,
+     "seed": 6
+    },
+    {
+     "kind": "wcard",
+     "word": "KATZE",
+     "n": 10,
+     "fam": 1,
+     "seed": 7
+    },
+    {
+     "kind": "wcard",
+     "word": "FUCHS",
+     "n": 5,
+     "fam": 1,
+     "seed": 8
+    },
+    {
+     "kind": "wcard",
+     "word": "GESCHENK",
+     "n": 6,
+     "fam": 1,
+     "seed": 9
+    },
+    {
+     "kind": "wcard",
+     "word": "SONNE",
+     "n": 18,
+     "fam": 1,
+     "seed": 10
+    },
+    {
+     "kind": "wcard",
+     "word": "TORTE",
+     "n": 19,
+     "fam": 1,
+     "seed": 11
+    },
+    {
+     "kind": "wcard",
+     "word": "LUTSCHER",
+     "n": 11,
+     "fam": 1,
+     "seed": 12
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "pattern": 38,
+   "mascot": 38,
    "theme": "coral",
    "picture": "post_boats",
    "title": [
@@ -420,15 +825,15 @@
   },
   {
    "id": "M7",
-   "pattern": 17,
-   "mascot": 17,
+   "pattern": 39,
+   "mascot": 39,
    "theme": "rose",
    "picture": "beach_post",
    "title": [
     "Die Pakete brauchen Namensschilder.",
     "Finde das Wort zu jedem Bild."
    ],
-   "goal": "Meer 7/7 · nach A6b: Bild zum Wort; jeder Anlaut kommt mindestens zweimal vor",
+   "goal": "Meer 7/7 · nach A6: Bild zum Wort; jeder Anlaut kommt mindestens zweimal vor",
    "rule": {
     "type": "pair",
     "pairs": [

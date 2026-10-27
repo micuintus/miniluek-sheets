@@ -1,4 +1,7 @@
-# Teaching order of the counting course
+# Teaching order of the numbers lane
+
+`numbers.json` is English, `zahlen.json` German: the same 27 sheets, thirteen plain sheets that
+teach, thirteen circus sheets that review them, and the take-away party C14.
 
 | Sheet | Practises |
 |---|---|
@@ -16,30 +19,38 @@
 | S12 treasure chest 3–8 (later) | five and more, 6 = 5 and 1 |
 | S13 one more (later) | the number after |
 
-Picture sheets come after their plain twin as review, never as a step of their own:
+Each circus sheet comes after the plain sheet with its number as review, never as a step of
+its own (S7 is reviewed by C7). C14 is the one circus sheet without a plain sheet:
 
-| Picture sheet | After | Scene | Counted | Answer |
+| Circus sheet | After | Scene | Task | Answer |
 |---|---|---|---|---|
-| S1b | S1 | Rapunzel's meadow: her braid winds past twelve flowers | 1–3 ladybugs, bees, snails or butterflies | the same animals, rearranged |
-| S2b | S2 | a sky train hanging from a rainbow rail | kittens and puppies at the windows, 1–6 | as many fish or bones |
-| S4b | S4 | the mermaid lagoon | pearls in shells, 1–6 | dice |
-| S6b | S6 | the locked ice gate: twelve doors with snow globes | snowflakes, 1–6 | numerals |
-| S8b | S8 | Cinderella's castle garden | wool and bones scattered on blankets, 1–6 | numerals |
-| S13b (later) | S13 | a toy room with a kitty dollhouse | towers of linking cubes, 1–6 | the tower with one cube more |
+| C1 | S1 | morning practice: acrobats juggle | 1–3 hearts, stars, moons or strawberries | the same things, rearranged |
+| C2 | S2 | breakfast for the circus animals | 1–6 seals or puppies on a podium | as many fish or bones |
+| C3 | S3 | giant dice on the meadow | a die | as many hearts (pink) or stars (blue) |
+| C4 | S4 | the finger theatre | hands showing 1–6 fingers | the dice |
+| C5 | S5 | the balloon contest | two animals with 1–6 balloons each | the one with more |
+| C6 | S6 | the circus trains arrive | 1–6 presents or stars in a wagon | the numeral |
+| C7 | S7 | the ticket booth | a ticket with a numeral | as many cookies (pink) or balloons (blue) |
+| C8 | S8 | lights out for the show | 1–6 hearts or stars scattered in a spotlight | the numeral |
+| C9 | S9 | the tightrope act | an acrobat on pad 1–6, counted from the flag | the numeral |
+| C10 | S10 | the bubble act | two animals with 1–6 bubbles each, close counts | the one with more |
+| C11 | S11 | the ring toss | two animals with numeral signs | the one with the bigger number |
+| C12 (later) | S12 | the magic show | a chest with 3–8 coins in a ten-frame | the numeral |
+| C13 (later) | S13 | the seals' ball towers | a tower of 1–6 balls | the tower with one ball more |
+| C14 (later) | S13 | the party after the show | a plate where one cookie was eaten | how many are left |
 
-### The quest
+### The circus day
 
-The six twins tell one quest in six chapters, in course order: follow the ladybug trail
-through Rapunzel's meadow (S1b), ride the sky train (S2b), find the mermaid's pearls (S4b),
-unlock the ice gate (S6b), tidy Cinderella's blankets (S8b), build the tower stairs (S13b).
-The story lives in the titles and the adult-read goal lines, so it adds no visual load.
+The fourteen circus sheets tell one day at the unicorn circus in sheet order, from the
+jugglers' morning practice (C1) to the party after the show (C14). The story lives in the titles
+and the adult-read goal lines, so it adds no visual load.
 
 ## Why this order
 
 Small sets, counting, comparing by sight and by counting, numerals, comparing numbers and
 "one more" follow the What Works Clearinghouse guide *Teaching Math to Young Children*
 (Recommendation 1 and its example progression); dice and finger patterns of four to six,
-numeral to quantity, the number path and the ten-frame come from the studies named below. Each step and each sheet mapped to its studies: [research](research.md).
+numeral to quantity, the number path and the ten-frame come from other studies. Each step and each sheet mapped to its studies: [research](research.md).
 
 ## Where to start
 
@@ -71,24 +82,19 @@ mastered, or when the condition below holds.
 | Sheet | First with objects | Start the sheet when |
 |---|---|---|
 | S1 | show 1–3 toys briefly: "how many?"; spread them out: "still three?" | from the start |
-| S1b | two cups with 1–3 toys each: "same number?" | S1 mastered |
 | S2 | give each doll one cupcake, touch-count, repeat the last number: "one, two, three: three cupcakes" | the child gives 5 and 6 on request |
-| S2b | line up toy animals, give each one a treat, count the treats | S2 mastered |
 | S3 | roll a real die and lay out that many counters | S2 mastered |
 | S4 | "show me three" on the fingers, then from a die | S2 mastered |
-| S4b | touch-count the pearls in a shell, match the dice pattern | S4 mastered |
 | S5 | two piles, 2 and 6: "who has more?" | S2 mastered |
 | S6 | count a pile and put the number card next to it | the child names the numbers 1 to 6, or has learned them with cards |
-| S6b | count buttons in a cup, put the number card next to it | S6 mastered |
 | S7 | number card first, then lay out that many | S6 mastered |
 | S8 | scattered counters: touch each one and slide it aside | S6 mastered |
-| S8b | scattered counters, slide each aside | S8 mastered |
 | S9 | play a straight 1–10 board game: "which square are you on?" | a few rounds of the board game |
 | S10 | two close piles, 3 and 5: count both, "who has more?" | S5 and S8 mastered |
 | S11 | two number cards: "which is more?", check by counting out | S9 and S10 mastered |
 | S12 | egg carton or ten-frame: five in the top row, then one more: "five and one, six" | S2–S8 mastered |
 | S13 | three in a box, add one: "how many now?" without counting again | the child gives 6 on request and says which number comes after 4 |
-| S13b | build a tower of 3 linking cubes, add one: "how many now?", then 4 and one more | S13 mastered |
+| C14 | three cookies on a plate, eat one: "how many are left?" | S13 mastered and C13 done |
 
 A sheet the child cannot do yet goes back in the box until its condition holds; each one-sheet
 day should be spent at the edge of what the child can almost do.
@@ -98,15 +104,15 @@ day should be spent at the edge of what the child can almost do.
 - Each sheet runs one direction: no answer repeats another task's picture (a same-rule sheet
   repeats its own pair), so the easiest wrong match is never a copy of another task. Both
   directions of the quantity–numeral link get their own sheet.
-- Picture sheets practise a mastered step inside one full illustration. The counted things are
-  plain and identical, each set inside its own shell, globe, blanket, window, flower or tower,
-  and the scene holds no loose copies of the counted kind. A trail (bubbles, paw prints, a
-  braid, skate tracks, toy rails) leads through the badges in number order. Pink and blue keep
-  their families; violet and every other colour only decorate. On S13b the answer tiles keep
-  one cube size and one floor line, so one more is one cube taller.
+- C1 to C13 practise a mastered step inside one illustration. The counted things are plain
+  and identical, each set inside its own wagon, podium, plate, chest, spotlight or bunch, and the
+  scene holds no loose copies of the counted kind. Pink stations sit left, blue right; violet and
+  every other colour only decorate. On C13 the answer towers keep one ball size and one floor
+  line, so one more is one ball taller.
 - The two-family sheets (most matching sheets) use two colour families: pink tasks have pink
   answers, blue tasks blue answers, so the only other answer with the right number has the
-  other colour. The same-rule and comparing sheets carry one colour.
+  other colour. The plain same-rule and comparing sheets (S1, S5, S10, S11) carry one colour;
+  their circus sheets split pink and blue by side.
 - Tasks and answers use different layouts where the answer repeats the task's kind, so the
   child counts instead of matching shapes.
 
@@ -122,14 +128,13 @@ day should be spent at the edge of what the child can almost do.
   finished at the start of the next session, or the adult checks only the tiles placed: the
   pattern check needs all twelve tiles to mean anything. The tiles are a fine-motor task: the
   adult may place the one the child points to.
-- The week-later revisit of a mastered sheet is its picture twin where one exists: the twin
-  takes the first revisit slot, never the daily sheet. The circus lane's quest sheet takes the
-  next revisit slot of the same sheet (its sheet ids C1 to C12 print on the page). At two days
-  right first time plus one revisit per sheet the course runs to at least 39 sheet-days; the
-  full circus lane adds 13 more. A child who cannot yet work the plain
-  sheet goes back to it, not forward to the picture.
-- Tell each sheet as a story, best with a doll or puppet who needs help: "the mermaid lost her
-  pearls, can you find out how many are in each shell?" The story carries the motivation and
+- The week-later revisit of a mastered sheet is its circus sheet, never the daily sheet. At two
+  days right first time plus one revisit per sheet the lane runs to at least 42 sheet-days: 39
+  for the plain sheets and their circus sheets, 3 for the take-away party. A circus sheet can be split: the pink six one day, the blue six the next,
+  the adult checking only the placed tiles. A child who cannot yet work the plain sheet goes back
+  to it, not forward to the picture.
+- Tell each sheet as a story, best with a doll or puppet who needs help: "the princess sells the
+  tickets, can you find out how many cookies each guest gets?" The story carries the motivation and
   adds nothing to the page ([research](research.md#picture-sheets)). The doll can also miscount
   for the child to catch; that variant is untested.
 - There is no study of miniLÜK itself; the sheets are practice with feedback, not instruction.

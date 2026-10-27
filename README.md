@@ -3,64 +3,43 @@
 Printable A4 worksheets for the **miniLÜK** control box, with control patterns that work.
 An agent skill and a small Python generator: write 12 tasks per sheet as JSON, get a PDF.
 
-The flagship is the counting course: 19 sheets (13 plain, 6 picture twins) whose core order follows the
-What Works Clearinghouse practice guide, every order step, sheet and rule mapped to its study
-([research](miniluek-sheets/presets/counting_and_numbers/research.md)). A smaller, experimental reading course, `Reading readiness (ABC)` in
-`presets/reading/reading-readiness.json` (German: `Lese-Vorbereitung (ABC)` in
-`presets/reading/lese-vorbereitung.json`), ships as a clearly-marked second course below.
+Three lanes ship ready to print, each in English and German, one story per lane. Numbers and
+letters pair plain sheets that teach with picture sheets that review; logic is picture sheets only:
 
-![Who has more dots?](docs/sheet-05.png)
+| Lane | Sheets | Story | English | Deutsch |
+|---|---|---|---|---|
+| Numbers | 13 plain (S1–S13) and 14 circus sheets | a day at the unicorn circus | [numbers-en.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/numbers-en.pdf) | [zahlen-de.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/zahlen-de.pdf) |
+| Letters | 6 plain (A1–A6) and 7 sea-post sheets | the mermaid's sea post | [letters-en.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/letters-en.pdf) | [buchstaben-de.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/buchstaben-de.pdf) |
+| Logic | 4 sheets | the ice palace | [logic-en.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/logic-en.pdf) | [logik-de.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/logik-de.pdf) |
 
-Ready to print: [English counting PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/princess-counting-en.pdf) ·
-[deutsches Zählen-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/prinzessinnen-zaehlen-de.pdf) ·
-[English reading PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/reading-readiness-en.pdf) ·
-[deutsches Lese-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/lese-vorbereitung-de.pdf) (experimentell)
+![The tightrope act: count the spots from the flag](docs/numbers-c9.png)
 
-The preset is a nineteen-sheet princess counting course in English: small sets 1–3, counting to 6, dice
-and finger patterns, comparing, numerals both ways, scattered sets, a number path, comparing by
-counting and comparing numbers, then ten-frame and "one more", plus six picture twins as week-later revisits telling one quest in six chapters (Rapunzel's meadow, a sky train, the mermaid lagoon, the ice gate, Cinderella's castle, a toy room with cube towers). Each sheet runs one direction,
-no answer is a copy of another task, and the two-pair sheets use two colour families. All counting docs sit with the presets in `presets/counting_and_numbers/`, all reading docs
-in `presets/reading/`; `references/` keeps only the generator docs (`spec.md`, `format.md`).
+The numbers lane runs small sets 1–3, counting to 6, dice and finger patterns, comparing, numerals
+both ways, scattered sets, a number path, comparing by counting and comparing numbers, then
+ten-frame and "one more". The core order follows the What Works Clearinghouse practice guide,
+every step, sheet and rule mapped to its study ([research](miniluek-sheets/presets/numbers/research.md)).
+Each plain sheet S*n* is reviewed a week later by its circus sheet C*n*; C14, the party after
+the show, adds take-away. The German finger pictures count from the thumb, the English ones from
+the index finger (`--fingers` switches).
 
-The German version
-(`presets/counting_and_numbers/prinzessinnen-zaehlen.json`) has the same sheets; its finger pictures count from the
-thumb, the English ones from the index finger (`--fingers` switches).
+The letters lane teaches letters, first sounds, syllables and short printed words; each plain sheet
+A*n* is reviewed by its sea-post sheet M*n*, and M7 reads words in the reverse direction. It
+borrows the literacy-precursor evidence without the numbers lane's tight mapping
+([research](miniluek-sheets/presets/letters/research.md)). Until the number sheets are
+mastered, they keep five days a week and a letters or logic sheet takes the other two, so one
+sheet a day stays the cap.
+
+The logic lane has four sheets with no plain sheet before them: AB patterns, the same shape in
+another colour and size, odd one out, the same place on a map. Each comes after the same idea
+with objects ([research](miniluek-sheets/presets/logic/research.md)).
+
+Each sheet runs one direction, no answer is a copy of another task, pink and blue families halve
+the search on the two-pair sheets, and every page prints its sheet id at the lower left.
 
 | | |
 |---|---|
-| ![Same thing, same number](docs/sheet-01.png) | ![Every princess gets a cupcake](docs/sheet-02.png) |
-| ![Fingers and stars to dice](docs/sheet-04.png) | ![Number path](docs/sheet-09.png) |
-
-## Quest lanes
-
-Three story lanes revisit the courses in the same box, each in English and German: a day at
-the unicorn circus (13 number sheets, from juggling to the party after the show), the
-mermaid's sea post (7 letter sheets, same letter to picture-to-word) and the ice palace
-(4 logic sheets: AB patterns, shapes, odd one out, places on a map). The circus and sea lanes
-follow their course sheets as revisits; the ice palace and the party sheets teach their own
-step and come after the same idea with objects. Files, coverage and evidence:
-[`presets/quests/`](miniluek-sheets/presets/quests/README.md).
-
-Ready to print: [English circus PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/circus-numbers-en.pdf) ·
-[deutsches Zirkus-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/zirkus-zahlen-de.pdf) ·
-[English sea post PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/sea-letters-en.pdf) ·
-[deutsches Meerpost-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/meer-buchstaben-de.pdf) ·
-[English ice palace PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/palace-logic-en.pdf) ·
-[deutsches Eispalast-PDF](https://github.com/micuintus/miniluek-sheets/releases/latest/download/eispalast-logik-de.pdf)
-
-## Second course: reading readiness
-
-ABC sheets for letters, first sounds, syllables and short printed words, plus four picture sheets (ABC blocks, balloons, a garden party, a village market with short words), in English
-(`presets/reading/reading-readiness.json`) and German
-(`presets/reading/lese-vorbereitung.json`). Same generator, same design rules (one direction,
-no copies among answers, two colour families on the two-pair sheets). Order is in
-[`presets/reading/teaching-order.md`](miniluek-sheets/presets/reading/teaching-order.md);
-evidence in [`presets/reading/research.md`](miniluek-sheets/presets/reading/research.md).
-
-The counting course is the one with the research behind it. The reading course borrows the
-literacy-precursor evidence without the same tight mapping, and no study has tested letter
-sheets in this form or two letter systems at once. Until the counting sheets are
-mastered, the reading sheet takes the day's slot on two days a week, so one sheet a day stays the cap.
+| ![Who has more dots?](docs/numbers-s5.png) | ![Bottle post: which picture starts with the letter?](docs/letters-m3.png) |
+| ![Necklaces: which charm comes next?](docs/logic-p1.png) | |
 
 ## Install
 
@@ -76,11 +55,11 @@ needs Python 3.9+ and Pillow (`pip install pillow`).
 
 ```bash
 cd miniluek-sheets
-python3 scripts/miniluek.py build presets/counting_and_numbers/princess-counting.json -o princess-counting.pdf
-python3 scripts/miniluek.py build presets/counting_and_numbers/prinzessinnen-zaehlen.json -o prinzessinnen-zaehlen.pdf
-python3 scripts/miniluek.py build presets/reading/reading-readiness.json -o reading-readiness.pdf
-python3 scripts/miniluek.py build presets/reading/lese-vorbereitung.json -o lese-vorbereitung.pdf
-python3 scripts/miniluek.py fit-test -o fit.pdf
+python3 scripts/miniluek.py build presets/numbers/numbers.json -o numbers.pdf
+python3 scripts/miniluek.py build presets/numbers/zahlen.json -o zahlen.pdf
+python3 scripts/miniluek.py build presets/letters/letters.json -o letters.pdf
+python3 scripts/miniluek.py build presets/logic/logic.json -o logic.pdf
+python3 scripts/miniluek.py fit-test -o fit.pdf          # --language de for German labels
 ```
 
 Print landscape at **100 % / actual size**. Open the box and lay the clear lid on the sheet with
@@ -91,11 +70,11 @@ Or ask your agent: "make miniLÜK sheets: dice and numbers 1–6, with unicorns"
 
 ## Your own sets
 
-Copy the preset, edit titles and tasks, then `python3 scripts/miniluek.py check your-set.json`.
+Copy a preset, edit titles and tasks, then `python3 scripts/miniluek.py check your-set.json`.
 Matching (one or two colour families), "one more", same-thing and comparing sheets (dots or
 numerals) are supported; pictures include drawn
 princesses, finger patterns, dice, numerals, a ten-frame, a number path and 99 emoji.
-Format: [spec](miniluek-sheets/references/spec.md) (shared by both courses).
+Format and picture scenes: [spec](miniluek-sheets/references/spec.md).
 
 ## How it works
 
@@ -103,8 +82,7 @@ Format: [spec](miniluek-sheets/references/spec.md) (shared by both courses).
 - Control patterns: the twelve tile backs (three colours, a cream triangle in one of four
   corners) were mapped from published example exercises and checked on the box. Every pattern
   in the library uses each tile once and is symmetric. Details: [format](miniluek-sheets/references/format.md).
-- Counting order and sources: [teaching order](miniluek-sheets/presets/counting_and_numbers/teaching-order.md).
-- Every counting choice mapped to its study: [research](miniluek-sheets/presets/counting_and_numbers/research.md).
+- Order and sources per lane: `teaching-order.md` and `research.md` in [numbers](miniluek-sheets/presets/numbers/), [letters](miniluek-sheets/presets/letters/) and [logic](miniluek-sheets/presets/logic/).
 
 ## Credits and licences
 

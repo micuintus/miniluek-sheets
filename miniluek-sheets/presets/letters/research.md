@@ -1,36 +1,39 @@
-# Research behind the reading course
+# Research behind the letters lane
 
-Why the six plain sheets come in this order, what each sheet practises, and which study each
-choice rests on. This course rests on precursor evidence, not on a tested sequence; the
-counting course is the one with the research behind it. Full references with DOIs and a key
+Why the six plain sheets come in this order, what each plain sheet and its sea-post sheet
+practise, and which study each choice rests on. This lane rests on precursor evidence, not on a
+tested sequence; the numbers lane is the one with the research behind it. Full references with DOIs and a key
 sentence from each are at the end.
 
 Evidence types: **[M]** meta-analysis or systematic review, **[R]** randomised or controlled
 trial, **[C]** correlational or cohort study, **[G]** guideline or practice guidance, **[E]**
-experiment, single-case study, book or narrative review.
+experiment, descriptive or single-case study, book or narrative review.
 
 ## Per sheet
 
 | Sheet | Practises | Design | Evidence |
 |---|---|---|---|
-| A1 Same letter | letter shapes | uppercase, 12 letters, answer in another case position | letter knowledge predicts later reading (NELP 2008 [M]) |
-| A1b ABC blocks picture sheet | the same letter shapes inside a picture | letters on toy blocks, review after A1 | untested; plain stations as in the counting picture sheets |
-| A2 Lowercase | upper to lowercase | the reverse look on its own sheet | letter knowledge (NELP 2008 [M]) |
+| A1 Same letter | letter shapes | uppercase, 12 letters; the answer is the same letter | letter knowledge predicts later reading (NELP 2008 [M]) |
+| A2 Lowercase | upper to lowercase | uppercase task, lowercase answer | letter knowledge (NELP 2008 [M]) |
 | A3 Who starts with it? | first sound to picture | word-bound letter cards with the word captioned; name each picture first | phonological awareness predicts later reading (NELP 2008 [M]); code-focused teaching includes phonological teaching (NELP 2008 [M]) |
-| A3b Balloons picture sheet | first sound to picture inside a picture | letter cards on pink and blue balloons, review after A3 | untested; the colour families as on A3 |
 | A4 Who starts with which letter? | picture to first letter | the reverse direction on its own sheet | children map number both ways (Mundy & Gilmore 2009 [E]); the letter reverse is untested |
-| A4b Garden party picture sheet | first sounds inside a picture | twelve guests as the tasks, family-coloured halos, review after A4 | untested; the counting picture sheets carry the decoration reasoning (Petersen & McNeil 2013 [E]; Fisher, Godwin & Seltman 2014 [E] in the counting research) |
 | A5 Which part does it start with? | syllables to words | cards only for syllables that start one course word | phonological awareness (NELP 2008 [M]) |
-| A6 Read the word | whole printed words, 3 to 8 letters | pink and blue pills alternate | code-focused teaching (NELP 2008 [M]) |
-| A6b Market day picture sheet | picture to short word inside a picture | every word shares its first letter with a family neighbour, so the first letter alone never decides | code-focused teaching (NELP 2008 [M]); the shared-letter design is untested |
+| A6 Read the word | whole printed words, 3 to 6 letters (German 3 to 8) | short words pink, long words blue | code-focused teaching (NELP 2008 [M]) |
+| M1 Twin shells (sea post) | the same letter inside a picture | letters on pearls in shells, review after A1 | letter knowledge (NELP 2008 [M]); untested as a picture; the numbers research carries the decoration reasoning (Petersen & McNeil 2013 [E]; Fisher, Godwin & Seltman 2014 [E]) |
+| M2 Big and little fish (sea post) | upper to lowercase inside a picture | big fish carry the uppercase letter, review after A2 | letter knowledge (NELP 2008 [M]); untested as a picture |
+| M3 Bottle post (sea post) | first sound to picture inside a picture | letter and course word on a scroll in each bottle, review after A3 | phonological awareness (NELP 2008 [M]); untested as a picture |
+| M4 Bubbles (sea post) | picture to first letter inside a picture | one course picture per bubble, review after A4 | NELP 2008 [M]; the letter reverse is untested |
+| M5 Syllable fish (sea post) | first syllable to picture inside a picture | syllables that start one course word each, review after A5 | phonological awareness (NELP 2008 [M]); untested as a picture |
+| M6 Post boats (sea post) | printed word to picture inside a picture | the course word on each hull, review after A6 | code-focused teaching (NELP 2008 [M]); untested as a picture |
+| M7 Parcels (sea post) | picture to short word | every first letter comes at least twice in a family, so the first letter alone never decides; after A6 | code-focused teaching (NELP 2008 [M]); the shared-letter design is untested |
 
 ## Design rules
 
 | Rule | Why | Sources |
 |---|---|---|
-| One direction per sheet; no answer repeats a task picture | an identical copy would be the easiest wrong match | counting sheets in the rule from Mix 2008 [E]: an identical copy pulls children away from content |
-| Two colour families on the two-pair sheets | the only other answer with the right content has the other colour | same matching logic as the counting sheets; untested for letters |
-| Picture sheet as the review day | a full story illustration with the tasks set into it | motivation through a story world; untested, replaces a revisit day never the daily sheet |
+| One direction per sheet; no answer repeats a task picture | an identical copy would be the easiest wrong match | the numbers lane's rule from Mix 2008 [E]: an identical copy pulls children away from content |
+| Two colour families on the two-pair sheets | the only other answer with the right content has the other colour | same matching logic as the numbers sheets; untested for letters |
+| Sea-post sheet as the review day | a full story illustration with the tasks set into it | motivation through a story world; untested, takes a revisit day, never the daily sheet; M7 is the exception, the first picture-to-word sheet |
 | Worked examples per family | modelling before practice | Akther et al. 2025 [M]: modelling was common in effective counting interventions; untested for letters |
 | Pattern check | feedback | feedback was common in effective counting interventions (Akther et al. 2025 [M]); untested for letters |
 | Theme, and the child chooses which sheet comes back | motivation and learning | Córdova & Lepper 1996 [R] |
@@ -38,15 +41,18 @@ experiment, single-case study, book or narrative review.
 ## Using the sheets
 
 - **Letters and sounds spoken first, then the sheet.** Read each task word aloud before the child places a tile; the adult says the sound ("kuh-ah-tuh") and slides it together.
-- **German is the reading route.** School teaches reading in German; English basic decoding takes more than twice as long to establish (Seymour et al. 2003 [E]).
+- **German is the reading route.** School teaches reading in German; English basic decoding takes more than twice as long to establish (Seymour et al. 2003 [C]).
 - **One sheet a day.** Keep the daily cap; counting comes first (Duncan et al. 2007 [M]: entry math predicts later reading and math). Spaced practice beats massed practice (Seabrook et al. 2005 [E]).
 
 ## Limits
 
-- No study of LÜK-style sheets for letter learning, none of this course, and none of two letter systems at once at ID-range scores.
-- Sound skills correlate across a bilingual child's languages (Melby-Lervåg & Lervåg 2011 [M]), so German letter work feeds English too.
+- No study of LÜK-style sheets for letter learning, none of this lane, and none of two letter systems at once at ID-range scores.
+- Sound skills correlate across a bilingual child's languages (Melby-Lervåg & Lervåg 2011 [M], correlations); whether German letter work speeds English is not shown.
 
 ## Sources
+
+Mix 2008, Córdova & Lepper 1996, Petersen & McNeil 2013 and Fisher, Godwin & Seltman 2014:
+full entries in the [numbers sources](../numbers/research.md#sources).
 
 ### Letters and reading
 - [M] **National Early Literacy Panel 2008.** *Developing Early Literacy: Report of the National
@@ -65,8 +71,8 @@ experiment, single-case study, book or narrative review.
   the benefit of distributed over clustered teaching of reading".
 - [M] **Duncan et al. 2007.** School readiness and later achievement. *Dev Psychol*
   43(6):1428–1446. [doi:10.1037/0012-1649.43.6.1428](https://doi.org/10.1037/0012-1649.43.6.1428).
-  Entry math is the strongest predictor of later reading and math; this is why the counting
-  course comes first even in the reading route.
+  Entry math is the strongest predictor of later reading and math; this is why the numbers lane
+  comes first, also in the German reading route.
 - [C] **Seymour, Aro & Erskine 2003.** Foundation literacy acquisition in European orthographies. *Br J Psychol* 94(2):143–174.
   [doi:10.1348/000712603321661859](https://doi.org/10.1348/000712603321661859). Most European children read accurately
   before the end of first grade; English children take more than twice as long.
@@ -75,11 +81,6 @@ experiment, single-case study, book or narrative review.
   comprehension: a meta-analysis. *J Res Read* 34(1):114–135.
   [doi:10.1111/j.1467-9817.2010.01477.x](https://doi.org/10.1111/j.1467-9817.2010.01477.x). Sound skills correlate
   across a bilingual child's languages.
-
-- [R] **MZZ: Krajewski, Nieding & Schneider 2008.** Kurz- und langfristige Effekte mathematischer Frühförderung im Kindergarten.
-  *Z Entwicklungspsychol Pädagog Psychol* 40(3):135–146.
-  [doi:10.1026/0049-8637.40.3.135](https://doi.org/10.1026/0049-8637.40.3.135). The evaluated programme behind the counting order,
-  cited here because the letter work runs alongside it in kindergarten, not as letter evidence.
 
 - [E] **Mundy & Gilmore 2009.** Children’s mapping between symbolic and nonsymbolic representations of number. *J Exp
   Child Psychol* 103(4):490–502. [doi:10.1016/j.jecp.2009.02.003](https://doi.org/10.1016/j.jecp.2009.02.003).

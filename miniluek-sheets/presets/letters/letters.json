@@ -1,11 +1,39 @@
 {
- "title": "Quests: the mermaid's sea post",
+ "title": "Letters",
  "language": "en",
  "sheets": [
   {
-   "id": "M1",
-   "pattern": 0,
+   "id": "A1",
+   "pattern": 27,
    "mascot": 0,
+   "theme": "rose",
+   "title": [
+    "Same letter."
+   ],
+   "goal": "Letters, uppercase, 12 of them",
+   "rule": {
+    "type": "same"
+   },
+   "answer_style": "col",
+   "tasks": [
+    "letter:0",
+    "letter:1",
+    "letter:2",
+    "letter:3",
+    "letter:4",
+    "letter:5",
+    "letter:6",
+    "letter:7",
+    "letter:12",
+    "letter:14",
+    "letter:15",
+    "letter:18"
+   ]
+  },
+  {
+   "id": "M1",
+   "pattern": 33,
+   "mascot": 33,
    "theme": "teal",
    "picture": "twin_shells",
    "title": [
@@ -32,9 +60,46 @@
    ]
   },
   {
+   "id": "A2",
+   "pattern": 28,
+   "mascot": 1,
+   "theme": "sky",
+   "title": [
+    "Lowercase. Find the small letter."
+   ],
+   "goal": "Uppercase to lowercase",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "letter",
+      "lower"
+     ],
+     [
+      "letter",
+      "lower"
+     ]
+    ]
+   },
+   "tasks": [
+    "letter:0@0",
+    "letter:1@0",
+    "letter:2@0",
+    "letter:3@0",
+    "letter:4@0",
+    "letter:5@0",
+    "letter:6@1",
+    "letter:7@1",
+    "letter:12@1",
+    "letter:14@1",
+    "letter:15@1",
+    "letter:18@1"
+   ]
+  },
+  {
    "id": "M2",
-   "pattern": 7,
-   "mascot": 7,
+   "pattern": 34,
+   "mascot": 34,
    "theme": "sky",
    "picture": "fish_school",
    "title": [
@@ -71,9 +136,46 @@
    ]
   },
   {
+   "id": "A3",
+   "pattern": 29,
+   "mascot": 2,
+   "theme": "gold",
+   "title": [
+    "Who starts with it? Find the picture."
+   ],
+   "goal": "First sound to picture; name each picture first",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "card",
+      "pict"
+     ],
+     [
+      "card",
+      "pict"
+     ]
+    ]
+   },
+   "tasks": [
+    "card:CAT@0",
+    "card:DOG@0",
+    "card:FOX@0",
+    "card:OTTER@0",
+    "card:PIG@0",
+    "card:GIFT@0",
+    "card:PANDA@1",
+    "card:MOUSE@1",
+    "card:DAISY@1",
+    "card:COOKIE@1",
+    "card:BUNNY@1",
+    "card:SUN@1"
+   ]
+  },
+  {
    "id": "M3",
-   "pattern": 13,
-   "mascot": 13,
+   "pattern": 35,
+   "mascot": 35,
    "theme": "mint",
    "picture": "bottle_post",
    "title": [
@@ -110,9 +212,46 @@
    ]
   },
   {
+   "id": "A4",
+   "pattern": 30,
+   "mascot": 3,
+   "theme": "mint",
+   "title": [
+    "Who starts with which letter?"
+   ],
+   "goal": "Picture to first letter; name each picture first",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "pict",
+      "card"
+     ],
+     [
+      "pict",
+      "card"
+     ]
+    ]
+   },
+   "tasks": [
+    "pict:cat@0",
+    "pict:dog@0",
+    "pict:fox@0",
+    "pict:otter@0",
+    "pict:pig@0",
+    "pict:gift@0",
+    "pict:panda@1",
+    "pict:mouse@1",
+    "pict:daisy@1",
+    "pict:cookie@1",
+    "pict:bunny@1",
+    "pict:sun@1"
+   ]
+  },
+  {
    "id": "M4",
-   "pattern": 11,
-   "mascot": 11,
+   "pattern": 36,
+   "mascot": 36,
    "theme": "gold",
    "picture": "sea_finds",
    "title": [
@@ -209,9 +348,106 @@
    ]
   },
   {
+   "id": "A5",
+   "pattern": 31,
+   "mascot": 4,
+   "theme": "teal",
+   "title": [
+    "Which part does it start with?"
+   ],
+   "goal": "First sound with a syllable card: CA goes to CAT; a card only for a unique first sound",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "syll",
+      "pict"
+     ],
+     [
+      "syll",
+      "pict"
+     ]
+    ]
+   },
+   "tasks": [
+    {
+     "kind": "syll",
+     "text": "CA",
+     "word": "CAT",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "DO",
+     "word": "DOG",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "FO",
+     "word": "FOX",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "OT",
+     "word": "OTTER",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "PI",
+     "word": "PIG",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "GI",
+     "word": "GIFT",
+     "fam": 0
+    },
+    {
+     "kind": "syll",
+     "text": "PA",
+     "word": "PANDA",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "MO",
+     "word": "MOUSE",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "DA",
+     "word": "DAISY",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "CO",
+     "word": "COOKIE",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "BU",
+     "word": "BUNNY",
+     "fam": 1
+    },
+    {
+     "kind": "syll",
+     "text": "SU",
+     "word": "SUN",
+     "fam": 1
+    }
+   ]
+  },
+  {
    "id": "M5",
-   "pattern": 16,
-   "mascot": 16,
+   "pattern": 37,
+   "mascot": 37,
    "theme": "lavender",
    "picture": "syllable_bubbles",
    "title": [
@@ -308,9 +544,118 @@
    ]
   },
   {
-   "id": "M6",
-   "pattern": 5,
+   "id": "A6",
+   "pattern": 32,
    "mascot": 5,
+   "theme": "coral",
+   "title": [
+    "Read the word. Find the picture."
+   ],
+   "goal": "Whole printed words, 3 to 6 letters",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "wcard",
+      "pict"
+     ],
+     [
+      "wcard",
+      "pict"
+     ]
+    ]
+   },
+   "tasks": [
+    {
+     "kind": "wcard",
+     "word": "CAT",
+     "n": 2,
+     "fam": 0,
+     "seed": 1
+    },
+    {
+     "kind": "wcard",
+     "word": "DOG",
+     "n": 3,
+     "fam": 0,
+     "seed": 2
+    },
+    {
+     "kind": "wcard",
+     "word": "FOX",
+     "n": 5,
+     "fam": 0,
+     "seed": 3
+    },
+    {
+     "kind": "wcard",
+     "word": "PIG",
+     "n": 15,
+     "fam": 0,
+     "seed": 4
+    },
+    {
+     "kind": "wcard",
+     "word": "GIFT",
+     "n": 6,
+     "fam": 0,
+     "seed": 5
+    },
+    {
+     "kind": "wcard",
+     "word": "SUN",
+     "n": 18,
+     "fam": 0,
+     "seed": 6
+    },
+    {
+     "kind": "wcard",
+     "word": "PANDA",
+     "n": 15,
+     "fam": 1,
+     "seed": 7
+    },
+    {
+     "kind": "wcard",
+     "word": "MOUSE",
+     "n": 12,
+     "fam": 1,
+     "seed": 8
+    },
+    {
+     "kind": "wcard",
+     "word": "DAISY",
+     "n": 3,
+     "fam": 1,
+     "seed": 9
+    },
+    {
+     "kind": "wcard",
+     "word": "COOKIE",
+     "n": 2,
+     "fam": 1,
+     "seed": 10
+    },
+    {
+     "kind": "wcard",
+     "word": "BUNNY",
+     "n": 1,
+     "fam": 1,
+     "seed": 11
+    },
+    {
+     "kind": "wcard",
+     "word": "OTTER",
+     "n": 14,
+     "fam": 1,
+     "seed": 12
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "pattern": 38,
+   "mascot": 38,
    "theme": "coral",
    "picture": "post_boats",
    "title": [
@@ -420,15 +765,15 @@
   },
   {
    "id": "M7",
-   "pattern": 17,
-   "mascot": 17,
+   "pattern": 39,
+   "mascot": 39,
    "theme": "rose",
    "picture": "beach_post",
    "title": [
     "The parcels need name labels.",
     "Find the word for each picture."
    ],
-   "goal": "Sea 7/7 · after A6b: picture to word; every first letter comes at least twice",
+   "goal": "Sea 7/7 · after A6: picture to word; every first letter comes at least twice",
    "rule": {
     "type": "pair",
     "pairs": [

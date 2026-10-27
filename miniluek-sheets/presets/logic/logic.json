@@ -1,18 +1,18 @@
 {
- "title": "Quests: Der Eispalast",
- "language": "de",
+ "title": "Logic",
+ "language": "en",
  "sheets": [
   {
    "id": "P1",
-   "pattern": 5,
-   "mascot": 5,
+   "pattern": 40,
+   "mascot": 40,
    "theme": "lavender",
    "picture": "necklaces",
    "title": [
-    "Die Eisprinzessin fädelt Ketten auf.",
-    "Welcher Anhänger kommt als Nächstes?"
+    "The ice princess threads necklaces.",
+    "Which charm comes next?"
    ],
-   "goal": "Eispalast 1/4 · AB-Muster, die Lücke immer am Ende",
+   "goal": "Ice palace 1/4 · AB pattern, the gap always last",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -115,15 +115,15 @@
   },
   {
    "id": "P2",
-   "pattern": 14,
-   "mascot": 14,
+   "pattern": 41,
+   "mascot": 41,
    "theme": "violet",
    "picture": "palace_windows",
    "title": [
-    "Die Schlossfenster haben viele Formen.",
-    "Finde die gleiche Form."
+    "The palace windows have many shapes.",
+    "Find the same shape."
    ],
-   "goal": "Eispalast 2/4 · gleiche Form, andere Farbe und Größe",
+   "goal": "Ice palace 2/4 · the same shape in another colour and size",
    "rule": {
     "type": "same"
    },
@@ -144,15 +144,15 @@
   },
   {
    "id": "P3",
-   "pattern": 11,
-   "mascot": 11,
+   "pattern": 42,
+   "mascot": 42,
    "theme": "mint",
    "picture": "winter_party",
    "title": [
-    "Winterfest! In jeder Gruppe gehört ein Gast",
-    "nicht dazu. Wer ist es?"
+    "Winter party! In every group, one guest",
+    "does not belong. Who is it?"
    ],
-   "goal": "Eispalast 3/4 · Was passt nicht: drei gleiche, einer anders",
+   "goal": "Ice palace 3/4 · odd one out: three alike, one of another kind",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -267,15 +267,15 @@
   },
   {
    "id": "P4",
-   "pattern": 7,
-   "mascot": 7,
+   "pattern": 43,
+   "mascot": 43,
    "theme": "sky",
    "picture": "castle_hills",
    "title": [
-    "Wo schaut die Prinzessin heraus?",
-    "Finde die Karte mit dem Stern am selben Platz."
+    "Where does the princess look out?",
+    "Find the map with the star in the same place."
    ],
-   "goal": "Eispalast 4/4 · der gleiche Platz im 3-mal-3-Gitter",
+   "goal": "Ice palace 4/4 · the same place in a 3 by 3 grid",
    "rule": {
     "type": "pair",
     "pairs": [

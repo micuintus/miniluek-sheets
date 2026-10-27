@@ -2,7 +2,7 @@
 
 ```json
 {
-  "title": "Princess counting",
+  "title": "Numbers",
   "language": "en",
   "sheets": [
     {
@@ -38,13 +38,14 @@
 | `answer_size` | size of the single characters on comparing sheets (default 1.9) |
 | `pattern` | index into the pattern library (default: sheet index) |
 | `mascot` | decorative princess next to the title: `true` (default, varies with the page position), `false`, or a number that picks one princess, so a sheet keeps her when sheets are inserted before it |
-| `picture` | one full illustration with 12 numbered badges on a trail in number order: `meadow` (ladybug, bee, snail or butterfly, 1–3), `train` (`cat` and `dog` faces at windows), `lagoon` (`pearl`), `ice_gate` (`snowflake`), `castle` (`yarn`, `bone`), `towers` (`tower`, 1–6 cubes), `blocks` (`letter`), `balloons` (`card`), `garden` (`pict`), `village` (`pict` with its `word`, answered by `wcard`); the quest-lane scenes are listed in `presets/quests/README.md`. `spots` moves the 12 stations (cm in the panel). Answer grid, pattern and geometry are untouched. Review after the plain sheet of the same skill |
+| `picture` | one full illustration with 12 numbered badges set into a story; the scene names and what each draws are listed under [picture scenes](#picture-scenes). `spots` moves the 12 stations (cm in the panel). Answer grid, pattern and geometry are untouched. Review after the plain sheet of the same skill; a picture sheet without one comes after the same idea with objects |
 | `tasks` | exactly 12 entries `"kind:n"` (`"kind:n@1"` for the second pair when both pairs start with the same kind) or objects `{"kind": …, "n": …, "fam": …, "style": …, "size": …, "seed": …}` |
 
 Special kinds: `princess` (n figures; `princess_size` overrides the height), `dice` (1–6),
 `numeral`, `fingers` (1–10), `jewelbox` (0–10 in a ten-frame), `path` (1–6), picture-sheet
 tokens `pearl` (in shells), `yarn` and `bone` (scattered on rugs), `snowflake` (in snow globes),
-`tower` (linking cubes, one cube size on one floor line), and comparing
+`tower` (linking cubes, one cube size on one floor line), the scene answer kinds `balls`, `shape`
+and `map` (below), and comparing
 tasks written `"dog:4|cat:1"` (two characters with 1–6 dots each, for the rule `more`).
 
 With two pairs, the first pair's tasks and answers get pink frames, the second pair's blue.
@@ -53,3 +54,44 @@ With two pairs, the first pair's tasks and answers get pink frames, the second p
 repeating a task picture (except on `plus_one` sheets), pairs used left to right, every picture
 known, every control pattern uses each tile back once and is symmetric; on comparing sheets a
 warning appears when a losing character never shows up among the answers.
+
+## Picture scenes
+
+The lane scenes live in `scripts/lane_scenes.py`, the older ones in `scripts/scenes.py`. Each
+draws its twelve stations from the tasks; `check` refuses a task the scene cannot draw.
+
+| Scene | Lane sheet | Task kind | Fields |
+|---|---|---|---|
+| `juggling` | C1 | juggled tokens | `kind`, `n` 1–3: `heart` or `star` (pink), `moon` or `strawberry` (blue) |
+| `breakfast` | C2 | `seal`, `puppy` | `n` 1–6 |
+| `dice_meadow` | C3 | `dice` | `n` 1–6 |
+| `finger_theatre` | C4 | `fingers` | `n` 1–6, counted from the set's `fingers` habit |
+| `contest`, `bubble_act` | C5, C10 | `compare` | `a`, `na`, `b`, `nb` 1–6: balloons or bubbles above each animal |
+| `trains` | C6 | `gift`, `star` | `n` 1–6 |
+| `ticket_booth` | C7 | `ticket` | `n` 1–6 |
+| `spotlights` | C8 | `heart` (pink), `star` (blue) | `n` 1–6, scattered |
+| `tightrope` | C9 | `rope` | `n` 1–6, counted from the flag |
+| `ring_toss` | C11 | `compare` | numerals on signs |
+| `magic_show` | C12 | `chest` | `n` 3–8 in a ten-frame |
+| `seal_show` | C13 | `balls` | `n` 1–6; the answer kind `balls` stacks them on one floor line |
+| `party` | C14 | `plate` | `n` 1–6 left after one is eaten |
+| `twin_shells`, `fish_school` | M1, M2 | `letter` | `n` 0–25 |
+| `bottle_post` | M3 | `card` | a course word |
+| `sea_finds` | M4 | `pict` | a picture and its first letter `n` |
+| `syllable_bubbles` | M5 | `syll` | `text` and `word` from the course list |
+| `post_boats` | M6 | `wcard` | `word` from the course list |
+| `beach_post` | M7 | `pict` | a picture bound to its `word` |
+| `necklaces` | P1 | `necklace` | `pic` (the next charm) and a different `other` |
+| `palace_windows` | P2 | `shape` | `n` 0–5 (circle, square, triangle, rectangle, star, heart); the answer kind `shape` is the same shape in gold |
+| `winter_party` | P3 | `odd` | `same`, a different `pic`, `at` 0–3 |
+| `castle_hills` | P4 | `castle` | `n` 0–8, the window the princess looks out of; the answer kind `map` marks it with a star |
+| `meadow` | | `ladybug`, `bee`, `snail`, `butterfly` | `n` 1–3, rule `same` |
+| `train` | | `cat`, `dog` | `n` 1–6, faces at windows |
+| `lagoon` | | `pearl` | `n` 1–6 in shells |
+| `ice_gate` | | `snowflake` | `n` 1–6 in snow globes |
+| `castle` | | `yarn`, `bone` | `n` 1–6 scattered on blankets |
+| `towers` | | `tower` | `n` 1–6 cubes, rule `plus_one` |
+| `blocks` | | `letter` | on toy blocks |
+| `balloons` | | `card` | on balloons |
+| `garden` | | `pict` | to its first letter |
+| `village` | | `pict` with its `word` | answered by `wcard` |

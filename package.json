@@ -1,14 +1,17 @@
 {
   "name": "@micuintus/miniluek-sheets",
   "version": "2.2.0",
-  "description": "Printable worksheets with working control patterns for the miniLÜK box: a JSON-driven generator, an agent skill, counting and reading courses, and three story quest lanes.",
+  "description": "Printable worksheets with working control patterns for the miniLÜK box: a JSON-driven generator, an agent skill, and numbers, letters and logic lanes in English and German.",
   "keywords": [
     "pi-package",
     "miniluek",
     "worksheets",
     "early-math",
     "counting",
-    "numeracy"
+    "numeracy",
+    "literacy",
+    "letters",
+    "logic"
   ],
   "homepage": "https://github.com/micuintus/miniluek-sheets",
   "bugs": {

@@ -1,0 +1,1221 @@
+{
+ "title": "Numbers",
+ "language": "en",
+ "sheets": [
+  {
+   "id": "S1",
+   "pattern": 0,
+   "mascot": 0,
+   "theme": "pink",
+   "title": [
+    "Same thing, same number."
+   ],
+   "goal": "Small sets 1–3 at a glance; the same number in a new arrangement",
+   "rule": {
+    "type": "same"
+   },
+   "task_style": "up",
+   "answer_style": "down",
+   "size": 1.25,
+   "tasks": [
+    "princess-emoji:2",
+    "frog:3",
+    "unicorn:1",
+    "crown:2",
+    "princess-emoji:3",
+    "frog:1",
+    "unicorn:3",
+    "crown:1",
+    "princess-emoji:1",
+    "frog:2",
+    "unicorn:2",
+    "crown:3"
+   ]
+  },
+  {
+   "id": "C1",
+   "pattern": 13,
+   "mascot": 13,
+   "theme": "pink",
+   "picture": "juggling",
+   "title": [
+    "Morning practice! The acrobats juggle.",
+    "Find the same number, laid out differently."
+   ],
+   "goal": "Circus 1/14 · after S1: the same number in a new arrangement, 1–3",
+   "rule": {
+    "type": "same"
+   },
+   "answer_style": "down",
+   "size": 1.15,
+   "tasks": [
+    "heart:2@0",
+    "star:1@0",
+    "heart:3@0",
+    "star:2@0",
+    "heart:1@0",
+    "star:3@0",
+    "moon:3@1",
+    "strawberry:1@1",
+    "moon:2@1",
+    "strawberry:3@1",
+    "moon:1@1",
+    "strawberry:2@1"
+   ]
+  },
+  {
+   "id": "S2",
+   "pattern": 1,
+   "mascot": 1,
+   "theme": "mint",
+   "title": [
+    "Every princess gets a cupcake,",
+    "every frog prince a crown."
+   ],
+   "goal": "Counting one by one and how many (cardinality), 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "princess",
+      "cupcake"
+     ],
+     [
+      "frog",
+      "crown"
+     ]
+    ]
+   },
+   "task_style": "row",
+   "answer_style": "col",
+   "size": 0.88,
+   "tasks": [
+    "princess:3",
+    "princess:5",
+    "princess:1",
+    "princess:6",
+    "princess:2",
+    "princess:4",
+    "frog:2",
+    "frog:6",
+    "frog:4",
+    "frog:1",
+    "frog:5",
+    "frog:3"
+   ]
+  },
+  {
+   "id": "C2",
+   "pattern": 14,
+   "mascot": 14,
+   "theme": "mint",
+   "picture": "breakfast",
+   "title": [
+    "Breakfast! Every seal gets a fish,",
+    "every puppy gets a bone."
+   ],
+   "goal": "Circus 2/14 · after S2: count, then match one to one, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "seal",
+      "tropicalfish"
+     ],
+     [
+      "puppy",
+      "bone"
+     ]
+    ]
+   },
+   "answer_style": "col",
+   "size": 0.88,
+   "tasks": [
+    "seal:3",
+    "seal:5",
+    "seal:1",
+    "seal:6",
+    "seal:2",
+    "seal:4",
+    "puppy:4",
+    "puppy:2",
+    "puppy:6",
+    "puppy:1",
+    "puppy:5",
+    "puppy:3"
+   ]
+  },
+  {
+   "id": "S3",
+   "pattern": 2,
+   "mascot": 2,
+   "theme": "peach",
+   "title": [
+    "Pink dice get hearts,",
+    "blue dice get stars."
+   ],
+   "goal": "Dice patterns, checked by counting, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "dice",
+      "heart"
+     ],
+     [
+      "dice",
+      "star"
+     ]
+    ]
+   },
+   "answer_style": "row",
+   "size": 0.88,
+   "tasks": [
+    "dice:4@0",
+    "dice:1@0",
+    "dice:6@0",
+    "dice:2@0",
+    "dice:5@0",
+    "dice:3@0",
+    "dice:3@1",
+    "dice:5@1",
+    "dice:2@1",
+    "dice:6@1",
+    "dice:1@1",
+    "dice:4@1"
+   ]
+  },
+  {
+   "id": "C3",
+   "pattern": 15,
+   "mascot": 15,
+   "theme": "peach",
+   "picture": "dice_meadow",
+   "title": [
+    "Giant dice on the meadow! Pink dice get hearts,",
+    "blue dice get stars."
+   ],
+   "goal": "Circus 3/14 · after S3: dice patterns, checked by counting, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "dice",
+      "heart"
+     ],
+     [
+      "dice",
+      "star"
+     ]
+    ]
+   },
+   "answer_style": "row",
+   "size": 0.88,
+   "tasks": [
+    "dice:4@0",
+    "dice:1@0",
+    "dice:6@0",
+    "dice:2@0",
+    "dice:5@0",
+    "dice:3@0",
+    "dice:3@1",
+    "dice:5@1",
+    "dice:2@1",
+    "dice:6@1",
+    "dice:1@1",
+    "dice:4@1"
+   ]
+  },
+  {
+   "id": "S4",
+   "pattern": 3,
+   "mascot": 3,
+   "theme": "coral",
+   "title": [
+    "Fingers and stars:",
+    "find the dice with the same number."
+   ],
+   "prompt": "Show it with your fingers!",
+   "goal": "Finger patterns, full hand = 5, then the other hand, shown on own fingers, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "fingers",
+      "dice"
+     ],
+     [
+      "star",
+      "dice"
+     ]
+    ]
+   },
+   "task_style": "row",
+   "size": 0.88,
+   "tasks": [
+    "fingers:3",
+    "fingers:1",
+    "fingers:5",
+    "fingers:2",
+    "fingers:6",
+    "fingers:4",
+    "star:2",
+    "star:5",
+    "star:1",
+    "star:4",
+    "star:3",
+    "star:6"
+   ]
+  },
+  {
+   "id": "C4",
+   "pattern": 16,
+   "mascot": 16,
+   "theme": "coral",
+   "picture": "finger_theatre",
+   "title": [
+    "The finger theatre! How many fingers?",
+    "Find the dice. Then show it with your fingers!"
+   ],
+   "goal": "Circus 4/14 · after S4: finger patterns to dice, full hand = 5, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "fingers",
+      "dice"
+     ],
+     [
+      "fingers",
+      "dice"
+     ]
+    ]
+   },
+   "tasks": [
+    "fingers:3@0",
+    "fingers:1@0",
+    "fingers:5@0",
+    "fingers:2@0",
+    "fingers:6@0",
+    "fingers:4@0",
+    "fingers:4@1",
+    "fingers:6@1",
+    "fingers:2@1",
+    "fingers:5@1",
+    "fingers:1@1",
+    "fingers:3@1"
+   ]
+  },
+  {
+   "id": "S5",
+   "pattern": 4,
+   "mascot": 4,
+   "theme": "violet",
+   "title": [
+    "Who has more dots?",
+    "Find the winner below."
+   ],
+   "goal": "Comparing quantities, big differences first (2 : 1 and more)",
+   "rule": {
+    "type": "more"
+   },
+   "tasks": [
+    "dog:4|cat:1",
+    "bunny:2|cat:6",
+    "bunny:3|bear:1",
+    "frog:2|bear:5",
+    "frog:6|unicorn:3",
+    "fox:2|unicorn:4",
+    "fox:5|panda:1",
+    "mouse:2|panda:6",
+    "mouse:4|chick:1",
+    "penguin:3|chick:6",
+    "penguin:5|owl:2",
+    "dog:1|owl:3"
+   ]
+  },
+  {
+   "id": "C5",
+   "pattern": 17,
+   "mascot": 17,
+   "theme": "violet",
+   "picture": "contest",
+   "title": [
+    "The balloon contest! Who holds more balloons?",
+    "Find the winner."
+   ],
+   "goal": "Circus 5/14 · after S5: comparing sets, big differences first (2 : 1 and more)",
+   "rule": {
+    "type": "more"
+   },
+   "tasks": [
+    {
+     "kind": "compare",
+     "a": "mouse",
+     "na": 5,
+     "b": "hamster",
+     "nb": 2,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "chick",
+     "na": 1,
+     "b": "horse",
+     "nb": 3,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "frog",
+     "na": 3,
+     "b": "hamster",
+     "nb": 6,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "chick",
+     "na": 6,
+     "b": "panda",
+     "nb": 2,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "frog",
+     "na": 4,
+     "b": "horse",
+     "nb": 1,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "cat",
+     "na": 2,
+     "b": "panda",
+     "nb": 5,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "cat",
+     "na": 4,
+     "b": "duck",
+     "nb": 2,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "unicorn",
+     "na": 2,
+     "b": "owl",
+     "nb": 4,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 3,
+     "b": "duck",
+     "nb": 6,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "unicorn",
+     "na": 6,
+     "b": "dog",
+     "nb": 1,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 5,
+     "b": "owl",
+     "nb": 1,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "mouse",
+     "na": 1,
+     "b": "dog",
+     "nb": 4,
+     "fam": 1
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "pattern": 5,
+   "mascot": 5,
+   "theme": "gold",
+   "title": [
+    "How many? Find the number."
+   ],
+   "goal": "Quantity to numeral, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "heart",
+      "numeral"
+     ],
+     [
+      "crown",
+      "numeral"
+     ]
+    ]
+   },
+   "task_style": "row",
+   "size": 0.88,
+   "tasks": [
+    "heart:5",
+    "heart:2",
+    "heart:4",
+    "heart:1",
+    "heart:6",
+    "heart:3",
+    "crown:4",
+    "crown:1",
+    "crown:6",
+    "crown:3",
+    "crown:5",
+    "crown:2"
+   ]
+  },
+  {
+   "id": "C6",
+   "pattern": 18,
+   "mascot": 18,
+   "theme": "sky",
+   "picture": "trains",
+   "title": [
+    "The circus trains bring presents and stars!",
+    "How many in each wagon? Find the number."
+   ],
+   "goal": "Circus 6/14 · after S6: counting to the numeral, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "gift",
+      "numeral"
+     ],
+     [
+      "star",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "gift:4",
+    "gift:1",
+    "gift:6",
+    "gift:3",
+    "gift:5",
+    "gift:2",
+    "star:2",
+    "star:5",
+    "star:1",
+    "star:6",
+    "star:3",
+    "star:4"
+   ]
+  },
+  {
+   "id": "S7",
+   "pattern": 6,
+   "mascot": 6,
+   "theme": "lavender",
+   "title": [
+    "Find the dice for each number."
+   ],
+   "goal": "Numeral to quantity, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "numeral",
+      "dice"
+     ],
+     [
+      "numeral",
+      "dice"
+     ]
+    ]
+   },
+   "tasks": [
+    "numeral:2@0",
+    "numeral:6@0",
+    "numeral:3@0",
+    "numeral:5@0",
+    "numeral:1@0",
+    "numeral:4@0",
+    "numeral:5@1",
+    "numeral:3@1",
+    "numeral:6@1",
+    "numeral:1@1",
+    "numeral:4@1",
+    "numeral:2@1"
+   ]
+  },
+  {
+   "id": "C7",
+   "pattern": 19,
+   "mascot": 19,
+   "theme": "gold",
+   "picture": "ticket_booth",
+   "title": [
+    "Ticket time! How many does each guest get?",
+    "Pink tickets: cookies. Blue tickets: balloons."
+   ],
+   "goal": "Circus 7/14 · after S7: numeral to quantity, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "ticket",
+      "cookie"
+     ],
+     [
+      "ticket",
+      "balloon"
+     ]
+    ]
+   },
+   "answer_style": "row",
+   "size": 0.88,
+   "tasks": [
+    "ticket:2@0",
+    "ticket:6@0",
+    "ticket:4@0",
+    "ticket:1@0",
+    "ticket:5@0",
+    "ticket:3@0",
+    "ticket:5@1",
+    "ticket:3@1",
+    "ticket:1@1",
+    "ticket:6@1",
+    "ticket:2@1",
+    "ticket:4@1"
+   ]
+  },
+  {
+   "id": "S8",
+   "pattern": 7,
+   "mascot": 7,
+   "theme": "sky",
+   "title": [
+    "How many? Touch each one once."
+   ],
+   "goal": "Counting a scattered set, each one once, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "heart",
+      "numeral"
+     ],
+     [
+      "star",
+      "numeral"
+     ]
+    ]
+   },
+   "task_style": "scatter",
+   "size": 0.78,
+   "tasks": [
+    "heart:6",
+    "heart:3",
+    "heart:1",
+    "heart:4",
+    "heart:2",
+    "heart:5",
+    "star:2",
+    "star:5",
+    "star:3",
+    "star:6",
+    "star:4",
+    "star:1"
+   ]
+  },
+  {
+   "id": "C8",
+   "pattern": 20,
+   "mascot": 20,
+   "theme": "violet",
+   "picture": "spotlights",
+   "title": [
+    "Lights out! Hearts and stars in the spotlights.",
+    "How many in each? Touch each one once."
+   ],
+   "goal": "Circus 8/14 · after S8: counting a scattered set, each one once, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "heart",
+      "numeral"
+     ],
+     [
+      "star",
+      "numeral"
+     ]
+    ]
+   },
+   "task_style": "scatter",
+   "tasks": [
+    "heart:5",
+    "heart:2",
+    "heart:6",
+    "heart:1",
+    "heart:4",
+    "heart:3",
+    "star:3",
+    "star:6",
+    "star:1",
+    "star:4",
+    "star:2",
+    "star:5"
+   ]
+  },
+  {
+   "id": "S9",
+   "pattern": 8,
+   "mascot": 8,
+   "theme": "rose",
+   "title": [
+    "Where is the princess? Where is the frog?",
+    "Count the steps."
+   ],
+   "goal": "Position on a number path, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "path",
+      "numeral"
+     ],
+     [
+      "path",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "path:4@0",
+    "path:1@0",
+    "path:6@0",
+    "path:3@0",
+    "path:5@0",
+    "path:2@0",
+    "path:3@1",
+    "path:6@1",
+    "path:2@1",
+    "path:5@1",
+    "path:1@1",
+    "path:4@1"
+   ]
+  },
+  {
+   "id": "C9",
+   "pattern": 21,
+   "mascot": 21,
+   "theme": "rose",
+   "picture": "tightrope",
+   "title": [
+    "The tightrope act! Where does each one stand?",
+    "Count the spots from the flag."
+   ],
+   "goal": "Circus 9/14 · after S9: position on a path, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "rope",
+      "numeral"
+     ],
+     [
+      "rope",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "rope:4@0",
+    "rope:1@0",
+    "rope:6@0",
+    "rope:3@0",
+    "rope:5@0",
+    "rope:2@0",
+    "rope:3@1",
+    "rope:6@1",
+    "rope:2@1",
+    "rope:5@1",
+    "rope:1@1",
+    "rope:4@1"
+   ]
+  },
+  {
+   "id": "S10",
+   "pattern": 9,
+   "mascot": 9,
+   "theme": "teal",
+   "title": [
+    "Count the dots.",
+    "Who has more?"
+   ],
+   "goal": "Comparing by counting, closer differences (3 : 2 to 2 : 1)",
+   "rule": {
+    "type": "more"
+   },
+   "tasks": [
+    "dog:3|frog:2",
+    "mouse:4|frog:6",
+    "cat:3|mouse:5",
+    "cat:3|unicorn:2",
+    "chick:3|unicorn:6",
+    "chick:5|bunny:3",
+    "fox:2|bunny:4",
+    "fox:6|penguin:4",
+    "penguin:3|bear:2",
+    "owl:3|bear:5",
+    "panda:3|owl:6",
+    "panda:6|dog:4"
+   ]
+  },
+  {
+   "id": "C10",
+   "theme": "sky",
+   "picture": "bubble_act",
+   "title": [
+    "The bubble act! Who blew more bubbles?",
+    "Count them, then find the winner."
+   ],
+   "goal": "Circus 10/14 · after S10: comparing by counting, closer differences (3 : 2 to 2 : 1)",
+   "rule": {
+    "type": "more"
+   },
+   "tasks": [
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 3,
+     "b": "frog",
+     "nb": 2,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "duck",
+     "na": 3,
+     "b": "dog",
+     "nb": 5,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "fox",
+     "na": 2,
+     "b": "frog",
+     "nb": 4,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "duck",
+     "na": 6,
+     "b": "mouse",
+     "nb": 3,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "fox",
+     "na": 6,
+     "b": "dog",
+     "nb": 4,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "penguin",
+     "na": 2,
+     "b": "mouse",
+     "nb": 4,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "penguin",
+     "na": 6,
+     "b": "unicorn",
+     "nb": 4,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "chick",
+     "na": 3,
+     "b": "bear",
+     "nb": 6,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "panda",
+     "na": 2,
+     "b": "unicorn",
+     "nb": 3,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "chick",
+     "na": 4,
+     "b": "hamster",
+     "nb": 2,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "panda",
+     "na": 5,
+     "b": "bear",
+     "nb": 3,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 2,
+     "b": "hamster",
+     "nb": 3,
+     "fam": 1
+    }
+   ],
+   "pattern": 22,
+   "mascot": 22
+  },
+  {
+   "id": "S11",
+   "pattern": 10,
+   "mascot": 10,
+   "theme": "coral",
+   "title": [
+    "Who has the bigger number?"
+   ],
+   "goal": "Comparing numbers, 1–6",
+   "rule": {
+    "type": "more"
+   },
+   "show": "numeral",
+   "tasks": [
+    "penguin:2|cat:5",
+    "penguin:4|dog:1",
+    "dog:6|chick:3",
+    "fox:3|chick:5",
+    "owl:2|fox:4",
+    "owl:6|frog:2",
+    "panda:1|frog:3",
+    "panda:5|bunny:1",
+    "unicorn:4|bunny:6",
+    "unicorn:3|mouse:1",
+    "bear:3|mouse:6",
+    "bear:5|cat:2"
+   ]
+  },
+  {
+   "id": "C11",
+   "pattern": 23,
+   "mascot": 23,
+   "theme": "teal",
+   "picture": "ring_toss",
+   "show": "numeral",
+   "title": [
+    "The ring toss! Each sign shows a number.",
+    "Who has the bigger number?"
+   ],
+   "goal": "Circus 11/14 · after S11: comparing written numbers, distances 2 to 4",
+   "rule": {
+    "type": "more"
+   },
+   "tasks": [
+    {
+     "kind": "compare",
+     "a": "horse",
+     "na": 4,
+     "b": "cat",
+     "nb": 2,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 2,
+     "b": "penguin",
+     "nb": 6,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "frog",
+     "na": 3,
+     "b": "cat",
+     "nb": 6,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "bunny",
+     "na": 3,
+     "b": "dog",
+     "nb": 1,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "frog",
+     "na": 5,
+     "b": "penguin",
+     "nb": 1,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "hamster",
+     "na": 2,
+     "b": "dog",
+     "nb": 5,
+     "fam": 0
+    },
+    {
+     "kind": "compare",
+     "a": "hamster",
+     "na": 6,
+     "b": "owl",
+     "nb": 4,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "bear",
+     "na": 3,
+     "b": "fox",
+     "nb": 6,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "mouse",
+     "na": 1,
+     "b": "owl",
+     "nb": 4,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "bear",
+     "na": 5,
+     "b": "unicorn",
+     "nb": 1,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "mouse",
+     "na": 5,
+     "b": "fox",
+     "nb": 3,
+     "fam": 1
+    },
+    {
+     "kind": "compare",
+     "a": "horse",
+     "na": 2,
+     "b": "unicorn",
+     "nb": 4,
+     "fam": 1
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "pattern": 11,
+   "mascot": 11,
+   "theme": "teal",
+   "title": [
+    "How many in the treasure chest?"
+   ],
+   "goal": "Later · five and more: 6 = 5 and 1, numbers 3–8",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "jewelbox",
+      "numeral"
+     ],
+     [
+      "jewelbox",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "jewelbox:6@0",
+    "jewelbox:3@0",
+    "jewelbox:8@0",
+    "jewelbox:5@0",
+    "jewelbox:7@0",
+    "jewelbox:4@0",
+    "jewelbox:4@1",
+    "jewelbox:7@1",
+    "jewelbox:3@1",
+    "jewelbox:8@1",
+    "jewelbox:5@1",
+    "jewelbox:6@1"
+   ]
+  },
+  {
+   "id": "C12",
+   "pattern": 24,
+   "mascot": 24,
+   "theme": "lavender",
+   "picture": "magic_show",
+   "title": [
+    "The magic show! The chests float.",
+    "How many coins are in each one?"
+   ],
+   "goal": "Circus 12/14 · after S12: five and some more in a ten-frame, 3–8",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "chest",
+      "numeral"
+     ],
+     [
+      "chest",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "chest:6@0",
+    "chest:3@0",
+    "chest:8@0",
+    "chest:5@0",
+    "chest:7@0",
+    "chest:4@0",
+    "chest:4@1",
+    "chest:7@1",
+    "chest:3@1",
+    "chest:8@1",
+    "chest:5@1",
+    "chest:6@1"
+   ]
+  },
+  {
+   "id": "S13",
+   "pattern": 12,
+   "mascot": 12,
+   "theme": "pink",
+   "title": [
+    "One more! Find the picture with one more crown,",
+    "one more heart."
+   ],
+   "goal": "Later · one more (the number after), up to 7",
+   "rule": {
+    "type": "plus_one"
+   },
+   "task_style": "row",
+   "answer_style": "col",
+   "size": 0.88,
+   "tasks": [
+    "crown:3",
+    "crown:1",
+    "crown:5",
+    "crown:2",
+    "crown:6",
+    "crown:4",
+    "heart:2",
+    "heart:5",
+    "heart:1",
+    "heart:4",
+    "heart:3",
+    "heart:6"
+   ]
+  },
+  {
+   "id": "C13",
+   "pattern": 25,
+   "mascot": 25,
+   "theme": "mint",
+   "picture": "seal_show",
+   "title": [
+    "The seals balance balls. One more is coming!",
+    "Find the tower with one more ball."
+   ],
+   "goal": "Circus 13/14 · after S13: one more, up to 7",
+   "rule": {
+    "type": "plus_one"
+   },
+   "tasks": [
+    "balls:3@0",
+    "balls:1@0",
+    "balls:5@0",
+    "balls:2@0",
+    "balls:6@0",
+    "balls:4@0",
+    "balls:2@1",
+    "balls:5@1",
+    "balls:1@1",
+    "balls:4@1",
+    "balls:3@1",
+    "balls:6@1"
+   ]
+  },
+  {
+   "id": "C14",
+   "pattern": 26,
+   "mascot": 26,
+   "theme": "coral",
+   "picture": "party",
+   "title": [
+    "The party! The unicorn nibbled one cookie",
+    "from every plate. How many are left?"
+   ],
+   "goal": "Circus 14/14 · after S13: take-away, count what is left, 1–6",
+   "rule": {
+    "type": "pair",
+    "pairs": [
+     [
+      "plate",
+      "numeral"
+     ],
+     [
+      "plate",
+      "numeral"
+     ]
+    ]
+   },
+   "tasks": [
+    "plate:4@0",
+    "plate:2@0",
+    "plate:6@0",
+    "plate:1@0",
+    "plate:5@0",
+    "plate:3@0",
+    "plate:3@1",
+    "plate:6@1",
+    "plate:2@1",
+    "plate:5@1",
+    "plate:1@1",
+    "plate:4@1"
+   ]
+  }
+ ]
+}
