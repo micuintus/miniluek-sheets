@@ -330,7 +330,7 @@ def lighthouse(c, cx, base, s=1.0):
     c.poly([(cx - 0.3 * s, top - 0.36 * s), (cx + 0.3 * s, top - 0.36 * s), (cx, top - 0.68 * s)], fill=(150, 110, 120))
 
 
-def bottle(c, cx, cy, ch, fam, s=1.0, cork_right=True):
+def bottle(c, cx, cy, ch, fam, s=1.0, cork_right=True, word=None):
     """A floating bottle with a rolled letter inside; the letter faces the child, upright."""
     w, h = 2.0 * s, 1.08 * s
     d = 1 if cork_right else -1
@@ -347,7 +347,9 @@ def bottle(c, cx, cy, ch, fam, s=1.0, cork_right=True):
             width=0.025 * s)
     for x in (cx - 0.62 * s, cx + 0.62 * s):
         c.ellipse(x, cy, 0.09 * s, 0.4 * s, fill=(246, 232, 204), outline=(222, 196, 152), width=0.02 * s)
-    c.text(cx, cy + 0.02 * s, ch, 0.86 * s, INK[fam])
+    c.text(cx, cy - (0.15 if word else -0.02) * s, ch, (0.62 if word else 0.86) * s, INK[fam])
+    if word:
+        c.text(cx, cy + 0.27 * s, word, min(0.22, 1.1 / (0.70 * len(word))) * s, INK[fam])
     shine = c.layer(cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2)
     shine.rrect(cx - 0.82 * s, cy - 0.44 * s, cx + 0.2 * s, cy - 0.34 * s, 0.05 * s, fill=(255, 255, 255, 170))
     shine.commit()
@@ -374,7 +376,8 @@ def bottle_post(c, stations):
     for st in stations:
         right = st["x"] < W / 2
         bobbing(c, st["x"], st["y"], 1.5)
-        bottle(c, st["x"] - (0.25 if right else -0.25), st["y"], chr(65 + st["item"]["n"]), st["fam"], cork_right=right)
+        bottle(c, st["x"] - (0.25 if right else -0.25), st["y"], chr(65 + st["item"]["n"]), st["fam"], cork_right=right,
+               word=st["item"].get("word"))
         badge(c, st["x"] - (1.1 if right else 0.6), st["y"] - 0.66, st["t"], st["fam"])
 
 
@@ -1613,7 +1616,7 @@ register("tightrope", tightrope_tent, ROPE_SPOTS, check=check_ropes, example=(2.
          station=lambda it: sprite(lambda c, x, y: tightrope(c, x, y + 0.45, it["n"], it.get("fam") or 0,
                                                               s=0.9, who=it.get("fam") or 0)))
 register("bottle_post", bottle_post, BOTTLE_SPOTS, check=check_bottles, example=(2.1, 1.3),
-         station=lambda it: sprite(lambda c, x, y: bottle(c, x - 0.25, y, chr(65 + it["n"]), it.get("fam") or 0)))
+         station=lambda it: sprite(lambda c, x, y: bottle(c, x - 0.25, y, chr(65 + it["n"]), it.get("fam") or 0, word=it.get("word"))))
 register("necklaces", workshop, NECK_SPOTS, check=check_necklaces, example=(3.4, 1.3),
          station=lambda it: sprite(lambda c, x, y: necklace(c, x, y - 0.2, it["pic"], it["other"], it.get("fam") or 0),
                                    w=5.4, h=1.6))
