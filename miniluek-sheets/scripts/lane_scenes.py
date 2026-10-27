@@ -1,6 +1,6 @@
-"""Quest pictures (MIT): the three story worlds of the quest presets, drawn like scenes.py.
+"""Lane pictures (MIT): the story worlds of the numbers, letters and logic lanes, drawn like scenes.py.
 
-Numbers: one day at the unicorn circus, morning to night. Letters: the mermaid's bottle post.
+Numbers: one day at the unicorn circus, morning to night. Letters: the mermaid's sea post.
 Logic: the ice palace. Each scene paints its twelve stations from the task items the
 generator also derives the answers from, so a station cannot show something other than what
 its answer counts, names or continues. Registered into scenes.SCENES and scenes.KINDS on import.
@@ -272,7 +272,7 @@ def tightrope(c, cx, cy, n, fam, s=1.0, who=0):
 
 
 def tightrope_tent(c, stations):
-    """Afternoon practice in the big top: twelve ropes, twelve acrobats, count from the flag."""
+    """The tightrope act in the big top: twelve ropes, twelve acrobats, count from the flag."""
     tent_inside(c)
     for st in stations:
         spotlight(c, st["x"] * 0.5 + W / 4, st["x"], st["y"] + 0.2, 1.0)
@@ -969,7 +969,7 @@ def ringmaster(c, x, feet, h=2.6, pose="wave"):
     c.paste(queen, x, feet - h / 2, h=h)
 
 
-# ------------------------------------------------------------------ 1 morning practice: juggling (same number)
+# ------------------------------------------------------------------ morning practice: juggling (same number)
 
 ARC = {1: [(0.0, -0.45)], 2: [(-0.48, -0.26), (0.48, -0.26)], 3: [(-0.62, -0.06), (0.0, -0.56), (0.62, -0.06)]}
 
@@ -1012,7 +1012,7 @@ def check_jugglers(tasks):
             raise SystemExit(f"juggler {t} juggles 1 to 3 of {' or '.join(JUGGLE_KINDS[fam])}")
 
 
-# ------------------------------------------------------------------ 2 breakfast: count and match
+# ------------------------------------------------------------------ breakfast: count and match
 
 def drum(c, cx, top, fam, w=2.6, h=0.5):
     """A circus podium: a low drum in the family colour with a gold band."""
@@ -1056,7 +1056,7 @@ def check_breakfast(tasks):
     need(tasks, ("seal", "puppy"), 1, 6, "breakfast")
 
 
-# ------------------------------------------------------------------ 3 giant dice on the meadow
+# ------------------------------------------------------------------ giant dice on the meadow
 
 def big_die(c, cx, cy, n, fam, s=1.0):
     """A die resting on the grass, pips on the front face only, in the family colour."""
@@ -1091,7 +1091,7 @@ def check_dice(tasks):
     need(tasks, ("dice",), 1, 6, "dice meadow")
 
 
-# ------------------------------------------------------------------ 4 the balloon contest (comparing)
+# ------------------------------------------------------------------ the balloon contest (comparing)
 
 def balloon_bunch(c, ax, ay, n, s=1.0):
     """n balloons above an animal at (ax, ay); the strings meet at its head."""
@@ -1135,7 +1135,7 @@ def check_contest(tasks):
             raise SystemExit(f"contest {t} compares two bunches of 1 to 6 balloons")
 
 
-# ------------------------------------------------------------------ 5 the guests arrive by train
+# ------------------------------------------------------------------ the circus trains bring presents and stars
 
 def wagon(c, cx, cy, kind, n, fam):
     """Open circus wagon; (cx, cy) is the middle of its wheel line. n things ride in two rows."""
@@ -1371,7 +1371,7 @@ def check_toss(tasks):
     check_contest(tasks)
 
 
-# ------------------------------------------------------------------ 8 the magic show: coin chests (five and some more)
+# ------------------------------------------------------------------ the magic show: coin chests (five and some more)
 
 def coin(c, x, y, r):
     c.circle(x, y, r, fill=(255, 210, 90), outline=(200, 150, 40), width=0.025)
@@ -1440,7 +1440,7 @@ def check_chests(tasks):
     need(tasks, ("chest",), 3, 8, "magic chest")
 
 
-# ------------------------------------------------------------------ 9 the seals' ball towers (one more)
+# ------------------------------------------------------------------ the seals' ball towers (one more)
 
 def ball(c, x, y, r, col):
     c.circle(x, y, r, fill=col, outline=mix(col, (60, 30, 50), 0.3), width=0.025)
@@ -1495,7 +1495,7 @@ def check_seals(tasks):
     need(tasks, ("balls",), 1, 6, "seal act")
 
 
-# ------------------------------------------------------------------ 10 the party after the show (take-away)
+# ------------------------------------------------------------------ the party after the show (take-away)
 
 def cookie(c, x, y, r):
     c.circle(x, y, r, fill=(222, 170, 110), outline=(170, 120, 70), width=0.025)

@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import art  # noqa: E402
 import scenes  # noqa: E402
 from luek_model import check_pattern, pattern_library, pattern_of, placement_of, validate  # noqa: E402
-importlib.import_module("quest_scenes")       # registers the quest pictures and kinds
+importlib.import_module("lane_scenes")        # registers the lane pictures and kinds
 
 HERE = Path(__file__).resolve().parent
 ASSETS = HERE.parent / "assets"
@@ -843,7 +843,7 @@ def main():
         print("         single pictures (\"pict:cat\"), printed words (\"wcard:CAT\", course list),")
         print("         syllables (\"syll:MA\"), initial-letter cards (\"card:C\")")
         print("         picture-sheet tokens: pearl (shells), snowflake (snow globes), tower (linking cubes),")
-        print("         quest answers:", ", ".join(sorted(scenes.KINDS)))
+        print("         scene answers:", ", ".join(sorted(scenes.KINDS)))
         print("pictures with twelve stations:", ", ".join(sorted(scenes.SCENES)))
         print("pairs run left to right; with two pairs write \"kind:n@1\" when both start with the same kind")
 

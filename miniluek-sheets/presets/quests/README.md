@@ -23,7 +23,7 @@ A quest sheet is a picture sheet of the generator: the scene on top, then title,
 examples and control pattern, then the answer grid, all in the courses' geometry. The scene
 draws each station from its task, and the sheet's rule derives the answer from the same task,
 so a station cannot show something other than what its answer counts, names or continues. The
-scenes live in `scripts/quest_scenes.py`. The sheet id (C4, M2, P1) prints small at the lower
+scenes live in `scripts/lane_scenes.py`. The sheet id (C4, M2, P1) prints small at the lower
 left of every page, so a goal line that says "after S1" can be found in the course PDF.
 
 Pink stations 1–6 sit in the left half, blue 7–12 in the right. One half is one sitting of six
@@ -85,7 +85,7 @@ Full references for the C and M rows are in the course research files
 
 ## Scenes and task kinds
 
-The `picture` value in each preset is the scene name in `scripts/quest_scenes.py`. Task kinds
+The `picture` value in each preset is the scene name in `scripts/lane_scenes.py`. Task kinds
 that only a scene draws, with their fields:
 
 | Scene | Task kind | Fields |

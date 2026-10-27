@@ -82,7 +82,7 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
 - **Quest lanes** (`presets/quests/`): three story lanes revisit the courses, one sheet per
   course step: the unicorn circus (numbers, 12), the mermaid's sea post (letters, 7) and the
   ice palace (logic: AB patterns, shapes, odd one out, places in a 3 × 3 grid). Their scenes
-  and kinds are registered by `scripts/quest_scenes.py`; operations, scenes and evidence are
+  and kinds are registered by `scripts/lane_scenes.py`; operations, scenes and evidence are
   in `presets/quests/README.md`.
 - Picture sheets: counted sets and letter guests are plain and uniform in their own
   containers; decoration stays out of the way. Grid sheets stay plain, the picture is the
