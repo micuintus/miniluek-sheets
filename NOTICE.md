@@ -121,4 +121,5 @@ https://github.com/google/fonts/tree/main/ofl/andika
 
 The princess figures and finger pictures are drawn by `miniluek-sheets/scripts/art.py`
 (MIT, see `LICENSE`). The control-pattern tiles, dice, numerals, ten-frame and number path are
-drawn by `miniluek-sheets/scripts/miniluek.py`.
+drawn by `miniluek-sheets/scripts/miniluek.py`, the picture scenes by
+`miniluek-sheets/scripts/scenes.py` and `miniluek-sheets/scripts/lane_scenes.py`.
