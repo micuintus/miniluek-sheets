@@ -1,8 +1,8 @@
 # Teaching order of the letters lane
 
 The letters lane teaches letters, first sounds, word beginnings and short printed words: six
-plain sheets that teach, six sea-post sheets that review them, and M7, the first picture-to-word
-sheet. The evidence base is narrower than the
+plain sheets that teach, five sea-post sheets that review A2 to A6, and M7, the first picture-to-word
+sheet. A1 has no revisit; children who know most letters start at A2. The evidence base is narrower than the
 numbers lane's, and the rows in [research](research.md) carry evidence-type tags.
 
 `letters.json` is English, `buchstaben.json` is German. Same sheets and structure, translated
@@ -36,7 +36,7 @@ Three minutes with the child before the first sheet:
 | knows most letters | A2 |
 | names the letters and repeats the picture words | A3 |
 
-The letters on A1, A2, M1 and M2 are the first letters of the course words (German: B E F G H
+The letters on A1, A2 and M2 are the first letters of the course words (German: B E F G H
 K L M P S T W; English: B C D F G M O P S, plus A, E and H). The rest of the alphabet is not in the set; the
 adult teaches letter names and sounds outside it, in the object step before A3.
 
@@ -61,26 +61,25 @@ one sheet a day, reading work sits inside it, never on top of it.
 
 ## Sea-post sheets
 
-M1 to M6 each take the day's slot a week after the plain sheet with their number is mastered, as
+M2 to M6 each take the day's slot a week after the plain sheet with their number is mastered, as
 review, never as the daily sheet (A3 is reviewed by M3). M7 runs the reverse direction of A6,
 picture to word, with mostly new words: it is a daily sheet once A6 is mastered and M6 done.
 
 | Sheet | After | Scene | Task | Answer |
 |---|---|---|---|---|
-| M1 | A1 | the storm mixed up the letter shells | an uppercase letter on a pearl | the same letter |
-| M2 | A2 | big fish, little fish | an uppercase letter on a big fish | its lowercase letter |
-| M3 | A3 | bottle post for the mermaid | a letter with its course word | the picture that starts with it |
-| M4 | A4 | finds rising in bubbles | a course picture | its first letter |
-| M5 | A5 | little fish blow word beginnings | the start of a course word | the picture that starts like that |
-| M6 | A6 | the post boats arrive | a course word on a hull | its picture |
+| M2 | A2 | little fish, big fish | a lowercase letter on a little fish | its capital |
+| M3 | A3 | bottle post for the mermaid | a letter with its new word | the picture that starts with it |
+| M4 | A4 | finds rising in bubbles | a new picture | its first letter |
+| M5 | A5 | little fish blow word beginnings | the start of a new word | the picture that starts like that |
+| M6 | A6 | the post boats arrive | a new word on a hull | its picture |
 | M7 | A6 | parcels on the beach | a picture | its short word |
 
-The seven sheets tell one story, the mermaid's sea post, in the titles and the adult-read goal
+The six sheets tell one story, the mermaid's sea post, in the titles and the adult-read goal
 lines. On M7 every first letter comes at least twice in a family (CAT/CAP, HAT/HEN, PIG/PEN;
 BUS/BOX/BAT, CUP/COW/CAR; German BÄR/BUS, HUT/HAHN, OMA/OPA; TEE/TOR, WURM/WOLF, MAUS/MOND),
 so the first letter alone never finds the answer. Several words carry long vowels, umlauts or
 diphthongs (BÄR, HAHN, TEE, MAUS): with the picture named first, they are read as whole words
-here. Letters and pictures are plain and uniform, each in its own shell, fish, bottle, bubble, boat or
+here. Letters and pictures are plain and uniform, each in its own fish, bottle, bubble, boat or
 parcel, and no scene shows a letter outside the twelve stations. The plain sheets stay plain, so
 the child learns the format first and the picture is the reward, not the teaching. Rich familiar
 objects made preschool counting harder in one study, and decorated rooms held attention worse
@@ -98,6 +97,11 @@ initial-sound cards and on M3's bottles the picture word is captioned under the 
 
 The twelve course words start with their letter's sound: CAT, DOG, FOX, OTTER, PIG, GIFT,
 PANDA, MOUSE, DAISY, COOKIE, BUNNY, SUN (German: BÄR, KATZE, HUND, FUCHS, ENTE, MAUS,
-GESCHENK, SONNE, TORTE, LUTSCHER, WURM, PILZ). German A4 tasks carry the German index
+GESCHENK, SONNE, TORTE, LUTSCHER, WURM, PILZ). The twelve sea-post words start with the same
+letters' sounds and appear nowhere else: CRAB, DUCK, FISH, GOAT, PEAR, SEAL, CLOCK, DONKEY,
+PIZZA, OCTOPUS, MONKEY, BANANA (German: FISCH, BIENE, KUH, WAL, HASE, LÖWE, MUSCHEL, SEEHUND,
+TASSE, ERDBEERE, PANDA, GIRAFFE). Each picture has one name a child would give it, and no
+second name starts with another letter of the set (the puppy would be "dog", the carrot
+"Karotte"). Name each new picture together first, as on M7. German A4 tasks carry the German index
 explicitly, because a picture file name would give the English letter (cat would ask for C
 instead of K).

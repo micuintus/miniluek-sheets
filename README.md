@@ -9,7 +9,7 @@ letters pair plain sheets that teach with picture sheets that review; logic is p
 | Lane | Sheets | Story | English | Deutsch |
 |---|---|---|---|---|
 | Numbers | 13 plain (S1–S13) and 14 circus sheets | a day at the unicorn circus | [numbers-en.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/numbers-en.pdf) | [zahlen-de.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/zahlen-de.pdf) |
-| Letters | 6 plain (A1–A6) and 7 sea-post sheets | the mermaid's sea post | [letters-en.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/letters-en.pdf) | [buchstaben-de.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/buchstaben-de.pdf) |
+| Letters | 6 plain (A1–A6) and 6 sea-post sheets | the mermaid's sea post | [letters-en.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/letters-en.pdf) | [buchstaben-de.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/buchstaben-de.pdf) |
 | Logic | 4 sheets | the ice palace | [logic-en.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/logic-en.pdf) | [logik-de.pdf](https://github.com/micuintus/miniluek-sheets/releases/latest/download/logik-de.pdf) |
 
 ![The tightrope act: count the spots from the flag](docs/numbers-c9.png)
@@ -22,8 +22,9 @@ Each plain sheet S*n* is reviewed a week later by its circus sheet C*n*; C14, th
 the show, adds take-away. The German finger pictures count from the thumb, the English ones from
 the index finger (`--fingers` switches).
 
-The letters lane teaches letters, first sounds, word beginnings and short printed words; each plain sheet
-A*n* is reviewed by its sea-post sheet M*n*, and M7 reads words in the reverse direction. It
+The letters lane teaches letters, first sounds, word beginnings and short printed words; M2 reviews A2
+the other way round, M3–M6 review A3–A6 with new words, and M7 reads words in the reverse direction. A1
+has no revisit. It
 borrows the literacy-precursor evidence without the numbers lane's tight mapping
 ([research](miniluek-sheets/presets/letters/research.md)). Until the number sheets are
 mastered, they keep five days a week and a letters or logic sheet takes the other two, so one

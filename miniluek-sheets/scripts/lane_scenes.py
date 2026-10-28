@@ -465,7 +465,11 @@ def check_letters(tasks):
     need(tasks, ("letter",), 0, 25, "letter shell")
 
 
-def big_fish(c, cx, cy, ch, fam, s=1.0, face_right=True):
+def check_lowers(tasks):
+    need(tasks, ("lower",), 0, 25, "little fish")
+
+
+def big_fish(c, cx, cy, ch, fam, s=1.0, face_right=True, glyph=0.7):
     """A big fish in the family colour carrying an uppercase letter on its side."""
     d = 1 if face_right else -1
     body = FAM[fam]
@@ -478,18 +482,23 @@ def big_fish(c, cx, cy, ch, fam, s=1.0, face_right=True):
     c.circle(cx + d * 0.72 * s, cy - 0.16 * s, 0.11 * s, fill=(255, 255, 255), outline=edge, width=0.02 * s)
     c.circle(cx + d * 0.74 * s, cy - 0.16 * s, 0.05 * s, fill=(40, 40, 60))
     c.circle(cx - d * 0.12 * s, cy + 0.02 * s, 0.48 * s, fill=(255, 255, 255))
-    c.text(cx - d * 0.12 * s, cy + 0.04 * s, ch, 0.7 * s, INK[fam])
+    c.text(cx - d * 0.12 * s, cy + 0.04 * s, ch, glyph * s, INK[fam])
+
+
+def little_fish(c, cx, cy, ch, fam, face_right=True):
+    """A little fish carrying a lowercase letter; its big fish has the capital."""
+    big_fish(c, cx, cy, ch, fam, s=0.85, face_right=face_right, glyph=0.95)
 
 
 def fish_school(c, stations):
-    """Big fish swim through the reef; each one carries a big letter. Its little one has the small letter."""
+    """Little fish swim through the reef, each with a small letter, looking for their big fish."""
     seafloor(c)
     mermaid(c, W / 2, 4.2, pose="wand")
     S.trail(c, stations, "bubbles")
     for st in stations:
         right = st["x"] < W / 2
-        big_fish(c, st["x"], st["y"], chr(65 + st["item"]["n"]), st["fam"], face_right=right)
-        badge(c, st["x"] - (1.45 if right else -1.45), st["y"] - 0.75, st["t"], st["fam"])
+        little_fish(c, st["x"], st["y"], chr(97 + st["item"]["n"]), st["fam"], face_right=right)
+        badge(c, st["x"] - (1.25 if right else -1.25), st["y"] - 0.65, st["t"], st["fam"])
 
 
 FISH_SPOTS = zigzag((1.75, 2.05, 1.8), (4.75, 5.05, 4.7), (2.05, 5.85, 9.65), (3.95, 7.75, 11.2))
@@ -1268,7 +1277,7 @@ def check_trains(tasks):
     need(tasks, ("gift", "star"), 1, 6, "train")
 
 
-# ------------------------------------------------------------------ the finger theatre (fingers to dice)
+# ------------------------------------------------------------------ the dice theatre (dice to fingers)
 
 def puppet_booth(c, cx, base, fam, w=2.2, h=0.95):
     """A little puppet theatre: a striped front in the family colour under a gold ledge."""
@@ -1287,31 +1296,20 @@ def puppet_booth(c, cx, base, fam, w=2.2, h=0.95):
     c.rrect(cx - w / 2 - 0.12, base - h - 1.72, cx + w / 2 + 0.12, base - h - 1.56, 0.05, fill=GOLD, outline=GOLD_DARK, width=0.02)
 
 
-def hands(c, cx, top, n, start="index", h=1.6):
-    """Raised hands as the child sees her own: up to five on the left hand, then the right one."""
-    if n <= 5:
-        sp = art.hand(n, side="left", start=start)
-        c.paste(sp, cx, top - h / 2 + 0.32, h=h)
-        return
-    for dx, k, side in ((-0.5, 5, "left"), (0.5, n - 5, "right")):
-        sp = art.hand(k, side=side, start=start)
-        c.paste(sp, cx + dx, top - h * 0.88 / 2 + 0.32, h=h * 0.88)
-
-
-def finger_booth(c, cx, base, n, fam, start="index"):
-    hands(c, cx, base - 0.95, n, start)
+def dice_booth(c, cx, base, n, fam):
+    big_die(c, cx, base - 1.45, n, fam, s=0.72)
     puppet_booth(c, cx, base, fam)
 
 
 def finger_theatre(c, stations):
-    """Late morning: the finger theatre. Hands rise above twelve little stages."""
+    """Late morning: the dice theatre. Dice stand on twelve little stages; the fingers answer."""
     camp(c, (236, 232, 252), (255, 246, 232), sun_at=(4.8, 0.75))
     tulips(c, ((0.6, 7.3), (12.3, 7.35), (16.0, 7.35), (27.7, 7.3)))
     ringmaster(c, W / 2, 7.0, pose="up")
-    c.paste(emoji("unicorn"), W / 2 + 1.25, 6.55, h=0.95, flip=True)
+    c.paste(emoji("unicorn"), W / 2 - 1.2, 6.55, h=0.95, flip=True)
     for st in stations:
         it = st["item"]
-        finger_booth(c, st["x"], st["y"], it["n"], st["fam"], it.get("fingers", "index"))
+        dice_booth(c, st["x"], st["y"], it["n"], st["fam"])
         badge(c, st["x"] - 1.38, st["y"] - 0.55, st["t"], st["fam"])
 
 
@@ -1319,7 +1317,7 @@ FINGER_SPOTS = zigzag((3.65, 3.9, 3.7), (7.2, 7.35, 7.15), (1.85, 5.6, 9.35), (3
 
 
 def check_fingers(tasks):
-    need(tasks, ("fingers",), 1, 6, "finger theatre")
+    need(tasks, ("dice",), 1, 6, "dice theatre")
 
 
 # ------------------------------------------------------------------ lights out: spotlights (counting a scattered set)
@@ -1357,8 +1355,8 @@ SPOT_SPOTS = zigzag((1.7, 2.0, 1.75), (5.5, 5.8, 5.45), (2.0, 5.85, 9.7), (3.95,
 
 def check_spots(tasks):
     for t, it in tasks.items():
-        if it["kind"] != ("heart" if (it.get("fam") or 0) == 0 else "star") or not 1 <= it["n"] <= 6:
-            raise SystemExit(f"spotlight {t} shows 1 to 6 hearts (pink) or stars (blue)")
+        if it["kind"] != ("balloon" if (it.get("fam") or 0) == 0 else "moon") or not 1 <= it["n"] <= 6:
+            raise SystemExit(f"spotlight {t} shows 1 to 6 balloons (pink) or moons (blue)")
 
 
 # ------------------------------------------------------------------ the ring toss (comparing written numbers)
@@ -1637,7 +1635,7 @@ register("seal_show", seal_show, SEAL_SPOTS, check=check_seals, example=(1.4, 2.
 register("party", party, PARTY_SPOTS, check=check_plates, example=(1.9, 1.3),
          station=lambda it: sprite(lambda c, x, y: plate(c, x, y, it["n"], it.get("fam") or 0), w=3.0, h=1.6))
 register("finger_theatre", finger_theatre, FINGER_SPOTS, check=check_fingers, example=(1.5, 1.6),
-         station=lambda it: sprite(lambda c, x, y: finger_booth(c, x, y + 1.05, it["n"], it.get("fam") or 0, it.get("fingers", "index")),
+         station=lambda it: sprite(lambda c, x, y: dice_booth(c, x, y + 1.05, it["n"], it.get("fam") or 0),
                                    w=2.8, h=3.0))
 register("spotlights", spotlights, SPOT_SPOTS, check=check_spots, example=(1.4, 1.4),
          station=lambda it: sprite(lambda c, x, y: spot_disc(c, x, y, it["kind"], it["n"], it.get("fam") or 0, 1 * 13 + it["n"]),
@@ -1646,8 +1644,8 @@ register("ring_toss", ring_toss, TOSS_SPOTS, check=check_toss, example=(1.7, 1.6
          station=lambda it: sprite(lambda c, x, y: score_duel(c, x, y + 0.75, it, it.get("fam") or 0), w=3.0, h=3.0))
 register("twin_shells", twin_shells, SHELL_SPOTS, check=check_letters, example=(1.5, 1.4),
          station=lambda it: sprite(lambda c, x, y: letter_shell(c, x, y + 0.15, chr(65 + it["n"]), it.get("fam") or 0), w=2.6, h=2.4))
-register("fish_school", fish_school, FISH_SPOTS, check=check_letters, example=(1.7, 1.3),
-         station=lambda it: sprite(lambda c, x, y: big_fish(c, x + 0.2, y + 0.1, chr(65 + it["n"]), it.get("fam") or 0), w=3.4, h=2.2))
+register("fish_school", fish_school, FISH_SPOTS, check=check_lowers, example=(1.7, 1.3),
+         station=lambda it: sprite(lambda c, x, y: little_fish(c, x + 0.15, y + 0.1, chr(97 + it["n"]), it.get("fam") or 0), w=2.8, h=1.9))
 register("sea_finds", sea_finds, FIND_SPOTS, check=check_finds, example=(1.3, 1.3),
          station=lambda it: sprite(lambda c, x, y: find_bubble(c, x, y - 0.3, it["pic"], it.get("fam") or 0), w=2.0, h=2.6))
 register("word_start_bubbles", word_start_bubbles, WORD_START_SPOTS, check=check_word_starts, example=(1.6, 1.4),

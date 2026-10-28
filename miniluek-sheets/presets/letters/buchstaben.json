@@ -31,35 +31,6 @@
    ]
   },
   {
-   "id": "M1",
-   "pattern": 33,
-   "mascot": 33,
-   "theme": "teal",
-   "picture": "twin_shells",
-   "title": [
-    "Der Sturm hat die Buchstabenmuscheln gemischt!",
-    "Finde zu jeder Muschel den gleichen Buchstaben."
-   ],
-   "goal": "Meer 1/7 · nach A1: gleiche Buchstaben, groß",
-   "rule": {
-    "type": "same"
-   },
-   "tasks": [
-    "letter:5@0",
-    "letter:1@0",
-    "letter:7@0",
-    "letter:4@0",
-    "letter:10@0",
-    "letter:6@0",
-    "letter:15@1",
-    "letter:11@1",
-    "letter:19@1",
-    "letter:12@1",
-    "letter:22@1",
-    "letter:18@1"
-   ]
-  },
-  {
    "id": "A2",
    "pattern": 28,
    "mascot": 1,
@@ -103,36 +74,36 @@
    "theme": "sky",
    "picture": "fish_school",
    "title": [
-    "Große Fische, kleine Fische! Jeder große",
-    "Buchstabe hat einen kleinen. Finde ihn."
+    "Jeder kleine Fisch sucht seinen großen.",
+    "Finde den großen Buchstaben."
    ],
-   "goal": "Meer 2/7 · nach A2: groß zu klein",
+   "goal": "Meer 1/6 · nach A2, andersherum: klein zu groß",
    "rule": {
     "type": "pair",
     "pairs": [
      [
-      "letter",
-      "lower"
+      "lower",
+      "letter"
      ],
      [
-      "letter",
-      "lower"
+      "lower",
+      "letter"
      ]
     ]
    },
    "tasks": [
-    "letter:6@0",
-    "letter:10@0",
-    "letter:4@0",
-    "letter:7@0",
-    "letter:1@0",
-    "letter:5@0",
-    "letter:18@1",
-    "letter:12@1",
-    "letter:22@1",
-    "letter:11@1",
-    "letter:15@1",
-    "letter:19@1"
+    "lower:6@0",
+    "lower:10@0",
+    "lower:4@0",
+    "lower:7@0",
+    "lower:1@0",
+    "lower:5@0",
+    "lower:18@1",
+    "lower:12@1",
+    "lower:22@1",
+    "lower:11@1",
+    "lower:15@1",
+    "lower:19@1"
    ]
   },
   {
@@ -182,7 +153,7 @@
     "Flaschenpost für die Meerjungfrau!",
     "Welches Bild fängt mit dem Buchstaben an?"
    ],
-   "goal": "Meer 3/7 · nach A3: Anlaut zum Bild; jedes Bild zuerst benennen",
+   "goal": "Meer 2/6 · nach A3: Anlaut zum Bild; jedes Bild zuerst benennen",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -197,18 +168,18 @@
     ]
    },
    "tasks": [
-    "card:FUCHS@0",
-    "card:BÄR@0",
-    "card:ENTE@0",
-    "card:KATZE@0",
-    "card:MAUS@0",
-    "card:HUND@0",
-    "card:LUTSCHER@1",
-    "card:GESCHENK@1",
-    "card:WURM@1",
-    "card:SONNE@1",
-    "card:PILZ@1",
-    "card:TORTE@1"
+    "card:FISCH@0",
+    "card:BIENE@0",
+    "card:KUH@0",
+    "card:WAL@0",
+    "card:HASE@0",
+    "card:LÖWE@0",
+    "card:MUSCHEL@1",
+    "card:SEEHUND@1",
+    "card:TASSE@1",
+    "card:ERDBEERE@1",
+    "card:PANDA@1",
+    "card:GIRAFFE@1"
    ]
   },
   {
@@ -318,7 +289,7 @@
     "Die Schätze steigen in Blasen auf.",
     "Mit welchem Buchstaben fängt jeder an?"
    ],
-   "goal": "Meer 4/7 · nach A4: Bild zum Anlaut; jedes Bild zuerst benennen",
+   "goal": "Meer 3/6 · nach A4: Bild zum Anlaut; jedes Bild zuerst benennen",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -335,74 +306,74 @@
    "tasks": [
     {
      "kind": "pict",
-     "pic": "dog",
+     "pic": "rabbit",
      "n": 7,
      "fam": 0
     },
     {
      "kind": "pict",
-     "pic": "duck",
-     "n": 4,
-     "fam": 0
-    },
-    {
-     "kind": "pict",
-     "pic": "bear",
-     "n": 1,
-     "fam": 0
-    },
-    {
-     "kind": "pict",
-     "pic": "mouse",
-     "n": 12,
-     "fam": 0
-    },
-    {
-     "kind": "pict",
-     "pic": "fox",
-     "n": 5,
-     "fam": 0
-    },
-    {
-     "kind": "pict",
-     "pic": "cat",
+     "pic": "cow",
      "n": 10,
      "fam": 0
     },
     {
      "kind": "pict",
-     "pic": "sun",
-     "n": 18,
-     "fam": 1
+     "pic": "bee",
+     "n": 1,
+     "fam": 0
     },
     {
      "kind": "pict",
-     "pic": "worm",
+     "pic": "lion",
+     "n": 11,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "fish",
+     "n": 5,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "spoutwhale",
      "n": 22,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "strawberry",
+     "n": 4,
      "fam": 1
     },
     {
      "kind": "pict",
-     "pic": "gift",
+     "pic": "giraffe",
      "n": 6,
      "fam": 1
     },
     {
      "kind": "pict",
-     "pic": "mushroom",
-     "n": 15,
-     "fam": 1
-    },
-    {
-     "kind": "pict",
-     "pic": "cake",
+     "pic": "cup",
      "n": 19,
      "fam": 1
     },
     {
      "kind": "pict",
-     "pic": "lollipop",
-     "n": 11,
+     "pic": "panda",
+     "n": 15,
+     "fam": 1
+    },
+    {
+     "kind": "pict",
+     "pic": "shell",
+     "n": 12,
+     "fam": 1
+    },
+    {
+     "kind": "pict",
+     "pic": "seal",
+     "n": 18,
      "fam": 1
     }
    ]
@@ -514,7 +485,7 @@
     "Die kleinen Fische blasen Wortanfänge.",
     "Welches Bild fängt so an?"
    ],
-   "goal": "Meer 5/7 · nach A5: Wortanfang zum Bild",
+   "goal": "Meer 4/6 · Wortanfang zum Bild",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -531,74 +502,74 @@
    "tasks": [
     {
      "kind": "syll",
-     "text": "HU",
-     "word": "HUND",
+     "text": "HA",
+     "word": "HASE",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "MA",
-     "word": "MAUS",
+     "text": "LÖ",
+     "word": "LÖWE",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "BÄ",
-     "word": "BÄR",
+     "text": "BI",
+     "word": "BIENE",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "EN",
-     "word": "ENTE",
+     "text": "KU",
+     "word": "KUH",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "KA",
-     "word": "KATZE",
+     "text": "WA",
+     "word": "WAL",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "FU",
-     "word": "FUCHS",
+     "text": "FI",
+     "word": "FISCH",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "TO",
-     "word": "TORTE",
+     "text": "TA",
+     "word": "TASSE",
      "fam": 1
     },
     {
      "kind": "syll",
-     "text": "GE",
-     "word": "GESCHENK",
+     "text": "GI",
+     "word": "GIRAFFE",
      "fam": 1
     },
     {
      "kind": "syll",
-     "text": "WU",
-     "word": "WURM",
+     "text": "ER",
+     "word": "ERDBEERE",
      "fam": 1
     },
     {
      "kind": "syll",
-     "text": "LU",
-     "word": "LUTSCHER",
+     "text": "MU",
+     "word": "MUSCHEL",
      "fam": 1
     },
     {
      "kind": "syll",
-     "text": "SO",
-     "word": "SONNE",
+     "text": "SE",
+     "word": "SEEHUND",
      "fam": 1
     },
     {
      "kind": "syll",
-     "text": "PIL",
-     "word": "PILZ",
+     "text": "PA",
+     "word": "PANDA",
      "fam": 1
     }
    ]
@@ -722,7 +693,7 @@
     "Die Postboote kommen!",
     "Lies den Namen jedes Boots. Finde das Bild."
    ],
-   "goal": "Meer 6/7 · nach A6: Wort lesen, Bild finden",
+   "goal": "Meer 5/6 · nach A6: Wort lesen, Bild finden",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -739,85 +710,85 @@
    "tasks": [
     {
      "kind": "wcard",
-     "word": "MAUS",
-     "n": 12,
+     "word": "LÖWE",
+     "n": 11,
      "fam": 0,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "BÄR",
+     "word": "BIENE",
      "n": 1,
      "fam": 0,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "PILZ",
-     "n": 15,
+     "word": "WAL",
+     "n": 22,
      "fam": 0,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "HUND",
+     "word": "HASE",
      "n": 7,
      "fam": 0,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "WURM",
-     "n": 22,
+     "word": "KUH",
+     "n": 10,
      "fam": 0,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "ENTE",
-     "n": 4,
+     "word": "FISCH",
+     "n": 5,
      "fam": 0,
      "seed": 6
     },
     {
      "kind": "wcard",
-     "word": "SONNE",
+     "word": "SEEHUND",
      "n": 18,
      "fam": 1,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "KATZE",
-     "n": 10,
+     "word": "TASSE",
+     "n": 19,
      "fam": 1,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "LUTSCHER",
-     "n": 11,
+     "word": "MUSCHEL",
+     "n": 12,
      "fam": 1,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "FUCHS",
-     "n": 5,
+     "word": "GIRAFFE",
+     "n": 6,
      "fam": 1,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "TORTE",
-     "n": 19,
+     "word": "PANDA",
+     "n": 15,
      "fam": 1,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "GESCHENK",
-     "n": 6,
+     "word": "ERDBEERE",
+     "n": 4,
      "fam": 1,
      "seed": 6
     }
@@ -833,7 +804,7 @@
     "Die Pakete brauchen Namensschilder.",
     "Finde das Wort zu jedem Bild."
    ],
-   "goal": "Meer 7/7 · nach A6: Bild zum Wort; jeder Anlaut kommt mindestens zweimal vor",
+   "goal": "Meer 6/6 · nach A6: Bild zum Wort; jeder Anlaut kommt mindestens zweimal vor",
    "rule": {
     "type": "pair",
     "pairs": [

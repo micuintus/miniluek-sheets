@@ -192,8 +192,8 @@
    "theme": "peach",
    "picture": "dice_meadow",
    "title": [
-    "Giant dice on the meadow! Pink dice get hearts,",
-    "blue dice get stars."
+    "Giant dice on the meadow! Pink dice get cookies,",
+    "blue dice get gems."
    ],
    "goal": "Circus 3/14 · after S3: dice patterns, checked by counting, 1–6",
    "rule": {
@@ -201,29 +201,29 @@
     "pairs": [
      [
       "dice",
-      "heart"
+      "cookie"
      ],
      [
       "dice",
-      "star"
+      "gem"
      ]
     ]
    },
    "answer_style": "row",
    "size": 0.88,
    "tasks": [
-    "dice:4@0",
-    "dice:1@0",
-    "dice:6@0",
     "dice:2@0",
+    "dice:6@0",
+    "dice:1@0",
     "dice:5@0",
     "dice:3@0",
-    "dice:3@1",
+    "dice:4@0",
+    "dice:4@1",
+    "dice:1@1",
     "dice:5@1",
     "dice:2@1",
     "dice:6@1",
-    "dice:1@1",
-    "dice:4@1"
+    "dice:3@1"
    ]
   },
   {
@@ -274,36 +274,36 @@
    "theme": "coral",
    "picture": "finger_theatre",
    "title": [
-    "The finger theatre! How many fingers?",
-    "Find the dice. Then show it with your fingers!"
+    "The dice theatre! How many dots?",
+    "Find the fingers. Then show it with your fingers!"
    ],
-   "goal": "Circus 4/14 · after S4: finger patterns to dice, full hand = 5, 1–6",
+   "goal": "Circus 4/14 · after S4, the other way round: dice to finger patterns, 1–6",
    "rule": {
     "type": "pair",
     "pairs": [
      [
-      "fingers",
-      "dice"
+      "dice",
+      "fingers"
      ],
      [
-      "fingers",
-      "dice"
+      "dice",
+      "fingers"
      ]
     ]
    },
    "tasks": [
-    "fingers:3@0",
-    "fingers:1@0",
-    "fingers:5@0",
-    "fingers:2@0",
-    "fingers:6@0",
-    "fingers:4@0",
-    "fingers:4@1",
-    "fingers:6@1",
-    "fingers:2@1",
-    "fingers:5@1",
-    "fingers:1@1",
-    "fingers:3@1"
+    "dice:3@0",
+    "dice:1@0",
+    "dice:5@0",
+    "dice:2@0",
+    "dice:6@0",
+    "dice:4@0",
+    "dice:4@1",
+    "dice:6@1",
+    "dice:2@1",
+    "dice:5@1",
+    "dice:1@1",
+    "dice:3@1"
    ]
   },
   {
@@ -649,7 +649,7 @@
    "theme": "violet",
    "picture": "spotlights",
    "title": [
-    "Lights out! Hearts and stars in the spotlights.",
+    "Lights out! Balloons and moons in the spotlights.",
     "How many in each? Touch each one once."
    ],
    "goal": "Circus 8/14 · after S8: counting a scattered set, each one once, 1–6",
@@ -657,29 +657,29 @@
     "type": "pair",
     "pairs": [
      [
-      "heart",
+      "balloon",
       "numeral"
      ],
      [
-      "star",
+      "moon",
       "numeral"
      ]
     ]
    },
    "task_style": "scatter",
    "tasks": [
-    "heart:5",
-    "heart:2",
-    "heart:6",
-    "heart:1",
-    "heart:4",
-    "heart:3",
-    "star:3",
-    "star:6",
-    "star:1",
-    "star:4",
-    "star:2",
-    "star:5"
+    "balloon:5",
+    "balloon:2",
+    "balloon:6",
+    "balloon:1",
+    "balloon:4",
+    "balloon:3",
+    "moon:3",
+    "moon:6",
+    "moon:1",
+    "moon:4",
+    "moon:2",
+    "moon:5"
    ]
   },
   {

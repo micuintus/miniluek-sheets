@@ -39,8 +39,8 @@ Three lanes ship as presets, each in English and German:
   along the early-math progression, each followed by its circus sheet C1–C13, plus the
   take-away party C14. Order: `presets/numbers/teaching-order.md`; sources per design choice:
   `presets/numbers/research.md`.
-- `presets/letters/letters.json` (German `buchstaben.json`): 13 sheets. Six plain sheets A1–A6,
-  each followed by its sea-post sheet M1–M6, plus M7 (picture to word). Order and sources in
+- `presets/letters/letters.json` (German `buchstaben.json`): 12 sheets. Six plain sheets A1–A6,
+  M2–M6 each reviewing A2–A6 the other way round or with new words, plus M7 (picture to word). Order and sources in
   `presets/letters/`.
 - `presets/logic/logic.json` (German `logik.json`): four ice-palace sheets, AB patterns, shapes,
   odd one out and places in a 3 × 3 grid, each after the same idea with objects. Order and

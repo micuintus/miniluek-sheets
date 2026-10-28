@@ -54,7 +54,7 @@ Letter kinds: `letter` (`n` 0–25, A to Z), `lower` (its lowercase, as an answe
 letter card, `card:C`, or bound to a course word, `card:CAT`, which captions the word), `pict`
 (one picture, `pict:cat`, whose first letter is `n`), `wcard` (a printed word) and `syll` (the
 start of a course word, `syll:CA`). `card:WORD`, `syll:XX` and word-to-picture pairs resolve
-through the 24-word course list (`WORD_PIC` in `scripts/miniluek.py`); a task written as an
+through the 47-word list (`WORD_PIC` in `scripts/miniluek.py`): 12 course words and 12 sea-post words per language, German PANDA sharing the English entry; a task written as an
 object can bind any picture to its `word`.
 
 With two pairs, the first pair's tasks and answers get pink frames, the second pair's blue.
@@ -74,21 +74,22 @@ draws its twelve stations from the tasks; `check` refuses a task the scene canno
 | `juggling` | C1 | juggled tokens | `kind`, `n` 1–3: `heart` or `star` (pink), `moon` or `strawberry` (blue) |
 | `breakfast` | C2 | `seal`, `puppy` | `n` 1–6 |
 | `dice_meadow` | C3 | `dice` | `n` 1–6 |
-| `finger_theatre` | C4 | `fingers` | `n` 1–6, counted from the set's `fingers` habit |
+| `finger_theatre` | C4 | `dice` | `n` 1–6; answers are `fingers` in the set's habit |
 | `contest`, `bubble_act` | C5, C10 | `compare` | `a`, `na`, `b`, `nb` 1–6: balloons or bubbles above each animal |
 | `trains` | C6 | `gift`, `star` | `n` 1–6 |
 | `ticket_booth` | C7 | `ticket` | `n` 1–6 |
-| `spotlights` | C8 | `heart` (pink), `star` (blue) | `n` 1–6, scattered |
+| `spotlights` | C8 | `balloon` (pink), `moon` (blue) | `n` 1–6, scattered |
 | `tightrope` | C9 | `rope` | `n` 1–6, counted from the flag |
 | `ring_toss` | C11 | `compare` | numerals on signs |
 | `magic_show` | C12 | `chest` | `n` 3–8 in a ten-frame |
 | `seal_show` | C13 | `balls` | `n` 1–6; the answer kind `balls` stacks them on one floor line |
 | `party` | C14 | `plate` | `n` 1–6 left after one is eaten |
-| `twin_shells`, `fish_school` | M1, M2 | `letter` | `n` 0–25 |
-| `bottle_post` | M3 | `card` | a course word |
-| `sea_finds` | M4 | `pict` | a picture and its first letter `n` |
-| `word_start_bubbles` | M5 | `syll` | the start of a course word: `text` and `word` from the course list |
-| `post_boats` | M6 | `wcard` | `word` from the course list |
+| `twin_shells` | | `letter` | `n` 0–25 |
+| `fish_school` | M2 | `lower` | `n` 0–25; answers are the capitals |
+| `bottle_post` | M3 | `card` | a sea-post word |
+| `sea_finds` | M4 | `pict` | a new picture and its first letter `n` |
+| `word_start_bubbles` | M5 | `syll` | the start of a sea-post word: `text` and `word` from the extended list |
+| `post_boats` | M6 | `wcard` | `word` from the extended list |
 | `beach_post` | M7 | `pict` | a picture bound to its `word` |
 | `necklaces` | P1 | `necklace` | `pic` (the next charm) and a different `other` |
 | `palace_windows` | P2 | `shape` | `n` 0–5 (circle, square, triangle, rectangle, star, heart); the answer kind `shape` is the same shape in gold |

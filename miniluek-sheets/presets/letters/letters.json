@@ -31,35 +31,6 @@
    ]
   },
   {
-   "id": "M1",
-   "pattern": 33,
-   "mascot": 33,
-   "theme": "teal",
-   "picture": "twin_shells",
-   "title": [
-    "The storm mixed up the letter shells!",
-    "Find the same letter for each shell."
-   ],
-   "goal": "Sea 1/7 · after A1: the same letter, uppercase",
-   "rule": {
-    "type": "same"
-   },
-   "tasks": [
-    "letter:2@0",
-    "letter:0@0",
-    "letter:4@0",
-    "letter:1@0",
-    "letter:5@0",
-    "letter:3@0",
-    "letter:12@1",
-    "letter:6@1",
-    "letter:15@1",
-    "letter:7@1",
-    "letter:18@1",
-    "letter:14@1"
-   ]
-  },
-  {
    "id": "A2",
    "pattern": 28,
    "mascot": 1,
@@ -103,36 +74,36 @@
    "theme": "sky",
    "picture": "fish_school",
    "title": [
-    "Big fish, little fish! Every big letter",
-    "has a little one. Find it."
+    "Every little fish has lost its big fish.",
+    "Find the big letter."
    ],
-   "goal": "Sea 2/7 · after A2: uppercase to lowercase",
+   "goal": "Sea 1/6 · after A2, the other way round: lowercase to uppercase",
    "rule": {
     "type": "pair",
     "pairs": [
      [
-      "letter",
-      "lower"
+      "lower",
+      "letter"
      ],
      [
-      "letter",
-      "lower"
+      "lower",
+      "letter"
      ]
     ]
    },
    "tasks": [
-    "letter:3@0",
-    "letter:5@0",
-    "letter:1@0",
-    "letter:4@0",
-    "letter:0@0",
-    "letter:2@0",
-    "letter:14@1",
-    "letter:7@1",
-    "letter:18@1",
-    "letter:6@1",
-    "letter:12@1",
-    "letter:15@1"
+    "lower:3@0",
+    "lower:5@0",
+    "lower:1@0",
+    "lower:4@0",
+    "lower:0@0",
+    "lower:2@0",
+    "lower:14@1",
+    "lower:7@1",
+    "lower:18@1",
+    "lower:6@1",
+    "lower:12@1",
+    "lower:15@1"
    ]
   },
   {
@@ -182,7 +153,7 @@
     "Bottle post for the mermaid!",
     "Which picture starts with the letter?"
    ],
-   "goal": "Sea 3/7 · after A3: letter to first sound; name each picture first",
+   "goal": "Sea 2/6 · after A3: letter to first sound; name each picture first",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -197,18 +168,18 @@
     ]
    },
    "tasks": [
-    "card:OTTER@0",
-    "card:CAT@0",
-    "card:PIG@0",
-    "card:DOG@0",
-    "card:GIFT@0",
-    "card:FOX@0",
-    "card:COOKIE@1",
-    "card:PANDA@1",
-    "card:BUNNY@1",
-    "card:MOUSE@1",
-    "card:SUN@1",
-    "card:DAISY@1"
+    "card:CRAB@0",
+    "card:DUCK@0",
+    "card:FISH@0",
+    "card:GOAT@0",
+    "card:PEAR@0",
+    "card:SEAL@0",
+    "card:CLOCK@1",
+    "card:DONKEY@1",
+    "card:PIZZA@1",
+    "card:OCTOPUS@1",
+    "card:MONKEY@1",
+    "card:BANANA@1"
    ]
   },
   {
@@ -258,7 +229,7 @@
     "The treasures float up in bubbles.",
     "With which letter does each one start?"
    ],
-   "goal": "Sea 4/7 · after A4: picture to first letter; name each picture first",
+   "goal": "Sea 3/6 · after A4: picture to first letter; name each picture first",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -275,73 +246,73 @@
    "tasks": [
     {
      "kind": "pict",
-     "pic": "dog",
+     "pic": "duck",
      "n": 3,
      "fam": 0
     },
     {
      "kind": "pict",
-     "pic": "pig",
-     "n": 15,
+     "pic": "seal",
+     "n": 18,
      "fam": 0
     },
     {
      "kind": "pict",
-     "pic": "cat",
+     "pic": "crab",
      "n": 2,
      "fam": 0
     },
     {
      "kind": "pict",
-     "pic": "gift",
+     "pic": "pear",
+     "n": 15,
+     "fam": 0
+    },
+    {
+     "kind": "pict",
+     "pic": "goat",
      "n": 6,
      "fam": 0
     },
     {
      "kind": "pict",
-     "pic": "fox",
+     "pic": "fish",
      "n": 5,
      "fam": 0
     },
     {
      "kind": "pict",
-     "pic": "otter",
-     "n": 14,
-     "fam": 0
-    },
-    {
-     "kind": "pict",
-     "pic": "mouse",
+     "pic": "monkey",
      "n": 12,
      "fam": 1
     },
     {
      "kind": "pict",
-     "pic": "bunny",
+     "pic": "banana",
      "n": 1,
      "fam": 1
     },
     {
      "kind": "pict",
-     "pic": "panda",
+     "pic": "pizza",
      "n": 15,
      "fam": 1
     },
     {
      "kind": "pict",
-     "pic": "sun",
-     "n": 18,
+     "pic": "octopus",
+     "n": 14,
      "fam": 1
     },
     {
      "kind": "pict",
-     "pic": "daisy",
+     "pic": "donkey",
      "n": 3,
      "fam": 1
     },
     {
      "kind": "pict",
-     "pic": "cookie",
+     "pic": "clock",
      "n": 2,
      "fam": 1
     }
@@ -454,7 +425,7 @@
     "The little fish blow word beginnings.",
     "Which picture starts like that?"
    ],
-   "goal": "Sea 5/7 · after A5: the start of a word to its picture",
+   "goal": "Sea 4/6 · the start of a word to its picture",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -471,74 +442,74 @@
    "tasks": [
     {
      "kind": "syll",
-     "text": "FO",
-     "word": "FOX",
+     "text": "FI",
+     "word": "FISH",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "CA",
-     "word": "CAT",
+     "text": "CR",
+     "word": "CRAB",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "GI",
-     "word": "GIFT",
+     "text": "GO",
+     "word": "GOAT",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "DO",
-     "word": "DOG",
+     "text": "DU",
+     "word": "DUCK",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "OT",
-     "word": "OTTER",
+     "text": "SE",
+     "word": "SEAL",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "PI",
-     "word": "PIG",
+     "text": "PE",
+     "word": "PEAR",
      "fam": 0
     },
     {
      "kind": "syll",
-     "text": "SU",
-     "word": "SUN",
+     "text": "OC",
+     "word": "OCTOPUS",
      "fam": 1
     },
     {
      "kind": "syll",
      "text": "MO",
-     "word": "MOUSE",
+     "word": "MONKEY",
      "fam": 1
     },
     {
      "kind": "syll",
-     "text": "CO",
-     "word": "COOKIE",
+     "text": "CL",
+     "word": "CLOCK",
      "fam": 1
     },
     {
      "kind": "syll",
-     "text": "PA",
-     "word": "PANDA",
+     "text": "PI",
+     "word": "PIZZA",
      "fam": 1
     },
     {
      "kind": "syll",
-     "text": "BU",
-     "word": "BUNNY",
+     "text": "BA",
+     "word": "BANANA",
      "fam": 1
     },
     {
      "kind": "syll",
-     "text": "DA",
-     "word": "DAISY",
+     "text": "DO",
+     "word": "DONKEY",
      "fam": 1
     }
    ]
@@ -662,7 +633,7 @@
     "The post boats are coming!",
     "Read each boat's name. Find the picture."
    ],
-   "goal": "Sea 6/7 · after A6: read the word, find the picture",
+   "goal": "Sea 5/6 · after A6: read the word, find the picture",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -679,84 +650,84 @@
    "tasks": [
     {
      "kind": "wcard",
-     "word": "DOG",
+     "word": "DUCK",
      "n": 3,
      "fam": 0,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "SUN",
+     "word": "SEAL",
      "n": 18,
      "fam": 0,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "CAT",
+     "word": "CRAB",
      "n": 2,
      "fam": 0,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "GIFT",
+     "word": "GOAT",
      "n": 6,
      "fam": 0,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "FOX",
+     "word": "FISH",
      "n": 5,
      "fam": 0,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "PIG",
+     "word": "PEAR",
      "n": 15,
      "fam": 0,
      "seed": 6
     },
     {
      "kind": "wcard",
-     "word": "MOUSE",
+     "word": "MONKEY",
      "n": 12,
      "fam": 1,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "OTTER",
+     "word": "OCTOPUS",
      "n": 14,
      "fam": 1,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "BUNNY",
+     "word": "BANANA",
      "n": 1,
      "fam": 1,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "DAISY",
+     "word": "DONKEY",
      "n": 3,
      "fam": 1,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "PANDA",
+     "word": "PIZZA",
      "n": 15,
      "fam": 1,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "COOKIE",
+     "word": "CLOCK",
      "n": 2,
      "fam": 1,
      "seed": 6
@@ -773,7 +744,7 @@
     "The parcels need name labels.",
     "Find the word for each picture."
    ],
-   "goal": "Sea 7/7 · after A6: picture to word; every first letter comes at least twice",
+   "goal": "Sea 6/6 · after A6: picture to word; every first letter comes at least twice",
    "rule": {
     "type": "pair",
     "pairs": [

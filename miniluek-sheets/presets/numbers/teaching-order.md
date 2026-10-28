@@ -26,12 +26,12 @@ its own (S7 is reviewed by C7). C14 is the one circus sheet without a plain shee
 |---|---|---|---|---|
 | C1 | S1 | morning practice: acrobats juggle | 1–3 hearts, stars, moons or strawberries | the same things, rearranged |
 | C2 | S2 | breakfast for the circus animals | 1–6 seals or puppies on a podium | as many fish or bones |
-| C3 | S3 | giant dice on the meadow | a die | as many hearts (pink) or stars (blue) |
-| C4 | S4 | the finger theatre | hands showing 1–6 fingers | the dice |
+| C3 | S3 | giant dice on the meadow | a die | as many cookies (pink) or gems (blue) |
+| C4 | S4 | the dice theatre | a die | the fingers, in the preset's habit |
 | C5 | S5 | the balloon contest | two animals with 1–6 balloons each | the one with more |
 | C6 | S6 | the circus trains arrive | 1–6 presents or stars in a wagon | the numeral |
 | C7 | S7 | the ticket booth | a ticket with a numeral | as many cookies (pink) or balloons (blue) |
-| C8 | S8 | lights out for the show | 1–6 hearts or stars scattered in a spotlight | the numeral |
+| C8 | S8 | lights out for the show | 1–6 balloons or moons scattered in a spotlight | the numeral |
 | C9 | S9 | the tightrope act | an acrobat on pad 1–6, counted from the flag | the numeral |
 | C10 | S10 | the bubble act | two animals with 1–6 bubbles each, close counts | the one with more |
 | C11 | S11 | the ring toss | two animals with numeral signs | the one with the bigger number |

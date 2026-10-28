@@ -1,7 +1,7 @@
 # Research behind the letters lane
 
 Why the six plain sheets come in this order, what each plain sheet and its sea-post sheet
-practise, and which study each choice rests on. This lane rests on precursor evidence, not on a
+practise, and which study each choice rests on. A1 has no sea-post revisit; M2 to M6 review A2 to A6, and M7 is the first picture-to-word sheet. This lane rests on precursor evidence, not on a
 tested sequence; the numbers lane is the one with the research behind it. Full references with DOIs and a key
 sentence from each are at the end.
 
@@ -19,12 +19,11 @@ experiment, descriptive or single-case study, book or narrative review.
 | A4 Who starts with which letter? | picture to first letter | the reverse direction on its own sheet | children map number both ways (Mundy & Gilmore 2009 [E]); the letter reverse is untested |
 | A5 Which part does it start with? | word starts to words | cards only for starts that fit one course word | phonological awareness (NELP 2008 [M]) |
 | A6 Read the word | whole printed words, 3 to 6 letters (German 3 to 8) | short words pink, long words blue | code-focused teaching (NELP 2008 [M]) |
-| M1 Twin shells (sea post) | the same letter inside a picture | letters on pearls in shells, review after A1 | letter knowledge (NELP 2008 [M]); untested as a picture; the numbers research carries the decoration reasoning (Petersen & McNeil 2013 [E]; Fisher, Godwin & Seltman 2014 [E]) |
-| M2 Big and little fish (sea post) | upper to lowercase inside a picture | big fish carry the uppercase letter, review after A2 | letter knowledge (NELP 2008 [M]); untested as a picture |
-| M3 Bottle post (sea post) | first sound to picture inside a picture | letter and course word on a scroll in each bottle, review after A3 | phonological awareness (NELP 2008 [M]); untested as a picture |
-| M4 Bubbles (sea post) | picture to first letter inside a picture | one course picture per bubble, review after A4 | NELP 2008 [M]; the letter reverse is untested |
-| M5 Word-start bubbles (sea post) | word start to picture inside a picture | starts that fit one course word each, review after A5 | phonological awareness (NELP 2008 [M]); untested as a picture |
-| M6 Post boats (sea post) | printed word to picture inside a picture | the course word on each hull, review after A6 | code-focused teaching (NELP 2008 [M]); untested as a picture |
+| M2 Little and big fish (sea post) | lowercase to uppercase inside a picture | little fish carry the lowercase letter, review after A2, the other way round | letter knowledge (NELP 2008 [M]); untested as a picture; shape similarity drives lowercase naming (Vinter et al. 2023 [E]) |
+| M3 Bottle post (sea post) | first sound to picture inside a picture | letter and new word on a scroll in each bottle (CRAB, DUCK, FISH, GOAT, PEAR, SEAL; CLOCK, DONKEY, PIZZA, OCTOPUS, MONKEY, BANANA), review after A3 | phonological awareness (NELP 2008 [M]); untested as a picture |
+| M4 Bubbles (sea post) | picture to first letter inside a picture | one new picture per bubble, review after A4 | NELP 2008 [M]; the letter reverse is untested |
+| M5 Word-start bubbles (sea post) | word start to picture inside a picture | starts that fit one new word each (CR, DU, FI, GO, PE, SE; CL, DO, PI, OC, MO, BA), review after A5 | phonological awareness (NELP 2008 [M]); untested as a picture |
+| M6 Post boats (sea post) | printed word to picture inside a picture | the new word on each hull, 4 letters pink, 5 to 7 blue, review after A6 | code-focused teaching (NELP 2008 [M]); untested as a picture |
 | M7 Parcels (sea post) | picture to short word | every first letter comes at least twice in a family, so the first letter alone never decides; after A6 | code-focused teaching (NELP 2008 [M]); the shared-letter design is untested |
 
 ## Design rules

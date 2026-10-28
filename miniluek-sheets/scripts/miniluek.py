@@ -64,9 +64,15 @@ WORD_PIC = {"CAT": "cat", "DOG": "dog", "FOX": "fox", "OTTER": "otter", "PIG": "
             "GIFT": "gift",
             "PANDA": "panda", "MOUSE": "mouse", "DAISY": "daisy", "COOKIE": "cookie",
             "BUNNY": "bunny", "SUN": "sun",
+            "CRAB": "crab", "DUCK": "duck", "FISH": "fish", "GOAT": "goat", "PEAR": "pear",
+            "SEAL": "seal", "CLOCK": "clock", "DONKEY": "donkey", "PIZZA": "pizza",
+            "OCTOPUS": "octopus", "MONKEY": "monkey", "BANANA": "banana",
             "BÄR": "bear", "KATZE": "cat", "HUND": "dog", "FUCHS": "fox", "ENTE": "duck",
             "MAUS": "mouse", "GESCHENK": "gift", "SONNE": "sun", "TORTE": "cake",
-            "LUTSCHER": "lollipop", "WURM": "worm", "PILZ": "mushroom"}
+            "LUTSCHER": "lollipop", "WURM": "worm", "PILZ": "mushroom",
+            "KUH": "cow", "WAL": "spoutwhale", "HASE": "rabbit", "LÖWE": "lion", "BIENE": "bee",
+            "FISCH": "fish", "TASSE": "cup", "MUSCHEL": "shell", "GIRAFFE": "giraffe",
+            "SEEHUND": "seal", "ERDBEERE": "strawberry"}
 PIC_WORD = {v: k for k, v in WORD_PIC.items()}
 SPECIAL = {"dice", "numeral", "fingers", "jewelbox", "path", "princess", "compare",
            "letter", "lower", "card", "pict", "wcard", "syll", "pearl", "snowflake", "tower"}
@@ -506,6 +512,9 @@ def load_sheet(sheet):
             it["fam"] = cand
     answer = make_answer_fn(sheet)
     answers = {t: answer(it) for t, it in tasks.items()}
+    for a in answers.values():
+        if a.get("kind") == "fingers":
+            a.setdefault("fingers", sheet.get("fingers", "index"))
     keys = [item_key(a) for a in answers.values()]
     if len(set(keys)) != 12:
         raise SystemExit(f"{sheet.get('id')}: answers are not unique: {sorted(keys)}")
