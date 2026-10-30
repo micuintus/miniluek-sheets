@@ -539,84 +539,84 @@
    "tasks": [
     {
      "kind": "wcard",
-     "word": "CAT",
+     "word": "Cat",
      "n": 2,
      "fam": 0,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "DOG",
+     "word": "Dog",
      "n": 3,
      "fam": 0,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "FOX",
+     "word": "Fox",
      "n": 5,
      "fam": 0,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "PIG",
+     "word": "Pig",
      "n": 15,
      "fam": 0,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "GIFT",
+     "word": "Gift",
      "n": 6,
      "fam": 0,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "SUN",
+     "word": "Sun",
      "n": 18,
      "fam": 0,
      "seed": 6
     },
     {
      "kind": "wcard",
-     "word": "PANDA",
+     "word": "Panda",
      "n": 15,
      "fam": 1,
      "seed": 7
     },
     {
      "kind": "wcard",
-     "word": "MOUSE",
+     "word": "Mouse",
      "n": 12,
      "fam": 1,
      "seed": 8
     },
     {
      "kind": "wcard",
-     "word": "DAISY",
+     "word": "Daisy",
      "n": 3,
      "fam": 1,
      "seed": 9
     },
     {
      "kind": "wcard",
-     "word": "COOKIE",
+     "word": "Cookie",
      "n": 2,
      "fam": 1,
      "seed": 10
     },
     {
      "kind": "wcard",
-     "word": "BUNNY",
+     "word": "Bunny",
      "n": 1,
      "fam": 1,
      "seed": 11
     },
     {
      "kind": "wcard",
-     "word": "OTTER",
+     "word": "Otter",
      "n": 14,
      "fam": 1,
      "seed": 12
@@ -650,84 +650,84 @@
    "tasks": [
     {
      "kind": "wcard",
-     "word": "DUCK",
+     "word": "Duck",
      "n": 3,
      "fam": 0,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "SEAL",
+     "word": "Seal",
      "n": 18,
      "fam": 0,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "CRAB",
+     "word": "Crab",
      "n": 2,
      "fam": 0,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "GOAT",
+     "word": "Goat",
      "n": 6,
      "fam": 0,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "FISH",
+     "word": "Fish",
      "n": 5,
      "fam": 0,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "PEAR",
+     "word": "Pear",
      "n": 15,
      "fam": 0,
      "seed": 6
     },
     {
      "kind": "wcard",
-     "word": "MONKEY",
+     "word": "Monkey",
      "n": 12,
      "fam": 1,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "OCTOPUS",
+     "word": "Octopus",
      "n": 14,
      "fam": 1,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "BANANA",
+     "word": "Banana",
      "n": 1,
      "fam": 1,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "DONKEY",
+     "word": "Donkey",
      "n": 3,
      "fam": 1,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "PIZZA",
+     "word": "Pizza",
      "n": 15,
      "fam": 1,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "CLOCK",
+     "word": "Clock",
      "n": 2,
      "fam": 1,
      "seed": 6
@@ -761,84 +761,84 @@
    "tasks": [
     {
      "kind": "pict",
-     "word": "HAT",
+     "word": "Hat",
      "n": 7,
      "fam": 0,
      "pic": "hat"
     },
     {
      "kind": "pict",
-     "word": "CAT",
+     "word": "Cat",
      "n": 2,
      "fam": 0,
      "pic": "cat"
     },
     {
      "kind": "pict",
-     "word": "PEN",
+     "word": "Pen",
      "n": 15,
      "fam": 0,
      "pic": "pen"
     },
     {
      "kind": "pict",
-     "word": "HEN",
+     "word": "Hen",
      "n": 7,
      "fam": 0,
      "pic": "hen"
     },
     {
      "kind": "pict",
-     "word": "CAP",
+     "word": "Cap",
      "n": 2,
      "fam": 0,
      "pic": "cap"
     },
     {
      "kind": "pict",
-     "word": "PIG",
+     "word": "Pig",
      "n": 15,
      "fam": 0,
      "pic": "pig"
     },
     {
      "kind": "pict",
-     "word": "COW",
+     "word": "Cow",
      "n": 2,
      "fam": 1,
      "pic": "cow"
     },
     {
      "kind": "pict",
-     "word": "BUS",
+     "word": "Bus",
      "n": 1,
      "fam": 1,
      "pic": "bus"
     },
     {
      "kind": "pict",
-     "word": "CAR",
+     "word": "Car",
      "n": 2,
      "fam": 1,
      "pic": "car"
     },
     {
      "kind": "pict",
-     "word": "BOX",
+     "word": "Box",
      "n": 1,
      "fam": 1,
      "pic": "box"
     },
     {
      "kind": "pict",
-     "word": "CUP",
+     "word": "Cup",
      "n": 2,
      "fam": 1,
      "pic": "cup"
     },
     {
      "kind": "pict",
-     "word": "BAT",
+     "word": "Bat",
      "n": 1,
      "fam": 1,
      "pic": "bat"

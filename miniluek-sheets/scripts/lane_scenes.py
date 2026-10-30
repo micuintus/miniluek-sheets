@@ -425,46 +425,6 @@ def mermaid(c, x, y, h=2.9, pose="wave"):
     glitter(c, curve((x - 0.9, y + 1.0), (x, y - 0.8), (x + 1.0, y + 0.9)), 45, 5, spread=0.14, glints=5)
 
 
-def letter_shell(c, cx, cy, ch, fam, s=1.0):
-    """An open scallop: a ribbed fan behind, a pearl in the dish with one letter on it."""
-    body, edge = mix(FAM[fam], (255, 255, 255), 0.45), mix(FAM[fam], (60, 30, 70), 0.25)
-    c.shadow(cx, cy + 0.72 * s, 1.15 * s, 0.14 * s, strength=0.2)
-    fan = []
-    for i in range(61):
-        t = i / 60
-        a = math.radians(-170 + 160 * t)
-        bump = 0.06 * s * abs(math.sin(math.pi * 8 * t))
-        fan.append((cx + (1.15 * s + bump) * math.cos(a), cy + 0.35 * s + (1.1 * s + bump) * math.sin(a)))
-    c.poly(fan + [(cx, cy + 0.45 * s)], fill=body, outline=edge, width=0.04 * s)
-    for k in range(1, 8):
-        a = math.radians(-170 + 160 * k / 8)
-        c.line([(cx + 0.3 * s * math.cos(a), cy + 0.35 * s + 0.3 * s * math.sin(a)),
-                (cx + 1.1 * s * math.cos(a), cy + 0.35 * s + 1.05 * s * math.sin(a))], fill=mix(body, edge, 0.35), width=0.025 * s)
-    c.ellipse(cx, cy + 0.45 * s, 1.2 * s, 0.38 * s, fill=FAM[fam], outline=edge, width=0.04 * s)
-    c.circle(cx, cy + 0.02 * s, 0.56 * s, fill=(250, 248, 255), outline=(190, 180, 214), width=0.025 * s)
-    c.ellipse(cx - 0.22 * s, cy - 0.22 * s, 0.14 * s, 0.1 * s, fill=(255, 255, 255))
-    c.text(cx, cy + 0.04 * s, ch, 0.78 * s, INK[fam])
-
-
-def twin_shells(c, stations):
-    """The storm mixed up the mermaid's letter shells; every shell has a twin below."""
-    seafloor(c)
-    mermaid(c, W / 2, 4.3)
-    c.paste(emoji("tropicalfish"), 9.6, 1.0, h=0.55, flip=True)
-    c.paste(emoji("crab"), W / 2 + 1.9, 7.0, h=0.55)
-    S.trail(c, stations, "bubbles")
-    for st in stations:
-        letter_shell(c, st["x"], st["y"], chr(65 + st["item"]["n"]), st["fam"], s=1.1)
-        badge(c, st["x"] - 1.32, st["y"] - 0.85, st["t"], st["fam"])
-
-
-SHELL_SPOTS = zigzag((2.1, 2.45, 2.15), (5.6, 5.9, 5.55), (1.75, 5.55, 9.35), (3.65, 7.45, 11.15))
-
-
-def check_letters(tasks):
-    need(tasks, ("letter",), 0, 25, "letter shell")
-
-
 def check_lowers(tasks):
     need(tasks, ("lower",), 0, 25, "little fish")
 
@@ -1642,8 +1602,6 @@ register("spotlights", spotlights, SPOT_SPOTS, check=check_spots, example=(1.4, 
                                    w=2.6, h=2.6))
 register("ring_toss", ring_toss, TOSS_SPOTS, check=check_toss, example=(1.7, 1.6),
          station=lambda it: sprite(lambda c, x, y: score_duel(c, x, y + 0.75, it, it.get("fam") or 0), w=3.0, h=3.0))
-register("twin_shells", twin_shells, SHELL_SPOTS, check=check_letters, example=(1.5, 1.4),
-         station=lambda it: sprite(lambda c, x, y: letter_shell(c, x, y + 0.15, chr(65 + it["n"]), it.get("fam") or 0), w=2.6, h=2.4))
 register("fish_school", fish_school, FISH_SPOTS, check=check_lowers, example=(1.7, 1.3),
          station=lambda it: sprite(lambda c, x, y: little_fish(c, x + 0.15, y + 0.1, chr(97 + it["n"]), it.get("fam") or 0), w=2.8, h=1.9))
 register("sea_finds", sea_finds, FIND_SPOTS, check=check_finds, example=(1.3, 1.3),

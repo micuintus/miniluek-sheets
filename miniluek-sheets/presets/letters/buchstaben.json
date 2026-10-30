@@ -599,84 +599,84 @@
    "tasks": [
     {
      "kind": "wcard",
-     "word": "BÄR",
+     "word": "Bär",
      "n": 1,
      "fam": 0,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "HUND",
+     "word": "Hund",
      "n": 7,
      "fam": 0,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "ENTE",
+     "word": "Ente",
      "n": 4,
      "fam": 0,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "MAUS",
+     "word": "Maus",
      "n": 12,
      "fam": 0,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "WURM",
+     "word": "Wurm",
      "n": 22,
      "fam": 0,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "PILZ",
+     "word": "Pilz",
      "n": 15,
      "fam": 0,
      "seed": 6
     },
     {
      "kind": "wcard",
-     "word": "KATZE",
+     "word": "Katze",
      "n": 10,
      "fam": 1,
      "seed": 7
     },
     {
      "kind": "wcard",
-     "word": "FUCHS",
+     "word": "Fuchs",
      "n": 5,
      "fam": 1,
      "seed": 8
     },
     {
      "kind": "wcard",
-     "word": "GESCHENK",
+     "word": "Geschenk",
      "n": 6,
      "fam": 1,
      "seed": 9
     },
     {
      "kind": "wcard",
-     "word": "SONNE",
+     "word": "Sonne",
      "n": 18,
      "fam": 1,
      "seed": 10
     },
     {
      "kind": "wcard",
-     "word": "TORTE",
+     "word": "Torte",
      "n": 19,
      "fam": 1,
      "seed": 11
     },
     {
      "kind": "wcard",
-     "word": "LUTSCHER",
+     "word": "Lutscher",
      "n": 11,
      "fam": 1,
      "seed": 12
@@ -710,84 +710,84 @@
    "tasks": [
     {
      "kind": "wcard",
-     "word": "LÖWE",
+     "word": "Löwe",
      "n": 11,
      "fam": 0,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "BIENE",
+     "word": "Biene",
      "n": 1,
      "fam": 0,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "WAL",
+     "word": "Wal",
      "n": 22,
      "fam": 0,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "HASE",
+     "word": "Hase",
      "n": 7,
      "fam": 0,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "KUH",
+     "word": "Kuh",
      "n": 10,
      "fam": 0,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "FISCH",
+     "word": "Fisch",
      "n": 5,
      "fam": 0,
      "seed": 6
     },
     {
      "kind": "wcard",
-     "word": "SEEHUND",
+     "word": "Seehund",
      "n": 18,
      "fam": 1,
      "seed": 1
     },
     {
      "kind": "wcard",
-     "word": "TASSE",
+     "word": "Tasse",
      "n": 19,
      "fam": 1,
      "seed": 2
     },
     {
      "kind": "wcard",
-     "word": "MUSCHEL",
+     "word": "Muschel",
      "n": 12,
      "fam": 1,
      "seed": 3
     },
     {
      "kind": "wcard",
-     "word": "GIRAFFE",
+     "word": "Giraffe",
      "n": 6,
      "fam": 1,
      "seed": 4
     },
     {
      "kind": "wcard",
-     "word": "PANDA",
+     "word": "Panda",
      "n": 15,
      "fam": 1,
      "seed": 5
     },
     {
      "kind": "wcard",
-     "word": "ERDBEERE",
+     "word": "Erdbeere",
      "n": 4,
      "fam": 1,
      "seed": 6
@@ -821,84 +821,84 @@
    "tasks": [
     {
      "kind": "pict",
-     "word": "HUT",
+     "word": "Hut",
      "n": 7,
      "fam": 0,
      "pic": "hat"
     },
     {
      "kind": "pict",
-     "word": "BÄR",
+     "word": "Bär",
      "n": 1,
      "fam": 0,
      "pic": "bear"
     },
     {
      "kind": "pict",
-     "word": "OPA",
+     "word": "Opa",
      "n": 14,
      "fam": 0,
      "pic": "grandpa"
     },
     {
      "kind": "pict",
-     "word": "HAHN",
+     "word": "Hahn",
      "n": 7,
      "fam": 0,
      "pic": "rooster"
     },
     {
      "kind": "pict",
-     "word": "BUS",
+     "word": "Bus",
      "n": 1,
      "fam": 0,
      "pic": "bus"
     },
     {
      "kind": "pict",
-     "word": "OMA",
+     "word": "Oma",
      "n": 14,
      "fam": 0,
      "pic": "grandma"
     },
     {
      "kind": "pict",
-     "word": "MAUS",
+     "word": "Maus",
      "n": 12,
      "fam": 1,
      "pic": "mouse"
     },
     {
      "kind": "pict",
-     "word": "TOR",
+     "word": "Tor",
      "n": 19,
      "fam": 1,
      "pic": "goal"
     },
     {
      "kind": "pict",
-     "word": "WOLF",
+     "word": "Wolf",
      "n": 22,
      "fam": 1,
      "pic": "wolf"
     },
     {
      "kind": "pict",
-     "word": "MOND",
+     "word": "Mond",
      "n": 12,
      "fam": 1,
      "pic": "moon"
     },
     {
      "kind": "pict",
-     "word": "TEE",
+     "word": "Tee",
      "n": 19,
      "fam": 1,
      "pic": "tea"
     },
     {
      "kind": "pict",
-     "word": "WURM",
+     "word": "Wurm",
      "n": 22,
      "fam": 1,
      "pic": "worm"

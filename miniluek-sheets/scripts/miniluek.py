@@ -369,9 +369,9 @@ def numbered(it):
 
 def bind_word(it, sheet_id):
     if it.get("kind") in ("card", "wcard", "syll") and "word" in it and "pic" not in it:
-        if it["word"] not in WORD_PIC:
+        if it["word"].upper() not in WORD_PIC:
             raise SystemExit(f"{sheet_id}: no picture for '{it['word']}', words come from the course list")
-        it["pic"] = WORD_PIC[it["word"]]
+        it["pic"] = WORD_PIC[it["word"].upper()]
 
 
 def parse_item(x, default):
@@ -479,9 +479,9 @@ def make_answer_fn(sheet):
                 if keep in it:
                     out[keep] = it[keep]
             if pairs[f][1] == "pict" and "pic" not in out:
-                if "word" not in it or it["word"] not in WORD_PIC:
+                if "word" not in it or it["word"].upper() not in WORD_PIC:
                     raise SystemExit(f"{sheet.get('id')}: no picture for '{it.get('word')}', words come from the course list")
-                out["pic"] = WORD_PIC[it["word"]]
+                out["pic"] = WORD_PIC[it["word"].upper()]
             if pairs[f][1] == "wcard" and "word" not in out:
                 if "pic" not in it or it["pic"] not in PIC_WORD:
                     raise SystemExit(f"{sheet.get('id')}: no printed word for '{it.get('pic')}', words come from the course list")
