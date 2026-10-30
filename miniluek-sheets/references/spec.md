@@ -37,7 +37,7 @@
 | `task_style`, `answer_style` | `row`, `col`, `up`, `down`, `dice`, `scatter` (pictures only) |
 | `size` | picture size in cm |
 | `answer_size` | size of the single characters on comparing sheets (default 1.9) |
-| `pattern` | index into the 48-pattern library (default: sheet index); index 33 is unused since M1 was dropped |
+| `pattern` | index into the 47-pattern library (default: sheet index); index 33 was retired with M1 and no sheet uses it |
 | `mascot` | decorative princess next to the title: `true` (default, varies with the page position), `false`, or a number that picks one princess, so a sheet keeps her when sheets are inserted before it |
 | `picture` | one full illustration with 12 numbered badges set into a story; the scene names and what each draws are listed under [picture scenes](#picture-scenes). `spots` moves the 12 stations (cm in the 28.3 × 7.6 cm panel, origin top left, y down). Answer grid, pattern and geometry are untouched. Review after the plain sheet of the same skill; a picture sheet without one comes after the same idea with objects |
 | `tasks` | exactly 12 entries `"kind:n"` (`"kind:n@1"` for the second pair when both pairs start with the same kind) or objects `{"kind": …, "n": …, "fam": …, "style": …, "size": …, "seed": …}` |
