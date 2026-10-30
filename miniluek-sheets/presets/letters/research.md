@@ -85,6 +85,8 @@ full entries in the [numbers sources](../numbers/research.md#sources).
   "children can map in both directions between symbolic and nonsymbolic numerical representations"; cited for the
   shared two-direction design, untested for letters.
 
+- [E] **Vinter, Bard, Lukowski Duplessy & Poulin-Charronnat 2023.** Learning to name uppercase and lowercase letters in preschoolers and kindergarteners. *Early Educ Dev* 35(7):1570-1590 (online 2023).
+  [doi:10.1080/10409289.2023.2252706](https://doi.org/10.1080/10409289.2023.2252706). French-speaking 3- to 6-year-olds, two studies; naming lowercase letters "relied heavily on the similarity in shape of these letters to their uppercase counterparts"; the authors suggest pairing cases and grouping letters by shape stability.
 - [M] **Akther, Powell & Lariviere 2025.** Counting-focused intervention effects for students with mathematics difficulty.
   *Learn Disabil Res Pract* 40(3):162–180. [doi:10.1177/09388982251321538](https://doi.org/10.1177/09388982251321538).
   Modelling, guided practice and feedback were common in them; the letter sheets borrow the rule.

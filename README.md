@@ -74,7 +74,7 @@ Or ask your agent: "make miniLÜK sheets: dice and numbers 1–6, with unicorns"
 Copy a preset, edit titles and tasks, then `python3 scripts/miniluek.py check your-set.json`.
 Matching (one or two colour families), "one more", same-thing and comparing sheets (dots or
 numerals) are supported; pictures include drawn
-princesses, finger patterns, dice, numerals, a ten-frame, a number path and 99 emoji.
+princesses, finger patterns, dice, numerals, a ten-frame, a number path and 109 emoji.
 Format and picture scenes: [spec](miniluek-sheets/references/spec.md).
 
 ## How it works
