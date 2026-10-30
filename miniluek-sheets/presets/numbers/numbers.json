@@ -131,12 +131,12 @@
    "answer_style": "col",
    "size": 0.88,
    "tasks": [
-    "seal:3",
     "seal:5",
-    "seal:1",
-    "seal:6",
     "seal:2",
     "seal:4",
+    "seal:1",
+    "seal:6",
+    "seal:3",
     "puppy:4",
     "puppy:2",
     "puppy:6",
@@ -292,12 +292,12 @@
     ]
    },
    "tasks": [
-    "dice:3@0",
-    "dice:1@0",
-    "dice:5@0",
     "dice:2@0",
     "dice:6@0",
     "dice:4@0",
+    "dice:1@0",
+    "dice:5@0",
+    "dice:3@0",
     "dice:4@1",
     "dice:6@1",
     "dice:2@1",
@@ -745,18 +745,18 @@
     ]
    },
    "tasks": [
-    "rope:4@0",
+    "rope:2@0",
+    "rope:5@0",
     "rope:1@0",
     "rope:6@0",
     "rope:3@0",
-    "rope:5@0",
-    "rope:2@0",
-    "rope:3@1",
+    "rope:4@0",
     "rope:6@1",
     "rope:2@1",
-    "rope:5@1",
+    "rope:4@1",
     "rope:1@1",
-    "rope:4@1"
+    "rope:5@1",
+    "rope:3@1"
    ]
   },
   {
@@ -1104,18 +1104,18 @@
     ]
    },
    "tasks": [
-    "chest:6@0",
-    "chest:3@0",
-    "chest:8@0",
-    "chest:5@0",
-    "chest:7@0",
     "chest:4@0",
-    "chest:4@1",
+    "chest:7@0",
+    "chest:5@0",
+    "chest:8@0",
+    "chest:3@0",
+    "chest:6@0",
     "chest:7@1",
+    "chest:4@1",
+    "chest:6@1",
     "chest:3@1",
     "chest:8@1",
-    "chest:5@1",
-    "chest:6@1"
+    "chest:5@1"
    ]
   },
   {
@@ -1164,18 +1164,18 @@
     "type": "plus_one"
    },
    "tasks": [
-    "balls:3@0",
-    "balls:1@0",
-    "balls:5@0",
+    "balls:4@0",
     "balls:2@0",
     "balls:6@0",
-    "balls:4@0",
-    "balls:2@1",
+    "balls:1@0",
+    "balls:5@0",
+    "balls:3@0",
     "balls:5@1",
     "balls:1@1",
     "balls:4@1",
     "balls:3@1",
-    "balls:6@1"
+    "balls:6@1",
+    "balls:2@1"
    ]
   },
   {
@@ -1188,7 +1188,7 @@
     "The party! The unicorn nibbled one cookie",
     "from every plate. How many are left?"
    ],
-   "goal": "Circus 14/14 · after S13: take-away, count what is left, 1–6",
+   "goal": "Circus 14/14 · after S13 and C13: take-away, count what is left, 1–6",
    "rule": {
     "type": "pair",
     "pairs": [

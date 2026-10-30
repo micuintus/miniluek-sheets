@@ -153,7 +153,7 @@
     "Bottle post for the mermaid!",
     "Which picture starts with the letter?"
    ],
-   "goal": "Sea 2/6 · after A3: letter to first sound; name each picture first",
+   "goal": "Sea 2/6 · after A3: first sound to picture; name each picture first",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -425,7 +425,7 @@
     "The little fish blow word beginnings.",
     "Which picture starts like that?"
    ],
-   "goal": "Sea 4/6 · the start of a word to its picture",
+   "goal": "Sea 4/6 · after A5: the start of a word to its picture",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -744,7 +744,7 @@
     "The parcels need name labels.",
     "Find the word for each picture."
    ],
-   "goal": "Sea 6/6 · after A6: picture to word; every first letter comes at least twice",
+   "goal": "Sea 6/6 · after A6 and M6: picture to word; every first letter comes at least twice",
    "rule": {
     "type": "pair",
     "pairs": [

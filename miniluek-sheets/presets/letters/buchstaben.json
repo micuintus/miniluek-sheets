@@ -485,7 +485,7 @@
     "Die kleinen Fische blasen Wortanfänge.",
     "Welches Bild fängt so an?"
    ],
-   "goal": "Meer 4/6 · Wortanfang zum Bild",
+   "goal": "Meer 4/6 · nach A5: Wortanfang zum Bild",
    "rule": {
     "type": "pair",
     "pairs": [
@@ -804,7 +804,7 @@
     "Die Pakete brauchen Namensschilder.",
     "Finde das Wort zu jedem Bild."
    ],
-   "goal": "Meer 6/6 · nach A6: Bild zum Wort; jeder Anlaut kommt mindestens zweimal vor",
+   "goal": "Meer 6/6 · nach A6 und M6: Bild zum Wort; jeder Anlaut kommt mindestens zweimal vor",
    "rule": {
     "type": "pair",
     "pairs": [
