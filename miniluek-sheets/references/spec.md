@@ -52,7 +52,7 @@ and `bone` are plain pictures; the `castle` scene lays them on rugs.
 
 Letter kinds: `letter` (`n` 0–25, A to Z), `lower` (its lowercase, as an answer), `card` (a
 letter card, `card:C`, or bound to a course word, `card:CAT`, which captions the word), `pict`
-(one picture, `pict:cat`, whose first letter is `n`), `wcard` (a printed word) and `syll` (the
+(one picture, `pict:cat`, whose first letter is `n`), `wcard` (a printed word, shown as in books: `Cat`) and `syll` (the
 start of a course word, `syll:CA`). `card:WORD`, `syll:XX` and word-to-picture pairs resolve
 through the 47-word list (`WORD_PIC` in `scripts/miniluek.py`): 12 course words and 12 sea-post words per language, German PANDA sharing the English entry; a task written as an
 object can bind any picture to its `word`.
@@ -84,7 +84,6 @@ draws its twelve stations from the tasks; `check` refuses a task the scene canno
 | `magic_show` | C12 | `chest` | `n` 3–8 in a ten-frame |
 | `seal_show` | C13 | `balls` | `n` 1–6; the answer kind `balls` stacks them on one floor line |
 | `party` | C14 | `plate` | `n` 1–6 left after one is eaten |
-| `twin_shells` | | `letter` | `n` 0–25 |
 | `fish_school` | M2 | `lower` | `n` 0–25; answers are the capitals |
 | `bottle_post` | M3 | `card` | a sea-post word |
 | `sea_finds` | M4 | `pict` | a new picture and its first letter `n` |

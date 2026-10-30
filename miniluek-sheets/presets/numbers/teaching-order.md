@@ -124,13 +124,13 @@ day should be spent at the edge of what the child can almost do.
   Act, Reflect method of MILE, a 1:1 math tutoring programme tested in randomised trials
   (Kable, Coles & Taddeo 2007; Coles, Kable & Taddeo 2009).
 - One sheet per session, 5–10 minutes, stop before frustration; move on after two days with
-  the pattern right first time, repeat a mastered sheet a week later. A sheet stopped early is
+  the pattern right first time, repeat a mastered sheet a week later, and check it once more with the plain sheet four weeks after mastery. A sheet stopped early is
   finished at the start of the next session, or the adult checks only the tiles placed: the
   pattern check needs all twelve tiles to mean anything. The tiles are a fine-motor task: the
   adult may place the one the child points to.
-- The week-later revisit of a mastered sheet is its circus sheet, never the daily sheet. At two
-  days right first time plus one revisit per sheet the lane runs to at least 42 sheet-days: 39
-  for the plain sheets and their circus sheets, 3 for the take-away party. A circus sheet can be split: the pink six one day, the blue six the next,
+- The week-later revisit of a mastered sheet is its circus sheet, never the daily sheet. The four-weeks-after-mastery check re-uses the plain sheet, three weeks after its circus sheet. At two
+  days right first time plus two revisits per sheet the lane runs to at least 55 sheet-days: 52
+  for the plain sheets and their two revisits, 3 for the take-away party. A circus sheet can be split: the pink six one day, the blue six the next,
   the adult checking only the placed tiles. A child who cannot yet work the plain sheet goes back
   to it, not forward to the picture.
 - Tell each sheet as a story, best with a doll or puppet who needs help: "the princess sells the

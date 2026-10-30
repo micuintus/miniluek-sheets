@@ -18,12 +18,12 @@ experiment, descriptive or single-case study, book or narrative review.
 | A3 Who starts with it? | first sound to picture | word-bound letter cards with the word captioned; name each picture first | phonological awareness predicts later reading (NELP 2008 [M]); code-focused teaching includes phonological teaching (NELP 2008 [M]) |
 | A4 Who starts with which letter? | picture to first letter | the reverse direction on its own sheet | children map number both ways (Mundy & Gilmore 2009 [E]); the letter reverse is untested |
 | A5 Which part does it start with? | word starts to words | cards only for starts that fit one course word | phonological awareness (NELP 2008 [M]) |
-| A6 Read the word | whole printed words, 3 to 6 letters (German 3 to 8) | short words pink, long words blue | code-focused teaching (NELP 2008 [M]) |
+| A6 Read the word | whole printed words, 3 to 6 letters (German 3 to 8), printed as in books | short words pink, long words blue | code-focused teaching (NELP 2008 [M]) |
 | M2 Little and big fish (sea post) | lowercase to uppercase inside a picture | little fish carry the lowercase letter, review after A2, the other way round | letter knowledge (NELP 2008 [M]); untested as a picture; shape similarity drives lowercase naming (Vinter et al. 2023 [E]) |
-| M3 Bottle post (sea post) | first sound to picture inside a picture | letter and new word on a scroll in each bottle (CRAB, DUCK, FISH, GOAT, PEAR, SEAL; CLOCK, DONKEY, PIZZA, OCTOPUS, MONKEY, BANANA), review after A3 | phonological awareness (NELP 2008 [M]); untested as a picture |
+| M3 Bottle post (sea post) | first sound to picture inside a picture | letter and new word on a scroll in each bottle (English CRAB, DUCK, FISH, GOAT, PEAR, SEAL; CLOCK, DONKEY, PIZZA, OCTOPUS, MONKEY, BANANA. German FISCH, BIENE, KUH, WAL, HASE, LÖWE; MUSCHEL, SEEHUND, TASSE, ERDBEERE, PANDA, GIRAFFE), review after A3 | phonological awareness (NELP 2008 [M]); untested as a picture |
 | M4 Bubbles (sea post) | picture to first letter inside a picture | one new picture per bubble, review after A4 | NELP 2008 [M]; the letter reverse is untested |
-| M5 Word-start bubbles (sea post) | word start to picture inside a picture | starts that fit one new word each (CR, DU, FI, GO, PE, SE; CL, DO, PI, OC, MO, BA), review after A5 | phonological awareness (NELP 2008 [M]); untested as a picture |
-| M6 Post boats (sea post) | printed word to picture inside a picture | the new word on each hull, 4 letters pink, 5 to 7 blue, review after A6 | code-focused teaching (NELP 2008 [M]); untested as a picture |
+| M5 Word-start bubbles (sea post) | word start to picture inside a picture | starts that fit one new word each (English CR, DU, FI, GO, PE, SE; CL, DO, PI, OC, MO, BA. German HA, LÖ, BI, KU, WA, FI; TA, GI, ER, MU, SE, PA), review after A5 | phonological awareness (NELP 2008 [M]); untested as a picture |
+| M6 Post boats (sea post) | printed word to picture inside a picture | the new word on each hull (English: 4 letters pink, 5 to 7 blue; German: 3 to 5 pink, 5 to 8 blue), printed as in books, review after A6 | code-focused teaching (NELP 2008 [M]); untested as a picture |
 | M7 Parcels (sea post) | picture to short word | every first letter comes at least twice in a family, so the first letter alone never decides; after A6 | code-focused teaching (NELP 2008 [M]); the shared-letter design is untested |
 
 ## Design rules
@@ -32,10 +32,9 @@ experiment, descriptive or single-case study, book or narrative review.
 |---|---|---|
 | One direction per sheet; no answer repeats a task picture | an identical copy would be the easiest wrong match | the numbers lane's rule from Mix 2008 [E]: an identical copy pulls children away from content |
 | Two colour families on the two-pair sheets | the only other answer with the right content has the other colour | same matching logic as the numbers sheets; untested for letters |
-| Sea-post sheet as the review day | a full story illustration with the tasks set into it | motivation through a story world; untested, takes a revisit day, never the daily sheet; M7 is the exception, the first picture-to-word sheet |
+| Sea-post sheet as the review day | a full story illustration with the tasks set into it; each revisit changes exactly one dimension: direction on M2 (little to big after big to little), words on M3 to M6 (new sea-post words with the same letters) | motivation through a story world; untested, takes a revisit day, never the daily sheet; M7 is the exception, the first picture-to-word sheet |
 | Worked examples per family | modelling before practice | Akther et al. 2025 [M]: modelling was common in effective counting interventions; untested for letters |
 | Pattern check | feedback | feedback was common in effective counting interventions (Akther et al. 2025 [M]); untested for letters |
-| Theme, and the child chooses which sheet comes back | motivation and learning | Córdova & Lepper 1996 [R] |
 
 ## Using the sheets
 

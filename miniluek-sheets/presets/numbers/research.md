@@ -98,7 +98,9 @@ the tables below.
 Fourteen circus sheets set the 12 badges into one illustration of a day at the unicorn
 circus, morning to night. C1 to C13 follow S1 to S13 and practise the same step, so the plain
 page teaches and the circus page reviews; C14, the take-away party, has no plain sheet and comes
-after the same idea with objects. The day's arc is untested. No study tested a story picture as
+after the same idea with objects. The day's arc is untested. Each revisit changes exactly one
+dimension: objects on every circus sheet except C4 (new tokens, animals or scenes), direction on
+C4 (dice to fingers after fingers to dice). No study tested a story picture as
 the review step, but each rule targets a pathway that has evidence:
 
 | Pathway | Evidence | What the sheets do |
@@ -136,7 +138,7 @@ without adding anything to the page. Letting the child teach her doll is the ext
 - **One sheet a day.** Move on after two days with the pattern right first time, repeat a
   mastered sheet a week later. Distributed teaching beat clustered teaching (Seabrook et al.
   2005); each extra hour of intervention added little once other factors were controlled
-  (Miller et al. 2025).
+  (Miller et al. 2025). A second plain-sheet check four weeks after mastery extends the schedule: for year-scale retention the optimal single-review gap was about three to four weeks (Cepeda et al. 2008 [E]), and distributed procedural-math practice paid off at a four-week test while same-session extras did nothing (Rohrer and Taylor 2006 [E]).
 - The sheets are practice with feedback, not instruction.
 
 ## Number learning after prenatal alcohol exposure
@@ -378,6 +380,8 @@ decoration out of the stations. The trial gains came from trained
   performance on measures of intelligence or other measures of "far transfer".
   *Perspect Psychol Sci* 11(4):512–534.
   [doi:10.1177/1745691616635612](https://doi.org/10.1177/1745691616635612).
+- [E] **Cepeda, Vul, Rohrer, Wixted and Pashler 2008.** Spacing effects in learning: a temporal ridgeline of optimal retention. *Psychol Sci* 19(11):1095-1102. [doi:10.1111/j.1467-9280.2008.02209.x](https://doi.org/10.1111/j.1467-9280.2008.02209.x). 1,354 adults learned 32 facts; interpolated optimal review gaps were about 3, 8, 12 and 27 days for 7-, 35-, 70- and 350-day retention intervals.
+- [E] **Rohrer and Taylor 2006.** The effects of overlearning and distributed practise on the retention of mathematics knowledge. *Appl Cogn Psychol* 20:1209-1224. [doi:10.1002/acp.1266](https://doi.org/10.1002/acp.1266). 216 college students; 10 problems across two sessions a week apart vs massed: no difference at one week, about double at four weeks; 3 vs 9 problems: no difference at either delay.
 - [G] **MILE cycle.** [mileprogram.ca](https://www.mileprogram.ca): "Identify the errors your
   students are making. Focus on one at a time before moving onto the next". MILE content per
   the [NCII tools chart](https://charts.intensiveintervention.org/intervention/toolGRP/94dcd2b9344433b7):

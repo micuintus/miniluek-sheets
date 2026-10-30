@@ -62,7 +62,7 @@ one sheet a day, reading work sits inside it, never on top of it.
 ## Sea-post sheets
 
 M2 to M6 each take the day's slot a week after the plain sheet with their number is mastered, as
-review, never as the daily sheet (A3 is reviewed by M3). M7 runs the reverse direction of A6,
+review, never as the daily sheet (A3 is reviewed by M3). A second plain-sheet check follows four weeks after mastery, as in the numbers lane. A1 has no sea-post revisit, so the four-week check is its only revisit. M7 runs the reverse direction of A6,
 picture to word, with mostly new words: it is a daily sheet once A6 is mastered and M6 done.
 
 | Sheet | After | Scene | Task | Answer |
@@ -92,7 +92,7 @@ The same rules as the numbers lane: one direction per sheet, two colour families
 sheets, no answer copies another task (`check` refuses it), different-looking task and answer sides,
 worked examples per family, feedback by pattern check. English letter names say the letter's
 sound, not "see-ay-tee": the adult says the sounds ("kuh-ah-tuh") and slides them together.
-German keeps its umlauts everywhere: letter cards, word-start cards, word pills and titles. On the
+German keeps its umlauts everywhere: letter cards, word-start cards, word pills and titles. Whole words on A6, M6 and M7 print as in books (Hund, Cat); single letters and fragments stay capitals. On the
 initial-sound cards and on M3's bottles the picture word is captioned under the letter.
 
 The twelve course words start with their letter's sound: CAT, DOG, FOX, OTTER, PIG, GIFT,
@@ -101,7 +101,7 @@ GESCHENK, SONNE, TORTE, LUTSCHER, WURM, PILZ). The twelve sea-post words start w
 letters' sounds and appear nowhere else: CRAB, DUCK, FISH, GOAT, PEAR, SEAL, CLOCK, DONKEY,
 PIZZA, OCTOPUS, MONKEY, BANANA (German: FISCH, BIENE, KUH, WAL, HASE, LÖWE, MUSCHEL, SEEHUND,
 TASSE, ERDBEERE, PANDA, GIRAFFE). Each picture has one name a child would give it, and no
-second name starts with another letter of the set (the puppy would be "dog", the carrot
+second name taught first starts with another letter of the set (rabbit is taught as Hase, not Kaninchen; cup as Tasse, not Kaffee; the puppy would be "dog", the carrot
 "Karotte"). Name each new picture together first, as on M7. German A4 tasks carry the German index
 explicitly, because a picture file name would give the English letter (cat would ask for C
 instead of K).
