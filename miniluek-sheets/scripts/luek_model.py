@@ -123,7 +123,7 @@ def pattern_library():
     ]
     for P in lib:
         check_pattern(P)
-    return [P for i, P in enumerate(lib) if i != 33]  # pattern 33 retired with M1
+    return lib
 
 
 def validate():
