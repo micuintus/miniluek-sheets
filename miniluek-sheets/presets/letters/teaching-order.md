@@ -92,7 +92,7 @@ The same rules as the numbers lane: one direction per sheet, two colour families
 sheets, no answer copies another task (`check` refuses it), different-looking task and answer sides,
 worked examples per family, feedback by pattern check. English letter names say the letter's
 sound, not "see-ay-tee": the adult says the sounds ("kuh-ah-tuh") and slides them together.
-German keeps its umlauts everywhere: letter cards, word-start cards, word pills and titles. Whole words on A6, M6 and M7 print as in books (Hund, Cat); single letters and fragments stay capitals. On the
+German keeps its umlauts everywhere: letter cards, word-start cards, word pills and titles. Whole words on A6, M6 and M7 print as books print them: German nouns capitalised (Hund), English lowercase (cat); single letters and fragments stay capitals. On the
 initial-sound cards and on M3's bottles the picture word is captioned under the letter.
 
 The twelve course words start with their letter's sound: CAT, DOG, FOX, OTTER, PIG, GIFT,

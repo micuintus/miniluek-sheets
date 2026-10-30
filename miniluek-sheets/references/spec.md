@@ -52,7 +52,7 @@ and `bone` are plain pictures; the `castle` scene lays them on rugs.
 
 Letter kinds: `letter` (`n` 0–25, A to Z), `lower` (its lowercase, as an answer), `card` (a
 letter card, `card:C`, or bound to a course word, `card:CAT`, which captions the word), `pict`
-(one picture, `pict:cat`, whose first letter is `n`), `wcard` (a printed word, shown as in books: `Cat`) and `syll` (the
+(one picture, `pict:cat`, whose first letter is `n`), `wcard` (a printed word as books print it: German nouns capitalised, `Hund`; English lowercase, `cat`) and `syll` (the
 start of a course word, `syll:CA`). `card:WORD`, `syll:XX` and word-to-picture pairs resolve
 through the 47-word list (`WORD_PIC` in `scripts/miniluek.py`): 12 course words and 12 sea-post words per language, German PANDA sharing the English entry; a task written as an
 object can bind any picture to its `word`.
