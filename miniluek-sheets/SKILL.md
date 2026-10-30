@@ -79,12 +79,12 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
   older scenes for your own sets (`meadow`, `train`, `lagoon`, `ice_gate`, `castle`, `towers`,
   `blocks`, `balloons`, `garden`, `village`) are listed in `references/spec.md`; `"spots"` moves
   the stations (cm in the panel). Each comes after the plain sheet of the same skill as review;
-  a picture sheet without one (C14, P1 to P4) comes after the same idea with objects. The title
+  a picture sheet without one (C14, M7, P1 to P4) comes after the same idea with objects. If the worked example fails after that preparation, do a plain-grid version first (for example a plate with four cookies and one crumb spot, or a plain hat picture with its word). The title
   tells the story beat in one or two lines; the goal names the sheet it follows, if any. Counted
   sets, letters and pictures are plain and uniform in their own containers, decoration stays out
   of the way, and grid sheets stay plain.
 
-Each sheet gets a control pattern from a library of 47 symmetric patterns (`"pattern": k` picks
+Each sheet gets a control pattern from a library of 48 symmetric patterns (index 33 is unused since M1 was dropped) (`"pattern": k` picks
 one; `check` notes a pattern repeated within a set, and no lane repeats one). The tile-back model is in `references/format.md`.
 
 ## Order and use

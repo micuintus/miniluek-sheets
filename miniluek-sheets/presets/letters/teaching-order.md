@@ -2,7 +2,7 @@
 
 The letters lane teaches letters, first sounds, word beginnings and short printed words: six
 plain sheets that teach, five sea-post sheets that review A2 to A6, and M7, the first picture-to-word
-sheet. A1 has no revisit; children who know most letters start at A2. The evidence base is narrower than the
+sheet. A1 has no sea-post revisit; children who know most letters start at A2. The evidence base is narrower than the
 numbers lane's, and the rows in [research](research.md) carry evidence-type tags.
 
 `letters.json` is English, `buchstaben.json` is German. Same sheets and structure, translated
@@ -62,7 +62,7 @@ one sheet a day, reading work sits inside it, never on top of it.
 ## Sea-post sheets
 
 M2 to M6 each take the day's slot a week after the plain sheet with their number is mastered, as
-review, never as the daily sheet (A3 is reviewed by M3). A second plain-sheet check follows four weeks after mastery, as in the numbers lane. A1 has no sea-post revisit, so the four-week check is its only revisit. M7 runs the reverse direction of A6,
+review, never as the daily sheet (A3 is reviewed by M3). A second plain-sheet check follows four weeks after mastery, as in the numbers lane. The letters lane runs to at least 18 sessions: twelve sheets plus six second plain checks. Due revisits take the day's slot; otherwise use the next new sheet. A1 has no sea-post revisit, so the four-week check is its only revisit. M7 runs the reverse direction of A6,
 picture to word, with mostly new words: it is a daily sheet once A6 is mastered and M6 done.
 
 | Sheet | After | Scene | Task | Answer |

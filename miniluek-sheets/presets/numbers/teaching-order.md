@@ -92,7 +92,7 @@ mastered, or when the condition below holds.
 | S9 | play a straight 1–10 board game: "which square are you on?" | a few rounds of the board game |
 | S10 | two close piles, 3 and 5: count both, "who has more?" | S5 and S8 mastered |
 | S11 | two number cards: "which is more?", check by counting out | S9 and S10 mastered |
-| S12 | egg carton or ten-frame: five in the top row, then one more: "five and one, six" | S2–S8 mastered |
+| S12 | egg carton or ten-frame: five in the top row, then one, two and three more ("five and one, six" through "five and three, eight"), each total with its numeral card | S2–S8 mastered and the child names 1–8 |
 | S13 | three in a box, add one: "how many now?" without counting again | the child gives 6 on request and says which number comes after 4 |
 | C14 | three cookies on a plate, eat one: "how many are left?" | S13 mastered and C13 done |
 
@@ -129,8 +129,10 @@ day should be spent at the edge of what the child can almost do.
   pattern check needs all twelve tiles to mean anything. The tiles are a fine-motor task: the
   adult may place the one the child points to.
 - The week-later revisit of a mastered sheet is its circus sheet, never the daily sheet. The four-weeks-after-mastery check re-uses the plain sheet, three weeks after its circus sheet. At two
-  days right first time plus two revisits per sheet the lane runs to at least 55 sheet-days: 52
-  for the plain sheets and their two revisits, 3 for the take-away party. A circus sheet can be split: the pink six one day, the blue six the next,
+  days right first time plus two revisits per sheet the numbers lane runs to at least 55 sheet-days: 52
+  for the plain sheets and their two revisits, 3 for the take-away party. The whole family runs to at least
+  81 sessions: 55 numbers, 18 letters (twelve sheets plus six second plain checks) and 8 logic (four sheets
+  plus four week-later repeats). Due revisits take the day's slot; otherwise use the next new sheet. A circus sheet can be split: the pink six one day, the blue six the next,
   the adult checking only the placed tiles. A child who cannot yet work the plain sheet goes back
   to it, not forward to the picture.
 - Tell each sheet as a story, best with a doll or puppet who needs help: "the princess sells the

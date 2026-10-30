@@ -4,7 +4,7 @@
 
 Noto Emoji by Google LLC ("Copyright 2013 Google LLC"), downloaded on 2026-10-04 from
 https://github.com/googlefonts/noto-emoji, folder `3D/png/512`, then cropped to their content
-and resized to at most 256 px. The repository's LICENSE file is the SIL Open Font License 1.1
+and resized to at most 256 px (`mermaid.png` is 382 × 384 px). The repository's LICENSE file is the SIL Open Font License 1.1
 (since July 2024); its README still describes image resources as Apache License 2.0. Both texts
 are included: `LICENSE-OFL-1.1.txt` (the repository's LICENSE file) and
 `LICENSE-Apache-2.0.txt`.

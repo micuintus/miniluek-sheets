@@ -17,4 +17,4 @@ ice-palace sheet a week later.
 The four sheets tell one story, a day in the ice palace, in the titles and the adult-read goal
 lines. The necklace gap is always last and the odd guest always differs in kind; charms or
 guests to tell apart differ in colour and outline. Pink stations sit left, blue right; the routine, the daily cap and the pattern check
-are the numbers lane's ([teaching order](../numbers/teaching-order.md#using-the-sheets)).
+are the numbers lane's ([teaching order](../numbers/teaching-order.md#using-the-sheets)). The logic lane runs to at least 8 sessions: four sheets plus four week-later repeats. Due revisits take the day's slot; otherwise use the next new sheet.

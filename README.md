@@ -24,7 +24,7 @@ the index finger (`--fingers` switches).
 
 The letters lane teaches letters, first sounds, word beginnings and short printed words; M2 reviews A2
 the other way round, M3–M6 review A3–A6 with new words, and M7 reads words in the reverse direction. A1
-has no revisit. It
+has no sea-post revisit. It
 borrows the literacy-precursor evidence without the numbers lane's tight mapping
 ([research](miniluek-sheets/presets/letters/research.md)). Until the number sheets are
 mastered, they keep five days a week and a letters or logic sheet takes the other two, so one
@@ -34,7 +34,7 @@ The logic lane has four sheets with no plain sheet before them: AB patterns, the
 another colour and size, odd one out, the same place on a map. Each comes after the same idea
 with objects ([research](miniluek-sheets/presets/logic/research.md)).
 
-Each sheet runs one direction, no answer is a copy of another task, pink and blue families halve
+Each sheet runs one direction, no answer is a copy of another task (on one-more sheets the equal set is the intended lure), pink and blue families halve
 the search on the two-pair sheets, and every page prints its sheet id at the lower left.
 
 | | |

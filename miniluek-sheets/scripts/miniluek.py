@@ -738,7 +738,7 @@ LABELS = {
     "de": {"done": "Geschafft!", "hinge": "Scharnier des Kastens an diese Blattkante, jedes Bild mittig in ein Fach",
            "key_title": "Lösungen: Plättchen im Deckel, obere Reihe / Reihe am Scharnier",
            "fit": ["Passtest: mit 100 % drucken (Tatsächliche Größe). Die Linie unten muss 10 cm lang sein.",
-                   "Kasten aufklappen, durchsichtigen Teil auf das Blatt, Scharnier an die untere Kante.",
+                   "Kasten aufklappen und den durchsichtigen Deckel so auf das Blatt legen, dass das Scharnier unten liegt.",
                    "Jeder Rahmen liegt mittig in einem Fach. Mitte 1 bis Mitte 6: 20,5 cm."]},
 }
 
