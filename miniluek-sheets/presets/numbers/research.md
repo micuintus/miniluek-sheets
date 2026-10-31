@@ -64,7 +64,7 @@ the tables below.
 | S12 Treasure chest, 3–8 (later) | five and more: 6 = 5 and 1 | ten-frame filled row by row | part-whole level (Krajewski & Schneider 2009 [C]); finger patterns (Kullberg et al. 2020 [R]); unitizing in MILE [G] |
 | S13 One more (later) | the number after | the equal set is the intended lure | successor understanding (Sarnecka & Carey 2008 [E]) |
 | C1 Jugglers (circus) | 1–3 at a glance inside a picture | hearts, stars, moons and strawberries juggled in an arc; answers in another layout | review after S1; the rearrangement is untested; see [picture sheets](#picture-sheets) |
-| C2 Breakfast (circus) | counting 1–6, matched to another kind | seals and puppies on podiums; fish and bones below | review after S2; characters are the risky case in Petersen & McNeil 2013 [E], counted only here and on S2 where counting them is the skill |
+| C2 Breakfast (circus) | counting 1–6, matched to another kind | seals and puppies on podiums; fish and bones below | review after S2; characters are the risky case in Petersen & McNeil 2013 [E], counted only here, on S1 and on S2, where counting them is the skill |
 | C3 Giant dice (circus) | dice patterns, checked by counting | pink dice to cookies, blue dice to gems, with new dice numbers | review after S3 |
 | C4 Dice theatre (circus) | dice to finger patterns | dice on twelve theatre stages, fingers as answers in the preset's habit | review after S4, the other way round |
 | C5 Balloon contest (circus) | comparing by sight | ratios 2 : 1 and more; each animal wins once and loses once; no pairing repeats another comparing sheet | review after S5 |
@@ -85,9 +85,9 @@ the tables below.
 | One direction per sheet; no answer repeats another task's picture (a same-rule sheet repeats its own pair by design; on one-more sheets the equal set is the intended lure) | An identical copy is the easiest wrong match, and choosing it is a rule error, not a number error. Object similarity pulls children away from number matches. | Mix 2008 [E] (design reasoning, not tested) |
 | Two colour families on the two-pair sheets: pink tasks to pink answers, blue to blue | On those sheets the only other answer with the right number has the other colour, and the search drops from 12 fields to 6. The plain same-rule and comparing sheets (S1, S5, S10, S11) carry one colour; their circus sheets split pink and blue by side. | visual cues and fewer tasks at once (SMILE FASD manual 2025 [G], practice guidance; applied here to answer options); spatial recognition memory predicted math (Crocker et al. 2015 [C]); using colour to cut visual search is untested |
 | Different layouts where the answer repeats the task's kind | the child counts instead of matching shapes | Mix 2008 [E]; Starkey & McCandliss 2014 [E] |
-| One worked example per family (two on two-family sheets) | modelling before practice | Akther et al. 2025 [M] |
+| One worked example per family (two on two-family sheets) | modelling before practice; the examples are station 1 and the first blue station with their answers, so each family starts from a solved model | Akther et al. 2025 [M] |
 | Pattern check, then wrong tasks redone with objects | feedback; one error at a time | Akther et al. 2025 [M]; MILE cycle [G] |
-| One picture size per sheet, clean page | size must not give the answer away; visual-spatial load | Leibovich et al. 2017 [E]; Crocker et al. 2015 [C] |
+| One picture size per sheet, clean page | size must not give the answer away; a clean page is an untested design choice | Leibovich et al. 2017 [E]; spatial recognition memory predicted math (Crocker et al. 2015 [C]) |
 | Counted sets plain, decoration out of the way | rich objects hindered counting when children had high knowledge of them; decorated rooms held attention worse | Petersen & McNeil 2013 [E]; Kaminski & Sloutsky 2013 [E]; Fisher, Godwin & Seltman 2014 [E] |
 | Theme | motivation and learning | Córdova & Lepper 1996 [R] |
 | Picture sheets as the week-later revisit | motivation through a story world the child cares about | contextualisation and personalisation raised motivation and engagement in 4th–5th graders (Córdova & Lepper 1996 [R]); the sheets themselves are untested |
@@ -98,9 +98,10 @@ the tables below.
 Fourteen circus sheets set the 12 badges into one illustration of a day at the unicorn
 circus, morning to night. C1 to C13 follow S1 to S13 and practise the same step, so the plain
 page teaches and the circus page reviews; C14, the take-away party, has no plain sheet and comes
-after the same idea with objects. The day's arc is untested. Each revisit changes exactly one
-dimension: objects on every circus sheet except C4 (new tokens, animals or scenes), direction on
-C4 (dice to fingers after fingers to dice). No study tested a story picture as
+after the same idea with objects. The day's arc is untested. Each revisit keeps the skill and
+changes its surface: new tokens, animals, containers or scenes on every circus sheet, new task
+positions where the counts repeat (C2, C4, C9, C12, C13), and the direction on C4 (dice to fingers
+after fingers to dice). No study tested a story picture as
 the review step, but each rule targets a pathway that has evidence:
 
 | Pathway | Evidence | What the sheets do |

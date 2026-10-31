@@ -18,8 +18,8 @@ The numbers lane runs small sets 1–3, counting to 6, dice and finger patterns,
 both ways, scattered sets, a number path, comparing by counting and comparing numbers, then
 ten-frame and "one more". The core order follows the What Works Clearinghouse practice guide,
 every step, sheet and rule mapped to its study ([research](miniluek-sheets/presets/numbers/research.md)).
-Each plain sheet S*n* is reviewed a week later by its circus sheet C*n*; C14, the party after
-the show, adds take-away. The German finger pictures count from the thumb, the English ones from
+Each plain sheet S*n* is reviewed a week later by its circus sheet C*n* and checked once more
+with the plain sheet four weeks after mastery; C14, the party after the show, adds take-away. The German finger pictures count from the thumb, the English ones from
 the index finger (`--fingers` switches).
 
 The letters lane teaches letters, first sounds, word beginnings and short printed words; M2 reviews A2

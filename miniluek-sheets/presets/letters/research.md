@@ -33,7 +33,7 @@ experiment, descriptive or single-case study, book or narrative review.
 | One direction per sheet; no answer repeats a task picture | an identical copy would be the easiest wrong match | the numbers lane's rule from Mix 2008 [E]: an identical copy pulls children away from content |
 | Two colour families on the two-pair sheets | the only other answer with the right content has the other colour | same matching logic as the numbers sheets; untested for letters |
 | Sea-post sheet as the review day | a full story illustration with the tasks set into it; each revisit changes exactly one dimension: direction on M2 (little to big after big to little), words on M3 to M6 (new sea-post words with the same letters) | motivation through a story world; untested, takes a revisit day, never the daily sheet; M7 is the exception, the first picture-to-word sheet |
-| Worked examples per family | modelling before practice | Akther et al. 2025 [M]: modelling was common in effective counting interventions; untested for letters |
+| Worked examples per family | modelling before practice; the examples are station 1 and the first blue station with their answers | Akther et al. 2025 [M]: modelling was common in effective counting interventions; untested for letters |
 | Pattern check | feedback | feedback was common in effective counting interventions (Akther et al. 2025 [M]); untested for letters |
 
 ## Using the sheets

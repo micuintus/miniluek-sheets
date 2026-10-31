@@ -84,8 +84,8 @@ Per sheet: `title`, optional `goal` (small grey line for adults) and `prompt`, `
   sets, letters and pictures are plain and uniform in their own containers, decoration stays out
   of the way, and grid sheets stay plain.
 
-Each sheet gets a control pattern from a library of 48 symmetric patterns (index 33 is unused since M1 was dropped) (`"pattern": k` picks
-one; `check` notes a pattern repeated within a set, and no lane repeats one). The tile-back model is in `references/format.md`.
+Each sheet gets a control pattern from a library of 48 symmetric patterns (`"pattern": k` picks
+one; index 33 is unused since M1 was dropped; `check` notes a pattern repeated within a set, and no lane repeats one). The tile-back model is in `references/format.md`.
 
 ## Order and use
 

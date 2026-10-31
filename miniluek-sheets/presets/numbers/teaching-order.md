@@ -97,12 +97,14 @@ mastered, or when the condition below holds.
 | C14 | three cookies on a plate, eat one: "how many are left?" | S13 mastered and C13 done |
 
 A sheet the child cannot do yet goes back in the box until its condition holds; each one-sheet
-day should be spent at the edge of what the child can almost do.
+day should be spent at the edge of what the child can almost do. C14 has no plain sheet: if its
+worked example fails after the object step, the objects continue and the sheet waits.
 
 ## Design rules
 
 - Each sheet runs one direction: no answer repeats another task's picture (a same-rule sheet
-  repeats its own pair), so the easiest wrong match is never a copy of another task. Both
+  repeats its own pair; on one-more sheets the equal set is the intended lure), so the easiest
+  wrong match is never a copy of another task. Both
   directions of the quantity–numeral link get their own sheet.
 - C1 to C13 practise a mastered step inside one illustration. The counted things are plain
   and identical, each set inside its own wagon, podium, plate, chest, spotlight or bunch, and the
@@ -131,8 +133,9 @@ day should be spent at the edge of what the child can almost do.
 - The week-later revisit of a mastered sheet is its circus sheet, never the daily sheet. The four-weeks-after-mastery check re-uses the plain sheet, three weeks after its circus sheet. At two
   days right first time plus two revisits per sheet the numbers lane runs to at least 55 sheet-days: 52
   for the plain sheets and their two revisits, 3 for the take-away party. The whole family runs to at least
-  81 sessions: 55 numbers, 18 letters (twelve sheets plus six second plain checks) and 8 logic (four sheets
-  plus four week-later repeats). Due revisits take the day's slot; otherwise use the next new sheet. A circus sheet can be split: the pink six one day, the blue six the next,
+  93 sessions on the same rules: 55 numbers, 26 letters (two days on each of A1 to A6 and M7, five
+  sea-post revisits, M7's week-later repeat, six four-week checks) and 12 logic (two days on each sheet
+  plus four week-later repeats). The four-week check applies to sheets with a plain version. Due revisits take the day's slot; otherwise use the next new sheet. A circus sheet can be split: the pink six one day, the blue six the next,
   the adult checking only the placed tiles. A child who cannot yet work the plain sheet goes back
   to it, not forward to the picture.
 - Tell each sheet as a story, best with a doll or puppet who needs help: "the princess sells the

@@ -56,13 +56,14 @@ holds.
 | A6 read the word (the blue six hold the five-letter and longer words) | sound out CAT together, then the child alone | A5 mastered |
 | M7 picture to word | name each picture, then read three words that differ in one letter: "CAT, CAP or HAT?" | A6 mastered and M6 done |
 
-A sheet the child cannot do yet goes back until its condition holds. Keep the daily cap:
+A sheet the child cannot do yet goes back until its condition holds. M7 has no plain sheet: if its
+worked example fails after the spoken step, the spoken step continues and the sheet waits. Keep the daily cap:
 one sheet a day, reading work sits inside it, never on top of it.
 
 ## Sea-post sheets
 
 M2 to M6 each take the day's slot a week after the plain sheet with their number is mastered, as
-review, never as the daily sheet (A3 is reviewed by M3). A second plain-sheet check follows four weeks after mastery, as in the numbers lane. The letters lane runs to at least 18 sessions: twelve sheets plus six second plain checks. Due revisits take the day's slot; otherwise use the next new sheet. A1 has no sea-post revisit, so the four-week check is its only revisit. M7 runs the reverse direction of A6,
+review, never as the daily sheet (A3 is reviewed by M3). A second plain-sheet check follows four weeks after mastery, as in the numbers lane. On the numbers lane's rules the letters lane runs to at least 26 sessions: two days on each of A1 to A6 and M7, five sea-post revisits, M7's week-later repeat and six four-week checks. Due revisits take the day's slot; otherwise use the next new sheet. A1 has no sea-post revisit, so the four-week check is its only revisit. M7 runs the reverse direction of A6,
 picture to word, with mostly new words: it is a daily sheet once A6 is mastered and M6 done.
 
 | Sheet | After | Scene | Task | Answer |
@@ -93,7 +94,8 @@ sheets, no answer copies another task (`check` refuses it), different-looking ta
 worked examples per family, feedback by pattern check. English letter names say the letter's
 sound, not "see-ay-tee": the adult says the sounds ("kuh-ah-tuh") and slides them together.
 German keeps its umlauts everywhere: letter cards, word-start cards, word pills and titles. Whole words on A6, M6 and M7 print as books print them: German nouns capitalised (Hund), English lowercase (cat); single letters and fragments stay capitals. On the
-initial-sound cards and on M3's bottles the picture word is captioned under the letter.
+initial-sound cards and on M3's bottles the picture word is captioned under the letter, in
+capitals, so its first letter has the card's shape.
 
 The twelve course words start with their letter's sound: CAT, DOG, FOX, OTTER, PIG, GIFT,
 PANDA, MOUSE, DAISY, COOKIE, BUNNY, SUN (German: BÄR, KATZE, HUND, FUCHS, ENTE, MAUS,

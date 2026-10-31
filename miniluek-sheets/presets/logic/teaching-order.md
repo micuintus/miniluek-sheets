@@ -5,7 +5,8 @@ before them. Each is the first sheet for its step, so each comes after the same 
 objects. Start once the child can work a LÜK page with the number sheets: 12 numbered tasks, one
 tile per task, pattern check at the end. Until the number sheets are mastered, they keep five
 days a week; on the other two, a letters or a logic sheet is that day's sheet. Repeat a mastered
-ice-palace sheet a week later.
+ice-palace sheet a week later. If a worked example fails after the object step, the objects
+continue and the sheet waits.
 
 | Sheet | First with objects | Practises |
 |---|---|---|
@@ -17,4 +18,4 @@ ice-palace sheet a week later.
 The four sheets tell one story, a day in the ice palace, in the titles and the adult-read goal
 lines. The necklace gap is always last and the odd guest always differs in kind; charms or
 guests to tell apart differ in colour and outline. Pink stations sit left, blue right; the routine, the daily cap and the pattern check
-are the numbers lane's ([teaching order](../numbers/teaching-order.md#using-the-sheets)). The logic lane runs to at least 8 sessions: four sheets plus four week-later repeats. Due revisits take the day's slot; otherwise use the next new sheet.
+are the numbers lane's ([teaching order](../numbers/teaching-order.md#using-the-sheets)). On the numbers lane's rules the logic lane runs to at least 12 sessions: two days on each sheet plus four week-later repeats. Due revisits take the day's slot; otherwise use the next new sheet.
